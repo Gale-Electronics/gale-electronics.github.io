@@ -1,0 +1,10 @@
+title: Gale Electronics
+description: Open archive preserving the history, design and engineering of Gale Electronics.
+theme: minima
+markdown: kramdown
+collections:
+  gt2101:
+    output: true
+  gs401:
+    output: true
+permalink: /:collection/:name/
