@@ -16,8 +16,14 @@ body{font-family:system-ui;background:#f7f5ee;margin:20px;}
 <div class="grid">
 {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
 {% for f in files %}
-{% if f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.gif' %}
-  <a href="{{ f.path }}" class="card"><img src="{{ f.path }}"><div>{{ f.name }}</div></a>
-{% endif %}
+  {% if f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.gif' %}
+    <a href="{{ f.path }}" class="card"><img src="{{ f.path }}"><div>{{ f.name }}</div></a>
+  {% elsif f.extname == '.pdf' %}
+    <a href="{{ f.path }}" class="card" target="_blank" style="display:flex;align-items:center;justify-content:center;flex-direction:column;padding:40px 10px;">
+      <div style="font-size:48px;">📄</div>
+      <div style="padding:6px 8px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ f.name }}</div>
+    </a>
+  {% endif %}
 {% endfor %}
+
 </div>
