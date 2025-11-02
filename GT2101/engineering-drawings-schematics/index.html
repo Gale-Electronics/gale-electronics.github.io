@@ -15,7 +15,8 @@ layout: none
 <body>
   <h1>GT2101 — Engineering Drawings & Schematics</h1>
   <div class="grid">
-    {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
+    {% assign folder = "GT2101/engineering-drawings-schematics" %}
+    {% assign files = site.static_files | where_exp: "f", "f.path contains folder" %}
     {% for f in files %}
       {% assign ext = f.extname | downcase %}
       {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
@@ -24,7 +25,8 @@ layout: none
           <div>{{ f.name }}</div>
         </a>
       {% elsif ext == '.pdf' %}
-        <a href="{{ f.path }}" class="card" target="_blank" style="display:flex;align-items:center;justify-content:center;flex-direction:column;padding:40px 10px;">
+        <a href="{{ f.path }}" class="card" target="_blank"
+           style="display:flex;align-items:center;justify-content:center;flex-direction:column;padding:40px 10px;">
           <div style="font-size:48px;">📄</div>
           <div>{{ f.name }}</div>
         </a>
