@@ -1,6 +1,6 @@
 ---
 title: GT2101 — Technical Notes
-layout: default
+layout: bare
 nav_order: 9
 permalink: /GT2101/technical-notes/
 ---
