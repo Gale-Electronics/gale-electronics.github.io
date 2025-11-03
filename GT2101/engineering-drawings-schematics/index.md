@@ -1,9 +1,12 @@
 ---
 layout: bare
-title: GT2101 — Engineering Drawings & Schematics
+title: GT2101: Engineering Drawings & Schematics
 permalink: /GT2101/engineering-drawings-schematics/
-# IMPORTANT: base must end with a slash and match the folder path exactly
+# IMPORTANT: base must end with a trailing slash and match your folder path exactly
 base: /GT2101/engineering-drawings-schematics/
+show_archive_banner: true
+archive_note: >
+  Reverse-engineered schematics, board layouts, high-res photos and bench notes for the GT2101 motor stack.
 ---
 
 # {{ page.title }}
@@ -24,33 +27,26 @@ Everything sits under `{{ page.base }}` and is organised by disk/board. (Tip: PD
   .folders a{background:#fff;border:1px solid #ddd;border-radius:999px;padding:.35em .7em;text-decoration:none;color:#111;font-size:.95rem}
 </style>
 
-{% comment %} Collect files under the base path (avoid where_exp for Pages compatibility) {% endcomment %}
-{% assign all_paths = "" %}
-{% for f in site.static_files %}
-  {% if f.path contains page.base %}
-    {% assign all_paths = all_paths | append: f.path | append: "||" %}
-  {% endif %}
-{% endfor %}
-{% assign all = all_paths | split: "||" %}
+{% assign exts = "jpg,jpeg,png,webp,pdf" | split: "," %}
 
-{% assign allowed_exts = "jpg,jpeg,png,webp,pdf" | split: "," %}
+{%- comment -%} Collect all static files under page.base {%- endcomment -%}
+{% assign all = site.static_files | where_exp: "f", "f.path contains page.base" %}
 
-{% comment %} Find first-level subfolders for Quick Links {% endcomment %}
+{%- comment -%} Build a list of first-level subfolders {%- endcomment -%}
 {% assign bucket = "" %}
-{% for p in all %}
-  {% if p != "" %}
-    {% assign rel = p | remove_first: page.base %}
-    {% if rel contains "/" %}
-      {% assign first = rel | split:'/' | first %}
-      {% assign tag = first | append:'|' %}
-      {% unless bucket contains tag %}
-        {% assign bucket = bucket | append: tag %}
-      {% endunless %}
-    {% endif %}
+{% for f in all %}
+  {% assign rel = f.path | remove_first: page.base %}
+  {% if rel contains "/" %}
+    {% assign first = rel | split:'/' | first %}
+    {% assign mark = first | append:'|' %}
+    {% unless bucket contains mark %}
+      {% assign bucket = bucket | append: mark %}
+    {% endunless %}
   {% endif %}
 {% endfor %}
 {% assign folders = bucket | split:'|' | sort %}
 
+{%- comment -%} Quick links (auto from folders) {%- endcomment -%}
 {% if folders.size > 0 %}
   <h2>Quick links</h2>
   <div class="folders">
@@ -62,64 +58,57 @@ Everything sits under `{{ page.base }}` and is organised by disk/board. (Tip: PD
   </div>
 {% endif %}
 
-{% comment %} Root files directly in base {% endcomment %}
-{% assign root = "" %}
-{% for p in all %}
-  {% if p != "" %}
-    {% assign rel = p | remove_first: page.base %}
-    {% unless rel contains "/" %}
-      {% assign root = root | append: p | append: "||" %}
-    {% endunless %}
-  {% endif %}
+{%- comment -%} Root files directly in base {%- endcomment -%}
+{% assign root_files = "" | split: "" %}
+{% for f in all %}
+  {% assign rel = f.path | remove_first: page.base %}
+  {% unless rel contains "/" %}
+    {% assign root_files = root_files | push: f %}
+  {% endunless %}
 {% endfor %}
-{% assign root_list = root | split: "||" %}
 
-{% if root_list.size > 0 %}
+{% if root_files.size > 0 %}
   <h2 id="root">Root</h2>
   <div class="grid">
-    {% for p in root_list %}
-      {% if p != "" %}
-        {% assign filename = p | split:"/" | last %}
-        {% assign ext = filename | split:'.' | last | downcase %}
-        {% if allowed_exts contains ext %}
-          {% assign extdot = '.' | append: ext %}
-          {% assign name = filename | replace: extdot, '' | replace:'_',' ' %}
-          {% if ext == 'pdf' %}
-            <a href="{{ p | relative_url }}" class="card" target="_blank" rel="noopener">
-              <div class="pdf">📄</div><div class="label">{{ name }}</div>
-            </a>
-          {% else %}
-            <a href="{{ p | relative_url }}" class="card" target="_blank" rel="noopener">
-              <img src="{{ p | relative_url }}" alt="{{ name }}"><div class="label">{{ name }}</div>
-            </a>
-          {% endif %}
+    {% for f in root_files %}
+      {% assign filename = f.path | split:"/" | last %}
+      {% assign ext = filename | split:'.' | last | downcase %}
+      {% if exts contains ext %}
+        {% assign name = filename | remove: '.' | split: ext | first | replace:'_',' ' %}
+        {% if ext == 'pdf' %}
+          <a href="{{ f.path | relative_url }}" class="card" target="_blank" rel="noopener">
+            <div class="pdf">📄</div><div class="label">{{ name }}</div>
+          </a>
+        {% else %}
+          <a href="{{ f.path | relative_url }}" class="card" target="_blank" rel="noopener">
+            <img src="{{ f.path | relative_url }}" alt="{{ name }}"><div class="label">{{ name }}</div>
+          </a>
         {% endif %}
       {% endif %}
     {% endfor %}
   </div>
 {% endif %}
 
-{% comment %} Render each first-level folder {% endcomment %}
+{%- comment -%} Render each first-level folder {%- endcomment -%}
 {% for folder in folders %}
   {% if folder != "" %}
     {% assign folder_id = folder | slugify: 'pretty' %}
     <h2 id="{{ folder_id }}">{{ folder | replace:'_',' ' }}</h2>
     <div class="grid">
       {% assign prefix = page.base | append: folder | append:'/' %}
-      {% for p in all %}
-        {% if p contains prefix %}
-          {% assign filename = p | split:"/" | last %}
+      {% for f in all %}
+        {% if f.path contains prefix %}
+          {% assign filename = f.path | split:"/" | last %}
           {% assign ext = filename | split:'.' | last | downcase %}
-          {% if allowed_exts contains ext %}
-            {% assign extdot = '.' | append: ext %}
-            {% assign name = filename | replace: extdot, '' | replace:'_',' ' %}
+          {% if exts contains ext %}
+            {% assign name = filename | remove: '.' | split: ext | first | replace:'_',' ' %}
             {% if ext == 'pdf' %}
-              <a href="{{ p | relative_url }}" class="card" target="_blank" rel="noopener">
+              <a href="{{ f.path | relative_url }}" class="card" target="_blank" rel="noopener">
                 <div class="pdf">📄</div><div class="label">{{ name }}</div>
               </a>
             {% else %}
-              <a href="{{ p | relative_url }}" class="card" target="_blank" rel="noopener">
-                <img src="{{ p | relative_url }}" alt="{{ name }}">
+              <a href="{{ f.path | relative_url }}" class="card" target="_blank" rel="noopener">
+                <img src="{{ f.path | relative_url }}" alt="{{ name }}">
                 <div class="label">{{ name }}</div>
               </a>
             {% endif %}
