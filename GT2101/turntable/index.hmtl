@@ -1,0 +1,52 @@
+<header style="margin:0 0 1rem; padding:.8rem 1rem; background:#fff3cd; border:1px solid #ffeeba; border-radius:.4rem;">
+  <strong>Archival notice</strong> — This page preserves excerpts and images from the original <em>galeaudio.com</em> GT2101 content.
+  Material is lightly reformatted for clarity. Credits remain with the original authors. Please contact us for corrections or takedowns.
+</header>
+
+<h1 style="margin-top:1.2rem;">Gale GT2101 — The Transparent Revolution</h1>
+<p><em>Originally published on galeaudio.com (circa 2011–2016); reconstructed here for historical reference.</em></p>
+
+<!-- Hero image (update the src to your hosted file path) -->
+<img src="/assets/gt2101/images/gt2101-hero.jpg" alt="Gale GT2101 turntable on acrylic chassis with external controller" style="max-width:100%; height:auto; margin:1rem 0;">
+
+<h2>Overview</h2>
+<p>
+The GT2101 combined a clear acrylic-and-stainless architecture with a servo-controlled, brushless DC motor and an external
+LED controller. Its separate motor pod, speed display and layered chassis made it look more like a scientific instrument than a record player.
+Production appears to have been very limited and each unit hand-finished.
+</p>
+
+<h2>Design & Contributors</h2>
+<ul>
+  <li>Industrial design lineage from the early 1970s London scene; production detailing by DCA (Design Consultants Associates).</li>
+  <li>Electronics and control system centred on quartz-referenced speed regulation with fine adjustment and LED readout.</li>
+  <li>Distinctive magnetic bearing concept and tri-point suspension using foam-damped towers between two acrylic plates.</li>
+</ul>
+
+<h2>Why it Matters</h2>
+<p>
+The GT2101 is a rare example of British hi-fi design ambition from the era — visually radical, technically adventurous,
+and now a restoration challenge due to scarcity of parts and documentation.
+</p>
+
+<h2>Image Gallery</h2>
+<div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; margin:1rem 0;">
+  <a href="/assets/gt2101/images/gt2101-1.jpg"><img src="/assets/gt2101/images/gt2101-1.jpg" alt="GT2101 side profile" style="width:100%; height:auto; border:1px solid #ddd;"></a>
+  <a href="/assets/gt2101/images/gt2101-2.jpg"><img src="/assets/gt2101/images/gt2101-2.jpg" alt="Controller cylinder with LED display" style="width:100%; height:auto; border:1px solid #ddd;"></a>
+  <a href="/assets/gt2101/images/gt2101-3.jpg"><img src="/assets/gt2101/images/gt2101-3.jpg" alt="Suspension tower detail" style="width:100%; height:auto; border:1px solid #ddd;"></a>
+  <a href="/assets/gt2101/images/gt2101-4.jpg"><img src="/assets/gt2101/images/gt2101-4.jpg" alt="Acrylic chassis layering" style="width:100%; height:auto; border:1px solid #ddd;"></a>
+</div>
+<p style="opacity:.75;font-size:.95rem;">(Replace filenames above with your actual image paths.)</p>
+
+<h2>Notes Preserved from galeaudio.com</h2>
+<ul>
+  <li>Quartz-locked speed control with fine user adjustment and LED feedback.</li>
+  <li>External motor/controller architecture to isolate vibration and heat.</li>
+  <li>Foam-damped, tri-point suspension targeting mid-travel alignment when properly set.</li>
+  <li>Limited production; community accounts suggest only a small number were built.</li>
+</ul>
+
+<hr>
+<p style="font-size:.95rem;opacity:.85;">
+<strong>Attribution:</strong> Snippets and images preserved from the original <em>galeaudio.com</em> GT2101 page. This is a good-faith preservation for education and restoration.
+</p>
