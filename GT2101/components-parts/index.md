@@ -1,3 +1,4 @@
+---
 title: Components & Parts
 layout: bare
 permalink: /GT2101/components-parts/
