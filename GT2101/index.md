@@ -1,6 +1,6 @@
 ---
 title: GT2101 Turntable
-layout: default
+layout: bare
 permalink: /GT2101/
 nav_exclude: true   # hides this from the top navbar if you’re using just-the-docs or similar
 ---
