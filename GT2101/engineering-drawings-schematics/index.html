@@ -1,86 +1,76 @@
 ---
 layout: none
-title: GT2101 Schematics & Layouts
+title: Engineering Drawings & Schematics
+base: /engineering-drawings-schematics/   # <-- change if you move the folder
 ---
 
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>GT2101 Schematics & Layouts</title>
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body{font-family:system-ui, sans-serif;background:#f7f5ee;margin:20px;}
-    h1{font-size:1.8rem;margin-bottom:.5em}
-    h2{font-size:1.2rem;margin:1.5em 0 .6em}
+    body{font-family:system-ui,sans-serif;background:#f7f5ee;margin:20px}
+    h1{font-size:1.9rem;margin:.2em 0 .6em}
+    h2{font-size:1.2rem;margin:1.4em 0 .6em}
     .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
     .card{background:#fff;border:1px solid #ddd;border-radius:10px;overflow:hidden;text-align:center;text-decoration:none;color:inherit}
     .card img{width:100%;aspect-ratio:4/3;object-fit:cover}
     .label{padding:6px 8px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .pdf-icon{font-size:80px;line-height:1.2;padding:30px 0;color:#a00}
+    .pdf{font-size:80px;line-height:1.2;padding:30px 0;color:#a00}
   </style>
 </head>
 <body>
 
-<h1>GT2101 Schematics & Layouts</h1>
-<p>Engineering scans, PCB layouts, motor “disks”, and related photos.</p>
+<h1>{{ page.title }}</h1>
+<p>Auto-gallery of images & PDFs inside <code>{{ page.base }}</code>, grouped by subfolder (e.g. disk-1, disk-2, motor…).</p>
 
-{% assign all = site.static_files | where_exp:"f","f.path contains page.dir" | sort:"path" %}
 {% assign exts = ".jpg,.jpeg,.png,.webp,.pdf" %}
+{% assign all = site.static_files | where_exp:"f","f.path contains page.base" | sort:"path" %}
 
-{%- comment -%} build a list of first-level subfolders under /GT2101/ {%- endcomment -%}
-{% assign bucket = "" %}
-{% for f in all %}
-  {% assign rel = f.path | remove_first: page.dir %}
-  {% assign first = rel | split:'/' | first %}
-  {% if first != rel %} {# it's in a subfolder #}
-    {% capture bucket %}{{ bucket }}|{{ first }}|{% endcapture %}
-  {% endif %}
-{% endfor %}
-{% assign folders = bucket | split:'|' | uniq | sort %}
-
-{%- comment -%} 1) show any files in the root of /GT2101/ {%- endcomment -%}
-{% assign root_files = all | where_exp:"f","(f.path | remove_first: page.dir) contains '/' | not" %}
-{% if root_files.size > 0 %}
+{%- comment -%} Root files (directly in /engineering-drawings-schematics/) {%- endcomment -%}
+{% assign root = all | where_exp:"f","(f.path | remove_first: page.base) contains '/' | not" %}
+{% if root.size > 0 %}
   <h2>Root</h2>
   <div class="grid">
-    {% for f in root_files %}
+    {% for f in root %}
       {% assign ext = f.extname | downcase %}
       {% if exts contains ext %}
         {% assign name = f.name | replace:f.extname,'' | replace:'_',' ' %}
         {% if ext == '.pdf' %}
-          <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
-            <div class="pdf-icon">📄</div><div class="label">{{ name }}</div>
-          </a>
+          <a href="{{ f.path }}" class="card" target="_blank" rel="noopener"><div class="pdf">📄</div><div class="label">{{ name }}</div></a>
         {% else %}
-          <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
-            <img src="{{ f.path }}" alt="{{ name }}"><div class="label">{{ name }}</div>
-          </a>
+          <a href="{{ f.path }}" class="card" target="_blank" rel="noopener"><img src="{{ f.path }}" alt="{{ name }}"><div class="label">{{ name }}</div></a>
         {% endif %}
       {% endif %}
     {% endfor %}
   </div>
 {% endif %}
 
-{%- comment -%} 2) each first-level subfolder as its own section (e.g. disk-1, disk-2, motor, schematics, etc.) {%- endcomment -%}
+{%- comment -%} Section per first-level subfolder under /engineering-drawings-schematics/ {%- endcomment -%}
+{% assign bucket = "" %}
+{% for f in all %}
+  {% assign rel = f.path | remove_first: page.base %}
+  {% assign first = rel | split:'/' | first %}
+  {% if first != rel %}{% capture bucket %}{{ bucket }}|{{ first }}|{% endcapture %}{% endif %}
+{% endfor %}
+{% assign folders = bucket | split:'|' | uniq | sort %}
+
 {% for folder in folders %}
   {% if folder != "" %}
     <h2>{{ folder | replace:'_',' ' }}</h2>
     <div class="grid">
-      {% assign prefix = page.dir | append: folder | append: '/' %}
+      {% assign prefix = page.base | append: folder | append:'/' %}
       {% assign items = all | where_exp:"f","f.path contains prefix" %}
       {% for f in items %}
         {% assign ext = f.extname | downcase %}
         {% if exts contains ext %}
           {% assign name = f.name | replace:f.extname,'' | replace:'_',' ' %}
           {% if ext == '.pdf' %}
-            <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
-              <div class="pdf-icon">📄</div><div class="label">{{ name }}</div>
-            </a>
+            <a href="{{ f.path }}" class="card" target="_blank" rel="noopener"><div class="pdf">📄</div><div class="label">{{ name }}</div></a>
           {% else %}
-            <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
-              <img src="{{ f.path }}" alt="{{ name }}"><div class="label">{{ name }}</div>
-            </a>
+            <a href="{{ f.path }}" class="card" target="_blank" rel="noopener"><img src="{{ f.path }}" alt="{{ name }}"><div class="label">{{ name }}</div></a>
           {% endif %}
         {% endif %}
       {% endfor %}
