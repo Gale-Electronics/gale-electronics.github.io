@@ -39,6 +39,9 @@ base: /GT2101/engineering-drawings-schematics/
 </div>
 
 {% assign exts = "jpg,jpeg,png,webp,pdf" %}
+{%- comment -%} Optional cache-buster:
+{% assign v = site.github.build_revision | default: site.time | date: '%s' %}
+{%- endcomment -%}
 
 {%- comment -%} Collect all static files under page.base {%- endcomment -%}
 {% assign all_paths = "" %}
@@ -69,7 +72,8 @@ base: /GT2101/engineering-drawings-schematics/
         {% assign filename = p | split:"/" | last %}
         {% assign ext = filename | split:'.' | last | downcase %}
         {% if exts contains ext %}
-          {% assign name = filename | replace: ('.' | append: ext), '' | replace:'_',' ' %}
+          {% assign extdot = '.' | append: ext %}
+          {% assign name = filename | replace: extdot, '' | replace:'_',' ' %}
           {% if ext == 'pdf' %}
             <a href="{{ p | uri_escape | relative_url }}" class="card" target="_blank" rel="noopener">
               <div class="pdf">📄</div><div class="label">{{ name }}</div>
@@ -85,7 +89,7 @@ base: /GT2101/engineering-drawings-schematics/
   </div>
 {% endif %}
 
-{%- comment -%} Discover unique first-level subfolders under page.base (fixed) {%- endcomment -%}
+{%- comment -%} Discover unique first-level subfolders under page.base {%- endcomment -%}
 {% assign bucket = "" %}
 {% for p in all %}
   {% if p != "" %}
@@ -112,14 +116,16 @@ base: /GT2101/engineering-drawings-schematics/
           {% assign filename = p | split:"/" | last %}
           {% assign ext = filename | split:'.' | last | downcase %}
           {% if exts contains ext %}
-            {% assign name = filename | replace: ('.' | append: ext), '' | replace:'_',' ' %}
+            {% assign extdot = '.' | append: ext %}
+            {% assign name = filename | replace: extdot, '' | replace:'_',' ' %}
             {% if ext == 'pdf' %}
               <a href="{{ p | uri_escape | relative_url }}" class="card" target="_blank" rel="noopener">
                 <div class="pdf">📄</div><div class="label">{{ name }}</div>
               </a>
             {% else %}
               <a href="{{ p | uri_escape | relative_url }}" class="card" target="_blank" rel="noopener">
-                <img src="{{ p | uri_escape | relative_url }}" alt="{{ name }}"><div class="label">{{ name }}</div>
+                <img src="{{ p | uri_escape | relative_url }}" alt="{{ name }}">
+                <div class="label">{{ name }}</div>
               </a>
             {% endif %}
           {% endif %}
