@@ -11,6 +11,7 @@ base: /GT2101/engineering-drawings-schematics/
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    html{scroll-behavior:smooth}
     body{font-family:system-ui,sans-serif;background:#f7f5ee;margin:20px}
     h1{font-size:1.9rem;margin:.2em 0 .6em}
     h2{font-size:1.2rem;margin:1.4em 0 .6em}
@@ -39,9 +40,6 @@ base: /GT2101/engineering-drawings-schematics/
 </div>
 
 {% assign exts = "jpg,jpeg,png,webp,pdf" %}
-{%- comment -%} Optional cache-buster:
-{% assign v = site.github.build_revision | default: site.time | date: '%s' %}
-{%- endcomment -%}
 
 {%- comment -%} Collect all static files under page.base {%- endcomment -%}
 {% assign all_paths = "" %}
@@ -65,7 +63,7 @@ base: /GT2101/engineering-drawings-schematics/
 {% assign root_list = root | split: "||" %}
 
 {% if root_list.size > 0 %}
-  <h2>Root</h2>
+  <h2 id="root">Root</h2>
   <div class="grid">
     {% for p in root_list %}
       {% if p != "" %}
@@ -105,10 +103,11 @@ base: /GT2101/engineering-drawings-schematics/
 {% endfor %}
 {% assign folders = bucket | split:'|' | sort %}
 
-{%- comment -%} Render each folder’s files {%- endcomment -%}
+{%- comment -%} Render each folder’s files with anchor ids {%- endcomment -%}
 {% for folder in folders %}
   {% if folder != "" %}
-    <h2>{{ folder | replace:'_',' ' }}</h2>
+    {% assign folder_id = folder | slugify: 'pretty' %}
+    <h2 id="{{ folder_id }}">{{ folder | replace:'_',' ' }}</h2>
     <div class="grid">
       {% assign prefix = page.base | append: folder | append:'/' %}
       {% for p in all %}
