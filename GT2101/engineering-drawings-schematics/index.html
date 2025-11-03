@@ -29,7 +29,7 @@ base: /engineering-drawings-schematics/   # <-- change if you move the folder
 {% assign exts = ".jpg,.jpeg,.png,.webp,.pdf" %}
 {% assign all = site.static_files | where_exp:"f","f.path contains page.base" | sort:"path" %}
 
-{%- comment -%} Root files (directly in /engineering-drawings-schematics/) {%- endcomment -%}
+{%- comment -%} Root files (directly in /GT2101/engineering-drawings-schematics/) {%- endcomment -%}
 {% assign root = all | where_exp:"f","(f.path | remove_first: page.base) contains '/' | not" %}
 {% if root.size > 0 %}
   <h2>Root</h2>
