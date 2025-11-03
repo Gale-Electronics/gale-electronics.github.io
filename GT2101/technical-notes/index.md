@@ -1,4 +1,3 @@
-<!-- FILE: /GT2101/technical-notes/index.md -->
 ---
 title: Technical Notes
 layout: bare
