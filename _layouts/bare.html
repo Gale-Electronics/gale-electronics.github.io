@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {%- comment -%}
+      Bring in the theme’s CSS if you want its fonts/colours but NO header/nav.
+      Many themes expose a head include; if not, just keep this minimal.
+    {%- endcomment -%}
+    {%- if site.stylesheet -%}
+      <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
+    {%- endif -%}
+    {%- if site.theme and site.theme == "minima" -%}
+      <!-- Minima ships its CSS via assets automatically; nothing needed here -->
+    {%- endif -%}
+    <style>
+      /* Simple container so content isn't edge-to-edge */
+      .wrap{max-width:980px;margin:0 auto;padding:24px}
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      {{ content }}
+    </main>
+    <footer class="wrap" style="margin-top:3rem;color:#777;font-size:.9rem">
+      {{ site.title }} — {{ site.description }}
+    </footer>
+  </body>
+</html>
