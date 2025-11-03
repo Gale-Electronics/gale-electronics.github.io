@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bare
 title: GT2101 — Engineering Drawings & Schematics
 permalink: /GT2101/engineering-drawings-schematics/
 # IMPORTANT: base must end with a slash and match the folder path exactly
