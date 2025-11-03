@@ -10,74 +10,83 @@ title: GT2101 Schematics & Layouts
   <title>GT2101 Schematics & Layouts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #f7f5ee;
-      margin: 20px;
-    }
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.5em;
-    }
-    p {
-      font-size: 1rem;
-      margin-bottom: 1.5em;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 14px;
-    }
-    .card {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      overflow: hidden;
-      text-align: center;
-      text-decoration: none;
-      color: inherit;
-    }
-    .card img {
-      width: 100%;
-      aspect-ratio: 4 / 3;
-      object-fit: cover;
-    }
-    .card .label {
-      padding: 6px 8px;
-      font-size: 14px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .pdf-icon {
-      font-size: 80px;
-      line-height: 1.2;
-      padding: 30px 0;
-      color: #a00;
-    }
+    body{font-family:system-ui, sans-serif;background:#f7f5ee;margin:20px;}
+    h1{font-size:1.8rem;margin-bottom:.5em}
+    h2{font-size:1.2rem;margin:1.5em 0 .6em}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+    .card{background:#fff;border:1px solid #ddd;border-radius:10px;overflow:hidden;text-align:center;text-decoration:none;color:inherit}
+    .card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+    .label{padding:6px 8px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .pdf-icon{font-size:80px;line-height:1.2;padding:30px 0;color:#a00}
   </style>
 </head>
 <body>
 
-  <h1>GT2101 Schematics & Layouts</h1>
-  <p>Engineering scans, PCB layouts, and circuit diagrams from the Gale GT2101 turntable archive.</p>
+<h1>GT2101 Schematics & Layouts</h1>
+<p>Engineering scans, PCB layouts, motor “disks”, and related photos.</p>
 
+{% assign all = site.static_files | where_exp:"f","f.path contains page.dir" | sort:"path" %}
+{% assign exts = ".jpg,.jpeg,.png,.webp,.pdf" %}
+
+{%- comment -%} build a list of first-level subfolders under /GT2101/ {%- endcomment -%}
+{% assign bucket = "" %}
+{% for f in all %}
+  {% assign rel = f.path | remove_first: page.dir %}
+  {% assign first = rel | split:'/' | first %}
+  {% if first != rel %} {# it's in a subfolder #}
+    {% capture bucket %}{{ bucket }}|{{ first }}|{% endcapture %}
+  {% endif %}
+{% endfor %}
+{% assign folders = bucket | split:'|' | uniq | sort %}
+
+{%- comment -%} 1) show any files in the root of /GT2101/ {%- endcomment -%}
+{% assign root_files = all | where_exp:"f","(f.path | remove_first: page.dir) contains '/' | not" %}
+{% if root_files.size > 0 %}
+  <h2>Root</h2>
   <div class="grid">
-    {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
-    {% for f in files %}
-      {% if f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' %}
-        <a href="{{ f.path }}" class="card">
-          <img src="{{ f.path }}" alt="{{ f.name }}">
-          <div class="label">{{ f.name }}</div>
-        </a>
-      {% elsif f.extname == '.pdf' %}
-        <a href="{{ f.path }}" class="card">
-          <div class="pdf-icon">📄</div>
-          <div class="label">{{ f.name }}</div>
-        </a>
+    {% for f in root_files %}
+      {% assign ext = f.extname | downcase %}
+      {% if exts contains ext %}
+        {% assign name = f.name | replace:f.extname,'' | replace:'_',' ' %}
+        {% if ext == '.pdf' %}
+          <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
+            <div class="pdf-icon">📄</div><div class="label">{{ name }}</div>
+          </a>
+        {% else %}
+          <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
+            <img src="{{ f.path }}" alt="{{ name }}"><div class="label">{{ name }}</div>
+          </a>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>
+{% endif %}
+
+{%- comment -%} 2) each first-level subfolder as its own section (e.g. disk-1, disk-2, motor, schematics, etc.) {%- endcomment -%}
+{% for folder in folders %}
+  {% if folder != "" %}
+    <h2>{{ folder | replace:'_',' ' }}</h2>
+    <div class="grid">
+      {% assign prefix = page.dir | append: folder | append: '/' %}
+      {% assign items = all | where_exp:"f","f.path contains prefix" %}
+      {% for f in items %}
+        {% assign ext = f.extname | downcase %}
+        {% if exts contains ext %}
+          {% assign name = f.name | replace:f.extname,'' | replace:'_',' ' %}
+          {% if ext == '.pdf' %}
+            <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
+              <div class="pdf-icon">📄</div><div class="label">{{ name }}</div>
+            </a>
+          {% else %}
+            <a href="{{ f.path }}" class="card" target="_blank" rel="noopener">
+              <img src="{{ f.path }}" alt="{{ name }}"><div class="label">{{ name }}</div>
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
 
 </body>
 </html>
