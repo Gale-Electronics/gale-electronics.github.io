@@ -2,6 +2,7 @@
 title: GT2101 Turntable
 layout: default
 permalink: /GT2101/
+nav_exclude: true   # hides this from the top navbar if you’re using just-the-docs or similar
 ---
 
 # GT2101 Turntable
@@ -19,19 +20,38 @@ This archive documents the engineering, craftsmanship, and creative ambition beh
 
 ---
 
-## About the Archive
+## Explore the GT2101 Archive
 
-This section brings together surviving engineering drawings, circuit boards, advertising materials, and oral histories to reconstruct the story of the GT2101.  
-Wherever possible, original filenames and metadata from *galeaudio.com* have been preserved to retain provenance.
-
-Future additions will include:
-- Scanned service notes and schematics from early production units  
-- Motor control diagnostics and signal mapping  
-- Interviews with designers and engineers involved in the project  
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1rem 0;">
+  <a href="/GT2101/engineering-drawings-schematics/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Engineering Drawings<br>& Schematics</strong><br>
+    <small>Original circuit diagrams and PCB layouts</small>
+  </a>
+  <a href="/GT2101/photographs-adverts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Photographs & Adverts</strong><br>
+    <small>Press images, marketing shots, and period ads</small>
+  </a>
+  <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Components & Parts</strong><br>
+    <small>Individual boards, chips, and hardware documentation</small>
+  </a>
+  <a href="/GT2101/manuals-literature/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Manuals & Literature</strong><br>
+    <small>Scans of factory manuals and related texts</small>
+  </a>
+  <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Technical Notes</strong><br>
+    <small>Service data and modern analysis</small>
+  </a>
+  <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Interviews & Provenance</strong><br>
+    <small>Background, correspondence, and designer insights</small>
+  </a>
+</div>
 
 ---
 
 <small>
-All materials are preserved for **educational and historical purposes**.  
+All materials are preserved for <strong>educational and historical reference</strong>.  
 Original rights remain with their respective authors, engineers, and contributors.
 </small>
