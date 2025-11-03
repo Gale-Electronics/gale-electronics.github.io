@@ -1,6 +1,6 @@
 ---
 title: GT2101 — Motor & PCB Signal Map
-layout: default
+layout: bare
 nav_order: 10
 permalink: /GT2101/technical-notes/motor-signal-map/
 ---
