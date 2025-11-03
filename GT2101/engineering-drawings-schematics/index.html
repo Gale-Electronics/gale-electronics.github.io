@@ -28,7 +28,6 @@ base: /GT2101/engineering-drawings-schematics/
 <h1>{{ page.title }}</h1>
 <p>Images & PDFs under <code>{{ page.base }}</code>, grouped by subfolder.</p>
 
-<!-- Manual quick links (always visible) -->
 <h2>Quick links</h2>
 <div class="folders">
   <a href="{{ (page.base | append: 'disk-1-display-interface/') | relative_url }}">disk-1-display-interface</a>
@@ -41,7 +40,7 @@ base: /GT2101/engineering-drawings-schematics/
 
 {% assign exts = "jpg,jpeg,png,webp,pdf" %}
 
-{%- comment -%} Collect all static files under page.base (no where_exp) {%- endcomment -%}
+{%- comment -%} Collect all static files under page.base {%- endcomment -%}
 {% assign all_paths = "" %}
 {% for f in site.static_files %}
   {% if f.path contains page.base %}
@@ -50,7 +49,7 @@ base: /GT2101/engineering-drawings-schematics/
 {% endfor %}
 {% assign all = all_paths | split: "||" %}
 
-<!-- Root files (directly in base) -->
+{%- comment -%} Root files (directly in base) {%- endcomment -%}
 {% assign root = "" %}
 {% for p in all %}
   {% if p != "" %}
@@ -70,8 +69,7 @@ base: /GT2101/engineering-drawings-schematics/
         {% assign filename = p | split:"/" | last %}
         {% assign ext = filename | split:'.' | last | downcase %}
         {% if exts contains ext %}
-          {% comment %} crude-but-reliable base-name without extension {% endcomment %}
-          {% assign name = filename | replace: ('.' | append: ext), '' | replace: '_',' ' %}
+          {% assign name = filename | replace: ('.' | append: ext), '' | replace:'_',' ' %}
           {% if ext == 'pdf' %}
             <a href="{{ p | uri_escape | relative_url }}" class="card" target="_blank" rel="noopener">
               <div class="pdf">📄</div><div class="label">{{ name }}</div>
@@ -87,15 +85,16 @@ base: /GT2101/engineering-drawings-schematics/
   </div>
 {% endif %}
 
-{%- comment -%} Discover unique first-level subfolders under page.base {%- endcomment -%}
+{%- comment -%} Discover unique first-level subfolders under page.base (fixed) {%- endcomment -%}
 {% assign bucket = "" %}
 {% for p in all %}
   {% if p != "" %}
     {% assign rel = p | remove_first: page.base %}
     {% if rel contains "/" %}
       {% assign first = rel | split:'/' | first %}
-      {% unless bucket contains first | append: "|" %}
-        {% assign bucket = bucket | append: first | append: "|" %}
+      {% assign mark = first | append:'|' %}
+      {% unless bucket contains mark %}
+        {% assign bucket = bucket | append: mark %}
       {% endunless %}
     {% endif %}
   {% endif %}
