@@ -1,5 +1,5 @@
 ---
-layout: default   # or bare if you actually have _layouts/bare.html
+layout: bare   # or bare if you actually have _layouts/bare.html
 title: GT2101 — Engineering Drawings & Schematics
 permalink: /GT2101/engineering-drawings-schematics/
 base: /GT2101/engineering-drawings-schematics/  # must be exact, case-sensitive, trailing slash
