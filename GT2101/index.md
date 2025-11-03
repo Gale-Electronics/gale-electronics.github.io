@@ -5,7 +5,7 @@ layout: default
 
 # GT2101 Turntable
 
-Archive of the **Gale GT2101** turntable — schematics, motor layouts, photography, and historical documentation.  
+Archive of the **Gale GT2101** turntable, schematics, motor layouts, photography, and historical documentation.  
 This collection preserves material originally published on *galeaudio.com* (circa 2011–2016) alongside new findings, photographs, and technical annotations contributed by the restoration community.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.8rem;margin:1rem 0;">
