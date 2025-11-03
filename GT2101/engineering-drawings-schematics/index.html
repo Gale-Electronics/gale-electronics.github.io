@@ -1,7 +1,7 @@
 ---
 layout: none
-title: Engineering Drawings & Schematics
-base: /engineering-drawings-schematics/   # <-- change if you move the folder
+title: GT2101 — Engineering Drawings & Schematics
+base: /GT2101/engineering-drawings-schematics/
 ---
 
 <!doctype html>
@@ -19,17 +19,30 @@ base: /engineering-drawings-schematics/   # <-- change if you move the folder
     .card img{width:100%;aspect-ratio:4/3;object-fit:cover}
     .label{padding:6px 8px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     .pdf{font-size:80px;line-height:1.2;padding:30px 0;color:#a00}
+    .folders{display:flex;flex-wrap:wrap;gap:10px;margin:.6em 0 1.2em}
+    .folders a{background:#fff;border:1px solid #ddd;border-radius:999px;padding:.35em .7em;text-decoration:none;color:#111;font-size:.95rem}
   </style>
 </head>
 <body>
 
 <h1>{{ page.title }}</h1>
-<p>Auto-gallery of images & PDFs inside <code>{{ page.base }}</code>, grouped by subfolder (e.g. disk-1, disk-2, motor…).</p>
+<p>Images & PDFs under <code>{{ page.base }}</code>, grouped by subfolder.</p>
+
+<!-- Manual quick links (always visible) -->
+<h2>Quick links</h2>
+<div class="folders">
+  <a href="{{ page.base }}disk-1-display-interface/">disk-1-display-interface</a>
+  <a href="{{ page.base }}disk-2ab-servo-motor-drive/">disk-2ab-servo-motor-drive</a>
+  <a href="{{ page.base }}disk-3-optical-sensor/">disk-3-optical-sensor</a>
+  <a href="{{ page.base }}disk-4-reference-oscillator/">disk-4-reference-oscillator</a>
+  <a href="{{ page.base }}disk-5-power-supply/">disk-5-power-supply</a>
+  <a href="{{ page.base }}motor-overview/">motor-overview</a>
+</div>
 
 {% assign exts = ".jpg,.jpeg,.png,.webp,.pdf" %}
 {% assign all = site.static_files | where_exp:"f","f.path contains page.base" | sort:"path" %}
 
-{%- comment -%} Root files (directly in /GT2101/engineering-drawings-schematics/) {%- endcomment -%}
+<!-- Root files (directly in base) -->
 {% assign root = all | where_exp:"f","(f.path | remove_first: page.base) contains '/' | not" %}
 {% if root.size > 0 %}
   <h2>Root</h2>
@@ -48,7 +61,7 @@ base: /engineering-drawings-schematics/   # <-- change if you move the folder
   </div>
 {% endif %}
 
-{%- comment -%} Section per first-level subfolder under /GT2101/engineering-drawings-schematics/ {%- endcomment -%}
+<!-- Auto sections per subfolder (shows only when files exist) -->
 {% assign bucket = "" %}
 {% for f in all %}
   {% assign rel = f.path | remove_first: page.base %}
