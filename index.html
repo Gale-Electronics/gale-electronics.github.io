@@ -5,33 +5,180 @@ title: Gale Electronics Archive
 
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gale Electronics Archive</title>
-<link rel="stylesheet" href="https://unpkg.com/@primer/css@21.0.9/dist/primer.css">
+<head>
+  <meta charset="utf-8">
+  <title>Gale Electronics Archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An open, version-controlled archive preserving the history, design, and engineering of Gale Electronics — including the GS401 loudspeakers and GT2101 turntable.">
+  <link rel="stylesheet" href="https://unpkg.com/@primer/css@21.0.9/dist/primer.css">
+  <style>
+    :root{
+      --bg: #0d1117;        /* dark hero */
+      --ink: #f0f6fc;
+      --accent: #6e9fff;
+      --card: #ffffff;
+      --cardBorder: #d0d7de;
+      --paper: #f6f8fa;     /* page bg */
+      --muted: #57606a;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #0d1117;
+        --ink: #f0f6fc;
+        --accent: #0969da;
+        --card: #ffffff;
+        --cardBorder: #d0d7de;
+        --paper: #f6f8fa;
+        --muted: #57606a;
+      }
+    }
+    body{ background: var(--paper); }
+    .hero{
+      background: radial-gradient(1200px 600px at 20% -10%, #1f2328 0%, #0d1117 50%, #0d1117 100%);
+      color: var(--ink);
+      border-radius: 16px;
+      padding: 2.5rem 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero .glow{
+      position:absolute; inset:-40% -20% auto auto;
+      width:900px; height:900px; pointer-events:none; opacity:.18;
+      filter: blur(60px);
+      background: conic-gradient(from 180deg at 50% 50%, #58a6ff, #8b949e, #a5d6ff, #58a6ff);
+      border-radius:50%;
+      mix-blend-mode:screen;
+    }
+    .hero h1{ font-size: clamp(2rem, 2.6rem, 3rem); margin: 0 0 .6rem; }
+    .sub{ color: #c9d1d9; max-width: 70ch; }
+    .badge-archival{
+      display:inline-flex; align-items:center; gap:.5rem;
+      background: #fff1c2; color:#3b2300; border:1px solid #ffd17b;
+      border-radius: .5rem; padding:.4rem .6rem; font-size:.9rem; margin-top: .75rem;
+    }
+    .cards{
+      display:grid; gap:16px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      margin-top: 1rem;
+    }
+    .card{
+      background: var(--card); border:1px solid var(--cardBorder); border-radius: 12px;
+      padding: 1rem; transition: transform .08s ease, box-shadow .08s ease;
+    }
+    .card:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.08); }
+    .card h3{ margin:.2rem 0 .4rem; font-size: 1.05rem; }
+    .card p{ margin:0; color: var(--muted); }
+    .arrow{ transition: transform .08s ease; }
+    a.card-link:hover .arrow{ transform: translateX(3px); }
+    .logo{
+      max-width: 220px; margin: 16px 0; border-radius: 8px; border:1px solid rgba(255,255,255,.08);
+    }
+    footer{ color: var(--muted); }
+    .pill{
+      display:inline-block; font-size:.8rem; background:#e7f3ff; border:1px solid #c7e0ff; color:#024ea4;
+      padding:.22rem .5rem; border-radius: 999px; margin-left:.35rem;
+    }
+    .soft-hr{ border:0; height:1px; background: linear-gradient(90deg, transparent, #d0d7de, transparent); margin: 2rem 0; }
+    .link-muted{ color: var(--muted); }
+  </style>
+</head>
 <body class="p-5">
   <main class="container-lg">
-    <h1 class="h00-mktg">Gale Electronics Archive</h1>
 
-    <!-- Logo -->
-    <img src="/gale-logo.jpg" alt="Gale Electronics Logo" style="max-width:220px;display:block;margin:16px 0;">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="glow"></div>
+      <img src="/gale-logo.jpg" alt="Gale Electronics logo" class="logo" onerror="this.style.display='none'">
+      <h1>Gale Electronics Archive</h1>
+      <p class="sub">
+        Preserving the legacy of <strong>Gale Electronics</strong> — from the <strong>GS401</strong> loudspeakers to the
+        <strong>GT2101</strong> turntable — in a permanent, version-controlled GitHub Pages archive.
+      </p>
+      <div class="badge-archival" role="note" aria-label="Archival notice">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
+        </svg>
+        <span>This is a historical archive. Content includes excerpts preserved from <em>galeaudio.com</em> (2011–2016) with attribution.</span>
+      </div>
+    </section>
 
-    <p class="lead">
-      Preserving the legacy of <strong>Gale Electronics</strong>, from the <strong>GS401</strong> loudspeakers to the <strong>GT2101</strong> turntable.
-    </p>
+    <!-- NAV CARDS -->
+    <section class="mt-4">
+      <div class="d-flex flex-justify-between flex-items-center mb-2">
+        <h2 class="h3">Explore</h2>
+        <span class="link-muted">Curated sections<span class="pill">Live</span></span>
+      </div>
 
-    <h3>Explore</h3>
-    <ul>
-      <li><a href="/GT2101/">GT2101 Turntable</a></li>
-      <li><a href="/GS401/">GS401 Loudspeakers</a></li>
-    </ul>
+      <div class="cards">
+        <a class="card card-link d-block no-underline" href="/GT2101/" aria-label="GT2101 Turntable archive">
+          <h3>GT2101 Turntable</h3>
+          <p>Photography, adverts, motor notes, interviews, and provenance.</p>
+          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
+        </a>
 
-    <p><strong>Community:</strong> Join the Facebook group “Gale Electronics Owners and Enthusiasts”.</p>
+        <a class="card card-link d-block no-underline" href="/GS401/" aria-label="GS401 Loudspeakers archive">
+          <h3>GS401 Loudspeakers</h3>
+          <p>Design, drivers, crossovers, restoration guidance, and documentation.</p>
+          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
+        </a>
 
-    <hr>
-    <footer class="text-small color-fg-muted">
-      <strong>Gale Electronics</strong> — Open archive preserving the history, design and engineering of Gale Electronics.
+        <!-- Add more sections as you grow -->
+        <!--
+        <a class="card card-link d-block no-underline" href="/documents/">
+          <h3>Documents & Manuals</h3>
+          <p>Original manuals, spec sheets, service notes (searchable where possible).</p>
+          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
+        </a>
+        -->
+      </div>
+    </section>
+
+    <hr class="soft-hr">
+
+    <!-- COMMUNITY + PROVENANCE -->
+    <section class="gutter-condensed">
+      <div class="clearfix">
+        <div class="col-12 col-md-7 float-left pr-md-4">
+          <h2 class="h4">Provenance & Credits</h2>
+          <p class="mb-2">
+            This archive collates public materials and community contributions to keep Gale’s story intact.
+            Where possible, sources are named on each page. If you are a rights holder and wish to correct,
+            credit, or remove an item, please get in touch.
+          </p>
+          <ul class="list-style-none color-fg-muted">
+            <li>• Excerpts preserved from <em>galeaudio.com</em> (circa 2011–2016)</li>
+            <li>• New research, photographs, and technical notes by the community</li>
+            <li>• Versioned on GitHub for transparency and long-term preservation</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-5 float-left">
+          <h2 class="h4">Community</h2>
+          <p>
+            Join the Facebook group <em>“Gale Electronics Owners and Enthusiasts”</em> to share restorations,
+            ask questions, and help fill the gaps in the historical record.
+          </p>
+          <p class="mb-0">
+            Prefer email? Add provenance, dates, or documentation via issues or pull requests on GitHub.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="soft-hr">
+
+    <!-- FOOTER -->
+    <footer class="text-small">
+      <div class="d-flex flex-justify-between flex-wrap">
+        <div class="mb-2">
+          <strong>Gale Electronics Archive</strong>
+          <span class="link-muted d-block">Open, non-commercial preservation of Gale history, design, and engineering.</span>
+        </div>
+        <div class="mb-2">
+          <span class="link-muted">Maintained on GitHub Pages • CC BY-NC where applicable</span>
+        </div>
+      </div>
     </footer>
+
   </main>
 </body>
 </html>
