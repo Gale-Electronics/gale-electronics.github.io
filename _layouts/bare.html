@@ -4,27 +4,129 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
-    {%- comment -%}
-      Bring in the theme’s CSS if you want its fonts/colours but NO header/nav.
-      Many themes expose a head include; if not, just keep this minimal.
-    {%- endcomment -%}
-    {%- if site.stylesheet -%}
-      <link rel="stylesheet" href="{{ site.stylesheet | relative_url }}">
-    {%- endif -%}
-    {%- if site.theme and site.theme == "minima" -%}
-      <!-- Minima ships its CSS via assets automatically; nothing needed here -->
-    {%- endif -%}
+
+    <!-- Use Minima's CSS so typography/spacing look good -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <!-- Optional: SEO tag if you use jekyll-seo-tag -->
+    {% if site.plugins and site.plugins contains 'jekyll-seo-tag' %}
+      {% seo %}
+    {% endif %}
+
     <style>
-      /* Simple container so content isn't edge-to-edge */
-      .wrap{max-width:980px;margin:0 auto;padding:24px}
+      :root{
+        --wrap: 1040px;
+        --brand: #111;
+        --muted: #666;
+        --accent: #0f766e; /* teal-ish accent */
+        --card: #fff;
+        --bg: #f7f5ee;    /* warm archival paper */
+        --shadow: 0 6px 24px rgba(0,0,0,.06);
+        --radius: 14px;
+      }
+      body{background:var(--bg)}
+      .wrap{max-width:var(--wrap);margin:0 auto;padding:28px}
+      .masthead{
+        display:flex;align-items:center;gap:18px;margin:12px 0 22px
+      }
+      .masthead img{height:44px;width:auto;border-radius:6px}
+      .masthead .meta{line-height:1.25}
+      .masthead .site{font-weight:700;color:var(--brand)}
+      .masthead .desc{color:var(--muted);font-size:.95rem}
+      .banner{
+        background:linear-gradient(180deg,#fff, #faf7ed);
+        border:1px solid #ece7d5;border-radius:var(--radius);
+        box-shadow:var(--shadow);padding:22px 22px;margin:18px 0 26px
+      }
+      .banner strong{color:#222}
+      .content{
+        background:var(--card);border-radius:var(--radius);
+        box-shadow:var(--shadow);padding:28px;border:1px solid #ece7d5
+      }
+      .local-nav{
+        display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 22px
+      }
+      .chip{
+        border:1px solid #dcd6bf;border-radius:999px;padding:8px 14px;
+        background:#fff;font-size:.95rem;text-decoration:none;color:#222
+      }
+      .chip:hover{border-color:#b9b298}
+      .chip.is-active{background:#0f766e0d;border-color:#0f766e;color:var(--accent)}
+      .footer{
+        color:var(--muted);font-size:.9rem;margin:30px 0 10px
+      }
+      .breadcrumb{
+        font-size:.92rem;color:var(--muted);margin-bottom:10px
+      }
+      .breadcrumb a{color:inherit;text-decoration:none}
+      .breadcrumb a:hover{text-decoration:underline}
+      /* Make code blocks & tables look tidy on cards */
+      pre, code{background:#f6f4ea}
+      table{width:100%;border-collapse:collapse}
+      th, td{border-bottom:1px solid #eee;padding:.6rem .5rem}
+      th{text-align:left}
     </style>
   </head>
   <body>
-    <main class="wrap">
-      {{ content }}
-    </main>
-    <footer class="wrap" style="margin-top:3rem;color:#777;font-size:.9rem">
-      {{ site.title }} — {{ site.description }}
-    </footer>
+    <div class="wrap">
+      <header class="masthead">
+        {% assign logo = site.logo | default: '/gale-logo.jpg' %}
+        <img src="{{ logo | relative_url }}" alt="Gale Electronics">
+        <div class="meta">
+          <div class="site">{{ site.title }}</div>
+          <div class="desc">{{ site.description }}</div>
+        </div>
+      </header>
+
+      {% assign home_url = '/' | relative_url %}
+      <div class="breadcrumb">
+        <a href="{{ home_url }}">Home</a>
+        {% if page.collection %}
+          &nbsp;/&nbsp; <a href="{{ '/' | append: page.collection | append: '/' | relative_url }}">{{ page.collection | upcase }}</a>
+        {% endif %}
+        {% if page.title %}
+          &nbsp;/&nbsp; {{ page.title }}
+        {% endif %}
+      </div>
+
+      {% if page.archive_note or page.show_archive_banner %}
+      <section class="banner">
+        <strong>Archival note:</strong>
+        {% if page.archive_note %}
+          {{ page.archive_note }}
+        {% else %}
+          This page preserves original materials from <em>galeaudio.com</em> alongside new research and verified annotations.
+        {% endif %}
+      </section>
+      {% endif %}
+
+      {% if page.collection == 'gt2101' %}
+      <nav class="local-nav" aria-label="GT2101 sections">
+        {% assign base = '/GT2101/' | relative_url %}
+        {% assign here = page.url %}
+        {% assign items = 
+          "Engineering Drawings & Schematics:/GT2101/engineering-drawings-schematics/,
+           Photographs & Adverts:/GT2101/photographs-adverts/,
+           Components & Parts:/GT2101/components-parts/,
+           Manuals & Literature:/GT2101/manuals-literature/,
+           Technical Notes:/GT2101/technical-notes/,
+           Interviews & Provenance:/GT2101/interviews-provenance/" | split: ',' %}
+        {% for pair in items %}
+          {% assign bits = pair | split: ':' %}
+          {% assign label = bits[0] | strip %}
+          {% assign href  = bits[1] | strip %}
+          <a class="chip {% if here == href %}is-active{% endif %}" href="{{ href | relative_url }}">{{ label }}</a>
+        {% endfor %}
+      </nav>
+      {% endif %}
+
+      <main class="content">
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        {{ site.title }} — Open archive of Gale Electronics. Unless otherwise stated, copyrights remain with their original creators.
+      </footer>
+    </div>
   </body>
 </html>
