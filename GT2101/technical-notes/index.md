@@ -18,5 +18,3 @@ Reference notes for diagnosing and restoring the **Gale GT2101**.
   <li><a href="{{ p.url }}">{{ p.title }}</a></li>
 {% endfor %}
 </ul>
-
-> Add new notes under `/GT2101/technical-notes/` and give them a `nav_order` to control the list.
