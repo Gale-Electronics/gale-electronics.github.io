@@ -6,30 +6,37 @@ permalink: /GS401/speaker-models/
 
 # Speaker Models Gallery
 
-A visual reference library of all known **Gale GS401** variants — including production models, early prototypes, and modern restorations.  
-This gallery helps identify finish differences, grille types, and visual cues for restorers and collectors.
+A visual guide to the primary GS401 loudspeaker variants — used to help restorers, buyers, and collectors identify key styling differences.
 
 ---
 
-## Known Variants
+## GS401 Variants
 
-- **GS401A** — Chrome end caps, black grille, black-painted cabinet  
-- **GS401B** — Walnut veneer end caps, black grille, black-painted front  
-- **GS401C** — Fully veneered in walnut with rounded side grilles
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:1rem;">
 
-Additional variants and modifications may be added as they are discovered.
+<div style="text-align:center;">
+  <img src="/GS401/speaker-models/401a.png" alt="GS401A speaker with chrome end caps and black grille" style="max-width:100%;border-radius:12px;border:1px solid #ccc;">
+  <strong>GS401A</strong><br>
+  <small>Chrome ends, black cabinet & grille</small>
+</div>
 
----
+<div style="text-align:center;">
+  <img src="/GS401/speaker-models/401b.png" alt="GS401B speaker with walnut veneer ends and black cabinet" style="max-width:100%;border-radius:12px;border:1px solid #ccc;">
+  <strong>GS401B</strong><br>
+  <small>Walnut veneer ends, black cabinet & grille</small>
+</div>
 
-## Explore the Gallery
+<div style="text-align:center;">
+  <img src="/GS401/speaker-models/401c.png" alt="GS401C speaker fully veneered with rounded grilles" style="max-width:100%;border-radius:12px;border:1px solid #ccc;">
+  <strong>GS401C</strong><br>
+  <small>Full walnut veneer, curved side grilles</small>
+</div>
 
-You can browse images by model variant below. Each folder includes photos from multiple angles and, where available, high-resolution promotional shots and restoration examples.
-
-> 📸 **Coming soon:** Full-resolution model images from the Vintage Gale website archive.
+</div>
 
 ---
 
 <small>
-Do you have photographs of a GS401 variant not shown here?  
-Please get in touch — we are continually expanding this visual reference to document every known version.
+More speaker variants, prototypes, and high-resolution reference shots will be added here over time.  
+If you have a GS401 variation not shown, please contact us to contribute to the archive.
 </small>
