@@ -20,124 +20,126 @@ title: Gale Electronics Archive
   <meta property="og:image" content="https://gale-electronics.github.io/gale-logo.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Primer for sensible defaults -->
+  <!-- Primer CSS -->
   <link rel="stylesheet" href="https://unpkg.com/@primer/css@21.0.9/dist/primer.css">
 
   <style>
-    :root{
-      --bg: #fff3cd;
+    :root {
       --ink: #f0f6fc;
+      --muted: #57606a;
       --accent: #58a6ff;
       --card: #ffffff;
       --cardBorder: #d0d7de;
       --paper: #f6f8fa;
-      --muted: #57606a;
     }
-    @media (prefers-color-scheme: light){
-      :root{
-        --bg: #0d1117;
-        --ink: #f0f6fc;
-        --accent: #0969da;
-        --card: #ffffff;
-        --cardBorder: #d0d7de;
-        --paper: #f6f8fa;
-        --muted: #57606a;
-      }
-    }
-    html, body { background: var(--paper); }
-
-    /* Header / Nav */
-    .site-header{
-      display:flex; align-items:center; justify-content:space-between; gap:1rem;
-      margin-bottom: 1rem;
-    }
-    .brand{
-      display:flex; align-items:center; gap:.75rem;
-    }
-    .brand img{ width:40px; height:40px; border-radius:8px; border:1px solid rgba(0,0,0,.06); object-fit:cover }
-    .brand-title{ font-weight:600; font-size:1.05rem; }
-    .site-nav a{ margin-left:1rem; text-decoration:none }
-    .site-nav a:hover{ text-decoration:underline }
+    html, body { background: var(--paper); margin: 0; }
 
     /* Hero */
-    .hero{
+    .hero {
       background: radial-gradient(1200px 600px at 20% -10%, #1f2328 0%, #0d1117 50%, #0d1117 100%);
       color: var(--ink);
       border-radius: 16px;
-      padding: 2.25rem 1.5rem;
-      position: relative; overflow: hidden;
+      padding: clamp(1.5rem, 4vw, 3rem);
+      position: relative;
+      overflow: hidden;
     }
-    .hero .glow{
-      position:absolute; inset:-40% -20% auto auto;
-      width:900px; height:900px; pointer-events:none; opacity:.18;
-      filter: blur(60px);
+    .hero .glow {
+      position: absolute;
+      inset: -40% -20% auto auto;
+      width: 900px; height: 900px;
+      opacity: 0.18; filter: blur(60px);
       background: conic-gradient(from 180deg at 50% 50%, #58a6ff, #8b949e, #a5d6ff, #58a6ff);
-      border-radius:50%;
-      mix-blend-mode:screen;
-    }
-    .hero h1{ font-size: clamp(2rem, 2.6rem, 3rem); margin: 0 0 .6rem; }
-    .sub{ color: #c9d1d9; max-width: 75ch; }
-
-    /* Logo inside the black hero (top-right) */
-    .hero-logo{
-      position:absolute; top:16px; right:16px;
-      height:56px; width:auto;
-      border-radius:8px;
-      border:1px solid rgba(255,255,255,.12);
-      background:#0d1117;
-      padding:4px;
-    }
-    @media (max-width: 480px){
-      .hero-logo{ height:44px; top:12px; right:12px }
+      border-radius: 50%; mix-blend-mode: screen;
+      pointer-events: none;
     }
 
-    .badge-archival{
-      display:inline-flex; align-items:center; gap:.5rem;
-      background: #fff1c2; color:#3b2300; border:1px solid #ffd17b;
-      border-radius: .5rem; padding:.4rem .6rem; font-size:.9rem; margin-top: .75rem;
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      margin: 0 0 .6rem;
     }
-    .logo{
-      max-width: 220px; margin: 8px 0 16px; border-radius: 8px; border:1px solid rgba(255,255,255,.08);
+    .hero .sub {
+      color: #c9d1d9;
+      max-width: 70ch;
+      margin: 0;
+    }
+
+    /* Logo inside hero */
+    .hero-logo {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.4rem;
+      width: clamp(80px, 18vw, 130px);
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, .15);
+      background: rgba(13, 17, 23, 0.85);
+      padding: 4px 6px;
+    }
+
+    /* Archive badge */
+    .badge-archival {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: #fff1c2;
+      color: #3b2300;
+      border: 1px solid #ffd17b;
+      border-radius: .5rem;
+      padding: .4rem .6rem;
+      font-size: .9rem;
+      margin-top: .9rem;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 900px) {
+      .hero {
+        text-align: center;
+        padding: 2rem 1rem 2.2rem;
+      }
+      .hero-logo {
+        position: static;
+        display: block;
+        margin: 0 auto 1rem;
+      }
+      .hero .sub { margin: 0 auto; }
     }
 
     /* Cards */
-    .cards{
-      display:grid; gap:16px;
+    .cards {
+      display: grid;
+      gap: 16px;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      margin-top: 1rem;
+      margin-top: 1.25rem;
     }
-    .card{
-      background: var(--card); border:1px solid var(--cardBorder); border-radius: 12px;
-      padding: 1rem; transition: transform .08s ease, box-shadow .08s ease;
-      height:100%;
+    .card {
+      background: var(--card);
+      border: 1px solid var(--cardBorder);
+      border-radius: 12px;
+      padding: 1rem;
+      transition: transform .08s ease, box-shadow .08s ease;
     }
-    a.card-link{ text-decoration:none }
-    .card:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.08); }
-    .card h3{ margin:.2rem 0 .35rem; font-size: 1.05rem; }
-    .card p{ margin:0; color: var(--muted); }
-    .arrow{ transition: transform .08s ease; }
-    a.card-link:hover .arrow{ transform: translateX(3px); }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+    }
+    .card h3 { margin: .25rem 0 .35rem; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); }
+    .arrow { transition: transform .08s ease; }
+    a.card-link:hover .arrow { transform: translateX(3px); }
 
     /* Utilities */
-    .soft-hr{ border:0; height:1px; background: linear-gradient(90deg, transparent, #d0d7de, transparent); margin: 2rem 0; }
-    .link-muted{ color: var(--muted); }
-    .pill{ display:inline-block; font-size:.8rem; background:#e7f3ff; border:1px solid #c7e0ff; color:#024ea4; padding:.22rem .5rem; border-radius: 999px; margin-left:.35rem; }
-    footer{ color: var(--muted); }
+    .soft-hr {
+      border: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #d0d7de, transparent);
+      margin: 2rem 0;
+    }
+    footer {
+      color: var(--muted);
+      font-size: .95rem;
+      margin-top: 2rem;
+    }
   </style>
-
-  <!-- JSON-LD: simple organisation card -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Organization",
-    "name":"Gale Electronics Archive",
-    "url":"https://gale-electronics.github.io/",
-    "logo":"https://gale-electronics.github.io/gale-logo.jpg",
-    "sameAs":[
-      "https://github.com/Gale-Electronics"
-    ]
-  }
-  </script>
 </head>
 
 <body class="p-5">
@@ -145,16 +147,18 @@ title: Gale Electronics Archive
 
     <!-- HERO -->
     <section class="hero" role="region" aria-label="Introduction">
-      <!-- NEW: Logo inside black hero on the right -->
       <img class="hero-logo" src="{{ site.logo | default: '/gale-logo.jpg' | relative_url }}" alt="Gale Electronics logo">
-
       <div class="glow" aria-hidden="true"></div>
+
       <h1>Gale Electronics Archive</h1>
       <p class="sub">
-        Preserving the legacy of <strong>Gale Electronics</strong>, from the <strong>GS401</strong> loudspeakers (engineering by Ira Gale, David Lyth, Billy Woodman; styling by Jon Bannenberg)
-        to the <strong>GT2101</strong> turntable (developed with DCA Design Consultants), in a permanent, version-controlled GitHub Pages archive.
+        Preserving the legacy of <strong>Gale Electronics</strong>, from the <strong>GS401</strong> loudspeakers
+        (engineering by Ira Gale, David Lyth, Billy Woodman; styling by Jon Bannenberg)
+        to the <strong>GT2101</strong> turntable (developed with DCA Design Consultants),
+        in a permanent, version-controlled GitHub Pages archive.
       </p>
-      <div class="badge-archival" role="note" aria-label="Archival notice">
+
+      <div class="badge-archival">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
         </svg>
@@ -170,25 +174,25 @@ title: Gale Electronics Archive
       </div>
 
       <div class="cards">
-        <a class="card card-link d-block no-underline" href="/GT2101/" aria-label="GT2101 Turntable archive">
+        <a class="card card-link d-block no-underline" href="/GT2101/">
           <h3>GT2101 Turntable</h3>
           <p>Photography, adverts, motor notes, interviews, and provenance.</p>
           <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
         </a>
 
-        <a class="card card-link d-block no-underline" href="/GS401/" aria-label="GS401 Loudspeakers archive">
+        <a class="card card-link d-block no-underline" href="/GS401/">
           <h3>GS401 Loudspeakers</h3>
           <p>Design/styling, drivers, crossovers, restoration guidance, and documentation.</p>
           <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
         </a>
 
-        <a class="card card-link d-block no-underline" href="/about" aria-label="About the archive">
+        <a class="card card-link d-block no-underline" href="/about">
           <h3>About Gale</h3>
           <p>Who founded Gale, who styled it, and how we preserve the record.</p>
           <div class="mt-2 f6 color-fg-accent">Read <span class="arrow">→</span></div>
         </a>
         
-        <a class="card card-link d-block no-underline" href="/voices" aria-label="Interviews and Stories">
+        <a class="card card-link d-block no-underline" href="/voices">
           <h3>Oral History</h3>
           <p>Interviews with previous employees and legends.</p>
           <div class="mt-2 f6 color-fg-accent">Read <span class="arrow">→</span></div>
@@ -199,28 +203,29 @@ title: Gale Electronics Archive
     <hr class="soft-hr" aria-hidden="true">
 
     <!-- COMMUNITY + PROVENANCE -->
-    <section class="gutter-condensed" role="region" aria-label="Community and provenance">
+    <section class="gutter-condensed">
       <div class="clearfix">
         <div class="col-12 col-md-7 float-left pr-md-4">
           <h2 class="h4">Provenance & Credits</h2>
-          <p class="mb-2">
+          <p>
             This archive collates public materials and community contributions to keep Gale’s story intact.
             Where possible, sources are named on each page. If you are a rights holder and wish to correct,
             credit, or remove an item, please get in touch via GitHub issues.
           </p>
           <ul class="list-style-none color-fg-muted">
-            <li>• Excerpts preserved from <em>galeaudio.com</em> (circa 2011–2016)</li>
+            <li>• Excerpts preserved from <em>galeaudio.com</em> (2011–2016)</li>
             <li>• Interviews and contributions from engineers and the community</li>
             <li>• Versioned on GitHub for transparency and long-term preservation</li>
           </ul>
         </div>
+
         <div class="col-12 col-md-5 float-left">
           <h2 class="h4">Community</h2>
           <p>
-            Join the Facebook community “Gale Electronics Owners &amp; Enthusiasts” to share restorations,
+            Join the Facebook group “Gale Electronics Owners &amp; Enthusiasts” to share restorations,
             ask questions, and help fill gaps in the historical record.
           </p>
-          <p class="mb-0">
+          <p>
             Prefer email? Add provenance, dates, or documentation via issues or pull requests on GitHub.
           </p>
         </div>
@@ -230,11 +235,11 @@ title: Gale Electronics Archive
     <hr class="soft-hr" aria-hidden="true">
 
     <!-- FOOTER -->
-    <footer class="text-small" role="contentinfo">
+    <footer role="contentinfo">
       <div class="d-flex flex-justify-between flex-wrap">
         <div class="mb-2">
           <strong>Gale Electronics Archive</strong>
-          <span class="link-muted d-block">Open, non-commercial preservation of Gale history, design, and engineering.</span>
+          <div class="link-muted">Open, non-commercial preservation of Gale history, design, and engineering.</div>
         </div>
         <div class="mb-2">
           <span class="link-muted">Maintained on GitHub Pages • CC BY-NC where applicable</span>
