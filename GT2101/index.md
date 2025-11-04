@@ -6,14 +6,14 @@ nav_exclude: true
 
 # GT2101 Turntable
 
-The **Gale GT2101** stands as one of the boldest statements in 1970s British hi-fi design — a seamless fusion of industrial art and technical precision.  
-This section of the archive documents its **engineering, construction, and cultural legacy**, preserving material once thought lost when *galeaudio.com* went offline.
+The **Gale GT2101** stands as one of the boldest statements in 1970s British hi-fi design, a seamless fusion of industrial art and technical precision.  
+This section of the archive documents its engineering, construction, and cultural legacy, preserving material once thought lost when *galeaudio.com* went offline.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.8rem 1rem;margin:1.2rem 0;">
   <strong>Archival Note</strong><br>
   Designed by <strong>Design Consultants Associates (DCA)</strong> under <strong>John Carter</strong> for <strong>Gale Electronics</strong>, the GT2101 featured a <strong>servo-controlled direct-drive motor</strong> developed with <strong>Dr. Sao Win</strong>.  
   Its separate stainless-steel motor pod, layered acrylic chassis, and LED speed display gave it the appearance of a laboratory instrument rather than a domestic record player.  
-  With fewer than a hundred ever produced — each hand-built in London — the GT2101 remains one of the rarest expressions of British engineering ambition.  
+  With fewer than a hundred ever produced, each hand-built in London, the GT2101 remains one of the rarest expressions of British engineering ambition.  
   This open archive ensures that its design, documentation, and history remain preserved for future study and restoration.
 </div>
 
