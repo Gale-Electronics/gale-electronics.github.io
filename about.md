@@ -25,16 +25,20 @@ By the late 1970s, Gale expanded into amplifiers and accessories, applying the s
 Production eventually ceased in the early 1980s, but the company’s products have since achieved cult status among collectors and audiophiles.
 
 ## **Legacy and Preservation**
-This Gale Electronics Archive and the Vintage Gale Project exist to preserve the technical, visual and historical record of the company’s work, including schematics, PCB layouts, adverts, driver data and interviews with the original engineers.  
+This Gale Electronics Archive and the Vintage Gale Project exist to preserve the technical, visual and historical record of the company’s work, including schematics, PCB layouts, adverts, driver data and interviews with the original engineers.
 
 The archive builds on the work of Dave Smith, who supported Gale owners for over four decades. Due to ill health, Dave can no longer continue, and the baton has now passed to Matt — ensuring that Gale’s legacy continues with the same care, expertise and attention to detail.
+
+One memory that captures Ira Gale’s character comes from Ray Churchhouse, a long-standing UK hi-fi dealer, who recalled Ira regularly visiting his shop in the early 1970s. Ira would purchase top-end hi-fi equipment not to listen to it — but to take it apart and see how it worked.  
+> “I knew he was going to pull it to bits the moment he left the shop,” said Ray. “He wanted to understand every part of it.”  
+This curiosity — part audiophile, part engineer — was central to what made Gale’s products so distinctive.
 
 Together, these archives ensure that Gale’s contribution to British hi-fi design remains accessible to restorers, researchers and enthusiasts around the world.
 
 ## **Sources and Acknowledgements**
 This material is drawn from:
 - Original documentation from *GaleAudio.com*  
-- Interviews with **David Lyth (Volt Loudspeakers)** and **Bruce Gale**  
+- Interviews with **David Lyth (Volt Loudspeakers)**, **Bruce Gale**, and **Ray Churchhouse**  
 - Styling records from **Jon Bannenberg / Bannenberg & Rowell Design**  
 - Technical data from **DCA Design Consultants**  
 - Research and curation by **John Maybury (galeaudio.com), Dave Smith & Matt The Shepherd (Vintage Gale, UK)**  
