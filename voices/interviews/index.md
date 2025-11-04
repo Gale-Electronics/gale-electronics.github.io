@@ -32,7 +32,3 @@ This section collects recorded and transcribed conversations with the people who
     ⤓ Download “David Lyth — Interview.pdf”
   </a>
 </p>
-
----
-
-_New interviews will be added here as the archive grows._
