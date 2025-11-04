@@ -12,7 +12,7 @@ The first product, the Gale GS401, was engineered by Ira Gale with David Lyth (l
 The styling was by Jon Bannenberg, the visionary yacht designer whose influence gave the 401 its distinctive sculptural form with chrome end caps and a fully wrapped cloth enclosure.  
 
 Early production used US-made CTS 8-inch woofers, later replaced by Gale’s own British-built drivers. The sealed-box design, paired with Peerless and Celestion units, produced a rich, balanced sound that helped the GS401 become one of the most recognisable loudspeakers of the 1970s.  
-Several revisions followed, the **401A**, **401B**, and **401C**, all maintaining the same form but with incremental driver and crossover updates.
+Several revisions followed — the **401A**, **401B**, and **401C** — all maintaining the same form but with incremental driver and crossover updates.
 
 ## **1975 — The GT2101 Turntable**
 The **Gale GT2101** turntable, developed with John Carter’s DCA Design Consultants, embodied the company’s most ambitious design.  
@@ -26,6 +26,8 @@ Production eventually ceased in the early 1980s, but the company’s products ha
 
 ## **Legacy and Preservation**
 This Gale Electronics Archive and the Vintage Gale Project exist to preserve the technical, visual and historical record of the company’s work, including schematics, PCB layouts, adverts, driver data and interviews with the original engineers.  
+
+The archive builds on the work of Dave Smith, who supported Gale owners for over four decades. Due to ill health, Dave can no longer continue, and the baton has now passed to Matt — ensuring that Gale’s legacy continues with the same care, expertise and attention to detail.
 
 Together, these archives ensure that Gale’s contribution to British hi-fi design remains accessible to restorers, researchers and enthusiasts around the world.
 
