@@ -27,8 +27,8 @@ Gale Electronics was a London-based hi-fi company founded in the early 1970s by 
     <figcaption>Jon Bannenberg</figcaption>
   </figure>
   <figure>
-    <img src="/assets/about/ray-churchhouse.png" alt="Ray Churchhouse" loading="lazy">
-    <figcaption>Ray Churchhouse</figcaption>
+    <img src="/assets/about/ray-churchouse.png" alt="Ray Churchouse" loading="lazy">
+    <figcaption>Ray Churchouse</figcaption>
   </figure>
 </div>
 
