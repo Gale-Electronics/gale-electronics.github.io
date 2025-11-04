@@ -7,7 +7,7 @@ nav_exclude: true
 
 # GS401 Loudspeakers
 
-The **Gale GS401** stands as one of the most iconic British loudspeakers of the 1970s — a symbol of precision engineering and design-led hi-fi.  
+The **Gale GS401** stands as one of the most iconic British loudspeakers of the 1970s, a symbol of precision engineering and design-led hi-fi.  
 This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of **Gale Electronics** and its collaborators remains accessible to restorers and enthusiasts worldwide.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1rem;margin:1.2rem 0;">
