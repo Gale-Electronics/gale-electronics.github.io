@@ -1,219 +1,226 @@
+---
+layout: bare
+title: Gale Electronics Archive
+---
+
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
+<head>
+  <meta charset="utf-8">
+  <title>Gale Electronics Archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An open, version-controlled archive preserving the history, design, and engineering of Gale Electronics, including the GS401 loudspeakers and GT2101 turntable.">
 
-    <!-- Minima base styles -->
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <!-- Canonical & Social -->
+  <link rel="canonical" href="https://gale-electronics.github.io/">
+  <meta property="og:title" content="Gale Electronics Archive">
+  <meta property="og:description" content="Preserving the legacy of Gale Electronics, GS401 loudspeakers, GT2101 turntable, documents, schematics and provenance.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gale-electronics.github.io/">
+  <meta property="og:image" content="https://gale-electronics.github.io/gale-logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Optional: SEO -->
-    {% if site.plugins and site.plugins contains 'jekyll-seo-tag' %}
-      {% seo %}
-    {% endif %}
+  <!-- Primer for sensible defaults -->
+  <link rel="stylesheet" href="https://unpkg.com/@primer/css@21.0.9/dist/primer.css">
 
-    <style>
+  <style>
+    :root{
+      --bg: #fff3cd;
+      --ink: #f0f6fc;
+      --accent: #58a6ff;
+      --card: #ffffff;
+      --cardBorder: #d0d7de;
+      --paper: #f6f8fa;
+      --muted: #57606a;
+    }
+    @media (prefers-color-scheme: light){
       :root{
-        --wrap: 1200px;              /* widened a touch for large screens */
-        --brand: #111;
-        --muted: #666;
-        --accent: #0f766e;           /* teal-ish accent */
-        --card: #fff;
-        --bg: #f7f5ee;               /* warm archival paper */
-        --shadow: 0 6px 24px rgba(0,0,0,.06);
-        --radius: 14px;
+        --bg: #0d1117;
+        --ink: #f0f6fc;
+        --accent: #0969da;
+        --card: #ffffff;
+        --cardBorder: #d0d7de;
+        --paper: #f6f8fa;
+        --muted: #57606a;
       }
+    }
+    html, body { background: var(--paper); }
+    /* Header / Nav */
+    .site-header{
+      display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      margin-bottom: 1rem;
+    }
+    .brand{
+      display:flex; align-items:center; gap:.75rem;
+    }
+    .brand img{ width:40px; height:40px; border-radius:8px; border:1px solid rgba(0,0,0,.06); object-fit:cover }
+    .brand-title{ font-weight:600; font-size:1.05rem; }
+    .site-nav a{ margin-left:1rem; text-decoration:none }
+    .site-nav a:hover{ text-decoration:underline }
+    /* Hero */
+    .hero{
+      background: radial-gradient(1200px 600px at 20% -10%, #1f2328 0%, #0d1117 50%, #0d1117 100%);
+      color: var(--ink);
+      border-radius: 16px;
+      padding: 2.25rem 1.5rem;
+      position: relative; overflow: hidden;
+    }
+    .hero .glow{
+      position:absolute; inset:-40% -20% auto auto;
+      width:900px; height:900px; pointer-events:none; opacity:.18;
+      filter: blur(60px);
+      background: conic-gradient(from 180deg at 50% 50%, #58a6ff, #8b949e, #a5d6ff, #58a6ff);
+      border-radius:50%;
+      mix-blend-mode:screen;
+    }
+    .hero h1{ font-size: clamp(2rem, 2.6rem, 3rem); margin: 0 0 .6rem; }
+    .sub{ color: #c9d1d9; max-width: 75ch; }
+    .badge-archival{
+      display:inline-flex; align-items:center; gap:.5rem;
+      background: #fff1c2; color:#3b2300; border:1px solid #ffd17b;
+      border-radius: .5rem; padding:.4rem .6rem; font-size:.9rem; margin-top: .75rem;
+    }
+    .logo{
+      max-width: 220px; margin: 8px 0 16px; border-radius: 8px; border:1px solid rgba(255,255,255,.08);
+    }
+    /* Cards */
+    .cards{
+      display:grid; gap:16px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      margin-top: 1rem;
+    }
+    .card{
+      background: var(--card); border:1px solid var(--cardBorder); border-radius: 12px;
+      padding: 1rem; transition: transform .08s ease, box-shadow .08s ease;
+      height:100%;
+    }
+    a.card-link{ text-decoration:none }
+    .card:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.08); }
+    .card h3{ margin:.2rem 0 .35rem; font-size: 1.05rem; }
+    .card p{ margin:0; color: var(--muted); }
+    .arrow{ transition: transform .08s ease; }
+    a.card-link:hover .arrow{ transform: translateX(3px); }
+    /* Utilities */
+    .soft-hr{ border:0; height:1px; background: linear-gradient(90deg, transparent, #d0d7de, transparent); margin: 2rem 0; }
+    .link-muted{ color: var(--muted); }
+    .pill{ display:inline-block; font-size:.8rem; background:#e7f3ff; border:1px solid #c7e0ff; color:#024ea4; padding:.22rem .5rem; border-radius: 999px; margin-left:.35rem; }
+    footer{ color: var(--muted); }
+  </style>
 
-      /* Base */
-      body{ background: var(--bg) }
-      .wrap{
-        max-width: var(--wrap);
-        margin: 0 auto;
-        padding-block: 28px;
-        padding-inline: clamp(14px, 4vw, 28px); /* fluid side padding for mobile centring */
-      }
+  <!-- JSON-LD: simple organisation card -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Gale Electronics Archive",
+    "url":"https://gale-electronics.github.io/",
+    "logo":"https://gale-electronics.github.io/gale-logo.jpg",
+    "sameAs":[
+      "https://github.com/Gale-Electronics"
+    ]
+  }
+  </script>
+</head>
 
-      /* Masthead */
-      .masthead{ display:flex; align-items:center; gap:18px; margin:12px 0 22px }
-      .masthead img{ height:44px; width:auto; border-radius:6px }
-      .masthead .meta{ line-height:1.25 }
-      .masthead .site{ font-weight:700; color:var(--brand) }
-      .masthead .desc{ color:var(--muted); font-size:.95rem }
+<body class="p-5">
+  <main class="container-lg">
 
-      /* Breadcrumbs */
-      .breadcrumb{ font-size:.92rem; color:var(--muted); margin-bottom:10px }
-      .breadcrumb a{ color:inherit; text-decoration:none }
-      .breadcrumb a:hover{ text-decoration:underline }
+    <!-- HERO -->
+    <section class="hero" role="region" aria-label="Introduction">
+      <div class="glow" aria-hidden="true"></div>
+      <h1>Gale Electronics Archive</h1>
+      <p class="sub">
+        Preserving the legacy of <strong>Gale Electronics</strong>, from the <strong>GS401</strong> loudspeakers (engineering by Ira Gale, David Lyth, Billy Woodman; styling by Jon Bannenberg)
+        to the <strong>GT2101</strong> turntable (developed with DCA Design Consultants), in a permanent, version-controlled GitHub Pages archive.
+      </p>
+      <div class="badge-archival" role="note" aria-label="Archival notice">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
+        </svg>
+        <span>This is a historical archive. Includes material preserved from <em>galeaudio.com</em> (2011–2016) with attribution.</span>
+      </div>
+    </section>
 
-      /* Banner / notices */
-      .banner{
-        background:linear-gradient(180deg,#fff,#faf7ed);
-        border:1px solid #ece7d5;
-        border-radius:var(--radius);
-        box-shadow:var(--shadow);
-        padding:22px 22px;
-        margin:18px 0 26px;
-      }
-      .banner strong{ color:#222 }
-
-      /* Main card */
-      .content{
-        background:var(--card);
-        border-radius:var(--radius);
-        box-shadow:var(--shadow);
-        padding:28px;
-        border:1px solid #ece7d5;
-        overflow:hidden; /* clips any over-wide child to prevent sideways scroll */
-      }
-
-      /* Local section nav (GT2101 chips) */
-      .local-nav{
-        display:flex;
-        flex-wrap:nowrap;
-        gap:10px;
-        margin:12px 0 22px;
-        overflow-x:auto;
-        -webkit-overflow-scrolling:touch;
-        padding-bottom:6px;
-      }
-      .local-nav::-webkit-scrollbar{ height:6px }
-      .chip{
-        border:1px solid #dcd6bf;
-        border-radius:999px;
-        padding:8px 14px;
-        background:#fff;
-        font-size:.95rem;
-        text-decoration:none;
-        color:#222;
-        white-space:nowrap;
-      }
-      .chip:hover{ border-color:#b9b298 }
-      .chip.is-active{ background:#0f766e0d; border-color:#0f766e; color:var(--accent) }
-
-      /* Footer */
-      .footer{ color:var(--muted); font-size:.9rem; margin:30px 0 10px }
-
-      /* Tidy code & tables on cards */
-      pre, code{ background:#f6f4ea }
-      table{ width:100%; border-collapse:collapse }
-      th, td{ border-bottom:1px solid #eee; padding:.6rem .5rem }
-      th{ text-align:left }
-      .content img, .banner img{ max-width:100%; height:auto; display:block }
-      .content table{ display:block; overflow-x:auto; -webkit-overflow-scrolling:touch }
-
-      /* Optional utility: edge-to-edge sections inside .wrap when needed */
-      .full-bleed{
-        margin-inline: calc(clamp(14px,4vw,28px) * -1);
-        width: calc(100% + clamp(14px,4vw,28px) * 2);
-      }
-
-      /* Responsive grid utilities (used by pages inside {{ content }}) */
-      .content .grid{
-        display:grid;
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-        gap: clamp(12px, 2.6vw, 20px);
-        align-items: stretch;
-      }
-      .content .card{
-        background:#fff;
-        border:1px solid #ece7d5;
-        border-radius:var(--radius);
-        overflow:hidden;
-        display:flex;
-        flex-direction:column;
-        height:100%;
-        box-shadow:var(--shadow);
-      }
-      .content .card img.thumb{
-        width:100%;
-        aspect-ratio:16/9;
-        object-fit:cover;
-        display:block;
-      }
-      .content .card .card-body{ padding:12px 14px; flex:1 }
-
-      /* Tablet tweaks */
-      @media (max-width:960px){
-        .content .grid{ grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) }
-      }
-
-      /* Phone tweaks */
-      @media (max-width:640px){
-        .content{ padding: clamp(18px, 3.6vw, 28px) }
-        .content .grid{ grid-template-columns: 1fr; gap:14px }
-        .content .card{ border-radius:10px }
-      }
-
-      /* Fallback if aspect-ratio unsupported */
-      @supports not (aspect-ratio: 1 / 1){
-        .content .card img.thumb{ height:160px; object-fit:cover }
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="wrap">
-      <header class="masthead">
-        {% assign logo = site.logo | default: '/gale-logo.jpg' %}
-        <img src="{{ logo | relative_url }}" alt="Gale Electronics">
-        <div class="meta">
-          <div class="site">{{ site.title }}</div>
-          <div class="desc">{{ site.description }}</div>
-        </div>
-      </header>
-
-      {% assign home_url = '/' | relative_url %}
-      <div class="breadcrumb">
-        <a href="{{ home_url }}">Home</a>
-        {% if page.collection %}
-          &nbsp;/&nbsp; <a href="{{ '/' | append: page.collection | append: '/' | relative_url }}">{{ page.collection | upcase }}</a>
-        {% endif %}
-        {% if page.title %}
-          &nbsp;/&nbsp; {{ page.title }}
-        {% endif %}
+    <!-- EXPLORE GRID -->
+    <section class="mt-4" role="region" aria-label="Explore sections">
+      <div class="d-flex flex-justify-between flex-items-center mb-2">
+        <h2 class="h3">Explore</h2>
+        <span class="link-muted">Curated sections<span class="pill">Live</span></span>
       </div>
 
-      {% if page.archive_note or page.show_archive_banner %}
-        <section class="banner">
-          <strong>Archival note:</strong>
-          {% if page.archive_note %}
-            {{ page.archive_note }}
-          {% else %}
-            This page preserves original materials from <em>galeaudio.com</em> alongside new research and verified annotations.
-          {% endif %}
-        </section>
-      {% endif %}
+      <div class="cards">
+        <a class="card card-link d-block no-underline" href="/GT2101/" aria-label="GT2101 Turntable archive">
+          <h3>GT2101 Turntable</h3>
+          <p>Photography, adverts, motor notes, interviews, and provenance.</p>
+          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
+        </a>
 
-      {% if page.collection == 'gt2101' %}
-        <nav class="local-nav" aria-label="GT2101 sections">
-          {% assign base = '/GT2101/' | relative_url %}
-          {% assign here = page.url | replace: '//','/' | append: '/' %}
+        <a class="card card-link d-block no-underline" href="/GS401/" aria-label="GS401 Loudspeakers archive">
+          <h3>GS401 Loudspeakers</h3>
+          <p>Design/styling, drivers, crossovers, restoration guidance, and documentation.</p>
+          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
+        </a>
 
-          {% assign items = 
-            "Engineering Drawings & Schematics:/GT2101/engineering-drawings-schematics/,
-             Photographs & Adverts:/GT2101/photographs-adverts/,
-             Components & Parts:/GT2101/components-parts/,
-             Manuals & Literature:/GT2101/manuals-literature/,
-             Technical Notes:/GT2101/technical-notes/,
-             Interviews & Provenance:/GT2101/interviews-provenance/" | split: ',' %}
+        <a class="card card-link d-block no-underline" href="/about" aria-label="About the archive">
+          <h3>About Gale</h3>
+          <p>Who founded Gale, who styled it, and how we preserve the record.</p>
+          <div class="mt-2 f6 color-fg-accent">Read <span class="arrow">→</span></div>
+        </a>
+        
+        <a class="card card-link d-block no-underline" href="/voices" aria-label="Interviews and Stories">
+          <h3>Oral History</h3>
+          <p>Interviews with previous employees and legends.</p>
+          <div class="mt-2 f6 color-fg-accent">Read <span class="arrow">→</span></div>
+        </a>
+      </div>
+    </section>
 
-          {% for pair in items %}
-            {% assign bits  = pair | split: ':' %}
-            {% assign label = bits[0] | strip %}
-            {% assign href  = bits[1] | strip | replace: '//','/' | append: '/' %}
-            <a class="chip {% if here == href %}is-active{% endif %}" href="{{ href | relative_url }}">{{ label }}</a>
-          {% endfor %}
-        </nav>
-      {% endif %}
+    <hr class="soft-hr" aria-hidden="true">
 
-      <main class="content">
-        {{ content }}
-      </main>
+    <!-- COMMUNITY + PROVENANCE -->
+    <section class="gutter-condensed" role="region" aria-label="Community and provenance">
+      <div class="clearfix">
+        <div class="col-12 col-md-7 float-left pr-md-4">
+          <h2 class="h4">Provenance & Credits</h2>
+          <p class="mb-2">
+            This archive collates public materials and community contributions to keep Gale’s story intact.
+            Where possible, sources are named on each page. If you are a rights holder and wish to correct,
+            credit, or remove an item, please get in touch via GitHub issues.
+          </p>
+          <ul class="list-style-none color-fg-muted">
+            <li>• Excerpts preserved from <em>galeaudio.com</em> (circa 2011–2016)</li>
+            <li>• Interviews and contributions from engineers and the community</li>
+            <li>• Versioned on GitHub for transparency and long-term preservation</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-5 float-left">
+          <h2 class="h4">Community</h2>
+          <p>
+            Join the Facebook community “Gale Electronics Owners &amp; Enthusiasts” to share restorations,
+            ask questions, and help fill gaps in the historical record.
+          </p>
+          <p class="mb-0">
+            Prefer email? Add provenance, dates, or documentation via issues or pull requests on GitHub.
+          </p>
+        </div>
+      </div>
+    </section>
 
-      <footer class="footer">
-        {{ site.title }} — Open archive of Gale Electronics. Unless otherwise stated, copyrights remain with their original creators.
-      </footer>
-    </div>
-  </body>
-</html>
+    <hr class="soft-hr" aria-hidden="true">
+
+    <!-- FOOTER -->
+    <footer class="text-small" role="contentinfo">
+      <div class="d-flex flex-justify-between flex-wrap">
+        <div class="mb-2">
+          <strong>Gale Electronics Archive</strong>
+          <span class="link-muted d-block">Open, non-commercial preservation of Gale history, design, and engineering.</span>
+        </div>
+        <div class="mb-2">
+          <span class="link-muted">Maintained on GitHub Pages • CC BY-NC where applicable</span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>="link-muted">Maintained on GitHub Pages • CC BY-NC where applicable</span> </div> </div> </footer> </main> </body> </html>
