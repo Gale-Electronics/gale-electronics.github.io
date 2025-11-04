@@ -42,10 +42,6 @@ This archive preserves the design drawings, technical data, and provenance of th
     <strong>Technical Notes</strong><br>
     <small>Measurements, restoration data, and crossover studies</small>
   </a>
-  <a href="/GS401/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Interviews & Provenance</strong><br>
-    <small>Historical accounts, correspondence, and designer insights</small>
-  </a>
 </div>
 
 ---
