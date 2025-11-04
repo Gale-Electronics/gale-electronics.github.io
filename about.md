@@ -3,11 +3,11 @@ layout: bare
 title: About Gale Electronics
 ---
 
-# About Gale Electronics
+# **About Gale Electronics**
 
 Gale Electronics was a London-based hi-fi company founded in the early 1970s by Ira Gale, an American audio enthusiast who set out to fuse technical excellence with striking industrial design.
 
-## 1973 — The GS401 Loudspeaker
+## **1973 — The GS401 Loudspeaker**
 The first product, the Gale GS401, was engineered by Ira Gale with David Lyth (later founder of Volt Loudspeakers) and Billy Woodman (later founder of ATC).  
 The styling was by Jon Bannenberg, the visionary yacht designer whose influence gave the 401 its distinctive sculptural form with chrome end caps and a fully wrapped cloth enclosure.  
 
