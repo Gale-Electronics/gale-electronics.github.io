@@ -32,7 +32,7 @@ Gale Electronics was a London-based hi-fi company founded in the early 1970s by 
   </figure>
 </div>
 
-## 1973 — The GS401 Loudspeaker
+## 1973 The GS401 Loudspeaker
 
 The first product, the Gale GS401, originated from a working prototype that Ira Gale had already developed before any formal team was assembled.
 When David Lyth joined the project, later founder of Volt Loudspeakers, he recalled in interview that “it was all about production” rather than design, as Ira had already created a functioning model of the speaker. The same applied to Billy Woodman (later founder of ATC), who was brought in to help refine and industrialise what was already taking shape.
@@ -45,14 +45,14 @@ Early production used US-made CTS 8-inch woofers, later replaced by Gale’s own
 
 Revisions followed: the **401A** (chrome end caps), **401B** (walnut cabinet with flat grille) and **401C** (curved grille).
 
-## 1975 — The GT2101 Turntable
+## 1975 The GT2101 Turntable
 
 The **Gale GT2101**, developed with **John Carter’s DCA Design Consultants**, represented Gale’s most ambitious statement.  
 Its transparent acrylic chassis, stainless-steel motor pod and LED speed-display tower reflected the scientific precision of a servo-controlled direct-drive motor system co-developed by **Dr Sao Win** and **Ira Gale**.
 
 Each unit was hand-built in London; fewer than a hundred are known to exist. Today it remains one of the rarest and most visually striking British turntables.
 
-## 1977–1982 — Amplifiers and Later Years
+## 1977–1982 Amplifiers and Later Years
 
 By the late 1970s Gale expanded into amplifiers and accessories, pursuing the same blend of performance and design innovation.  
 Production ceased in the early 1980s, but Gale products have since achieved cult status among collectors and listeners.
