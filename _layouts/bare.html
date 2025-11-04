@@ -24,15 +24,8 @@
         --shadow: 0 6px 24px rgba(0,0,0,.06);
         --radius: 14px;
       }
-
       body{background:var(--bg)}
-      .wrap{
-        max-width:var(--wrap);
-        margin:0 auto;
-        padding-block:28px;
-        padding-inline:clamp(14px,4vw,28px); /* fluid side padding for better mobile centring */
-      }
-
+      .wrap{max-width:var(--wrap);margin:0 auto;padding:28px}
       .masthead{
         display:flex;align-items:center;gap:18px;margin:12px 0 22px
       }
@@ -40,23 +33,18 @@
       .masthead .meta{line-height:1.25}
       .masthead .site{font-weight:700;color:var(--brand)}
       .masthead .desc{color:var(--muted);font-size:.95rem}
-
       .banner{
         background:linear-gradient(180deg,#fff, #faf7ed);
         border:1px solid #ece7d5;border-radius:var(--radius);
         box-shadow:var(--shadow);padding:22px 22px;margin:18px 0 26px
       }
       .banner strong{color:#222}
-
       .content{
         background:var(--card);border-radius:var(--radius);
-        box-shadow:var(--shadow);padding:28px;border:1px solid #ece7d5;
-        overflow:hidden; /* clip any over-wide child to avoid sideways scroll */
+        box-shadow:var(--shadow);padding:28px;border:1px solid #ece7d5
       }
-
       .local-nav{
-        display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 22px;
-        overflow-x:auto; -webkit-overflow-scrolling:touch; /* graceful on small screens */
+        display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 22px
       }
       .chip{
         border:1px solid #dcd6bf;border-radius:999px;padding:8px 14px;
@@ -64,58 +52,19 @@
       }
       .chip:hover{border-color:#b9b298}
       .chip.is-active{background:#0f766e0d;border-color:#0f766e;color:var(--accent)}
-
       .footer{
         color:var(--muted);font-size:.9rem;margin:30px 0 10px
       }
-
       .breadcrumb{
         font-size:.92rem;color:var(--muted);margin-bottom:10px
       }
       .breadcrumb a{color:inherit;text-decoration:none}
       .breadcrumb a:hover{text-decoration:underline}
-
       /* Make code blocks & tables look tidy on cards */
       pre, code{background:#f6f4ea}
       table{width:100%;border-collapse:collapse}
       th, td{border-bottom:1px solid #eee;padding:.6rem .5rem}
       th{text-align:left}
-
-      /* Safety: media/table overflow */
-      .content img, .banner img{max-width:100%;height:auto;display:block}
-      .content table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
-
-      /* Optional: edge-to-edge section inside .wrap when you need it */
-      .full-bleed{
-        margin-inline: calc(clamp(14px,4vw,28px) * -1);
-        width: calc(100% + clamp(14px,4vw,28px) * 2);
-      }
-
-      /* Lightweight grid/card utilities for pages that use them inside {{ content }} */
-      .content .grid{
-        display:grid;
-        grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
-        gap:clamp(12px,2.6vw,20px);
-        align-items:stretch;
-      }
-      .content .card{
-        background:#fff;border:1px solid #ece7d5;border-radius:var(--radius);
-        overflow:hidden;display:flex;flex-direction:column;height:100%;box-shadow:var(--shadow)
-      }
-      .content .card img.thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
-      .content .card .card-body{padding:12px 14px;flex:1}
-
-      @media (max-width:960px){
-        .content .grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
-      }
-      @media (max-width:640px){
-        .content{padding:clamp(18px,3.6vw,28px)}
-        .content .grid{grid-template-columns:1fr;gap:14px}
-        .content .card{border-radius:10px}
-      }
-      @supports not (aspect-ratio: 1 / 1){
-        .content .card img.thumb{height:160px;object-fit:cover}
-      }
     </style>
   </head>
   <body>
@@ -154,7 +103,7 @@
       {% if page.collection == 'gt2101' %}
       <nav class="local-nav" aria-label="GT2101 sections">
         {% assign base = '/GT2101/' | relative_url %}
-        {% assign here = page.url | replace: '//','/' | append: '/' %}
+        {% assign here = page.url %}
         {% assign items = 
           "Engineering Drawings & Schematics:/GT2101/engineering-drawings-schematics/,
            Photographs & Adverts:/GT2101/photographs-adverts/,
@@ -165,7 +114,7 @@
         {% for pair in items %}
           {% assign bits = pair | split: ':' %}
           {% assign label = bits[0] | strip %}
-          {% assign href  = bits[1] | strip | replace: '//','/' | append: '/' %}
+          {% assign href  = bits[1] | strip %}
           <a class="chip {% if here == href %}is-active{% endif %}" href="{{ href | relative_url }}">{{ label }}</a>
         {% endfor %}
       </nav>
