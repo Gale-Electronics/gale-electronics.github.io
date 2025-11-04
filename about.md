@@ -35,7 +35,7 @@ This material is drawn from:
 - Interviews with **David Lyth (Volt Loudspeakers)** and **Bruce Gale**  
 - Styling records from **Jon Bannenberg / Bannenberg & Rowell Design**  
 - Technical data from **DCA Design Consultants**  
-- Research and curation by **Matt The Shepherd (Vintage Gale, UK)**  
+- Research and curation by **John Maybury (galeaudio.com), Dave Smith & Matt The Shepherd (Vintage Gale, UK)**  
 - Contributions from the international Gale community  
 
 [Return to Archive Home](https://gale-electronics.github.io)
