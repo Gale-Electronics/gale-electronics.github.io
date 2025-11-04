@@ -1,3 +1,8 @@
+---
+title: Components
+layout: bare
+---
+
 ## Crossover — Speaker Wiring (PDF)
 
 <object data="/GS401/components/crossover-speaker-wiring.pdf"
