@@ -34,7 +34,7 @@ title: Gale Electronics Archive
     }
     html, body { background: var(--paper); margin: 0; }
 
-    /* Hero styles */
+    /* Hero */
     .hero {
       background: radial-gradient(1200px 600px at 20% -10%, #1f2328 0%, #0d1117 50%, #0d1117 100%);
       color: var(--ink);
@@ -46,15 +46,13 @@ title: Gale Electronics Archive
     .hero .glow {
       position: absolute;
       inset: -40% -20% auto auto;
-      width: 900px;
-      height: 900px;
-      opacity: 0.18;
-      filter: blur(60px);
+      width: 900px; height: 900px;
+      opacity: 0.18; filter: blur(60px);
       background: conic-gradient(from 180deg at 50% 50%, #58a6ff, #8b949e, #a5d6ff, #58a6ff);
-      border-radius: 50%;
-      mix-blend-mode: screen;
+      border-radius: 50%; mix-blend-mode: screen;
       pointer-events: none;
     }
+
     .hero h1 {
       font-size: clamp(2rem, 4vw, 2.8rem);
       margin: 0 0 .6rem;
@@ -64,6 +62,7 @@ title: Gale Electronics Archive
       max-width: 70ch;
       margin: 0;
     }
+
     .hero-logo {
       position: absolute;
       top: 1.2rem;
@@ -76,6 +75,7 @@ title: Gale Electronics Archive
       padding: 4px 6px;
     }
 
+    /* Archive badge */
     .badge-archival {
       display: inline-flex;
       align-items: center;
@@ -89,6 +89,7 @@ title: Gale Electronics Archive
       margin-top: .9rem;
     }
 
+    /* Responsive layout */
     @media (max-width: 900px) {
       .hero {
         text-align: center;
@@ -102,6 +103,7 @@ title: Gale Electronics Archive
       .hero .sub { margin: 0 auto; }
     }
 
+    /* Cards */
     .cards {
       display: grid;
       gap: 16px;
@@ -124,13 +126,13 @@ title: Gale Electronics Archive
     .arrow { transition: transform .08s ease; }
     a.card-link:hover .arrow { transform: translateX(3px); }
 
+    /* Utilities */
     .soft-hr {
       border: 0;
       height: 1px;
       background: linear-gradient(90deg, transparent, #d0d7de, transparent);
       margin: 2rem 0;
     }
-
     footer {
       color: var(--muted);
       font-size: .95rem;
@@ -177,7 +179,6 @@ title: Gale Electronics Archive
           <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
         </a>
 
-      <div class="cards">
         <a class="card card-link d-block no-underline" href="/GT2101/">
           <h3>GT2101 Turntable</h3>
           <p>Photography, adverts, motor notes, interviews, and provenance.</p>
