@@ -23,7 +23,7 @@ layout: bare
 
 ---
 
-## Crossover — Shopping List (PDF)
+## Capacitor — Shopping List (PDF)
 
 <object data="/GS401/components/crossover-shopping-list.pdf"
         type="application/pdf"
