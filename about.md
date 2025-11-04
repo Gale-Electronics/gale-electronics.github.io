@@ -12,7 +12,7 @@ The first product, the Gale GS401, was engineered by Ira Gale with David Lyth (l
 The styling was by Jon Bannenberg, the visionary yacht designer whose influence gave the 401 its distinctive sculptural form with chrome end caps and a fully wrapped cloth enclosure.  
 
 Early production used US-made CTS 8-inch woofers, later replaced by Gale’s own British-built drivers. The sealed-box design, paired with Peerless and Celestion units, produced a rich, balanced sound that helped the GS401 become one of the most recognisable loudspeakers of the 1970s.  
-Several revisions followed — the **401A** with chrome end caps, the **401B** with a walnut cabinet and flat grille, and the **401C** with a curved grille front.
+Several revisions followed, the **401A** with chrome end caps, the **401B** with a walnut cabinet and flat grille, and the **401C** with a curved grille front.
 
 ## **1975 — The GT2101 Turntable**
 The **Gale GT2101** turntable, developed with John Carter’s DCA Design Consultants, embodied the company’s most ambitious design.  
