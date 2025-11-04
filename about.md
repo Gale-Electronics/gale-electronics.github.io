@@ -9,33 +9,35 @@ Gale Electronics was a London-based hi-fi company founded in the early 1970s by 
 
 ## Key Figures
 
-<div class="about-grid">
-  <figure>
-    <img src="/assets/about/ira-gale.png" alt="Ira Gale" loading="lazy">
-    <figcaption>Ira Gale</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/about/david-lyth.png" alt="David Lyth" loading="lazy">
-    <figcaption>David Lyth</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/about/bill-woodman.png" alt="Billy Woodman" loading="lazy">
-    <figcaption>Billy Woodman</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/about/jon-bannenberg.png" alt="Jon Bannenberg" loading="lazy">
-    <figcaption>Jon Bannenberg</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/about/ray-churchouse.png" alt="Ray Churchouse" loading="lazy">
-    <figcaption>Ray Churchouse</figcaption>
-  </figure>
+<div class="about-section">
+  <div class="about-grid">
+    <figure>
+      <img src="/assets/about/ira-gale.png" alt="Ira Gale" loading="lazy">
+      <figcaption>Ira Gale</figcaption>
+    </figure>
+    <figure>
+      <img src="/assets/about/david-lyth.png" alt="David Lyth" loading="lazy">
+      <figcaption>David Lyth</figcaption>
+    </figure>
+    <figure>
+      <img src="/assets/about/bill-woodman.png" alt="Billy Woodman" loading="lazy">
+      <figcaption>Billy Woodman</figcaption>
+    </figure>
+    <figure>
+      <img src="/assets/about/jon-bannenberg.png" alt="Jon Bannenberg" loading="lazy">
+      <figcaption>Jon Bannenberg</figcaption>
+    </figure>
+    <figure>
+      <img src="/assets/about/ray-churchouse.png" alt="Ray Churchhouse" loading="lazy">
+      <figcaption>Ray Churchhouse</figcaption>
+    </figure>
+  </div>
 </div>
 
 ## 1973 - The GS401 Loudspeaker
 
-The first product, the Gale GS401, originated from a working prototype that Ira Gale had already developed before any formal team was assembled.
-When David Lyth joined the project, later founder of Volt Loudspeakers, he recalled in interview that “it was all about production” rather than design, as Ira had already created a functioning model of the speaker. The same applied to Billy Woodman (later founder of ATC), who was brought in to help refine and industrialise what was already taking shape.
+The first product, the Gale GS401, originated from a working prototype that Ira Gale had already developed before any formal team was assembled.  
+When David Lyth joined the project — later founder of Volt Loudspeakers — he recalled in interview that *“it was all about production”* rather than design, as Ira had already created a functioning model of the speaker. The same applied to Billy Woodman (later founder of ATC), who was brought in to help refine and industrialise what was already taking shape.
 
 Jon Bannenberg’s sculptural styling, with its chrome end caps and fully wrapped cloth enclosure, had been conceived even earlier.
 
@@ -81,16 +83,23 @@ This material is drawn from:
 [Return to Archive Home](https://gale-electronics.github.io)
 
 <style>
+.about-section {
+  background: #f7f5ee; /* warm archival paper tone */
+  border: 1px solid #e5dfc9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 18px rgba(0,0,0,.05);
+}
 .about-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
   gap:1rem;
-  margin:1.5rem 0 2rem;
   text-align:center;
 }
 .about-grid img{
   width:100%;
-  max-width:600px; /* matches the 600px resize guideline */
+  max-width:600px;
   height:auto;
   border-radius:8px;
   box-shadow:0 4px 16px rgba(0,0,0,.08);
