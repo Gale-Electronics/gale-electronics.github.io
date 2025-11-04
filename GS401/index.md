@@ -26,6 +26,10 @@ This archive preserves the design drawings, technical data, and provenance of th
     <strong>Photographs & Adverts</strong><br>
     <small>Press photography, brochures, and marketing archives</small>
   </a>
+  <a href="/GS401/speaker-models/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Speaker Models</strong><br>
+    <small>3x models, A/B and C</small>
+  </a>
   <a href="/GS401/components/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Components & Parts</strong><br>
     <small>Drivers, crossovers, and cabinet hardware</small>
