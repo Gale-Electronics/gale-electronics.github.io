@@ -14,7 +14,7 @@ This archive preserves the design drawings, technical data, and provenance of th
   <strong>Archival note:</strong><br>
   Styled by <strong>Jon Bannenberg</strong> with acoustic engineering by <strong>Billy Woodman</strong> and <strong>David Lyth</strong> under the direction of <strong>Ira Gale</strong>, the GS401 combined radical styling with studio-grade performance.  
   Its chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of British audio design.  
-  Each model — the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (black), and <strong>GS401C</strong> (walnut veneer) — shared identical drivers and crossovers, differing only in finish.
+  Each model, the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (black), and <strong>GS401C</strong> (walnut veneer), shared identical drivers and crossovers, differing only in finish.
 </div>
 
 ---
