@@ -42,6 +42,7 @@ Jon Bannenberg’s sculptural styling, with its chrome end caps and fully wrappe
 This timeline also aligns with Ray Churchhouse’s memory of supplying Ira Gale with loudspeaker components and parts during the period when Ira was experimenting and building the first working examples, long before production began.
 
 Early production used US-made CTS 8-inch woofers, later replaced by Gale’s own British-built units. The sealed-box design, paired with Peerless and Celestion drivers, produced a rich, balanced sound that helped the GS401 become one of the most recognisable loudspeakers of the 1970s.  
+
 Revisions followed: the **401A** (chrome end caps), **401B** (walnut cabinet with flat grille) and **401C** (curved grille).
 
 ## 1975 — The GT2101 Turntable
