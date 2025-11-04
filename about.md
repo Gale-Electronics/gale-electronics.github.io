@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bare
 title: About Gale Electronics
 ---
 
