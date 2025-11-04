@@ -5,7 +5,7 @@ permalink: /GS401/technical-notes/
 nav_exclude: true
 ---
 
-# Manuals & Literature
+# Technical Notes
 
 A home for **Tecnical notes, period write-ups, service notes, and contemporary research** related to the **Gale GS401**.
 
