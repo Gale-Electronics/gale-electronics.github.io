@@ -17,7 +17,7 @@ A home for **factory manuals, period write-ups, service notes, and contemporary 
 ## Coming soon
 
 - Owner’s/Setup guide (searchable)  
-- Service adjustments (33⅓ / 45, strobe/LED display)  
+- Service adjustments  
 - Crossover theory overview  
 - Period adverts and reviews (with dates and sources)  
 - Provenance notes and interview excerpts
