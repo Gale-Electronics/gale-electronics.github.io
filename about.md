@@ -49,16 +49,19 @@ title: About Gale Electronics
   </div>
 </article>
 
-  <article class="person-card">
-    <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
-    <div class="person-body">
-      <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
-      <p>Defined Gale’s sculptural aesthetic, blending minimal forms with bold materials.</p>
-      <ul class="highlights">
-        <li>GS401 signature: chrome end caps, fully wrapped cloth, and the distinctive chrome stands.</li>
-      </ul>
-    </div>
-  </article>
+<article class="person-card">
+  <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
+  <div class="person-body">
+    <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
+    <p>Australian-born designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
+    <ul class="highlights">
+      <li>Conceived the GS401’s defining look — chrome end caps, fully wrapped cloth, and balanced proportions.</li>
+      <li>Introduced design language that bridged audio, architecture, and luxury yacht styling.</li>
+      <li>Went on to establish an international reputation, shaping the field of contemporary yacht design.</li>
+    </ul>
+  </div>
+</article>
+
 
   <article class="person-card">
     <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
