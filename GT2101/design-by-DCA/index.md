@@ -55,7 +55,7 @@ permalink: /GT2101/design-by-DCA/
   <!-- Team photo (add your actual team image path if different) -->
   <figure>
     <a href="#img-team">
-      <img class="thumb" src="/GT2101/gallery/DCA_Design_Consultants_Studio_Team_1970s.jpg"
+      <img class="thumb" src="/GT2101/design-by-DCA/DCA_Design_Consultants_Studio_Team_1970s.jpg"
            alt="DCA Design Consultants team, black-and-white studio portrait">
     </a>
     <figcaption>DCA Design Consultants — black-and-white studio portrait from the GT2101 era.</figcaption>
@@ -63,7 +63,7 @@ permalink: /GT2101/design-by-DCA/
 
   <figure>
     <a href="#img-ct">
-      <img class="thumb" src="/GT2101/gallery/GT2101_Control-Tower_front-buttons.jpg"
+      <img class="thumb" src="/GT2101/design-by-DCA/GT2101_Control-Tower_front-buttons.jpg"
            alt="GT2101 control tower front view with red and green buttons">
     </a>
     <figcaption>Cylindrical control tower of the GT2101, showing the red and green power switches on its brushed-steel front panel.</figcaption>
@@ -71,7 +71,7 @@ permalink: /GT2101/design-by-DCA/
 
   <figure>
     <a href="#img-top">
-      <img class="thumb" src="/GT2101/gallery/GT2101_Turntable_topdown_with-control-tower.jpg"
+      <img class="thumb" src="/GT2101/design-by-DCA/GT2101_Turntable_topdown_with-control-tower.jpg"
            alt="Top-down view of the GT2101 turntable with control tower and coiled connection cable">
     </a>
     <figcaption>Top-down view of the GT2101 turntable with its external control tower connected by a coiled cable, displaying the LED speed readout.</figcaption>
@@ -79,7 +79,7 @@ permalink: /GT2101/design-by-DCA/
 
   <figure>
     <a href="#img-34">
-      <img class="thumb" src="/GT2101/gallery/GT2101_Turntable_three-quarter-angle.jpg"
+      <img class="thumb" src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg"
            alt="Three-quarter angled view of the GT2101 turntable">
     </a>
     <figcaption>Three-quarter angle revealing the acrylic layer construction and stainless-steel isolation pods supporting the floating platter assembly.</figcaption>
@@ -87,7 +87,7 @@ permalink: /GT2101/design-by-DCA/
 
   <figure>
     <a href="#img-side">
-      <img class="thumb" src="/GT2101/gallery/GT2101_Turntable_side-profile_with-control-tower.jpg"
+      <img class="thumb" src="/GT2101/design-by-DCA/GT2101_Turntable_side-profile_with-control-tower.jpg"
            alt="Side profile of GT2101 with control tower">
     </a>
     <figcaption>Side profile showing the GT2101 turntable and its companion control tower — a striking combination of engineering precision and industrial design.</figcaption>
@@ -95,7 +95,7 @@ permalink: /GT2101/design-by-DCA/
 
   <figure>
     <a href="#img-detail">
-      <img class="thumb" src="/GT2101/gallery/GT2101_Turntable_right-side_detail-arm-base.jpg"
+      <img class="thumb" src="/GT2101/design-by-DCA/GT2101_Turntable_right-side_detail-arm-base.jpg"
            alt="Right side close-up of GT2101 tonearm and acrylic plinth structure">
     </a>
     <figcaption>Close-up of the right side, highlighting the tonearm base and layered acrylic/steel plinth structure that defined the GT2101’s distinctive form.</figcaption>
@@ -105,32 +105,32 @@ permalink: /GT2101/design-by-DCA/
 
 <!-- Lightbox targets -->
 <a href="#" class="lightbox" id="img-team">
-  <img src="/GT2101/gallery/DCA_Team_black-and-white.jpg" alt="DCA team portrait, enlarged">
+  <img src="/GT2101/design-by-DCA/DCA_Team_black-and-white.jpg" alt="DCA team portrait, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="img-ct">
-  <img src="/GT2101/gallery/GT2101_Control-Tower_front-buttons.jpg" alt="GT2101 control tower, enlarged">
+  <img src="/GT2101/design-by-DCA/GT2101_Control-Tower_front-buttons.jpg" alt="GT2101 control tower, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="img-top">
-  <img src="/GT2101/gallery/GT2101_Turntable_topdown_with-control-tower.jpg" alt="GT2101 top-down with control tower, enlarged">
+  <img src="/GT2101/design-by-DCA/GT2101_Turntable_topdown_with-control-tower.jpg" alt="GT2101 top-down with control tower, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="img-34">
-  <img src="/GT2101/gallery/GT2101_Turntable_three-quarter-angle.jpg" alt="GT2101 three-quarter angle, enlarged">
+  <img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg" alt="GT2101 three-quarter angle, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="img-side">
-  <img src="/GT2101/gallery/GT2101_Turntable_side-profile_with-control-tower.jpg" alt="GT2101 side profile with control tower, enlarged">
+  <img src="/GT2101/design-by-DCA/GT2101_Turntable_side-profile_with-control-tower.jpg" alt="GT2101 side profile with control tower, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="img-detail">
-  <img src="/GT2101/gallery/GT2101_Turntable_right-side_detail-arm-base.jpg" alt="GT2101 right-side detail at arm base, enlarged">
+  <img src="/GT2101/design-by-DCA/GT2101_Turntable_right-side_detail-arm-base.jpg" alt="GT2101 right-side detail at arm base, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
