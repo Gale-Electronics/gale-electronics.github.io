@@ -4,57 +4,24 @@ layout: bare
 permalink: /GS401/photographs-adverts/
 ---
 
-<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<title>GS401 Photographs & Adverts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  :root{
-    --bg:#f7f5ee;
-    --card:#ffffff;
-    --border:#ddd;
-    --ink:#222;
-    --muted:#666;
-    --accent:#0a7;
-  }
-  html,body{background:var(--bg);margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink)}
-  .wrap{max-width:1100px;margin:22px auto;padding:0 16px}
-  h1{font-size:1.9rem;margin:.3em 0 .8em}
-  .toprow{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px}
-  .back a{color:var(--accent);text-decoration:none}
-  .hint{font-size:.9rem;color:var(--muted)}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
-  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;text-align:center;box-shadow:0 1px 0 rgba(0,0,0,.02)}
-  .card:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(0,0,0,.06)}
-  .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-  .meta{padding:8px 10px;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-top:1px solid var(--border)}
-  .empty{padding:14px 12px;border:1px dashed var(--border);border-radius:10px;background:#fff}
-  .controls{display:flex;gap:8px;align-items:center;margin:10px 0 16px}
-  .filter{flex:1;display:flex}
-  .filter input{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;font-size:14px}
-  .count{font-size:.9rem;color:var(--muted)}
-  @media (prefers-reduced-motion:no-preference){
-    .card{transition:transform .15s ease, box-shadow .2s ease}
-  }
-</style>
-
 <div class="wrap">
   <div class="toprow">
     <div class="back"><a href="/GS401/">&larr; Back to GS401</a></div>
-    <div class="hint">Images in this folder (and sub-folders) are listed automatically.</div>
+    <div class="hint">Folders and images below are listed automatically from this path.</div>
   </div>
 
-  <h1>GS401 Photographs &amp; Adverts</h1>
+  <h1>GS401 — Photographs &amp; Adverts</h1>
 
   <div class="controls">
     <div class="filter">
-      <input id="q" type="search" placeholder="Filter by file name… (e.g. brochure, chrome, 401A)">
+      <input id="q" type="search" placeholder="Filter by name or folder… (e.g. brochure, chrome, advert)">
     </div>
     <div class="count" id="count"></div>
   </div>
 
-  <div class="grid" id="grid">
+  {%- comment -%}
+  Collect image files under this page directory (and subfolders)
+  {%- endcomment -%}
   {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
   {% assign images = "" | split: "" %}
   {% for f in files %}
@@ -63,45 +30,150 @@ permalink: /GS401/photographs-adverts/
     {% endif %}
   {% endfor %}
   {% assign images = images | sort: "name" %}
+
+  {%- comment -%}
+  Build a list of first-level subfolders (relative to page.dir)
+  {%- endcomment -%}
+  {% assign subfolders = "" | split: "" %}
+  {% for f in images %}
+    {% assign rel = f.path | remove_first: page.dir %}
+    {% assign first = rel | split: "/" | first %}
+    {% if first and first != "" and first != f.name %}
+      {% assign subfolders = subfolders | push: first %}
+    {% endif %}
+  {% endfor %}
+  {% assign subfolders = subfolders | uniq | sort %}
+
+  <!-- Folder Cards -->
+  <h2 class="section-title">Folders</h2>
+  <div class="grid" id="folders">
+    {% if subfolders.size == 0 %}
+      <div class="empty">No subfolders yet. Create folders inside <code>{{ page.dir }}</code> (e.g. <code>adverts/</code>, <code>product-shots/</code>) and drop images in.</div>
+    {% else %}
+      {% for folder in subfolders %}
+        {% assign prefix = page.dir | append: folder | append: "/" %}
+        {% assign repimgs = images | where_exp: "x", "x.path contains prefix" %}
+        {% assign rep = repimgs.first %}
+        {% assign label = folder | replace: "-", " " | replace: "_", " " %}
+        <a href="{{ prefix }}" class="card folder-card" data-name="{{ folder | downcase }}" data-type="folder">
+          {% if rep %}
+            <img class="thumb" src="{{ rep.path }}" alt="{{ label }} (folder preview)" loading="lazy" decoding="async">
+          {% else %}
+            <div class="thumb thumb--placeholder" aria-hidden="true"></div>
+          {% endif %}
+          <div class="meta">
+            <strong>{{ label }}</strong>
+            <span class="chip">{{ repimgs.size }} image{% if repimgs.size != 1 %}s{% endif %}</span>
+          </div>
+        </a>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <!-- All Images -->
+  <h2 class="section-title">All Images</h2>
+  <div class="grid" id="grid">
   {% if images.size == 0 %}
-    <div class="empty">No images found yet. Drop image files (<code>.jpg</code>, <code>.png</code>, <code>.webp</code>, <code>.gif</code>) into <code>{{ page.dir }}</code> or any sub-folder and they’ll appear here automatically.</div>
+    <div class="empty">No images found. Add <code>.jpg</code>, <code>.png</code>, <code>.webp</code> or <code>.gif</code> files under <code>{{ page.dir }}</code> and they’ll appear here.</div>
   {% else %}
     {% for f in images %}
       {% assign base = f.name | split: "." | first %}
       {% assign caption = base | replace: "-", " " | replace: "_", " " %}
-      <a href="{{ f.path }}" class="card" data-name="{{ f.name | downcase }}">
+      {% assign rel = f.path | remove_first: page.dir %}
+      {% assign folder = rel | split: "/" | first %}
+      {% if folder == f.name %}{% assign folder = "" %}{% endif %}
+      <a href="{{ f.path }}" class="card" data-name="{{ f.name | downcase }} {{ folder | downcase }}" data-type="image">
         <img class="thumb" src="{{ f.path }}" alt="{{ caption }}" loading="lazy" decoding="async">
-        <div class="meta">{{ caption }}</div>
+        <div class="meta">
+          <span class="label">{{ caption }}</span>
+          {% if folder and folder != "" %}
+            <span class="chip">{{ folder | replace: "-", " " | replace: "_", " " }}</span>
+          {% endif %}
+        </div>
       </a>
     {% endfor %}
   {% endif %}
   </div>
 </div>
 
+<style>
+  :root{
+    --bg:#f7f5ee;
+    --card:#ffffff;
+    --border:#e5dfc9;
+    --ink:#222;
+    --muted:#666;
+    --accent:#6e9fff; /* Gale blue */
+    --shadow:0 6px 18px rgba(0,0,0,.06);
+    --radius:14px;
+    --wrap:1100px;
+  }
+  html,body{background:var(--bg);margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink)}
+  .wrap{max-width:var(--wrap);margin:22px auto;padding:0 16px}
+  h1{font-size:1.9rem;margin:.3em 0 .8em}
+  h2.section-title{font-size:1.2rem;margin:1.4rem 0 .6rem;color:#0b1b3a}
+
+  .toprow{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px}
+  .back a{color:var(--accent);text-decoration:none}
+  .hint{font-size:.9rem;color:var(--muted)}
+
+  .controls{display:flex;gap:8px;align-items:center;margin:10px 0 16px}
+  .filter{flex:1;display:flex}
+  .filter input{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;font-size:14px}
+  .count{font-size:.9rem;color:var(--muted)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:12px;
+    overflow:hidden;
+    text-align:left;
+    box-shadow:var(--shadow);
+    transition:transform .15s ease, box-shadow .2s ease;
+  }
+  .card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+  .thumb--placeholder{background:linear-gradient(135deg,#eef3ff,#f6f8ff)}
+  .meta{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:10px;padding:10px 12px;font-size:14px;border-top:1px solid var(--border)
+  }
+  .label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .chip{
+    font-size:.78rem;color:#0b1b3a;background:#e9f0ff;border:1px solid #d6e3ff;
+    padding:.15rem .45rem;border-radius:999px;white-space:nowrap
+  }
+
+  /* Folder card styling */
+  .folder-card .meta strong{color:#0b1b3a}
+  .empty{padding:14px 12px;border:1px dashed var(--border);border-radius:10px;background:#fff}
+</style>
+
 <script>
   (function(){
     var q = document.getElementById('q');
-    var grid = document.getElementById('grid');
-    var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+    var grids = [document.getElementById('folders'), document.getElementById('grid')];
+    var cards = [];
+    grids.forEach(function(g){
+      if(!g) return;
+      cards = cards.concat(Array.prototype.slice.call(g.querySelectorAll('.card')));
+    });
     var count = document.getElementById('count');
 
     function updateCount(){
       var visible = cards.filter(function(c){ return c.style.display !== 'none'; }).length;
       count.textContent = visible + ' of ' + cards.length;
     }
-
     function filter(){
       var term = (q.value || '').trim().toLowerCase();
       cards.forEach(function(c){
-        var name = c.getAttribute('data-name');
+        var name = (c.getAttribute('data-name') || '').toLowerCase();
         c.style.display = name.indexOf(term) !== -1 ? '' : 'none';
       });
       updateCount();
     }
-
-    if(q){
-      q.addEventListener('input', filter);
-    }
+    if(q){ q.addEventListener('input', filter); }
     updateCount();
   })();
 </script>
