@@ -51,7 +51,7 @@ permalink: /GT2101/marketing/
 
   <figure>
     <a href="#mkt-1">
-      <img src="/marketing/Gale-GT2101-Blue2.jpg"
+      <img src="/GT2101/marketing/Gale-GT2101-Blue2.jpg"
            alt="Publicity photo of the Gale GT2101 turntable with blue lighting and control tower">
     </a>
     <figcaption>
@@ -61,7 +61,7 @@ permalink: /GT2101/marketing/
 
   <figure>
     <a href="#mkt-2">
-      <img src="/marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg"
+      <img src="/GT2101//marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg"
            alt="Studio photograph of the Gale GT2101 turntable taken by DCA Design Consultants">
     </a>
     <figcaption>
@@ -71,7 +71,7 @@ permalink: /GT2101/marketing/
 
   <figure>
     <a href="#mkt-3">
-      <img src="/marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg"
+      <img src="/GT2101//marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg"
            alt="Magazine page from Radio Gijutsu August 1976 featuring the GT2101 cartridge guide">
     </a>
     <figcaption>
@@ -81,7 +81,7 @@ permalink: /GT2101/marketing/
 
   <figure>
     <a href="#mkt-4">
-      <img src="/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg"
+      <img src="/GT2101//marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg"
            alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976">
     </a>
     <figcaption>
@@ -93,22 +93,22 @@ permalink: /GT2101/marketing/
 
 <!-- LIGHTBOX TARGETS -->
 <a href="#" class="lightbox" id="mkt-1">
-  <img src="/marketing/Gale-GT2101-Blue2.jpg" alt="Publicity photo of the Gale GT2101 turntable with blue lighting and control tower, enlarged">
+  <img src="/GT2101/marketing/Gale-GT2101-Blue2.jpg" alt="Publicity photo of the Gale GT2101 turntable with blue lighting and control tower, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="mkt-2">
-  <img src="/marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg" alt="Studio photograph of the Gale GT2101 turntable taken by DCA Design Consultants, enlarged">
+  <img src="/GT2101/marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg" alt="Studio photograph of the Gale GT2101 turntable taken by DCA Design Consultants, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="mkt-3">
-  <img src="/marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg" alt="Magazine page from Radio Gijutsu August 1976 featuring the GT2101 cartridge guide, enlarged">
+  <img src="/GT2101/marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg" alt="Magazine page from Radio Gijutsu August 1976 featuring the GT2101 cartridge guide, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <a href="#" class="lightbox" id="mkt-4">
-  <img src="/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg" alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976, enlarged">
+  <img src="/GT2101/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg" alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
