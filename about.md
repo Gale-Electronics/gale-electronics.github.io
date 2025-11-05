@@ -20,7 +20,6 @@ title: About Gale Electronics
         <li>Built the first working GS401 prototype in his London workshop before formal production began.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
         <li>Collaborated with Dr Sao Win and DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
-        <li>Approached hi-fi not as a hobby, but as an engineering challenge — “to make audio as precise as machinery.”</li>
       </ul>
     </div>
   </article>
