@@ -69,7 +69,7 @@ title: About Gale Electronics
         <li>Eyewitness to Ira’s early component trials and experimentation.</li>
         <li>Preserved memories that help date the pre-production timeline.</li>
     </ul>
-    <a href="/assets/docs/David-Lyth-Interview.pdf" class="person-link">↳ Read interview</a>
+    <a href="/assets/audio/Ray-Churchouse-Interview.wav" class="person-link">↳ Listen to interview</a>
   </div>
   </article>
 </section>
