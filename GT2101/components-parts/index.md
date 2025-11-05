@@ -180,6 +180,25 @@ permalink: /GT2101/components-parts/
   <span class="close" aria-label="Close">×</span>
 </a>
 
+<a href="#" class="lightbox" id="cp-10">
+  <img src="/GT2101/engineering-drawings-schematics/motor-overview/GT2101_Motor_Controller_PCB_Bottom.jpg"
+       alt="GT2101 motor controller PCB underside, full-resolution">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
+<a href="#" class="lightbox" id="cp-11">
+  <img src="/GT2101/engineering-drawings-schematics/motor-overview/GT2101_Motor_Controller_PCB_Top.jpg"
+       alt="GT2101 motor controller PCB top, full-resolution">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
+<a href="#" class="lightbox" id="cp-12">
+  <img src="/GT2101/engineering-drawings-schematics/motor-overview/GT2101_Motor_Stator_Internal_View.jpg"
+       alt="GT2101 motor stator internal view, full-resolution">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
+
 
 <p class="lede" style="margin-top:1.2rem">
   <em>Contributions welcome — please include board name, view (top/bottom), and any markings or revisions. All images are preserved for restoration and research within the GT2101 archive.</em>
