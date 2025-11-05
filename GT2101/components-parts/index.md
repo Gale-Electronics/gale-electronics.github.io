@@ -107,6 +107,31 @@ permalink: /GT2101/components-parts/
     <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
   </figure>
 
+<figure>
+  <a href="#cp-10">
+    <img src="/GT2101/engineering-drawings-schematics/motor-overview/GT2101_Motor_Controller_PCB_Bottom.jpg"
+         alt="GT2101 motor controller PCB — underside view showing copper traces and solder joints">
+  </a>
+  <figcaption>Motor controller PCB — underside copper and solder joints.</figcaption>
+</figure>
+
+<figure>
+  <a href="#cp-11">
+    <img src="/GT2101/engineering-drawings-schematics/motor-overview/GT2101_Motor_Controller_PCB_Top.jpg"
+         alt="GT2101 motor controller PCB — top view with components, wiring and trimmers">
+  </a>
+  <figcaption>Motor controller PCB — top side with components, wiring and trimmers.</figcaption>
+</figure>
+
+<figure>
+  <a href="#cp-12">
+    <img src="/GT2101/engineering-drawings-schematics/motor-overview/GT2101_Motor_Stator_Internal_View.jpg"
+         alt="GT2101 motor stator — internal view down the housing showing coil pack and bore">
+  </a>
+  <figcaption>Motor stator — internal view down the housing showing the coil pack.</figcaption>
+</figure>
+
+
 </div>
 
 <!-- LIGHTBOX TARGETS -->
