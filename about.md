@@ -39,12 +39,11 @@ title: About Gale Electronics
 <article class="person-card">
   <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
   <div class="person-body">
-    <h3>Billy Woodman <span class="role">Early Engineering Support</span></h3>
-    <p>Worked at Gale for a short period, providing hands-on assistance around the GS401’s development. Later founded ATC.</p>
+    <h3>Billy Woodman <span class="role">Acoustic Engineering</span></h3>
+    <p>Information about Billy’s time at Gale is limited, but he is believed to have contributed to aspects of acoustic refinement during the GS401’s development. His later founding of ATC Loudspeakers suggests that his brief involvement at Gale left an early and lasting impression on his approach to loudspeaker design.</p>
     <ul class="highlights">
-      <li>Occasional listening/voicing checks during early production.</li>
-      <li>Practical input on driver/crossover integration when needed.</li>
-      <li>Not a core decision-maker at Gale; contribution was limited in scope.</li>
+      <li>Provided early technical input during the GS401’s formative stages.</li>
+      <li>Later founded <strong>ATC Loudspeakers</strong>, applying many of the engineering principles that defined his later success.</li>
     </ul>
   </div>
 </article>
