@@ -23,18 +23,37 @@ title: About Gale Electronics
     </div>
   </article>
 
-<article class="person-card">
-  <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
+<article class="person-card person-card--accent">
+  <figure class="person-media">
+    <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
+    <!-- Optional: show if you have a credit -->
+    <!-- <figcaption class="credit">© Photographer Name</figcaption> -->
+  </figure>
+
   <div class="person-body">
-    <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
+    <header class="person-head">
+      <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
+      <div class="meta-chips">
+        <span class="chip">Volt founder</span>
+        <span class="chip">GS401 production lead</span>
+      </div>
+    </header>
+
     <p>Oversaw GS401 production at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
+
     <ul class="highlights">
       <li>Transitioned from early CTS woofers to British-built units.</li>
-      <li>“It was all about production”, translating prototypes into repeatable builds.</li>
+      <li>“It was all about production” — translating prototypes into repeatable builds.</li>
     </ul>
-    <a href="/assets/docs/David-Lyth-Interview.pdf" class="person-link">↳ Read interview</a>
+
+    <div class="cta-row">
+      <a href="/assets/docs/David-Lyth-Interview.pdf" class="btn btn-ghost" target="_blank" rel="noopener">
+        <span class="btn-icon" aria-hidden="true">↳</span> Read interview (PDF)
+      </a>
+    </div>
   </div>
 </article>
+
 
 <article class="person-card">
   <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
