@@ -1,7 +1,7 @@
 ---
 title: Marketing & Publicity
 layout: bare
-permalink: /marketing/
+permalink: /GT2101/marketing/
 ---
 
 <style>
@@ -43,7 +43,7 @@ permalink: /marketing/
 # Marketing & Publicity
 
 <p class="lede">
-  Adverts, brochures, magazine features and show photography — archived at full resolution with captions and publication details where known.
+  Adverts, brochures, magazine features and show photography, archived at full resolution with captions and publication details where known.
   Click any image to view full-screen.
 </p>
 
