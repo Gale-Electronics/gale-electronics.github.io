@@ -29,7 +29,7 @@ permalink: /GT2101/components-parts/
 # Components & Parts
 
 <p class="lede">
-  PCB layouts, populated boards, motor assemblies, looms, connectors, and detail shots — archived at full resolution for repair and reference.
+  PCB layouts, populated boards, motor assemblies, looms, connectors, and detail shots, archived at full resolution for repair and reference.
   Click any image to view full-screen. Captions note board names, revisions, and GT2101 locations where known.
 </p>
 
@@ -48,7 +48,7 @@ permalink: /GT2101/components-parts/
       <img src="/GT2101/engineering-drawings-schematics/disk-2ab-servo-motor-drive/disk-2-3272ST-underside.jpg"
            alt="Servo Motor Drive board (Disk 2, 3272ST), underside copper and solder">
     </a>
-    <figcaption>Servo Motor Drive — underside copper/solder reference (Disk 2, 3272ST).</figcaption>
+    <figcaption>Servo Motor Drive, underside copper/solder reference (Disk 2, 3272ST).</figcaption>
   </figure>
 
   <figure>
@@ -56,7 +56,7 @@ permalink: /GT2101/components-parts/
       <img src="/GT2101/engineering-drawings-schematics/disk-2ab-servo-motor-drive/disk-2-3272ST.jpg"
            alt="Servo Motor Drive board (Disk 2, 3272ST), component side with pass devices and connectors">
     </a>
-    <figcaption>Servo Motor Drive — component side (Disk 2, 3272ST).</figcaption>
+    <figcaption>Servo Motor Drive, component side (Disk 2, 3272ST).</figcaption>
   </figure>
 
   <figure>
@@ -64,7 +64,7 @@ permalink: /GT2101/components-parts/
       <img src="/GT2101/engineering-drawings-schematics/disk-4-reference-oscillator/disk-4-3276ST.jpg"
            alt="Reference Oscillator board (Disk 4, 3276ST) with crystal and timing network">
     </a>
-    <figcaption>Reference Oscillator — crystal/timing network (Disk 4, 3276ST).</figcaption>
+    <figcaption>Reference Oscillator, crystal/timing network (Disk 4, 3276ST).</figcaption>
   </figure>
 
   <figure>
@@ -72,7 +72,7 @@ permalink: /GT2101/components-parts/
       <img src="/GT2101/engineering-drawings-schematics/disk-5-power-supply/disk-5-3285NH.jpg"
            alt="Power Supply board (Disk 5, 3285NH) with rectifier and smoothing capacitors">
     </a>
-    <figcaption>Power Supply — rectification and smoothing (Disk 5, 3285NH).</figcaption>
+    <figcaption>Power Supply, rectification and smoothing (Disk 5, 3285NH).</figcaption>
   </figure>
 
   <figure>
@@ -80,7 +80,7 @@ permalink: /GT2101/components-parts/
       <img src="/GT2101/engineering-drawings-schematics/disk-5-power-supply/disk-5-power-supply-3285NH.jpg"
            alt="Power Supply board variant (Disk 5, 3285NH), alternate layout">
     </a>
-    <figcaption>Power Supply — alternate board photo (Disk 5, 3285NH).</figcaption>
+    <figcaption>Power Supply, alternate board photo (Disk 5, 3285NH).</figcaption>
   </figure>
 
   <figure>
@@ -88,7 +88,23 @@ permalink: /GT2101/components-parts/
       <img src="/GT2101/engineering-drawings-schematics/Turntable_LED.jpg"
            alt="LED display module and front-panel assembly for GT2101">
     </a>
-    <figcaption>LED Display — front-panel module and readout assembly.</figcaption>
+    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
+  </figure>
+
+  <figure>
+    <a href="#cp-8">
+      <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg"
+           alt="LED display module and front-panel assembly for GT2101">
+    </a>
+    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
+  </figure>
+  
+  <figure>
+    <a href="#cp-9">
+      <img src="/GT2101/engineering-drawings-schematics/top_PCB_Lifted_Showing_Vary_Speed_Adjuster.jpg"
+           alt="LED display module and front-panel assembly for GT2101">
+    </a>
+    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
   </figure>
 
 </div>
@@ -128,6 +144,18 @@ permalink: /GT2101/components-parts/
   <img src="/GT2101/engineering-drawings-schematics/Turntable_LED.jpg" alt="LED display module and front-panel assembly, full-resolution">
   <span class="close" aria-label="Close">×</span>
 </a>
+
+
+<a href="#" class="lightbox" id="cp-8">
+  <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg" alt="Power Supply board (Disk 5, 3285NH), full-resolution">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
+<a href="#" class="lightbox" id="cp-9">
+  <img src="/GT2101/engineering-drawings-schematics/top_PCB_Lifted_Showing_Vary_Speed_Adjuster.jpg" alt="Power Supply board variant (Disk 5, 3285NH), full-resolution">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
 
 <p class="lede" style="margin-top:1.2rem">
   <em>Contributions welcome — please include board name, view (top/bottom), and any markings or revisions. All images are preserved for restoration and research within the GT2101 archive.</em>
