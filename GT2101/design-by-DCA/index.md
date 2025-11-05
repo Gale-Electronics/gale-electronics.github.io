@@ -46,7 +46,7 @@ permalink: /GT2101/design-by-DCA/
 
 <p class="lede">
   In the mid-1970s, <strong>Ira Gale</strong> engaged <strong>DCA Design Consultants</strong>, led by founder <strong>Derek Carter</strong>, to realise a radical vision for a transparent, suspended record player that fused precision engineering with modernist form. 
-  The collaboration produced the <strong>Gale GT2101</strong> — layered perspex over stainless-steel pods, plus a separate cylindrical control tower housing the speed electronics and LED display. 
+  The collaboration produced the <strong>Gale GT2101</strong>, layered perspex over stainless-steel pods, plus a separate cylindrical control tower housing the speed electronics and LED display. 
   This page preserves a studio portrait of the DCA team alongside high-resolution product photographs that document the language and craft of this partnership.
 </p>
 
@@ -58,7 +58,7 @@ permalink: /GT2101/design-by-DCA/
       <img class="thumb" src="/GT2101/design-by-DCA/DCA_Design_Consultants_Studio_Team_1970s.jpg"
            alt="DCA Design Consultants team, black-and-white studio portrait">
     </a>
-    <figcaption>DCA Design Consultants — black-and-white studio portrait from the GT2101 era.</figcaption>
+    <figcaption>DCA Design Consultants, black-and-white studio portrait from the GT2101 era.</figcaption>
   </figure>
 
   <figure>
@@ -90,7 +90,7 @@ permalink: /GT2101/design-by-DCA/
       <img class="thumb" src="/GT2101/design-by-DCA/GT2101_Turntable_side-profile_with-control-tower.jpg"
            alt="Side profile of GT2101 with control tower">
     </a>
-    <figcaption>Side profile showing the GT2101 turntable and its companion control tower — a striking combination of engineering precision and industrial design.</figcaption>
+    <figcaption>Side profile showing the GT2101 turntable and its companion control tower, a striking combination of engineering precision and industrial design.</figcaption>
   </figure>
 
   <figure>
@@ -135,5 +135,5 @@ permalink: /GT2101/design-by-DCA/
 </a>
 
 <p class="lede" style="margin-top:1.4rem">
-  <em>Photographs © Gale Electronics Archive / DCA Design Consultants — preserved as part of the GT2101 documentation set.</em>
+  <em>Photographs © Gale Electronics Archive / DCA Design Consultants, preserved as part of the GT2101 documentation set.</em>
 </p>
