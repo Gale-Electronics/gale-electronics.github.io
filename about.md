@@ -23,17 +23,19 @@ title: About Gale Electronics
     </div>
   </article>
 
-  <article class="person-card">
-    <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
-    <div class="person-body">
-      <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
-      <p>Oversaw GS401 production at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
-      <ul class="highlights">
-        <li>Transitioned from early CTS woofers to British-built units.</li>
-        <li>“It was all about production” — translating prototypes into repeatable builds.</li>
-      </ul>
-    </div>
-  </article>
+<article class="person-card">
+  <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
+  <div class="person-body">
+    <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
+    <p>Oversaw GS401 production at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
+    <ul class="highlights">
+      <li>Transitioned from early CTS woofers to British-built units.</li>
+      <li>“It was all about production” — translating prototypes into repeatable builds.</li>
+    </ul>
+    <a href="/GS401/voices/interviews/david-lyth/" class="person-link">↳ Read interview</a>
+  </div>
+</article>
+
 
   <article class="person-card">
     <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
