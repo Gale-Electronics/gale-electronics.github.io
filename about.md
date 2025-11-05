@@ -7,40 +7,72 @@ title: About Gale Electronics
 <h1>About Gale Electronics</h1>
 <p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by <strong>Ira Gale</strong>, an American audio enthusiast determined to fuse technical rigour with striking industrial design.</p>
 
-<!-- Mini TOC -->
-<nav class="about-toc">
-  <a href="#gs401">GS401 Loudspeaker (1973)</a>
-  <a href="#gt2101">GT2101 Turntable (1975)</a>
-  <a href="#amplifiers">Amplifiers & Later Years (1977–1982)</a>
-  <a href="#legacy">Legacy & Preservation</a>
-</nav>
-
 <!-- Key Figures -->
-<h2>Key Figures</h2>
-<div class="about-section">
-  <div class="about-grid">
-    <figure>
-      <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
-      <figcaption>Ira Gale</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
-      <figcaption>David Lyth</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
-      <figcaption>Billy Woodman</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
-      <figcaption>Jon Bannenberg</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
-      <figcaption>Ray Churchhouse</figcaption>
-    </figure>
-  </div>
-</div>
+<h2 id="key-figures">Key Figures</h2>
+
+<section class="about-people">
+  <article class="person-card">
+    <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
+    <div class="person-body">
+      <h3>Ira Gale <span class="role">Founder • Technical Direction</span></h3>
+      <p>Founder of Gale Electronics. Set the engineering-first culture, rapid prototyping, and supplier relationships.</p>
+      <ul class="highlights">
+        <li>Created the working GS401 prototype prior to team assembly.</li>
+        <li>Co-developed GT2101 motor-control approach with DCA collaboration.</li>
+        <li>Hands-on teardown and analysis that defined Gale’s development style.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="person-card">
+    <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
+    <div class="person-body">
+      <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
+      <p>Oversaw making the GS401 at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
+      <ul class="highlights">
+        <li>Transitioned from early CTS woofers to British-built units.</li>
+        <li>“It was all about production” — turning prototypes into repeatable builds.</li>
+        <li>Supplier liaison and on-the-line quality control.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="person-card">
+    <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
+    <div class="person-body">
+      <h3>Billy Woodman <span class="role">Acoustic Engineering</span></h3>
+      <p>Helped refine the GS401 prototype into a consistent product. Later founded ATC.</p>
+      <ul class="highlights">
+        <li>Input on acoustic tuning and driver/crossover integration.</li>
+        <li>Contributed to moving from “one-off” voicing to production consistency.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="person-card">
+    <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
+    <div class="person-body">
+      <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
+      <p>Defined Gale’s sculptural aesthetic, blending minimal forms with bold materials.</p>
+      <ul class="highlights">
+        <li>GS401 signature: chrome end caps and fully wrapped cloth.</li>
+        <li>Influenced GT2101’s clean, architectural language (via DCA collaboration).</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="person-card">
+    <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
+    <div class="person-body">
+      <h3>Ray Churchhouse <span class="role">Trade • Provenance</span></h3>
+      <p>UK hi-fi dealer who supplied components during Gale’s formative period; key oral-history source.</p>
+      <ul class="highlights">
+        <li>Eyewitness to Ira’s early component trials and experimentation.</li>
+        <li>Preserved memories that help date the pre-production timeline.</li>
+      </ul>
+    </div>
+  </article>
+</section>
 
 <!-- GS401 -->
 <section id="gs401" class="about-card">
@@ -122,7 +154,7 @@ title: About Gale Electronics
     --radius:14px;
     --gap:18px;
     --wrap: 1100px;
-    --accent:#6e9fff;
+    --accent:#6e9fff; /* Gale blue */
   }
 
   body{color:var(--ink)}
@@ -136,37 +168,55 @@ title: About Gale Electronics
     padding-inline: 14px;
   }
 
-  /* TOC */
-  .about-toc{
-    display:flex; flex-wrap:wrap; gap:.6rem 1rem;
-    margin:1rem 0 1.4rem;
-  }
-  .about-toc a{
-    font-size:.95rem; text-decoration:none; color:var(--accent);
-    background: #e6f3f1; border:1px solid #cfe7e4; padding:.4rem .6rem; border-radius:999px;
-  }
-
-  /* Key figures grid */
-  .about-section{
-    background: var(--paper);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.2rem;
-    margin: 1.2rem 0 2rem;
-    box-shadow: var(--shadow);
-  }
-  .about-grid{
+  /* Key figures: card list */
+  .about-people{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-    gap:1rem;
-    text-align:center;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin: 1rem 0 2rem;
   }
-  .about-grid img{
-    width:100%; height:auto; border-radius:10px;
-    box-shadow: 0 4px 16px rgba(0,0,0,.08);
+  .person-card{
+    display:grid;
+    grid-template-columns: 120px 1fr;
+    gap: 14px;
+    align-items:start;
+    background: var(--paper);
+    border:1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 12px;
   }
-  .about-grid figcaption{
-    font-size:.9rem; color:#555; margin-top:.35rem;
+  .person-card img{
+    width:100%;
+    max-width:120px;
+    height:auto;
+    border-radius: 10px;
+    display:block;
+  }
+  .person-body h3{
+    margin:.1rem 0 .4rem;
+    font-size:1.05rem;
+  }
+  .role{
+    display:inline-block;
+    margin-left:.4rem;
+    font-size:.84rem;
+    font-weight:600;
+    color:#0b1b3a;
+    background: #e9f0ff;
+    border:1px solid #d6e3ff;
+    padding:.15rem .45rem;
+    border-radius:999px;
+  }
+  .highlights{
+    margin:.4rem 0 0 1rem;
+  }
+  .highlights li{
+    margin:.25rem 0;
+  }
+  @media (max-width: 640px){
+    .person-card{ grid-template-columns: 72px 1fr; }
+    .person-card img{ max-width:72px; border-radius:8px; }
   }
 
   /* Card sections */
@@ -213,6 +263,6 @@ title: About Gale Electronics
   blockquote{
     margin:1rem 0; padding:.8rem 1rem;
     border-left:4px solid var(--accent);
-    background:#f0fbf9; border-radius:10px;
+    background:#f0f6ff; border-radius:10px;
   }
 </style>
