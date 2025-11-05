@@ -14,7 +14,7 @@ permalink: /GS401/photographs-adverts/community-photos/
 
   <div class="controls">
     <div class="filter">
-      <input id="q" type="search" placeholder="Filter by file name… (e.g. 401A, chrome, living-room, jane doe)">
+      <input id="q" type="search" placeholder="Filter by file name… (e.g. 401A, chrome, living-room, jane doe)" aria-label="Filter images">
     </div>
     <div class="count" id="count"></div>
   </div>
@@ -25,7 +25,7 @@ permalink: /GS401/photographs-adverts/community-photos/
     {% assign ext = f.extname | downcase %}
     {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
       {%- assign rel = f.path | remove_first: page.dir -%}
-      {%- unless rel contains '/' -%}  {# only files directly in this folder #}
+      {%- unless rel contains '/' -%}
         {% assign images = images | push: f %}
       {%- endunless -%}
     {% endif %}
@@ -38,7 +38,7 @@ permalink: /GS401/photographs-adverts/community-photos/
   {% else %}
     {% for f in images %}
       {% assign base = f.name | split: "." | first %}
-      {% comment %} turn "my-photo__credit-jane-doe" into nice caption + credit {% endcomment %}
+      {% comment %} turn "my-photo__credit-jane-doe" into caption + credit {% endcomment %}
       {% assign parts = base | split: '__credit-' %}
       {% assign name_part = parts[0] %}
       {% assign credit_part = parts[1] | default: "" %}
@@ -125,7 +125,6 @@ permalink: /GS401/photographs-adverts/community-photos/
       });
       updateCount();
     }
-    var q = document.getElementById('q');
     if(q){ q.addEventListener('input', filter); }
     updateCount();
   })();
