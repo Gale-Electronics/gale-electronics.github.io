@@ -86,7 +86,7 @@ title: About Gale Electronics
       <h2>1973 — The GS401 Loudspeaker</h2>
       <p>The first product, the Gale GS401, originated from a working prototype that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
       <p>When <strong>David Lyth</strong> (later founder of Volt) joined the project, he recalled that “it was all about production” rather than clean-sheet design, as Ira had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was already taking shape.</p>
-      <p><strong>Jon Bannenberg’s</strong> sculptural styling—with chrome end caps and a fully wrapped cloth enclosure—was conceived early and became a defining signature.</p>
+      <p><strong>Jon Bannenberg’s</strong> sculptural styling with chrome end caps and a fully wrapped cloth enclosure was conceived early and became a defining signature.</p>
             
       <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille) and <strong>401C</strong> (curved grille).</p>
     </div>
