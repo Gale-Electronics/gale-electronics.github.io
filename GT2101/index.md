@@ -26,25 +26,25 @@ This section of the archive documents its engineering, construction, and cultura
     <strong>Engineering Drawings<br>& Schematics</strong><br>
     <small>Original circuit diagrams and PCB layouts</small>
   </a>
-  <a href="/GT2101/community-photos/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Community Photos</strong><br>
-    <small>Customer submissions and real-world setups, credited and dated for provenance.</small>
-  </a>
-  <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Marketing & Publicity</strong><br>
-    <small>Adverts, brochures, press cuttings, show photos, and official imagery.</small>
+  <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Technical Notes</strong><br>
+    <small>Service data, diagnostics, and signal-map analysis</small>
   </a>
   <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Components & Parts</strong><br>
     <small>Individual PCBs, parts lists, and reference notes</small>
   </a>
+  <a href="/GT2101/community-photos/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Community Photos</strong><br>
+    <small>Customer submissions and real-world setups, credited and dated for provenance.</small>
+  </a>
   <a href="/GT2101/design-by-DCA/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Design by DCA</strong><br>
     <small>The story of how Derek Carter’s DCA Design Consultants brought Ira Gale’s radical GT2101 vision to life.</small>
   </a>
-  <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Technical Notes</strong><br>
-    <small>Service data, diagnostics, and signal-map analysis</small>
+  <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Marketing & Publicity</strong><br>
+    <small>Adverts, brochures, press cuttings, show photos, and official imagery.</small>
   </a>
   <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Interviews & Provenance</strong><br>
