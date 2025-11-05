@@ -1,7 +1,7 @@
 ---
 title: Community Photos
 layout: bare
-permalink: /community-photos/
+permalink: /GT2101/community-photos/
 ---
 
 <style>
