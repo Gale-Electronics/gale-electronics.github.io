@@ -68,7 +68,7 @@ layout: bare
 <object data="/GS401/components/401-stands.pdf"
         type="application/pdf"
         width="100%"
-        height="600">
+        height="500">
   <p>
     Can’t display the PDF in this browser.
     <a href="/GS401/components/401-stands.pdf">Open the PDF</a>.
