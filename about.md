@@ -55,7 +55,7 @@ title: About Gale Electronics
     <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
     <p>Australian-born designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
     <ul class="highlights">
-      <li>Conceived the GS401’s defining look — chrome end caps, fully wrapped cloth, and balanced proportions.</li>
+      <li>Conceived the GS401’s defining look, chrome end caps, fully wrapped cloth, and balanced proportions.</li>
       <li>Introduced design language that bridged audio, architecture, and luxury yacht styling.</li>
       <li>Went on to establish an international reputation, shaping the field of contemporary yacht design.</li>
     </ul>
