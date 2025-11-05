@@ -7,7 +7,6 @@ permalink: /GS401/photographs-adverts/community-photos/
 <div class="wrap">
   <div class="toprow">
     <div class="back"><a href="/GS401/photographs-adverts/">&larr; Back to GS401 — Photographs & Adverts</a></div>
-    <div class="hint">Images below are listed automatically from this folder. Use filenames to include credits (e.g. <code>1974-show__credit-jane-doe.jpg</code>).</div>
   </div>
 
   <h1>GS401 — Community Photos</h1>
