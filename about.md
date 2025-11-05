@@ -149,22 +149,22 @@ title: About Gale Electronics
     --radius:14px;
     --gap:18px;
     --wrap:1100px;
-    --accent:#6e9fff;  /* Gale blue */
-    --avatar:150px;    /* portrait size: tweak here */
+    --accent:#6e9fff; /* Gale blue */
+    --avatar:150px;   /* desktop/tablet portrait width */
   }
 
   body{color:var(--ink)}
   h1{margin:.2em 0 .6em}
   h2{margin:1.2em 0 .6em}
 
-  /* Container width for bare layout */
+  /* Container */
   main, .page-content, body > div, body > section{
     max-width:var(--wrap);
     margin-inline:auto;
     padding-inline:14px;
   }
 
-  /* Key figures: card list */
+  /* Key figures: grid on larger screens */
   .about-people{
     display:grid;
     grid-template-columns:1fr;
@@ -188,30 +188,43 @@ title: About Gale Electronics
     height:auto;
     border-radius:12px;
     display:block;
+    object-fit:cover;
   }
-  .person-body h3{
-    margin:.1rem 0 .4rem;
-    font-size:1.05rem;
-  }
+  .person-body h3{ margin:.1rem 0 .4rem; font-size:1.05rem; }
   .role{
-    display:inline-block;
-    margin-left:.4rem;
-    font-size:.84rem;
-    font-weight:600;
-    color:#0b1b3a;
-    background:#e9f0ff;
-    border:1px solid #d6e3ff;
-    padding:.15rem .45rem;
-    border-radius:999px;
+    display:inline-block; margin-left:.4rem; font-size:.84rem; font-weight:600;
+    color:#0b1b3a; background:#e9f0ff; border:1px solid #d6e3ff;
+    padding:.15rem .45rem; border-radius:999px;
   }
   .highlights{ margin:.4rem 0 0 1rem; }
   .highlights li{ margin:.25rem 0; }
 
-  /* Bigger portraits on wide screens; still generous on phones */
+  /* --- Mobile full-width portrait layout --- */
+  @media (max-width:640px){
+    .person-card{
+      display:block;           /* stack */
+      padding:0;
+    }
+    .person-card img{
+      width:100%;
+      max-width:none;
+      border-radius:14px 14px 0 0; /* rounded top */
+      margin:0;
+      display:block;
+    }
+    .person-body{
+      padding:1rem 1rem 1.2rem;
+      text-align:left;
+    }
+    .person-body h3{ text-align:center; }
+    .person-body .role{
+      display:block; margin:.3rem auto .8rem; text-align:center;
+    }
+  }
+  /* Larger portraits on very wide screens */
   @media (min-width:1100px){ :root{ --avatar:180px; } }
-  @media (max-width:640px){ :root{ --avatar:120px; } }
 
-  /* Card sections */
+  /* Content cards */
   .about-card{
     background:var(--card);
     border:1px solid var(--border);
@@ -221,7 +234,7 @@ title: About Gale Electronics
     margin:1.4rem 0;
   }
 
-  /* Split layout for GS401 / GT2101 */
+  /* Split layout */
   .split{
     display:grid;
     grid-template-columns:1.1fr 1.4fr;
@@ -235,11 +248,8 @@ title: About Gale Electronics
 
   .media{ margin:0; }
   .media img{
-    display:block;
-    width:100%;
-    height:auto;
-    border-radius:12px;
-    box-shadow:0 8px 28px rgba(0,0,0,.10);
+    display:block; width:100%; height:auto;
+    border-radius:12px; box-shadow:0 8px 28px rgba(0,0,0,.10);
   }
   .media figcaption{ font-size:.9rem; color:var(--muted); margin-top:.45rem; }
 
