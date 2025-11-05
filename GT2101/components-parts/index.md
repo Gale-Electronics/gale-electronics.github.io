@@ -36,6 +36,14 @@ permalink: /GT2101/components-parts/
 <div class="gallery">
 
   <figure>
+    <a href="#cp-8">
+      <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg"
+           alt="LED display module and front-panel assembly for GT2101">
+    </a>
+    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
+  </figure>
+
+  <figure>
     <a href="#cp-1">
       <img src="/GT2101/engineering-drawings-schematics/disk-1-display-interface/disk-1-3155ST.jpg"
            alt="Display Interface board (Disk 1, 3155ST), component side">
@@ -92,14 +100,6 @@ permalink: /GT2101/components-parts/
   </figure>
 
   <figure>
-    <a href="#cp-8">
-      <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg"
-           alt="LED display module and front-panel assembly for GT2101">
-    </a>
-    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
-  </figure>
-  
-  <figure>
     <a href="#cp-9">
       <img src="/GT2101/engineering-drawings-schematics/top_PCB_Lifted_Showing_Vary_Speed_Adjuster.jpg"
            alt="LED display module and front-panel assembly for GT2101">
@@ -110,6 +110,11 @@ permalink: /GT2101/components-parts/
 </div>
 
 <!-- LIGHTBOX TARGETS -->
+<a href="#" class="lightbox" id="cp-8">
+  <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg" alt="Power Supply board (Disk 5, 3285NH), full-resolution">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
 <a href="#" class="lightbox" id="cp-1">
   <img src="/GT2101/engineering-drawings-schematics/disk-1-display-interface/disk-1-3155ST.jpg" alt="Display Interface board (Disk 1, 3155ST), full-resolution">
   <span class="close" aria-label="Close">×</span>
@@ -142,12 +147,6 @@ permalink: /GT2101/components-parts/
 
 <a href="#" class="lightbox" id="cp-7">
   <img src="/GT2101/engineering-drawings-schematics/Turntable_LED.jpg" alt="LED display module and front-panel assembly, full-resolution">
-  <span class="close" aria-label="Close">×</span>
-</a>
-
-
-<a href="#" class="lightbox" id="cp-8">
-  <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg" alt="Power Supply board (Disk 5, 3285NH), full-resolution">
   <span class="close" aria-label="Close">×</span>
 </a>
 
