@@ -36,18 +36,18 @@ title: About Gale Electronics
   </div>
 </article>
 
-
-  <article class="person-card">
-    <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
-    <div class="person-body">
-      <h3>Billy Woodman <span class="role">Acoustic Engineering</span></h3>
-      <p>Helped refine the GS401 prototype into a consistent product. Later founded ATC.</p>
-      <ul class="highlights">
-        <li>Input on acoustic tuning and driver/crossover integration.</li>
-        <li>Shift from one-off voicing to production consistency.</li>
-      </ul>
-    </div>
-  </article>
+<article class="person-card">
+  <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
+  <div class="person-body">
+    <h3>Billy Woodman <span class="role">Early Engineering Support</span></h3>
+    <p>Worked at Gale for a short period, providing hands-on assistance around the GS401’s development. Later founded ATC.</p>
+    <ul class="highlights">
+      <li>Occasional listening/voicing checks during early production.</li>
+      <li>Practical input on driver/crossover integration when needed.</li>
+      <li>Not a core decision-maker at Gale; contribution was limited in scope.</li>
+    </ul>
+  </div>
+</article>
 
   <article class="person-card">
     <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
