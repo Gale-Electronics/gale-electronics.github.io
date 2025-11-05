@@ -55,7 +55,7 @@ permalink: /GT2101/design-by-DCA/
   <!-- Team photo (add your actual team image path if different) -->
   <figure>
     <a href="#img-team">
-      <img class="thumb" src="/GT2101/gallery/DCA_Team_black-and-white.jpg"
+      <img class="thumb" src="/GT2101/gallery/DCA_Design_Consultants_Studio_Team_1970s.jpg"
            alt="DCA Design Consultants team, black-and-white studio portrait">
     </a>
     <figcaption>DCA Design Consultants — black-and-white studio portrait from the GT2101 era.</figcaption>
