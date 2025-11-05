@@ -31,7 +31,7 @@ title: About Gale Electronics
       <p>Oversaw making the GS401 at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
       <ul class="highlights">
         <li>Transitioned from early CTS woofers to British-built units.</li>
-        <li>“It was all about production” — turning prototypes into repeatable builds.</li>
+        <li>“It was all about production”, turning prototypes into repeatable builds.</li>
         <li>Supplier liaison and on-the-line quality control.</li>
       </ul>
     </div>
@@ -55,8 +55,7 @@ title: About Gale Electronics
       <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
       <p>Defined Gale’s sculptural aesthetic, blending minimal forms with bold materials.</p>
       <ul class="highlights">
-        <li>GS401 signature: chrome end caps and fully wrapped cloth.</li>
-        <li>Influenced GT2101’s clean, architectural language (via DCA collaboration).</li>
+        <li>GS401 signature: chrome end caps and fully wrapped cloth and signature chrome stands.</li>
       </ul>
     </div>
   </article>
@@ -88,8 +87,7 @@ title: About Gale Electronics
       <p>The first product, the Gale GS401, originated from a working prototype that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
       <p>When <strong>David Lyth</strong> (later founder of Volt) joined the project, he recalled that “it was all about production” rather than clean-sheet design, as Ira had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was already taking shape.</p>
       <p><strong>Jon Bannenberg’s</strong> sculptural styling—with chrome end caps and a fully wrapped cloth enclosure—was conceived early and became a defining signature.</p>
-      <p>This timeline aligns with <strong>Ray Churchhouse’s</strong> memory of supplying loudspeaker components while Ira was experimenting and building early working examples, prior to full production.</p>
-      <p>Early production used US-made CTS 8-inch woofers, later replaced by Gale’s own British-built units. The sealed-box design, paired with Peerless and Celestion drivers, produced a rich, balanced sound that helped the GS401 become one of the most recognisable loudspeakers of the 1970s.</p>
+            
       <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille) and <strong>401C</strong> (curved grille).</p>
     </div>
   </div>
