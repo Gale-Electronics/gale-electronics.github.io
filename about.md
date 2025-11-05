@@ -15,13 +15,17 @@ title: About Gale Electronics
     <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
     <div class="person-body">
       <h3>Ira Gale <span class="role">Founder • Technical Direction</span></h3>
-      <p>Founder of Gale Electronics; set the engineering-first culture, rapid prototyping, and supplier relationships.</p>
+      <p>Visionary founder of Gale Electronics — an American engineer whose obsession with design precision and experimentation defined the company’s DNA. Known for combining technical curiosity with an uncompromising eye for form.</p>
       <ul class="highlights">
-        <li>Created the working GS401 prototype before the wider team assembled.</li>
-        <li>Co-developed the GT2101 motor-control approach with DCA.</li>
+        <li>Built the first working GS401 prototype in his London workshop before formal production began.</li>
+        <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
+        <li>Collaborated with Dr Sao Win and DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
+        <li>Approached hi-fi not as a hobby, but as an engineering challenge — “to make audio as precise as machinery.”</li>
       </ul>
     </div>
   </article>
+</section>
+
 
 <article class="person-card">
   <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
