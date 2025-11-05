@@ -11,7 +11,7 @@ permalink: /GT2101/design-by-DCA/
   }
   body{background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;margin:20px}
   h1{font-size:2rem;margin:.2rem 0 .8rem}
-  p.lede{color:var(--muted);line-height:1.6;max-width:760px}
+  p.lede{color:var(--muted);line-height:1.6;max-width:none;width:100%;hyphens:auto;overflow-wrap:anywhere;}
 
   .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:1.6rem 0}
   figure{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
