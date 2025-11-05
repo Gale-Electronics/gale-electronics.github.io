@@ -30,9 +30,9 @@ title: About Gale Electronics
     <p>Oversaw GS401 production at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
     <ul class="highlights">
       <li>Transitioned from early CTS woofers to British-built units.</li>
-      <li>“It was all about production” — translating prototypes into repeatable builds.</li>
+      <li>“It was all about production”, translating prototypes into repeatable builds.</li>
     </ul>
-    <a href="/voices/interviews/Interview-with-David-Lyth.pdf" class="person-link">↳ Read interview</a>
+    <a href="/assets/docs/David-Lyth-Interview.pdf" class="person-link">↳ Read interview</a>
   </div>
 </article>
 
