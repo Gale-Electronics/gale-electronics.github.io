@@ -22,14 +22,16 @@ permalink: /GS401/photographs-adverts/adverts/
   {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
   {% assign images = "" | split: "" %}
   {% for f in files %}
-    {% if f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.gif' %}
+    {% assign ext = f.extname | downcase %}
+    {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
       {%- assign rel = f.path | remove_first: page.dir -%}
-      {%- unless rel contains '/' -%} {# only direct files in this folder #}
+      {%- unless rel contains '/' -%}
         {% assign images = images | push: f %}
       {%- endunless -%}
     {% endif %}
   {% endfor %}
   {% assign images = images | sort: "name" %}
+
 
   <div class="grid" id="grid">
   {% if images.size == 0 %}
