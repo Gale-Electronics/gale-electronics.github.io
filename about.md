@@ -19,7 +19,6 @@ title: About Gale Electronics
       <ul class="highlights">
         <li>Created the working GS401 prototype prior to team assembly.</li>
         <li>Co-developed GT2101 motor-control approach with DCA collaboration.</li>
-        <li>Hands-on teardown and analysis that defined Gale’s development style.</li>
       </ul>
     </div>
   </article>
@@ -32,7 +31,6 @@ title: About Gale Electronics
       <ul class="highlights">
         <li>Transitioned from early CTS woofers to British-built units.</li>
         <li>“It was all about production”, turning prototypes into repeatable builds.</li>
-        <li>Supplier liaison and on-the-line quality control.</li>
       </ul>
     </div>
   </article>
