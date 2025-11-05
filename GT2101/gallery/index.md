@@ -33,27 +33,27 @@ permalink: /GT2101/gallery/
 <div class="gallery">
 
   <figure>
-    <img src="/GT2101/gallery/control-tower_front-buttons.jpg" alt="GT2101 control tower front view with red and green buttons">
+    <img src="/GT2101/gallery/GT2101_Control-Tower_front-buttons.jpg" alt="GT2101 control tower front view with red and green buttons">
     <figcaption>Cylindrical control tower of the GT2101, showing the red and green power switches on its brushed–steel front panel.</figcaption>
   </figure>
 
   <figure>
-    <img src="/GT2101/gallery/turntable_topdown-with-tower.jpg" alt="Top-down view of the GT2101 turntable with control tower and coiled connection cable">
+    <img src="/GT2101/gallery/GT2101_Turntable_topdown_with-control-tower.jpg" alt="Top-down view of the GT2101 turntable with control tower and coiled connection cable">
     <figcaption>Top–down view of the GT2101 turntable with its external control tower connected by a coiled cable, displaying the LED speed readout.</figcaption>
   </figure>
 
   <figure>
-    <img src="/GT2101/gallery/turntable_three-quarter-angle.jpg" alt="Three-quarter angled view of the GT2101 turntable">
+    <img src="/GT2101/gallery/GT2101_Turntable_three-quarter-angle.jpg" alt="Three-quarter angled view of the GT2101 turntable">
     <figcaption>Three–quarter angle revealing the acrylic layer construction and stainless–steel isolation pods supporting the floating platter assembly.</figcaption>
   </figure>
 
   <figure>
-    <img src="/GT2101/gallery/turntable_side-profile-with-tower.jpg" alt="Side profile of GT2101 with control tower">
+    <img src="/GT2101/gallery/GT2101_Turntable_side-profile_with-control-tower.jpg" alt="Side profile of GT2101 with control tower">
     <figcaption>Side profile showing the GT2101 turntable and its companion control tower — a striking combination of engineering precision and industrial design.</figcaption>
   </figure>
 
   <figure>
-    <img src="/GT2101/gallery/turntable_right-side-detail-arm.jpg" alt="Right side close-up of GT2101 tonearm and acrylic plinth structure">
+    <img src="/GT2101/gallery/GT2101_Turntable_right-side_detail-arm-base.jpg" alt="Right side close-up of GT2101 tonearm and acrylic plinth structure">
     <figcaption>Close–up of the right side, highlighting the tonearm base and layered acrylic/steel plinth structure that defined the GT2101’s distinctive form.</figcaption>
   </figure>
 
