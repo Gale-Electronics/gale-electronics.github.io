@@ -15,10 +15,10 @@ title: About Gale Electronics
     <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
     <div class="person-body">
       <h3>Ira Gale <span class="role">Founder • Technical Direction</span></h3>
-      <p>Founder of Gale Electronics. Set the engineering-first culture, rapid prototyping, and supplier relationships.</p>
+      <p>Founder of Gale Electronics; set the engineering-first culture, rapid prototyping, and supplier relationships.</p>
       <ul class="highlights">
-        <li>Created the working GS401 prototype prior to team assembly.</li>
-        <li>Co-developed GT2101 motor-control approach with DCA collaboration.</li>
+        <li>Created the working GS401 prototype before the wider team assembled.</li>
+        <li>Co-developed the GT2101 motor-control approach with DCA.</li>
       </ul>
     </div>
   </article>
@@ -27,10 +27,10 @@ title: About Gale Electronics
     <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
     <div class="person-body">
       <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
-      <p>Oversaw making the GS401 at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
+      <p>Oversaw GS401 production at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
       <ul class="highlights">
         <li>Transitioned from early CTS woofers to British-built units.</li>
-        <li>“It was all about production”, turning prototypes into repeatable builds.</li>
+        <li>“It was all about production” — translating prototypes into repeatable builds.</li>
       </ul>
     </div>
   </article>
@@ -42,7 +42,7 @@ title: About Gale Electronics
       <p>Helped refine the GS401 prototype into a consistent product. Later founded ATC.</p>
       <ul class="highlights">
         <li>Input on acoustic tuning and driver/crossover integration.</li>
-        <li>Contributed to moving from “one-off” voicing to production consistency.</li>
+        <li>Shift from one-off voicing to production consistency.</li>
       </ul>
     </div>
   </article>
@@ -53,7 +53,7 @@ title: About Gale Electronics
       <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
       <p>Defined Gale’s sculptural aesthetic, blending minimal forms with bold materials.</p>
       <ul class="highlights">
-        <li>GS401 signature: chrome end caps and fully wrapped cloth and signature chrome stands.</li>
+        <li>GS401 signature: chrome end caps, fully wrapped cloth, and the distinctive chrome stands.</li>
       </ul>
     </div>
   </article>
@@ -62,7 +62,7 @@ title: About Gale Electronics
     <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
     <div class="person-body">
       <h3>Ray Churchhouse <span class="role">Trade • Provenance</span></h3>
-      <p>UK hi-fi dealer who supplied components during Gale’s formative period; key oral-history source.</p>
+      <p>UK hi-fi dealer who supplied components during Gale’s formative period; a key oral-history source.</p>
       <ul class="highlights">
         <li>Eyewitness to Ira’s early component trials and experimentation.</li>
         <li>Preserved memories that help date the pre-production timeline.</li>
@@ -82,11 +82,10 @@ title: About Gale Electronics
     </figure>
     <div class="copy">
       <h2>1973 — The GS401 Loudspeaker</h2>
-      <p>The first product, the Gale GS401, originated from a working prototype that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
-      <p>When <strong>David Lyth</strong> (later founder of Volt) joined the project, he recalled that “it was all about production” rather than clean-sheet design, as Ira had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was already taking shape.</p>
-      <p><strong>Jon Bannenberg’s</strong> sculptural styling with chrome end caps and a fully wrapped cloth enclosure was conceived early and became a defining signature.</p>
-            
-      <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille) and <strong>401C</strong> (curved grille).</p>
+      <p>The first product, the GS401, originated from a working prototype that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
+      <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was taking shape.</p>
+      <p><strong>Jon Bannenberg’s</strong> sculptural styling — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
+      <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille), <strong>401C</strong> (curved grille).</p>
     </div>
   </div>
 </section>
@@ -149,8 +148,9 @@ title: About Gale Electronics
     --shadow:0 6px 24px rgba(0,0,0,.06);
     --radius:14px;
     --gap:18px;
-    --wrap: 1100px;
-    --accent:#6e9fff; /* Gale blue */
+    --wrap:1100px;
+    --accent:#6e9fff;  /* Gale blue */
+    --avatar:150px;    /* portrait size: tweak here */
   }
 
   body{color:var(--ink)}
@@ -159,34 +159,34 @@ title: About Gale Electronics
 
   /* Container width for bare layout */
   main, .page-content, body > div, body > section{
-    max-width: var(--wrap);
-    margin-inline: auto;
-    padding-inline: 14px;
+    max-width:var(--wrap);
+    margin-inline:auto;
+    padding-inline:14px;
   }
 
   /* Key figures: card list */
   .about-people{
     display:grid;
-    grid-template-columns: 1fr;
-    gap: 14px;
-    margin: 1rem 0 2rem;
+    grid-template-columns:1fr;
+    gap:14px;
+    margin:1rem 0 2rem;
   }
   .person-card{
     display:grid;
-    grid-template-columns: 120px 1fr;
-    gap: 14px;
+    grid-template-columns: var(--avatar) 1fr;
+    gap:14px;
     align-items:start;
-    background: var(--paper);
+    background:var(--paper);
     border:1px solid var(--border);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    padding: 12px;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:12px;
   }
   .person-card img{
     width:100%;
-    max-width:120px;
+    max-width:var(--avatar);
     height:auto;
-    border-radius: 10px;
+    border-radius:12px;
     display:block;
   }
   .person-body h3{
@@ -199,59 +199,49 @@ title: About Gale Electronics
     font-size:.84rem;
     font-weight:600;
     color:#0b1b3a;
-    background: #e9f0ff;
+    background:#e9f0ff;
     border:1px solid #d6e3ff;
     padding:.15rem .45rem;
     border-radius:999px;
   }
-  .highlights{
-    margin:.4rem 0 0 1rem;
-  }
-  .highlights li{
-    margin:.25rem 0;
-  }
-  @media (max-width: 640px){
-    .person-card{ grid-template-columns: 72px 1fr; }
-    .person-card img{ max-width:72px; border-radius:8px; }
-  }
+  .highlights{ margin:.4rem 0 0 1rem; }
+  .highlights li{ margin:.25rem 0; }
+
+  /* Bigger portraits on wide screens; still generous on phones */
+  @media (min-width:1100px){ :root{ --avatar:180px; } }
+  @media (max-width:640px){ :root{ --avatar:120px; } }
 
   /* Card sections */
   .about-card{
-    background: var(--card);
+    background:var(--card);
     border:1px solid var(--border);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    padding: clamp(1rem, 2vw, 1.4rem);
-    margin: 1.4rem 0;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:clamp(1rem, 2vw, 1.4rem);
+    margin:1.4rem 0;
   }
 
   /* Split layout for GS401 / GT2101 */
   .split{
     display:grid;
-    grid-template-columns: 1.1fr 1.4fr;
-    gap: var(--gap);
-    align-items: start;
+    grid-template-columns:1.1fr 1.4fr;
+    gap:var(--gap);
+    align-items:start;
   }
-  .split.reverse{
-    grid-template-columns: 1.4fr 1.1fr;
-  }
-  @media (max-width: 860px){
-    .split, .split.reverse{ grid-template-columns: 1fr; }
+  .split.reverse{ grid-template-columns:1.4fr 1.1fr; }
+  @media (max-width:860px){
+    .split, .split.reverse{ grid-template-columns:1fr; }
   }
 
-  .media{
-    margin:0;
-  }
+  .media{ margin:0; }
   .media img{
     display:block;
     width:100%;
     height:auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 28px rgba(0,0,0,.10);
+    border-radius:12px;
+    box-shadow:0 8px 28px rgba(0,0,0,.10);
   }
-  .media figcaption{
-    font-size:.9rem; color: var(--muted); margin-top:.45rem;
-  }
+  .media figcaption{ font-size:.9rem; color:var(--muted); margin-top:.45rem; }
 
   .copy p{ line-height:1.6; }
   .copy em{ color:#333; }
