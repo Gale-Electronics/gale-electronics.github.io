@@ -122,7 +122,7 @@ title: About Gale Electronics
     --radius:14px;
     --gap:18px;
     --wrap: 1100px;
-    --accent:#0f766e;
+    --accent:#6e9fff;
   }
 
   body{color:var(--ink)}
