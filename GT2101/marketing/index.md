@@ -13,7 +13,6 @@ permalink: /marketing/
   h1{font-size:2rem;margin:.2rem 0 .8rem}
   p.lede{color:var(--muted);line-height:1.6;max-width:none;width:100%;hyphens:auto;overflow-wrap:anywhere}
 
-  /* Gallery grid */
   .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:1.6rem 0}
   figure{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
          box-shadow:var(--shadow);overflow:hidden;margin:0}
@@ -21,7 +20,6 @@ permalink: /marketing/
   img{width:100%;height:auto;display:block}
   figcaption{padding:.6rem .8rem;color:var(--muted);font-size:.9rem;line-height:1.4}
 
-  /* Lightbox (CSS only) */
   .lightbox{
     position:fixed; inset:0; display:none; align-items:center; justify-content:center;
     background:rgba(0,0,0,.85); z-index:9999; padding:10px;
@@ -45,41 +43,75 @@ permalink: /marketing/
 # Marketing & Publicity
 
 <p class="lede">
-  Adverts, brochures, press coverage, and show photography — archived at full resolution with captions and dates where known. Click any image to view full-screen.
+  Adverts, brochures, magazine features and show photography — archived at full resolution with captions and publication details where known.
+  Click any image to view full-screen.
 </p>
 
 <div class="gallery">
 
-  <!-- EXAMPLE ITEM — duplicate this block per image -->
   <figure>
     <a href="#mkt-1">
-      <img src="/marketing/401-ad-uk-1974.jpg" alt="GS401 chrome-ended magazine advert, UK (c.1974)">
+      <img src="/marketing/Gale-GT2101-Blue2.jpg"
+           alt="Publicity photo of the Gale GT2101 turntable with blue lighting and control tower">
     </a>
-    <figcaption>GS401 magazine advert (UK, c.1974). Source: scan from original press clipping.</figcaption>
+    <figcaption>
+      Publicity photograph of the Gale GT2101, illuminated with blue light. Shot in DCA’s Warwick studio for brochure and exhibition use (mid-1970s).
+    </figcaption>
   </figure>
 
-  <!-- Add more <figure> blocks as needed -->
+  <figure>
+    <a href="#mkt-2">
+      <img src="/marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg"
+           alt="Studio photograph of the Gale GT2101 turntable taken by DCA Design Consultants">
+    </a>
+    <figcaption>
+      Studio photograph of the GT2101 by DCA Design Consultants showing the perspex chassis and external control tower. Used in Gale’s international marketing materials.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <a href="#mkt-3">
+      <img src="/marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg"
+           alt="Magazine page from Radio Gijutsu August 1976 featuring the GT2101 cartridge guide">
+    </a>
+    <figcaption>
+      Page from <em>Radio Gijutsu</em> (Japan, August 1976) — “Cartridge Guide” section featuring the Gale GT2101. One of the earliest Japanese press features on the model.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <a href="#mkt-4">
+      <img src="/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg"
+           alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976">
+    </a>
+    <figcaption>
+      <em>Radio Gijutsu</em> (August 1976) feature article on the GT2101 turntable — detailed review and technical commentary translated for the Japanese market.
+    </figcaption>
+  </figure>
 
 </div>
 
-<!-- LIGHTBOX TARGETS: one per image, match the href id -->
+<!-- LIGHTBOX TARGETS -->
 <a href="#" class="lightbox" id="mkt-1">
-  <img src="/marketing/Gale-GT2101-Blue2.jpg" alt="GS401 chrome-ended magazine advert, enlarged">
+  <img src="/marketing/Gale-GT2101-Blue2.jpg" alt="Publicity photo of the Gale GT2101 turntable with blue lighting and control tower, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
-<a href="#" class="lightbox" id="mkt-1">
-  <img src="/marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg" alt="GS401 chrome-ended magazine advert, enlarged">
+
+<a href="#" class="lightbox" id="mkt-2">
+  <img src="/marketing/Gale_GT2101_Publicity_Photo_DCA_Studio.jpg" alt="Studio photograph of the Gale GT2101 turntable taken by DCA Design Consultants, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
-<a href="#" class="lightbox" id="mkt-1">
-  <img src="/marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg" alt="GS401 chrome-ended magazine advert, enlarged">
+
+<a href="#" class="lightbox" id="mkt-3">
+  <img src="/marketing/Radio_Gijutsu_Aug1976_Cartridge_Guide.jpg" alt="Magazine page from Radio Gijutsu August 1976 featuring the GT2101 cartridge guide, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
-<a href="#" class="lightbox" id="mkt-1">
-  <img src="/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg" alt="GS401 chrome-ended magazine advert, enlarged">
+
+<a href="#" class="lightbox" id="mkt-4">
+  <img src="/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg" alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
 
 <p class="lede" style="margin-top:1.2rem">
-  <em>Images are archived for historical scholarship and commentary. Contact us for credits, corrections, or rights queries.</em>
+  <em>Images © Gale Electronics Archive / DCA Design Consultants — preserved for historical scholarship and commentary.</em>
 </p>
