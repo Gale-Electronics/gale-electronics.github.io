@@ -26,9 +26,13 @@ This section of the archive documents its engineering, construction, and cultura
     <strong>Engineering Drawings<br>& Schematics</strong><br>
     <small>Original circuit diagrams and PCB layouts</small>
   </a>
-  <a href="/GT2101/photographs-adverts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Photographs & Adverts</strong><br>
-    <small>Press images, promotional shots, and period advertising</small>
+  <a href="/GT2101/community-photos/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Community Photos</strong><br>
+    <small>Customer submissions and real-world setups, credited and dated for provenance.</small>
+  </a>
+  <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Marketing & Publicity</strong><br>
+    <small>Adverts, brochures, press cuttings, show photos, and official imagery.</small>
   </a>
   <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Components & Parts</strong><br>
