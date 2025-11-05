@@ -32,7 +32,7 @@ title: About Gale Electronics
       <li>Transitioned from early CTS woofers to British-built units.</li>
       <li>“It was all about production” — translating prototypes into repeatable builds.</li>
     </ul>
-    <a href="/voices/interviews/Interview with David Lyth.pdf" class="person-link">↳ Read interview</a>
+    <a href="/voices/interviews/Interview-with-David-Lyth.pdf" class="person-link">↳ Read interview</a>
   </div>
 </article>
 
