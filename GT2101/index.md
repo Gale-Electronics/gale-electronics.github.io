@@ -34,9 +34,9 @@ This section of the archive documents its engineering, construction, and cultura
     <strong>Components & Parts</strong><br>
     <small>Individual PCBs, parts lists, and reference notes</small>
   </a>
-  <a href="/GT2101/gallery/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>gallery</strong><br>
-    <small>High–resolution studio photographs of the GT2101 turntable and control tower, design, materials, and engineering details.</small>
+  <a href="/GT2101/design-by-DCA/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
+    <strong>Design by DCA</strong><br>
+    <small>The story of how Derek Carter’s DCA Design Consultants brought Ira Gale’s radical GT2101 vision to life — featuring rare studio photographs of the team and product prototypes.</small>
   </a>
   <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Technical Notes</strong><br>
