@@ -8,7 +8,7 @@ layout: bare
 <object data="/GS401/components/speaker-wiring.pdf"
         type="application/pdf"
         width="100%"
-        height="600">
+        height="400">
   <p>
     Can’t display the PDF in this browser.
     <a href="/GS401/components/speaker-wiring.pdf">Open the PDF</a>.
@@ -28,7 +28,7 @@ layout: bare
 <object data="/GS401/components/crossover.pdf"
         type="application/pdf"
         width="100%"
-        height="600">
+        height="400">
   <p>
     Can’t display the PDF in this browser.
     <a href="/GS401/components/crossover.pdf">Open the PDF</a>.
@@ -48,7 +48,7 @@ layout: bare
 <object data="/GS401/components/crossover-shopping-list.pdf"
         type="application/pdf"
         width="100%"
-        height="600">
+        height="400">
   <p>
     Can’t display the PDF in this browser.
     <a href="/GS401/components/crossover-shopping-list.pdf">Open the PDF</a>.
