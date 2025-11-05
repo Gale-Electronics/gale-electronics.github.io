@@ -61,20 +61,21 @@ title: About Gale Electronics
   </div>
 </article>
 
-
-  <article class="person-card">
-    <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
-    <div class="person-body">
-      <h3>Ray Churchhouse <span class="role">Trade • Provenance</span></h3>
-      <p>UK hi-fi dealer who supplied components during Gale’s formative period; a key oral-history source.</p>
-      <ul class="highlights">
-        <li>Eyewitness to Ira’s early component trials and experimentation.</li>
-        <li>Preserved memories that help date the pre-production timeline.</li>
+<article class="person-card">
+  <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
+  <div class="person-body">
+    <h3>Ray Churchhouse <span class="role">Trade • Industry Provenance</span></h3>
+    <p>A major figure in British hi-fi retail and distribution, Ray supplied components to Gale during its formative period and later worked with <strong>Quad</strong>. He founded one of London’s most successful and respected hi-fi stores, known for serving musicians, producers, and celebrities throughout the 1970s and 1980s. His insight bridges the technical and cultural story of British audio’s golden era.</p>
+    <ul class="highlights">
+      <li>Key supplier and adviser to <strong>Ira Gale</strong> during the early GS401 experiments.</li>
+      <li>Founder of a leading London hi-fi shop, selling to some of the biggest names in music.</li>
+      <li>Later joined <strong>Quad</strong>, continuing his influence across the UK audio industry.</li>
+      <li>Preserved first-hand recollections that help date and document Gale’s early production timeline.</li>
     </ul>
     <a href="/assets/audio/Ray-Churchouse-Interview.wav" class="person-link">↳ Listen to interview</a>
   </div>
-  </article>
-</section>
+</article>
+
 
 <!-- GS401 -->
 <section id="gs401" class="about-card">
