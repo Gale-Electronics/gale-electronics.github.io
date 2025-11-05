@@ -23,37 +23,18 @@ title: About Gale Electronics
     </div>
   </article>
 
-<article class="person-card person-card--accent">
-  <figure class="person-media">
-    <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
-    <!-- Optional: show if you have a credit -->
-    <!-- <figcaption class="credit">© Photographer Name</figcaption> -->
-  </figure>
-
+<article class="person-card">
+  <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
   <div class="person-body">
-    <header class="person-head">
-      <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
-      <div class="meta-chips">
-        <span class="chip">Volt founder</span>
-        <span class="chip">GS401 production lead</span>
-      </div>
-    </header>
-
-    <p>Oversaw GS401 production at scale; optimised processes, sourcing and QA. Later founded Volt Loudspeakers.</p>
-
+    <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
+    <p>Production lead on the GS401—turned Ira’s prototype into a stable, repeatable product with defined jigs, sourcing and QC. Later founded Volt Loudspeakers.</p>
     <ul class="highlights">
-      <li>Transitioned from early CTS woofers to British-built units.</li>
-      <li>“It was all about production” — translating prototypes into repeatable builds.</li>
+      <li>Moved from early CTS 8-inch woofers to British-built units; tightened tolerances on baffle/crossover assembly.</li>
+      <li>“It was all about production” — standardised steps and checks so every pair matched.</li>
     </ul>
-
-    <div class="cta-row">
-      <a href="/assets/docs/David-Lyth-Interview.pdf" class="btn btn-ghost" target="_blank" rel="noopener">
-        <span class="btn-icon" aria-hidden="true">↳</span> Read interview (PDF)
-      </a>
-    </div>
+    <a href="/assets/docs/David-Lyth-Interview.pdf" class="person-link">↳ Read interview</a>
   </div>
 </article>
-
 
 <article class="person-card">
   <img src="/assets/about/bill-woodman.png" alt="Portrait of Billy Woodman" loading="lazy">
