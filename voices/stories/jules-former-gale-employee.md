@@ -14,7 +14,7 @@ I got the job after a quick interview with **David Lyth** (later of Volt Loudspe
 
 That’s where I first met **Ian Dampney** and **Nigel Hobden**. **Donald Sinclair**, a whisky-drinking Scot, was the speaker manager, and many an evening was spent in one of the Mayfair pubs after work. He taught me to drink pints of bitter with a whisky chaser.
 
-The other guys I remember making the speakers were **Mo**, **Dennis**, and an Indian chap whose surname was **Patel**, though I’ve forgotten his first name. **Peter Balkan** was the small guy who tested each speaker we made in the anechoic chamber — fun when he was in a good mood, but with a wicked temper when he wasn’t. **Ray**, the salesman, had an E-Type Jaguar, I remember. There were also three African ladies upstairs who coated the speaker cones — I’ve forgotten their names, but one of them was a genuine princess.
+The other guys I remember making the speakers were **Mo**, **Dennis**, and an Indian chap whose surname was **Patel**, though I’ve forgotten his first name. **Peter Balkan** was the small guy who tested each speaker we made in the anechoic chamber, fun when he was in a good mood, but with a wicked temper when he wasn’t. **Ray**, the salesman, had an E-Type Jaguar, I remember. There were also three African ladies upstairs who coated the speaker cones — I’ve forgotten their names, but one of them was a genuine princess.
 
 In time I was promoted upstairs to build the **GT2101 decks** and their **control units**, which was a bit quieter work. I had a dust-free chamber to work in, and I remember building the control units and calibrating the deck speeds using an oscilloscope to tweak the crystal that controlled it.
 
@@ -24,10 +24,10 @@ Ian and Nigel saw the end coming for Gale as Ira tried to expand — I remember 
 
 I remember when Gale went broke and we were paid out in the street in Bruton Place. Then **Donald Wong** bought the company, and a skeleton crew moved to **Kensal Rise**. That lasted a couple of years, I think, and I worked for the model-making company there. Eventually Donald took production elsewhere and, I think, dropped the large speakers in favour of smaller ones.
 
-I once had a silver pair of stands and actually sprayed them black — I think I threw them away eventually (sorry, folks!). I still have the black-and-chrome ones, though, and they still work fine. The surrounds are probably falling apart, but I don’t thrash them. I run them from a **Quad 303** and the 100-watt “dumping” amp (**Quad 405**).
+I once had a silver pair of stands and actually sprayed them black, I think I threw them away eventually (sorry, folks!). I still have the black-and-chrome ones, though, and they still work fine. The surrounds are probably falling apart, but I don’t thrash them. I run them from a **Quad 303** and the 100-watt “dumping” amp (**Quad 405**).
 
-I used to do the **hi-fi shows** with Ray — they were great fun, playing *Oxygène* by **Jean-Michel Jarre**, *Goodbye Yellow Brick Road*, and *Dark Side of the Moon* at full volume for the hi-fi crowd.
+I used to do the **hi-fi shows** with Ray, they were great fun, playing *Oxygène* by **Jean-Michel Jarre**, *Goodbye Yellow Brick Road*, and *Dark Side of the Moon* at full volume for the hi-fi crowd.
 
-I love the pictures you have on this site. Have you got the **Playboy** magazine ones? Or was it another men’s mag — I forget. I have it somewhere. There was one advert of the black-and-chrome speaker taken on a stand in a garden with a cat on it. I think they only used it once. Have you seen that one? It was my garden, my cat, and I took the picture!
+I love the pictures you have on this site. Have you got the **Playboy** magazine ones? Or was it another men’s mag, I forget. I have it somewhere. There was one advert of the black-and-chrome speaker taken on a stand in a garden with a cat on it. I think they only used it once. Have you seen that one? It was my garden, my cat, and I took the picture!
 
 — *Jules*
