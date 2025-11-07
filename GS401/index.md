@@ -7,14 +7,20 @@ nav_exclude: true
 
 # GS401 Loudspeakers
 
-The **Gale GS401** stands as one of the most iconic British loudspeakers of the 1970s, a symbol of precision engineering and design-led hi-fi.  
+<figure style="margin:1.5rem 0;text-align:center;">
+  <img src="/assets/GS401/gs401a-chrome.jpg" alt="Gale GS401A loudspeaker" style="max-width:100%;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
+  <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — the original 1973 design by Jon Bannenberg.</figcaption>
+</figure>
+
+The **Gale GS401** stands as one of the most iconic British loudspeakers of the 1970s — a fusion of precision engineering and design-led hi-fi.  
 This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of **Gale Electronics** and its collaborators remains accessible to restorers and enthusiasts worldwide.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1rem;margin:1.2rem 0;">
   <strong>Archival note:</strong><br>
-  Styled by <strong>Jon Bannenberg</strong> with acoustic engineering by <strong>Billy Woodman</strong> and production oversight by <strong>David Lyth</strong> under the direction of <strong>Ira Gale</strong>, the GS401 combined radical styling with studio-grade performance.  
-  Its chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of British audio design.  
-  Each model, the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (walnut veneer), and <strong>GS401C</strong> (walnut veneer and curved grilles), shared identical drivers and crossovers, differing only in finish.
+  Styled by <strong>Jon Bannenberg</strong> under the direction of <strong>Ira Gale</strong>, the GS401 combined radical aesthetics with serious acoustic intent.  
+  <strong>David Lyth</strong> oversaw production and driver supply through Volt Loudspeakers, while <strong>Billy Woodman</strong> was involved during early development at Volt, though the extent of his direct input into the GS401’s final tuning remains uncertain.  
+  The design’s chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of 1970s British audio design.  
+  Each model — the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (walnut veneer), and <strong>GS401C</strong> (walnut veneer with curved grilles) — shared identical drivers and crossovers, differing only in finish.
 </div>
 
 ---
@@ -28,7 +34,7 @@ This archive preserves the design drawings, technical data, and provenance of th
   </a>
   <a href="/GS401/speaker-models/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Speaker Models</strong><br>
-    <small>3x models, A/B and C</small>
+    <small>GS401A / B / C variations</small>
   </a>
   <a href="/GS401/components/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
     <strong>Components & Parts</strong><br>
