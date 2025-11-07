@@ -7,13 +7,19 @@ nav_exclude: true
 
 # GS401 Loudspeakers
 
-<figure style="margin:1.5rem 0;text-align:center;">
-  <img src="/GS401/speaker-models/401a.png" alt="Gale GS401A loudspeaker" style="max-width:100%;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
-  <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — the original 1973 design by Jon Bannenberg.</figcaption>
-</figure>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin:1.5rem 0;">
+  <figure style="flex:1 1 320px;max-width:380px;margin:0;text-align:center;">
+    <img src="/GS401/speaker-models/401a.png" alt="Gale GS401A loudspeaker" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
+    <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — the original 1973 design by Jon Bannenberg.</figcaption>
+  </figure>
 
-The **Gale GS401** stands as one of the most iconic British loudspeakers of the 1970s — a fusion of precision engineering and design-led hi-fi.  
-This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of **Gale Electronics** and its collaborators remains accessible to restorers and enthusiasts worldwide.
+  <div style="flex:2 1 380px;min-width:260px;">
+    <p>
+      The <strong>Gale GS401</strong> stands as one of the most iconic British loudspeakers of the 1970s — a fusion of precision engineering and design-led hi-fi.  
+      This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of <strong>Gale Electronics</strong> and its collaborators remains accessible to restorers and enthusiasts worldwide.
+    </p>
+  </div>
+</div>
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1rem;margin:1.2rem 0;">
   <strong>Archival note:</strong><br>
