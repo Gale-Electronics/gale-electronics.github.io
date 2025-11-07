@@ -8,7 +8,7 @@ nav_exclude: true
 # GS401 Loudspeakers
 
 <figure style="margin:1.5rem 0;text-align:center;">
-  <img src="/assets/GS401/gs401a-chrome.jpg" alt="Gale GS401A loudspeaker" style="max-width:100%;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
+  <img src="/GS401/speaker-models/401a.png" alt="Gale GS401A loudspeaker" style="max-width:100%;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
   <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — the original 1973 design by Jon Bannenberg.</figcaption>
 </figure>
 
