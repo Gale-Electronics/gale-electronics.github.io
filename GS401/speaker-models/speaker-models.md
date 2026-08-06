@@ -1,7 +1,8 @@
 ---
-title: Speaker Models Gallery
+title: "GS401 — Speaker Models"
 layout: bare
 permalink: /GS401/speaker-models/
+description: "The Gale GS401 model variants and revisions, with visual identification notes for collectors and restorers."
 ---
 
 # Speaker Models Gallery

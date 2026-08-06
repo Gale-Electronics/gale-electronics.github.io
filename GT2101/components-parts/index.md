@@ -2,6 +2,7 @@
 title: "Components & Parts"
 layout: bare
 permalink: /GT2101/components-parts/
+description: "Gale GT2101 PCB close-ups, populated boards, motor assemblies and connectors, archived at full resolution with part numbers for repair."
 ---
 
 <style>

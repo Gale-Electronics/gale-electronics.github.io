@@ -1,8 +1,9 @@
 ---
-title: Stories
+title: "Voices — Stories"
 layout: bare
 permalink: /voices/stories/
 nav_exclude: true
+description: "Written recollections and personal accounts from people connected to Gale Electronics."
 ---
 
 # Stories

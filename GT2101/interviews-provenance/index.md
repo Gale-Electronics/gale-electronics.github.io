@@ -2,6 +2,7 @@
 layout: bare
 title: GT2101 — Interviews & Provenance
 permalink: /GT2101/interviews-provenance/
+description: "Recovered correspondence, oral histories and archive interviews documenting the origins and production of the Gale GT2101."
 show_archive_banner: true
 archive_note: >
   Text archive reconstructed from the original galeaudio.com “Turntable” page (2011–2016).  

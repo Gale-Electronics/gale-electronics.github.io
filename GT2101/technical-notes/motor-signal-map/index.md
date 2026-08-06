@@ -2,6 +2,7 @@
 layout: bare
 title: GT2101 — Motor & PCB Signal Map
 permalink: /GT2101/technical-notes/motor-signal-map/
+description: "Signal map of the Gale GT2101 motor and control PCBs — connector pinouts, tacho feedback and drive signals for fault diagnosis."
 show_archive_banner: true
 archive_note: >
   Consolidated probe map reconstructed from the original galeaudio.com technical notes and modern restoration data.

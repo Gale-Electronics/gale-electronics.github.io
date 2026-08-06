@@ -1,7 +1,8 @@
 ---
-title: Adverts
+title: "GS401 — Adverts"
 layout: bare
 permalink: /GS401/photographs-adverts/adverts/
+description: "Period magazine adverts for the Gale GS401 loudspeakers, including international press campaigns from the 1970s."
 ---
 
 <div class="wrap">

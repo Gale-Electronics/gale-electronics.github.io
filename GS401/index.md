@@ -3,6 +3,7 @@ title: GS401 Loudspeakers
 layout: bare
 permalink: /GS401/
 nav_exclude: true
+description: "Gale GS401 loudspeakers — engineering by Ira Gale, David Lyth and Billy Woodman, styling by Jon Bannenberg. Drivers, crossovers, restoration and documentation."
 ---
 
 # GS401 Loudspeakers

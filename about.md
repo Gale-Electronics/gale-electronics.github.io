@@ -1,6 +1,7 @@
 ---
 layout: bare
 title: About Gale Electronics
+description: "The story of Gale Electronics, founded by Ira Gale — who designed the GS401 loudspeakers and GT2101 turntable, and how this archive preserves the record."
 ---
 
 <!-- Page Header -->

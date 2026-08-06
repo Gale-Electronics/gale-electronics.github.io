@@ -1,6 +1,7 @@
 ---
-title: Interviews
+title: "Voices — Interviews"
 layout: bare
+description: "Recorded interviews with former Gale Electronics staff and figures from the British hi-fi industry."
 ---
 
 # Interviews

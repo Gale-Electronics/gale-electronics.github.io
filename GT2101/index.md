@@ -2,6 +2,7 @@
 title: GT2101 Turntable
 layout: bare
 nav_exclude: true
+description: "The Gale GT2101 turntable — servo-controlled direct drive developed with Dr Sao Win, designed by DCA. Schematics, restoration notes and history."
 ---
 
 # GT2101 Turntable

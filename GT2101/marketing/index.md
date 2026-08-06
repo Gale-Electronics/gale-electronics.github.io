@@ -2,6 +2,7 @@
 title: Marketing & Publicity
 layout: bare
 permalink: /GT2101/marketing/
+description: "Adverts, brochures, press features and international magazine coverage of the Gale GT2101 turntable, including its 1970s magazine cover appearances."
 ---
 
 <style>

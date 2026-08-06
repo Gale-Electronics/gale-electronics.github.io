@@ -1,8 +1,9 @@
 ---
-title: Manuals & Literature
+title: "GS401 — Manuals & Literature"
 layout: bare
 permalink: /GS401/manuals-literature/
 nav_exclude: true
+description: "Original Gale GS401 manuals, specification sheets and printed literature, preserved at full resolution."
 ---
 
 <h1>Manuals &amp; Literature</h1>

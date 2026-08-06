@@ -1,6 +1,7 @@
 ---
-title: Components
+title: "GS401 — Components"
 layout: bare
+description: "Gale GS401 drivers, crossovers and internal components, with part numbers and photographs for restoration and repair."
 ---
 
 <style>

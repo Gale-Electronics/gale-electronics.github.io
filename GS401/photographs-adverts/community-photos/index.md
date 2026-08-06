@@ -1,7 +1,8 @@
 ---
-title: Community Photos
+title: "GS401 — Community Photos"
 layout: bare
 permalink: /GS401/photographs-adverts/community-photos/
+description: "Owner-submitted photographs of Gale GS401 loudspeakers, original and restored, from collections around the world."
 ---
 
 <div class="wrap">

@@ -2,6 +2,7 @@
 title: Design by DCA
 layout: bare
 permalink: /GT2101/design-by-DCA/
+description: "How Derek Carter's DCA Design Consultants turned Ira Gale's radical GT2101 concept into a produced turntable."
 ---
 
 <style>

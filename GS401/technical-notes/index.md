@@ -1,8 +1,9 @@
 ---
-title: Technical Notes
+title: "GS401 — Technical Notes"
 layout: bare
 permalink: /GS401/technical-notes/
 nav_exclude: true
+description: "Service notes, crossover details and restoration guidance for the Gale GS401 loudspeakers."
 ---
 
 # Technical Notes

@@ -1,8 +1,9 @@
 ---
-title: Manuals & Literature
+title: "GT2101 — Manuals & Literature"
 layout: bare
 permalink: /GT2101/manuals-literature/
 nav_exclude: true
+description: "Original Gale GT2101 manuals, brochures and printed literature, preserved at full resolution."
 ---
 
 # Manuals & Literature

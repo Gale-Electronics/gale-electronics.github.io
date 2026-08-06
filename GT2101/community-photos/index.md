@@ -1,7 +1,8 @@
 ---
-title: Community Photos
+title: "GT2101 — Community Photos"
 layout: bare
 permalink: /GT2101/community-photos/
+description: "Owner-submitted photographs of Gale GT2101 turntables, original and restored, from collections around the world."
 ---
 
 <style>

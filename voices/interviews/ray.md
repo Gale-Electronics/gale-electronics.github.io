@@ -2,6 +2,7 @@
 title: Ray Churchouse Interview
 layout: bare
 permalink: /voices/interviews/ray.html
+description: "Interview with Ray Churchouse, Gale Electronics sales manager during the 1970s, on the company, its products and its customers."
 ---
 
 # Interview — Ray Churchouse (Sales Manager, 1970s)
