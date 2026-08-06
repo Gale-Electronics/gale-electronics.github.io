@@ -38,9 +38,9 @@ permalink: /GT2101/components-parts/
   <figure>
     <a href="#cp-8">
       <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg"
-           alt="LED display module and front-panel assembly for GT2101">
+           alt="Motor assembly, labelled cutaway view">
     </a>
-    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
+    <figcaption>Motor assembly, labelled cutaway.</figcaption>
   </figure>
 
   <figure>
@@ -102,9 +102,9 @@ permalink: /GT2101/components-parts/
   <figure>
     <a href="#cp-9">
       <img src="/GT2101/engineering-drawings-schematics/top_PCB_Lifted_Showing_Vary_Speed_Adjuster.jpg"
-           alt="LED display module and front-panel assembly for GT2101">
+           alt="Top PCB lifted, showing the variable speed adjuster">
     </a>
-    <figcaption>LED Display, front-panel module and readout assembly.</figcaption>
+    <figcaption>Top PCB lifted, showing the variable speed adjuster.</figcaption>
   </figure>
 
 <figure>
@@ -136,7 +136,7 @@ permalink: /GT2101/components-parts/
 
 <!-- LIGHTBOX TARGETS -->
 <a href="#" class="lightbox" id="cp-8">
-  <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg" alt="Power Supply board (Disk 5, 3285NH), full-resolution">
+  <img src="/GT2101/engineering-drawings-schematics/GT2101_Motor_Assembly_Cutaway_Labeled.jpg" alt="Motor assembly, labelled cutaway, full-resolution">
   <span class="close" aria-label="Close">×</span>
 </a>
 
@@ -176,7 +176,7 @@ permalink: /GT2101/components-parts/
 </a>
 
 <a href="#" class="lightbox" id="cp-9">
-  <img src="/GT2101/engineering-drawings-schematics/top_PCB_Lifted_Showing_Vary_Speed_Adjuster.jpg" alt="Power Supply board variant (Disk 5, 3285NH), full-resolution">
+  <img src="/GT2101/engineering-drawings-schematics/top_PCB_Lifted_Showing_Vary_Speed_Adjuster.jpg" alt="Top PCB lifted showing the variable speed adjuster, full-resolution">
   <span class="close" aria-label="Close">×</span>
 </a>
 
