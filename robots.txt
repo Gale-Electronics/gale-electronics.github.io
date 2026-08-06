@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gale-electronics.github.io/sitemap.xml

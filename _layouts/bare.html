@@ -3,15 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    {% seo %}
 
     <!-- Use Minima's CSS so typography/spacing look good -->
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-
-    <!-- Optional: SEO tag if you use jekyll-seo-tag -->
-    {% if site.plugins and site.plugins contains 'jekyll-seo-tag' %}
-      {% seo %}
-    {% endif %}
 
     <style>
       :root {

@@ -2,6 +2,9 @@ title: Gale Electronics
 description: Open archive preserving the history, design and engineering of Gale Electronics.
 theme: minima
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 collections:
   gt2101:
     output: true
