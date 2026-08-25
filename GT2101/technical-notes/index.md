@@ -38,6 +38,10 @@ the later work and says why.
 - [**A modern controller**](/GT2101/technical-notes/pico-controller/) — an ongoing project to
   replace the 1970s control logic with a microcontroller while keeping every other original part,
   including driving the 1975 display without modifying it.
+- [**Fitting a controller to the backplane**](/GT2101/technical-notes/fitting-the-controller/) —
+  the method rather than the build: using the original backplane as the wiring loom, so a modern
+  controller plugs into the vacated slots with no cuts, no solder joints on any original board,
+  and full reversibility.
 
 ---
 
