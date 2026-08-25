@@ -24,7 +24,7 @@ This section of the archive documents its engineering, construction, and cultura
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
   <a href="/GT2101/engineering-drawings-schematics/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
-    <strong>Engineering Drawings & Schematics</strong><br>
+    <strong>Engineering Drawings &amp; Schematics</strong><br>
     <small>Original circuit diagrams, PCB layouts, and wiring references.</small>
   </a>
 
@@ -33,8 +33,13 @@ This section of the archive documents its engineering, construction, and cultura
     <small>Service documentation, diagnostic field reports, and restoration insights.</small>
   </a>
 
+  <a href="/GT2101/project-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+    <strong>Project Notes</strong><br>
+    <small>The live working record — board studies, bench sessions, decisions, and what is still unknown.</small>
+  </a>
+
   <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
-    <strong>Components & Parts</strong><br>
+    <strong>Components &amp; Parts</strong><br>
     <small>PCB close-ups, part numbers, and sourcing data for repairs.</small>
   </a>
 </div>
@@ -50,7 +55,7 @@ This section of the archive documents its engineering, construction, and cultura
   </a>
 
   <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
-    <strong>Marketing & Publicity</strong><br>
+    <strong>Marketing &amp; Publicity</strong><br>
     <small>Adverts, brochures, press features, and international magazine coverage.</small>
   </a>
 
@@ -71,7 +76,7 @@ This section of the archive documents its engineering, construction, and cultura
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
   <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
-    <strong>Interviews & Provenance</strong><br>
+    <strong>Interviews &amp; Provenance</strong><br>
     <small>Recovered correspondence, oral histories, and archive interviews with original engineers and collaborators.</small>
   </a>
 </div>

@@ -78,7 +78,16 @@ state and nothing on the board resets it. Reading the board's own `RESET` output
 input fixes this — one wire and one resistor.
 
 ✅ The display's green LED already has its 1 kΩ series resistor on the board (measured 966 Ω in
-circuit), about 8 mA at 10 V, so a microcontroller pin can sink it directly with no driver.
+circuit), about 8 mA at 10 V — and ✅ a microcontroller can drive it, confirmed on the bench.
+
+⚠ **But mind the off state, not the on state.** An earlier version of this page said a pin could
+sink that LED directly with no driver. That is true at 5 V on the bench, where the pin floats to
+about 3 V when it lets go and nothing conducts. **At the deck's 10 V it is wrong**: released, the
+pin is pulled toward 8 V through that 1 kΩ, the microcontroller's input clamp diode conducts, and
+several milliamps are injected into its own 3.3 V rail — continuously, from the instant the deck is
+switched on and before any firmware has run. The 10 V installation needs a low-side NPN. On the
+bench, configure the pin as **open-drain**, never as a plain output, so the same code survives the
+move.
 
 ---
 
@@ -150,8 +159,13 @@ module that exercises each part separately. Notes that may be useful to others:
 | 20 Aug 2026 | The deck's Helipot read into an ADC input, full sweep ✅ |
 | 21 Aug 2026 | **`12.3`, `45.0`, `78.0` and `33.3` on the original 1975 display**, board otherwise untouched ✅ |
 | 22 Aug 2026 | Boards 2, 3 and 4 read from their drawings; the architecture settled |
+| 24 Aug 2026 | The speed pot drives the display end to end — turn the disc, the digits follow ✅. The pot is a ten-turn Helipot, using the full ADC span |
+| 24 Aug 2026 | **The original green LED lit and extinguished on command** — one wire, no components ✅ |
 
 **Next:** the display's auto-lock wire, then the touch input, then the tachometer.
+
+The full working record — board-by-board studies, bench procedures, the parts list and the running
+project memory — is kept in [Project Notes](/GT2101/project-notes/).
 
 ---
 

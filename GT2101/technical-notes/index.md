@@ -26,6 +26,12 @@ the later work and says why.
 ## Signals
 
 - [Motor & PCB Signal Map](/GT2101/technical-notes/motor-signal-map/)
+- [Backplane signal map](/GT2101/project-notes/backplane-signal-map/) — what travels between
+  all five boards of the control tower, pin by pin.
+
+## Motor
+
+- [Motor findings](/GT2101/technical-notes/motor-findings/)
 
 ## Restoration
 
@@ -35,5 +41,13 @@ the later work and says why.
 
 ---
 
-*Still to be written up here: the display board, the touch-sensor board, the `F VAR` and
-drive-gate board, and a note on the provenance of the archive's drawings.*
+## The working record
+
+These pages are the finished write-ups. The **[Project Notes](/GT2101/project-notes/)**
+section holds the working record behind them — the full board studies for boards 1, 2 and 3,
+the bench sessions, the parts list, and the running project memory. That is where a claim
+made here can be traced back to the measurement that produced it.
+
+Still to be written up on this page in finished form: the display board, the touch-sensor
+board, the `F VAR` and drive-gate board, and a note on the provenance of the archive's
+drawings. All four exist in draft in the project notes.
