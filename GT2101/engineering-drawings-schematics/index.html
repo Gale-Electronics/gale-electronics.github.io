@@ -22,14 +22,196 @@ archive_note: >
     .pdf{font-size:80px;line-height:1.2;padding:30px 0}
     .folders{display:flex;flex-wrap:wrap;gap:10px;margin:.6em 0 1.2em}
     .folders a{background:#fff;border:1px solid #ddd;border-radius:999px;padding:.35em .7em;text-decoration:none;color:#111;font-size:.95rem}
+    .correction{background:#fdecea;border:1px solid #e0a29a;border-radius:8px;padding:.75rem 1rem;margin:1rem 0}
+    .legend{font-size:.92rem;margin:.4em 0 1em}
+    .legend span{display:inline-block;margin-right:1.2em;white-space:nowrap}
+    .register{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem;background:#fff}
+    .register th,.register td{border:1px solid #ddd;padding:.5rem .6rem;text-align:left;vertical-align:top}
+    .register th{background:#f5f5f5;font-weight:600}
+    .register code{font-size:.9em}
+    .tablewrap{overflow-x:auto}
+    .st{white-space:nowrap;font-weight:600}
   </style>
 
   <h1>{{ page.title }}</h1>
 
   <div class="note">
-    A living archive of the GT2101 motor stack: reverse-engineered schematics, board layouts, high-res photos and bench notes.
-    Everything sits under <code>{{ page.base }}</code> and is organised by disk/board. (Tip: PDFs open in a new tab; images open full size.)
+    A living archive of the GT2101 motor stack: reverse-engineered schematics, board layouts,
+    high-res photos and bench notes. Some of this material was inherited from the defunct
+    <em>galeaudio.com</em> and its original sources are unknown, so <strong>every claim on this
+    page carries a status marker</strong> — ✅ confirmed against hardware, 📄 from a document,
+    ❓ unverified. Nothing is deleted for being unverified; it is labelled.
   </div>
+
+  <h2 id="register">The five boards — what each one actually does</h2>
+
+  <p>
+    The control tower holds five circular boards, numbered <strong>1 at the top to 5 at the
+    bottom</strong>, joined by a flexible ribbon backplane. Every claim below carries a status
+    marker, so an inherited guess can never be mistaken for a measured fact:
+  </p>
+
+  <p class="legend">
+    <span>✅ <strong>confirmed against the hardware</strong> — read off the part, or measured</span>
+    <span>📄 <strong>from a document</strong> — usually a hand-traced reverse-engineering sheet</span>
+    <span>❓ <strong>unverified</strong> — inherited from the defunct <em>galeaudio.com</em> material</span>
+  </p>
+
+  <div class="tablewrap">
+  <table class="register">
+    <thead>
+      <tr><th>Board</th><th>Gale number</th><th>What it does</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1</strong> (top)</td>
+        <td><code>GT201/3155ST</code> ✅</td>
+        <td><strong>Display.</strong> A three-digit frequency counter — an MC14553 counts the
+            <code>F&nbsp;DISPLAY</code> line for a gated window and an MC14511 drives the LED digits.
+            The decimal point is hardwired, so it can only ever read <code>NN.N</code>.
+            1332&nbsp;Hz displays "33.3".</td>
+        <td class="st">✅ number read off the board.<br>✅ function proven on the bench, Aug&nbsp;2026.</td>
+      </tr>
+      <tr>
+        <td><strong>2</strong></td>
+        <td><code>GT201/3272ST</code> ✅</td>
+        <td><strong>Speed control and start/stop.</strong> Carries the Beckman Helipot (1&nbsp;kΩ,
+            0.25%) whose shaft passes up through the top plate as the clear disc. The capacitive
+            start/stop touch signal terminates here.</td>
+        <td class="st">✅ number read off the board.<br>📄 function from the backplane tracing.</td>
+      </tr>
+      <tr>
+        <td><strong>3</strong></td>
+        <td><code>GT201/3275ST</code> ✅<br><small>two issues exist — see below</small></td>
+        <td><strong>Variable-speed oscillator and drive-voltage gate.</strong> An XR2207 VCO turns
+            the Helipot's setting into a frequency, sent out as <code>F&nbsp;VAR</code>. Separately,
+            an LM3900 wired as a window comparator decides <em>still</em> versus <em>turning</em>,
+            and a JFET switch mutes the motor drive whenever the platter is stopped.</td>
+        <td class="st">✅ number read off the board.<br>📄 function from the 2015 tracings, which are
+            marked <em>preliminary</em>.</td>
+      </tr>
+      <tr>
+        <td><strong>4</strong></td>
+        <td><code>GT201/3276ST</code> ✅<br><small>marked <strong>ISSUE C</strong></small></td>
+        <td><strong>Crystal reference and tacho.</strong> Holds the 1.048&nbsp;MHz crystal and
+            produces <code>F&nbsp;REF</code>; also carries <code>TACH</code> and <code>INV&nbsp;TACH</code>.</td>
+        <td class="st">✅ number and issue read off the board.<br>📄 function from the backplane tracing.</td>
+      </tr>
+      <tr>
+        <td><strong>5</strong> (bottom)</td>
+        <td><code>3285NH</code> ❓<br><small>see the note below — <strong>not confirmed</strong></small></td>
+        <td><strong>Power supply and external interface.</strong> Distributes ±10&nbsp;V, takes
+            <code>TACH</code> in from the motor and sends <code>SPEED&nbsp;OUT</code> (≈1.5&nbsp;V) to it.
+            <strong>There is no motor power stage anywhere in the tower</strong> — the power
+            electronics live on the separate motor controller PCB.</td>
+        <td class="st">❓ number inherited.<br>📄 function from the backplane tracing.</td>
+      </tr>
+      <tr>
+        <td><strong>Backplane</strong></td>
+        <td><code>GT201/3281NH</code> ✅<br><small>made by <em>flexicon</em></small></td>
+        <td>Flexible ribbon linking all five boards.</td>
+        <td class="st">✅ read off the part.</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="correction">
+    <strong>Correction — the "Disk 3 · Optical Sensor" description is wrong.</strong><br>
+    The inherited page <code>Disk-3-Optical-Sensor.pdf</code>, and the folder name that still
+    matches it, describe board 3 as an optical sensor and tachometer processor "mounted close to
+    the motor's internal photodiode assembly". Photographs of three spare boards and the four
+    traced schematic sheets show nothing of the kind: there is no photodiode, no encoder input,
+    and no such signal on the nine-pin connector. The XR2207 at the heart of the board is a
+    <em>voltage-controlled oscillator</em> — it turns a voltage into a frequency, which is the
+    opposite of what a tachometer processor does. That page should be read as ❓ disputed until
+    someone can show where its claims came from. <em>The folder name is left unchanged for now so
+    that existing links keep working.</em>
+  </div>
+
+  <div class="correction">
+    <strong>Board 5's part number is the one entry never read off the copper.</strong><br>
+    The <strong>toroidal mains transformer is bolted directly to board 5</strong>, covering the
+    area of copper where the legend would be — which is why the photograph of its underside shows
+    the transformer rather than an etched number. So <code>3285NH</code> remains ❓ inherited.
+    Worth knowing alongside it: the separate round <strong>motor PCB</strong> is etched
+    <code>GT2101 3185NH/B</code> ✅, one digit away. Reading board 5's own number off the copper,
+    while the board is out and the transformer unbolted, is the one measurement that would
+    complete this register.
+  </div>
+
+  <h2 id="issues">These boards were revised — check the issue letter</h2>
+
+  <p>
+    Gale did not freeze this design. Two of the five boards photographed here carry an issue
+    marking etched beside the part number, and one of them exists in the archive in two different
+    revisions with different components. ✅ All issue letters below were read directly off the
+    boards.
+  </p>
+
+  <ul>
+    <li><code>GT201/3275ST</code> — board 3, plain (no issue letter)</li>
+    <li><code>GT201/3275ST&nbsp;ISSUE&nbsp;B</code> — board 3, a genuinely different circuit</li>
+    <li><code>GT201/3276ST&nbsp;ISSUE&nbsp;C</code> — board 4</li>
+    <li><code>GT2101 3185NH/B</code> — the separate motor PCB, not a tower board</li>
+  </ul>
+
+  <p>
+    <strong>Anyone comparing a board against these drawings should check the issue letter first.</strong>
+  </p>
+
+  <h2 id="board3-issues">Board 3 exists in two issues</h2>
+
+  <p>
+    Boards photographed for this archive carry two different revisions of the same part number.
+    The plain <code>GT201/3275ST</code> is built around an <strong>LM3900</strong> quad Norton
+    amplifier; <code>GT201/3275ST&nbsp;ISSUE&nbsp;B</code> has visibly different copper routing and
+    an <strong>NE555</strong> in its place, with no LM3900 at all. ✅ Both legends were read
+    directly off the boards.
+  </p>
+  <p>
+    <strong>The traced schematic sheets show the LM3900, so they describe the plain issue only.</strong>
+    Anything measured on an ISSUE B board should be treated as a separate case until someone
+    traces it. Component date codes on the plain boards run from 1974 to 1975.
+  </p>
+
+  <h2 id="drive-voltage">Motor drive voltage — both sides of the gate</h2>
+
+  <p>
+    📄 The board 3 layout sheet tabulates the drive voltage at <em>both</em> ends of the gate. The
+    backplane sheet only ever recorded one column — the input — which is where the widely repeated
+    figure of "10 V at standstill" comes from.
+  </p>
+
+  <div class="tablewrap">
+  <table class="register">
+    <thead>
+      <tr><th>Condition</th><th>Board 3 pin 6 — demand in</th><th>Board 3 pin 7 — drive out</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Still</strong></td><td>10 V</td><td><strong>0 V</strong></td></tr>
+      <tr><td>33⅓ rpm</td><td>1.2 V</td><td>1.2 V</td></tr>
+      <tr><td>45 rpm</td><td>1.6 V</td><td>1.6 V</td></tr>
+      <tr><td>78 rpm</td><td>2.4 V</td><td>2.4 V</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>
+    Running, the voltage passes straight through. Stopped, the demand rails to 10 V and
+    <strong>board 3 holds its output at zero</strong> — the comparator sees <em>still</em>, the JFET
+    mutes the drive, and the motor receives nothing. Anyone rebuilding this servo should note that
+    the 10 V figure never reaches the motor, and that the idle drive voltage is <strong>0 V</strong>.
+    These figures are 📄 only, from a sheet marked <em>preliminary</em>; measuring pin 7 on a
+    running deck would confirm them.
+  </p>
+
+  <h2 id="files">The drawings and photographs</h2>
+
+  <p>
+    Everything sits under <code>{{ page.base }}</code>, organised by board. PDFs open in a new tab;
+    images open full size.
+  </p>
 
   {% assign allowed_exts = "jpg,jpeg,png,webp,pdf" | split: "," %}
 
