@@ -1,43 +1,78 @@
 ---
 layout: bare
-title: GT2101 — A Modern Controller
+title: "GT2101 — The Remora"
 permalink: /GT2101/technical-notes/pico-controller/
-description: "Rebuilding the Gale GT2101's control logic on a Raspberry Pi Pico while keeping the original display, power supply, controls and motor — an ongoing restoration record."
+description: "Adding a Raspberry Pi Pico to the Gale GT2101's control tower without removing a single original board — an ongoing restoration record."
 show_archive_banner: true
 archive_note: >
-  An ongoing project to replace the GT2101's 1970s control logic with a microcontroller while
-  leaving every other original part in place. Recorded as it happens, including the wrong turns.
+  An ongoing project to add a microcontroller to the GT2101's control tower while leaving every
+  original board in place and running. Recorded as it happens, including the wrong turns.
 ---
 
-# A modern controller for the GT2101
+# The Remora
 
-An ongoing attempt to put new control logic into a GT2101's control tower using a Raspberry Pi
-Pico, while keeping **everything else original** — the original power supply, the original LED
-display, the original front-panel controls, the original motor and motor PCB, the original wiring.
+**Remora** is the name of this project. A remora rides on a whale shark — it takes nothing,
+damages nothing, and detaches without leaving a mark. That is the whole design brief.
+
+An ongoing attempt to add a Raspberry Pi Pico to a GT2101's control tower while keeping
+**everything original** — every one of the five boards, the power supply, the LED display, the
+front-panel controls, the motor and its PCB, and the wiring.
+
+⚠ **Rewritten 29 August 2026.** An earlier version of this page had boards 3 and 4 removed and
+the Pico taking a vacated slot. **That is withdrawn. No board is removed.**
 
 This page is written as the work happens, and it includes the mistakes. Status markers as
 elsewhere on this site: ✅ confirmed against the hardware · 📄 from a document · ❓ unverified.
 
 ---
 
-## The principle: the Pico is brains only
+## Why not simply modernise it
 
-The five boards in the tower divide cleanly into logic and everything else.
+A GT2101 with its original electronics replaced is a Gale box, not a Gale. The same is true of
+a pair of 401s rebuilt with modern drivers — the cabinet is still Gale, but the character the
+company built into it has gone, and nobody paying Gale money is paying for a box.
 
-| Board | What it is | In the rebuild |
+That is the whole argument for the approach below. Everything added has to be sympathetic to
+what is already there. This deck currently runs a well-made modern replacement controller; it
+is being removed and the original five boards refitted, because a working deck that is no
+longer original is not the thing worth preserving.
+
+It also sets the editorial rule for this archive: **what previous owners and engineers found
+out is kept — their testimony, their measurements, their dead ends. What they bolted on is
+not.** Several of the most useful facts on this site came from a previous restorer, and they
+are recorded here with his name on them; the hardware he had made is not part of this deck's
+future and is not documented.
+
+---
+
+## The principle: the remora
+
+The Pico rides on the deck the way a remora rides on a whale shark — it takes nothing, damages
+nothing, and detaches without leaving a mark.
+
+| Board | What it is | In the build |
 |:--:|---|---|
-| 1 | Display — a three-digit frequency counter | **stays**, driven directly by the Pico |
-| 2 | Capacitive touch start/stop; also the display's timing | **stays**, as the touch sensor |
-| 3 | `F VAR` oscillator and the drive-voltage gate | **removed** |
-| 4 | Crystal, reference divider, tacho front-end, the servo | **removed** |
+| 1 | Display — a three-digit frequency counter | **stays**, and the Pico drives it ✅ |
+| 2 | Capacitive touch start/stop; also the display's timing | **stays** |
+| 3 | `F VAR` oscillator and the drive-voltage gate | **stays** |
+| 4 | Crystal, reference divider, tacho front-end, the servo | **stays** |
 | 5 | Power supply and the interface to the motor | **stays** |
 
-**Boards 3 and 4 are one servo split across two boards** — board 4 decides the drive voltage,
-board 3 decides whether it is allowed out — so they leave together. Neither is modified. They
-unplug, and they can be plugged back in at any time; the deck can be returned to 1976 in about a
-minute.
+**All five boards stay in the tower, powered and running.** The original servo keeps turning the
+platter; the Pico reads what it is doing and helps where help is wanted. Boards 3 and 4 are one
+servo split across two boards — board 4 decides the drive voltage, board 3 decides whether it is
+allowed out — and both stay in the safety chain.
 
-The Pico's carrier board takes slot 3, where its edge fingers meet the original backplane.
+✅ **Mounting, decided 29 August 2026:** adhesive tape behind the Pico and a cable tie at each
+end, onto the **pillars between the boards**. No glue, no drilling, no bracket, no modification
+to anything. ⚠ Nothing touches the flexible backplane — that film is irreplaceable and the Pico
+straddles it with clearance. ⚠ Check the tape is not electrically conductive; it sits behind a
+bare board.
+
+⚠ **Listen before driving.** Boards 2 and 4 are alive and pulsing. Driving a net one of them is
+already holding gives continuous, dynamic contention that would *partially* work — the worst kind
+of fault. Every wire goes in as an input first. See
+[Fitting a controller to the backplane](/GT2101/technical-notes/fitting-the-controller/).
 
 ### Where the Pico connects
 
@@ -47,7 +82,7 @@ The Pico's carrier board takes slot 3, where its edge fingers meet the original 
 | Start/stop | board 2's touch pulse | two-resistor divider, edge interrupt |
 | Display | board 1, three signals | ✅ working |
 | Tacho | the `TACH` net | JFET inverter — see below |
-| Drive out | board 3's output net | op-amp buffering filtered PWM |
+| Drive out | board 3's output net (row 3 pad 7) | op-amp buffering filtered PWM — ⚠ read-only until the gate is proven |
 
 ---
 
@@ -123,10 +158,14 @@ to the tacho, source to ground, drain pulled up to the logic supply. On at 0 V, 
 with the platter stopped the servo's demand rails to **10 V**, and board 3 mutes it to **0 V**
 before it can reach the motor.
 
-⚠ **Removing board 3 removes that protection.** The 1975 design never let 10 V reach a stationary
-motor; software now has to be the thing that doesn't. The idle drive value and a hard ceiling on
-the output stop being a second line of defence and become the only one. This is the failure that
-would destroy the motor PCB's output transistors.
+⭐ **Keeping board 3 keeps that protection**, and it is one of the better arguments for the remora
+approach. An earlier plan removed board 3, which would have left firmware as the only thing between
+a stationary platter and full demand — the failure that destroys the motor PCB's output
+transistors. With the board in place, the idle value and the hard ceiling in software are a second
+line of defence again rather than the only one.
+
+⚠ Note also that the motor's own PCB has **a second gate** on all three phases, separate from
+board 3's. If drive is present and the platter does not turn, board 3 is only one of two suspects.
 
 Anyone attempting a similar rebuild should note that the widely repeated figure of "10 V at
 standstill" is the *input* to that gate, not what the motor receives.
@@ -158,11 +197,15 @@ module that exercises each part separately. Notes that may be useful to others:
 | 19 Aug 2026 | Regulator from the deck's own +15 V rail; runs on deck power, regulator cold ✅ |
 | 20 Aug 2026 | The deck's Helipot read into an ADC input, full sweep ✅ |
 | 21 Aug 2026 | **`12.3`, `45.0`, `78.0` and `33.3` on the original 1975 display**, board otherwise untouched ✅ |
-| 22 Aug 2026 | Boards 2, 3 and 4 read from their drawings; the architecture settled |
+| 22 Aug 2026 | Boards 2, 3 and 4 read from their drawings |
 | 24 Aug 2026 | The speed pot drives the display end to end — turn the disc, the digits follow ✅. The pot is a ten-turn Helipot, using the full ADC span |
 | 24 Aug 2026 | **The original green LED lit and extinguished on command** — one wire, no components ✅ |
 
-**Next:** the display's auto-lock wire, then the touch input, then the tachometer.
+| 26 Aug 2026 | The flexible backplane mapped pad by pad, repaired and continuity-tested; the display driven **through** it ✅ |
+| 29 Aug 2026 | Motor PCB tracing read: it commutates autonomously from one analogue `SPEED IN` net, so the Pico needs to produce one voltage, not three-phase drive. Architecture settled as the remora — **all five boards stay** |
+
+**Next:** measure the deck running completely original, then the tachometer as a listen-only
+wire. See [the bench order](/GT2101/project-notes/next-steps-bench-order/).
 
 The full working record — board-by-board studies, bench procedures, the parts list and the running
 project memory — is kept in [Project Notes](/GT2101/project-notes/).
@@ -177,6 +220,7 @@ voltage, that board 3 was an optical sensor, that "disk 2" was two boards. **Eve
 came from inherited prose with no stated source, and every one fell over on contact with the
 hardware.** The 2015 hand tracings, by contrast, have held up.
 
-The deck being rebuilt still has its original 2009-era replacement controller fitted and working,
-so none of this is being done under pressure. That is the only reason it has been possible to stop
+The deck being worked on still has a later replacement controller fitted and working, so none
+of this is being done under pressure. **That board is being removed and the original five
+refitted**; it is not part of this project and is not documented here. That is the only reason it has been possible to stop
 and check each claim rather than guess.

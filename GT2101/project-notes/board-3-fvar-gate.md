@@ -17,18 +17,17 @@ schematic sheets (3A–3D), a layout sheet, and one page of inherited archive pr
 **Provenance:** ✅ = read off the boards in the photographs. 📄 = from the FANATSON tracings
 (dated 08–09/2015 and **marked "PRELIMINARY"**). ❓ = inherited, unverified.
 
-> ## Status, 22 August 2026 — ❌ OUT of the Pico architecture
+> ## Status, updated 29 August 2026 — **stays in the deck**
 >
 > Board 3 and Board 4 are **one servo split across two boards**: Board 4 decides the drive
-> voltage, Board 3 decides whether it is allowed out. Both leave, unmodified. See
-> `gt2101_board4.md`.
+> voltage, Board 3 decides whether it is allowed out. See [the board 4 study](/GT2101/technical-notes/board-4-servo/).
 >
-> ⚠ **Two things to do before it comes out**, because they cannot be done afterwards:
-> **measure pin 7 at each speed on the running deck** (§5), and check whether the plain
-> board has **empty holes** where the other has its MC1747CL (see
-> `gt2101_archive_provenance.md`).
+> ⚠ **This board stays fitted.** Its hardware still-gate is what mutes the motor at rest, and
+> the Pico is added alongside it rather than in place of it.
 >
-> The corroded **ISSUE B** spare is the leading candidate to carry the Pico in slot 3.
+> ⚠ **Two measurements to take while the deck runs** (§5): **pin 7 at each speed**, and
+> whether the plain board has **empty holes** where the other has its MC1747CL (see
+> [`archive-provenance.md`](/GT2101/project-notes/archive-provenance/)).
 
 ---
 
@@ -91,7 +90,7 @@ boards has been worked on.
 ✅ **That repair note is now load-bearing elsewhere.** The same E113, in the same
 common-source configuration, is Board 4's tacho front-end — and it is the circuit the Pico
 needs to copy for its own tacho input. **J113 is therefore the part to buy**, with the
-substitution already proven in this deck. See `gt2101_board4.md` §6.
+substitution already proven in this deck. See [the board 4 study](/GT2101/technical-notes/board-4-servo/) §6.
 
 ---
 
@@ -148,12 +147,15 @@ what lets the drive out.**
 
 ### What this changes
 
-- **The motor is already protected — while Board 3 is fitted.** The memory doc worried that
+- **The motor is protected in hardware, and stays that way.** The memory doc worried that
   reading the drive table the wrong way round would "command full drive into a stationary
   platter — the case that cooks the BD675A/676A". That 10 V never leaves Board 3.
-- ⚠ **With Board 3 out of the architecture, that protection leaves with it.** `V_IDLE = 0 V`
-  and the ceiling in `drive.set_drive()` become the only thing standing between the firmware
-  and a stationary motor. This is the single biggest risk the Pico build takes on.
+- ✅ **Board 3 stays fitted, so the hardware still-gate stays in circuit.** ⚠ An earlier
+  version of this section warned that "with Board 3 out of the architecture, that protection
+  leaves with it," and called it the single biggest risk of the build. **That was written
+  under the withdrawn remove-the-boards plan and does not apply.** `V_IDLE = 0 V` and the
+  ceiling in `drive.set_drive()` are belt-and-braces agreeing with the hardware, not the only
+  braces. Do not inherit that alarm.
 - **`V_IDLE` in the firmware should be 0 V, not 10 V.** The motor wants nothing when
   stopped, 1.2 V at 33⅓, 1.6 V at 45, 2.4 V at 78. Those four numbers are the real
   specification for `drive.nominal_drive()`.
@@ -164,10 +166,10 @@ in the project.
 
 ---
 
-## 5. What to read here **before the board comes out**
+## 5. What to read here **on the running deck**
 
-The board is leaving, but while it is still fitted it is the best instrument in the project
-— it is the original servo, running, with the right answers on its pins.
+While it is fitted and running this board is the best instrument in the project — it is the
+original servo, live, with the right answers on its pins.
 
 - **Pin 7, the drive voltage out.** 0–10 V, so a two-resistor divider into an ADC input.
   This is the calibration prize: run the deck on its original electronics, let the 1975
@@ -188,7 +190,7 @@ The board is leaving, but while it is still fitted it is the best instrument in 
 |---|---|
 | What pins 2 and 3 carry exactly | Board 2 calls them STILL/TURNING status; not confirmed at either end |
 | ~~What drives the XR2207's control voltage~~ | ✅ **Moot, 24 August 2026.** The Helipot is now wired directly to the Pico and to nothing else — whatever path it had through Board 2 is already broken |
-| Whether ISSUE B behaves the same | Different chip set; the schematics do not describe it. **Matters now, since ISSUE B is the candidate Pico carrier** — check what its edge fingers connect to before cutting anything |
-| Whether the STILL gate is really 0 V | 📄 only. Measure pin 7 with the platter stopped, before removal |
-| Why one plain board has an MC1747CL and the other doesn't | Possibly a running change within the same issue; possibly the empty-holes test in `gt2101_archive_provenance.md` |
+| Whether ISSUE B behaves the same | Different chip set; the schematics do not describe it. Archive interest only — the spare is not being pressed into service |
+| Whether the STILL gate is really 0 V | 📄 only. Measure pin 7 with the platter stopped |
+| Why one plain board has an MC1747CL and the other doesn't | Possibly a running change within the same issue; possibly the empty-holes test in [`archive-provenance.md`](/GT2101/project-notes/archive-provenance/) |
 | ~~Is the archive's "optical sensor" page salvageable~~ | ✅ **Answered: no.** Board 4 is a crystal reference, tacho front-end and PLL servo — there is no photodiode or optical encoder anywhere in the tower. The page describes no board that exists |

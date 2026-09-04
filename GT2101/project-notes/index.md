@@ -2,7 +2,7 @@
 layout: bare
 title: "GT2101 — Project Notes"
 permalink: /GT2101/project-notes/
-description: "The working record of the GT2101 restoration and Pico controller project — board studies, bench sessions, decisions and open questions, written as the work happens."
+description: "The working record of the GT2101 restoration and the Remora project — board studies, bench sessions, decisions and open questions, written as the work happens."
 ---
 
 # Project Notes
@@ -23,16 +23,18 @@ Status markers are used throughout, as elsewhere on this site:
 ## Start here
 
 - [**Project memory**](/GT2101/project-notes/project-memory/) — the bootstrap document.
-  Where the work lives, what has been settled, what has changed, and what is next. Read this
-  first.
+  The principle, where the work lives, what is settled, and an index of everything else.
+  Read this first.
 
 ## The build
 
-- [**Pico controller — working notes**](/GT2101/project-notes/pico-controller-notes/) —
-  the live record of replacing the 1970s control logic with a Raspberry Pi Pico: which
-  boards stay, where the Pico connects, interfacing, firmware, and the bench log.
+- [**Remora — working notes**](/GT2101/project-notes/pico-controller-notes/) — ⭐ **the build
+  record, and the single source for all of it**: where the Pico connects, interfacing, the
+  green LED, the tacho front-end, power, firmware, toolchain and the full bench log.
 - [**Parts list**](/GT2101/project-notes/parts-to-order/) — what the build needs and what
   each item unblocks.
+- [**Firmware**](/GT2101/project-notes/firmware/) — the MicroPython on the Pico. ⚠ **Eight of
+  the nine files are still only on the Pico itself**, `config.py` included.
 
 ## The boards, studied
 
@@ -43,12 +45,30 @@ Status markers are used throughout, as elsewhere on this site:
   the capacitive touch start/stop circuit, and the 14-pin connector.
 - [**Board 3 — `F VAR` and the drive gate**](/GT2101/project-notes/board-3-fvar-gate/)
   `3275ST` — the variable-speed oscillator and the gate that mutes the motor at rest.
-- [**Backplane signal map**](/GT2101/project-notes/backplane-signal-map/) — what travels
-  between all five boards, pin by pin.
+- [**Board 4 — the servo**](/GT2101/technical-notes/board-4-servo/) `3276ST ISSUE C` — the
+  crystal reference, the JFET tacho front-end and the PLL. Written up in Technical Notes.
+- [**Flexicon backplane map**](/GT2101/project-notes/flexicon-backplane-map/) — ⭐ **the one
+  backplane document**: the signal chain through the whole tower, the physical pad map row by
+  row, the 2026 repairs, and where the film will fail next.
+
+## Outside the control tower
+
+- [**Mechanical — bearing, suspension, rumble**](/GT2101/project-notes/mechanical-and-suspension/)
+  — the three springs are different rates and had been fitted on the wrong legs; the bearing and
+  its 0.004″ clearance; why the lubricant was a rumble decision; and John Daly's first-hand
+  contradiction of the "rumble is zero" claim.
 
 ---
 
 ## A note on sources
+
+- [**Archive provenance**](/GT2101/project-notes/archive-provenance/) — where the drawings
+  came from, which inherited pages have failed against the hardware, and the ✅ 📄 ❓
+  discipline used throughout this site.
+- [**Folder findings and leads**](/GT2101/project-notes/folder-findings/) — the technical
+  yield of the offline *galeaudio.com* mirror: the motor PCB reading, the connector pin-table
+  transcription, the frequencies and rails, the live contradictions over the motor's origin,
+  the people still worth contacting, and the encoder-disc suppliers.
 
 The inherited prose pages copied from the defunct *galeaudio.com* have not held up. Four
 have been checked against the hardware and all four were substantially wrong about what

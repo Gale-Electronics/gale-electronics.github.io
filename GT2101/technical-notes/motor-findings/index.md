@@ -127,10 +127,16 @@ not two independent confirmations. That raises the prior on the *kind* of motor 
 not confirm either name. Anyone researching further should be reading Inland Motor and Litton part
 numbering, not treating them as separate leads.
 
-**The `M1N` prefix.** Matches a naming convention used by Minebea/NMB on DC motor catalogues. This
-is a **pattern match only** — no listing for `M1N 875` has been found, and NMB's miniature motors
-of the era don't obviously produce a 600-line encoder module of this form factor. Weak lead, and
-weaker still if the Inland/Litton thread is right.
+**The `M1N` prefix.** Matches a naming convention used by **Minebea/NMB (Nippon Miniature Bearing
+Co.)** on their DC motor catalogues — `M1N6FB08C` and `M1N10FB08G`, from NMB's own datasheets, are
+the two examples the match rests on. This is a **pattern match only** — no listing for `M1N 875`
+has been found, and NMB's miniature motors of the era don't obviously produce a 600-line encoder
+module of this form factor. Weak lead, and weaker still if the Inland/Litton thread is right.
+
+⚠ *The two example part numbers were recovered on 4 September 2026 from a 22 August snapshot of
+this page found in `engineering-drawings-schematics/motor-overview/`. They are the only thing that
+snapshot held which this page had lost — and without them the sentence above asserts a naming match
+while showing none of it.*
 
 ❓ **Two observations on the module's own markings**, offered here because they have not been made
 before:

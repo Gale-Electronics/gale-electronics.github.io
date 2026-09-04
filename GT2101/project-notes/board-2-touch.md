@@ -21,7 +21,7 @@ description: "Working study of the GT2101's touch start/stop board, its 14-pin c
 ## 1. ✅ THE TOUCH SENSOR IS CONFIRMED
 
 Sheet 2A is drawn around an electrode explicitly labelled **`TOUCH SENSOR`**. The
-touch-sense hypothesis in `control_tower_board_register.md` — the bent copper tab beside
+touch-sense hypothesis in [the board register](/GT2101/engineering-drawings-schematics/) — the bent copper tab beside
 the Helipot bush, a 555 centimetres away — is no longer a hypothesis.
 
 **The chain, 📄 from sheet 2A:**

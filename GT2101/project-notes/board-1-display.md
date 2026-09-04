@@ -75,7 +75,7 @@ never wrote the values. If we need them they have to be measured on the spare bo
 
 The numbers below are the **yellow numbers the tracer wrote on both the layout and sheet
 1A**. They are consistent between the two drawings, and they match the six Board 1
-signals already in `gt2101_backplane_signal_map.md` — plus two the backplane sheet did not
+signals already in [`flexicon-backplane-map.md`](/GT2101/project-notes/flexicon-backplane-map/) — plus two the backplane sheet did not
 name (`RESET` out, and the pin numbers themselves).
 
 | # | Signal | Direction | Goes to / comes from | Lands on Board 1 at |
@@ -246,7 +246,7 @@ is the *off* state, not the on state:
 | 5 V bench | ~3 mA. Fine | the pin floats to 5 − 2 = **3 V**. Below 3.3 V, nothing conducts. Fine |
 | 10 V deck | ~8 mA. Fine | the pin is pulled toward **8 V** through 1 kΩ. The Pico's internal clamp diode conducts and dumps ~4 mA into its own 3V3 rail — continuously, and from the instant the deck is switched on, before the firmware has booted |
 
-**So the 10 V installation needs the low-side NPN** that `gt2101_parts_to_order.md` has
+**So the 10 V installation needs the low-side NPN** that [`parts-to-order.md`](/GT2101/project-notes/parts-to-order/) has
 always listed for it. The two documents disagreed; the parts list was right.
 
 ```
@@ -474,8 +474,7 @@ GREEN_LED_DIRECT = True   # True  = Pico sinks it, open-drain  (5 V bench)
                           # False = via NPN low-side driver, active high (10 V tower)
 ```
 
-**What it should indicate** is still open. It has no job of its own now that Boards 3 and 4
-are leaving. The obvious use is a lock indicator: out when stopped, flashing through the
+**What it should indicate** is still open. The obvious use is a lock indicator: out when stopped, flashing through the
 4 s soft-start ramp, steady once the tacho says the platter is within tolerance. That also
 makes the servo visible during the tacho bring-up, which is the next subsystem.
 

@@ -35,13 +35,13 @@ the later work and says why.
 
 ## Restoration
 
-- [**A modern controller**](/GT2101/technical-notes/pico-controller/) — an ongoing project to
-  replace the 1970s control logic with a microcontroller while keeping every other original part,
-  including driving the 1975 display without modifying it.
-- [**Fitting a controller to the backplane**](/GT2101/technical-notes/fitting-the-controller/) —
-  the method rather than the build: using the original backplane as the wiring loom, so a modern
-  controller plugs into the vacated slots with no cuts, no solder joints on any original board,
-  and full reversibility.
+- [**The Remora**](/GT2101/technical-notes/pico-controller/) — an ongoing project to
+  add a microcontroller alongside the original control logic — all five 1970s boards stay in the
+  tower, including the 1975 display, which is driven without modification.
+- [**Fitting the Remora**](/GT2101/technical-notes/fitting-the-controller/) —
+  the method rather than the build: using the original backplane as the wiring loom, so the
+  controller cable-ties to the tower's own pillars with no cuts, no solder joints on any
+  original board, and full reversibility.
 
 ---
 

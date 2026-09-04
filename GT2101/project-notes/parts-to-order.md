@@ -1,6 +1,6 @@
 ---
 layout: bare
-title: "GT2101 — Pico Controller — Parts List"
+title: "GT2101 — Remora — Parts List"
 permalink: /GT2101/project-notes/parts-to-order/
 description: "What the GT2101 Pico controller build needs, and what each item unblocks."
 ---
@@ -21,6 +21,18 @@ from a PNP to a JFET. See ⚠ below.
 
 **Amended 24 August 2026, after bench session 5** — the auto-lock resistor is far less
 fussy than recorded, and a **Pico W** is added. Still nothing ordered.
+
+## ✅✅ ORDERED — 4 September 2026, awaiting delivery
+
+**This supersedes every "nothing has been ordered yet" line in the repo**, which had stood
+since 22 August. The parts are for a **perfboard interface card**: the dividers, level
+shifters and JFET front-end that let the Pico read what each original board is doing on the
+backplane, and intervene later if that turns out to be worth doing.
+
+❓ **What is actually in the box has not been logged.** When it arrives, check the contents
+against the list below **before anything goes on the perfboard** — the list has been amended
+three times and at least one item on it (the 22 k/10 k divider) has since been superseded by
+the corrected row in the resistor table below.
 
 ---
 
@@ -46,7 +58,7 @@ jobs are currently held up for want of one resistor:
 | 10 kΩ ×2 | the tacho JFET inverter — one drain pull-up to 3V3, one gate series |
 | 10 kΩ | RC filter for the speed voltage out (×2) |
 | 1 MΩ | capacitive touch sensing on the Pico, if the original tab is reused |
-| 22 kΩ + 10 kΩ | divider for Board 2 pin 5, the 0 → +10 V touch pulse, into a GPIO |
+| **27 kΩ + 10 kΩ + 1 kΩ** | divider for Board 2 pin 5, the 0 → +10 V touch pulse, into a GPIO. ⚠ **Corrected 4 Sept 2026 — this row said 22 kΩ + 10 kΩ.** 27k/10k gives 2.70 V from a 10 V rail; 22k/10k gives 3.13 V, which works but leaves almost no margin. The 1 kΩ goes in series at the Pico end |
 | 1 kΩ–4.7 kΩ | transistor bases throughout |
 
 ⚠ **The auto-lock resistor is not critical — 24 August 2026.** The 100 kΩ figure has been
@@ -90,8 +102,11 @@ on a page served on the home network.
   do not assign them later without checking.
 - ⚠ **Power.** WiFi adds roughly 50 mA average with much larger bursts. The LM7805 copes,
   but it is more heat to shed — decide the heatsink after this is fitted, not before.
+  ⭐ **Easier than it was:** since 3 September the 7805 runs from **+10 V**, not +15 V, so it
+  drops 5 V instead of 10 and dissipates half as much. Even at a Pico W's ~50 mA that is
+  ≈0.25 W — about what the plain Pico cost on the old +15 V input.
 - The monitor is only worth writing **once the tacho is read**; until then the page has
-  nothing to show that the bench does not already show. See `gt2101_pico_controller.md`
+  nothing to show that the bench does not already show. See [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/)
   § LIVE MONITOR.
 
 A **Pico 2 W** (RP2350) is the faster alternative and would give the servo loop more
@@ -115,7 +130,7 @@ MicroPython and is the safe choice.
 Still undecided whether the original touch sense gets kept. Three options are open: keep
 Board 2 powered and read its 555 output; keep the original bent-tab electrode but sense
 it on a Pico pin with a 1 MΩ resistor; or use a TTP223. The modules cost almost nothing,
-so buy them regardless and decide later — though `gt2101_board2.md` has now confirmed the
+so buy them regardless and decide later — though [`board-2-touch.md`](/GT2101/project-notes/board-2-touch/) has now confirmed the
 touch sensor on the drawings, and reading Board 2's pin 5 pulse through a divider is
 looking like the cheapest option of the three.
 
@@ -123,11 +138,14 @@ looking like the cheapest option of the three.
 
 - **Breadboard**, half-size or larger
 - **Jumper wire kit**, male-male and male-female
-- **Stripboard / Veroboard** for the final build
+- **Stripboard / Veroboard** for the final build — ⭐ **this is the perfboard interface card
+  ordered on 4 September**, the one place all the dividers, level shifters and the JFET
+  front-end live, so that no original board and no backplane pad carries a component
 - **DMM grabber test clips** — there's a lot of continuity-buzzing ahead and croc clips
   keep slipping off 50-year-old edge fingers
 - **Heatsink for the LM7805** — sized after the display and WiFi current are measured, not
-  before
+  before. ⭐ **Probably not needed at all now:** on the +10 V input the regulator dissipates
+  ≈0.13 W at the plain Pico's ~25 mA, and it has been running in the tower without one
 
 ---
 
@@ -139,7 +157,7 @@ voltage to 0 V when the platter is still — both become firmware. Nothing on it
 connector needs interfacing to the Pico.
 
 **Board 4 level shifters — not needed either.** Board 4 (`GT201/3276ST`) is the other
-half of the same servo and leaves with Board 3 — see `gt2101_board4.md`. Its crystal,
+half of the same servo and leaves with Board 3 — see [the board 4 study](/GT2101/technical-notes/board-4-servo/). Its crystal,
 reference divider, PLL and error amplifier all become firmware.
 
 **But Board 4's departure adds one part.** Its E113 JFET is the deck's tacho front-end,
@@ -154,9 +172,11 @@ conditioning of any kind. ✅ Ten turns, full 160–65535 ADC span, confirmed 24
 ## Still to decide before the final build
 
 - Whether the original touch sense is kept, and in which form
-- Whether the Pico is powered from the tower (a regulator on its carrier) or stays on USB
-  — ⚠ **now being trialled**: see `gt2101_pico_controller.md` § STANDALONE BENCH POWER
+- ~~Whether the Pico is powered from the tower (its own 7805 off the +15 V reservoir) or stays
+  on USB~~ — ✅✅ **settled 3 September 2026: from the tower.** The **LM7805** is fed from
+  **board 5 pad 2 (+10 V) and pad 9 (GND)** — not the reservoir — and lives in the void at the
+  bottom of the tower stack. See [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § POWER
 - Whether the WiFi monitor becomes part of the finished deck or stays a bench instrument
-- Which board becomes the Pico's physical carrier in the tower — the corroded **ISSUE B**
-  spare of `3275ST` is the leading candidate, since its edge fingers already fit the
-  backplane socket and its three pot eyelets are in the right place
+- The bracket that carries the Pico inside the tower — it locates on the boards either side
+  of the flexicon and must straddle the film with guaranteed clearance. ❓ The ~12 mm gap is
+  still unmeasured, and nothing is printed until that number exists
