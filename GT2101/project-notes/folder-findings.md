@@ -73,9 +73,16 @@ Note also this board has **its own JFET gating** on all three phases off SPEED I
 
 ### 2.2 Control tower ICs by board `[HW]`, credited on the site to Howie
 
+⚠ **Two part descriptions corrected 5 September 2026.** The site's own list called the
+MC14011 a "quad AND" and the MC14001 a "quad OR". They are a quad **NAND** and a quad
+**NOR**; the whole of Board 1's latch/reset decode only works if they are. The same two
+errors appear in `engineering-drawings-schematics/board-1-display/Board-1-Display-Logic-Interface.pdf`,
+which suggests that page was written from this list rather than from the board. The board-1
+row below is corrected; the other rows are left as transcribed.
+
 | Board | Devices |
 |---|---|
-| **Top (1)** | MC14511CP BCD→7-seg · MC14553CP BCD decade up counter · MC14011CP quad AND · MC14001CP quad OR · MC14013CP dual D · 3 × TIS61 PNP 300 mW · BC214 PNP 625 mW |
+| **Top (1)** | MC14511CP BCD→7-seg · MC14553CP BCD decade up counter · MC14011CP quad **NAND** · MC14001CP quad **NOR** · MC14013CP dual D · 3 × TIS61 PNP 300 mW · BC214 PNP 625 mW |
 | **2nd** | MC1748CP1 op-amp · MC1455P1 timer (555) · **MC14521CP 24-stage divider** · MC14016CP quad analog switch · MC14040CP 12-bit counter · MC14011CP · MC14001CP · BC184 NPN |
 | **3rd** | MC14011CP · LM3900N quad op-amp · **XR2207P VCO** · LM308N precision op-amp · MC14013CP dual D · MC1747CL dual op-amp · BC214 · **2N4393 N-JFET** |
 | **4th** | MC14011CP · **MC14520CP dual binary up counter** · **MC14046CP PLL** · MC1747CL · BC184C · "Vishay W300A 7709" N-JFET · **2N4392 N-JFET** |

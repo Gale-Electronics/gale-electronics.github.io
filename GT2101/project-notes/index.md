@@ -47,6 +47,9 @@ Status markers are used throughout, as elsewhere on this site:
   `3275ST` — the variable-speed oscillator and the gate that mutes the motor at rest.
 - [**Board 4 — the servo**](/GT2101/technical-notes/board-4-servo/) `3276ST ISSUE C` — the
   crystal reference, the JFET tacho front-end and the PLL. Written up in Technical Notes.
+- [**Board 5 — Power and the outside world**](/GT2101/project-notes/board-5-power/) `3285NH` —
+  the triac mains front end, the two ±10 V rails and how differently they are made, and the
+  passive interface that carries the switches, the pot and the motor leads into the tower.
 - [**Flexicon backplane map**](/GT2101/project-notes/flexicon-backplane-map/) — ⭐ **the one
   backplane document**: the signal chain through the whole tower, the physical pad map row by
   row, the 2026 repairs, and where the film will fail next.
@@ -70,10 +73,13 @@ Status markers are used throughout, as elsewhere on this site:
   transcription, the frequencies and rails, the live contradictions over the motor's origin,
   the people still worth contacting, and the encoder-disc suppliers.
 
-The inherited prose pages copied from the defunct *galeaudio.com* have not held up. Four
-have been checked against the hardware and all four were substantially wrong about what
-their board does. The 2015 hand-traced schematics by FANATSON, by contrast, have held up
-well — but they are one person's reverse engineering, some sheets are marked preliminary,
-and **there are no Gale factory drawings in this archive at all**.
+The inherited prose pages copied from the defunct *galeaudio.com* have not held up. **All six
+have now been checked** against the hardware and **five were substantially wrong** about what
+their board does; the sixth describes board 5, the one board whose function can be guessed
+correctly from its parts list. The 2015 hand-traced schematics by FANATSON, by contrast, have
+held up well — a board-by-board audit on 5 September 2026 found their connector maps and
+voltage tables accurate throughout — but they are one person's reverse engineering, some
+sheets are marked preliminary, several are marked mirrored, and **there are no Gale factory
+drawings in this archive at all**.
 
 The boards themselves are the only primary source. Etched copper beats everything.

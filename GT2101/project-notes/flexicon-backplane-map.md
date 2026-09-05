@@ -272,6 +272,12 @@ and does not hold here.
 ✅ Pad count and positions read off the part. **Pads 1, 2 and 9 are ✅. Pads 3–8 remain 📄
 from the sheet** and are still unconfirmed against the part.
 
+✅ **The pad grouping is confirmed on paper too — 5 September 2026.** `Board-5-Layout.pdf`
+draws the connector row and marks its ends `LEFT` and `RIGHT`: from the `LEFT` end, two pads
+(1, 2), a wide gap, one lone pad (3), then a group of six (4–9). That is the signature above,
+read from the other side, and it is an independent confirmation of both the count and the
+grouping. The board study is [`board-5-power.md`](/GT2101/project-notes/board-5-power/).
+
 ### ✅ Pad 9 = `GND`, confirmed in service 3 September 2026
 
 Bench session 8. The Pico's **LM7805** was fed from **pad 2 and pad 9** and the Pico
@@ -363,8 +369,25 @@ board 1: +10 V ── green LED ── 1 kΩ ── board 1 pin 8
                         board 5 pin 1 ── black switch ── 0 V
 ```
 
-✅ **`5Schem.pdf` confirms it by omission.** Board 5's schematic carries exactly three
-outputs — `2 (+10 V)`, `9 (0 V)`, `8 (−10 V)` — and **pin 1 appears nowhere on it.** Board 5
+⭐⭐ **And two drawings confirm it outright — found 5 September 2026.** This section was built
+on three lines of hardware reasoning plus a confirmation by omission. There were two documents
+saying it in writing the whole time:
+
+- **`Board-5-Layout.pdf`** labels the connector row, and under pad 1 the tracer wrote
+  **`LED GRÜN`**. See [`board-5-power.md`](/GT2101/project-notes/board-5-power/) §4.
+- **`motor-overview/backplane.pdf`** draws it. On row 5 the **outer** pad is labelled
+  **`LED GREEN`** and the **inner** one **`+10 V`** — the reverse of rows 1–4 — and the long
+  trace running down the centre of the film from row 1's `LED GRÜN` pad lands on that outer
+  pad. ⭐ **The backplane sheet shows the exception to the "+10 V on pad 1" rule explicitly.**
+
+⚠ **So the 3 September correction was right, and it need not have taken three lines of
+reasoning from the hardware to reach.** Two sheets in this archive already said so. That is the
+same lesson as the board 1 timebase alarm, one week apart: *before working something out from
+first principles, check whether a drawing already says it.*
+
+✅ **`Board-5-Schem.pdf` confirms it by omission.** Board 5's schematic carries exactly three
+outputs — `2 (+10 V)`, `9 (0 V)`, `8 (−10 V)` — and **pin 1 appears nowhere on it** (re-read
+at 400 dpi, 5 September 2026 — the silence is real). Board 5
 is a power supply plus a passive interface for the external flying leads (`BLU`, `OR`, `GN`,
 `WS`, `SW`). No logic, no driver. The `PNP hfe=283` on that sheet is the **−10 V pass
 transistor**, not an LED driver.
@@ -443,6 +466,30 @@ The two sets of photographs in `engineering-drawings-schematics/flexicon-connect
 
 **There is no second backplane.** The rule that follows from it is unchanged and is the most
 important rule on this part: **solder to the brass staple, never to a pad.**
+
+### ⚠ The folder itself needs a tidy — 5 September 2026
+
+Checked by content, not by name. Two pairs in
+`engineering-drawings-schematics/flexicon-connector/` are **byte-identical duplicates** — same
+MD5, same size — filed under two names each:
+
+| Kept | Duplicate of it | Bytes |
+|---|---|---|
+| `remora.jpeg` | `raymon.jpeg` | 1 822 277 |
+| `top-pico-mount-front.jpeg` | `IMG_0275.jpeg` | 2 256 158 |
+
+⚠ **`raymon.jpeg` is the one to be careful about.** A file named after a person reads like
+provenance — *this photograph came from Raymon* — and it is in fact a byte-for-byte copy of
+`remora.jpeg`. Nothing in this archive cites it, and nothing should start to: it carries no
+information the other file does not, and its name implies a source it does not have.
+
+⚠ **`flexicon-1.2` has no file extension at all** and sits beside `flexicon-1.1.png`,
+`flexicon-1.3.jpeg` and `flexicon-1.4.jpeg`. It is about 2 MB and is presumably the missing
+`.jpeg`, but a file with no extension will not render on the published site and will be
+skipped by anything walking the folder.
+
+**None of this affects a conclusion on this page.** It is recorded because the next person to
+cite a photograph from that folder should know which names point at the same image.
 
 ### ⭐ But the two-tower situation may change the break calculus — 4 September 2026
 
@@ -562,11 +609,11 @@ Reversal is re-making three joints.
 | **What is `R` on the board 2 row of the FANATSON sheet?** | Carried over from `backplane-signal-map.md` when it was merged in, 4 Sept 2026. Never identified |
 | ~~What board 2 pin 9 does with `INV TACH`~~ — ⭐ **effectively answered, 4 Sept 2026** | It feeds board 2's **MC14016 quad analogue switch**, which selects the `F DISPLAY` source. Board 3's window comparator throws it via the STILL/TURNING lines on row 3 pads 2 and 3 → row 2 pads 3 and 4. **So the display shows commanded speed when the platter is stopped and measured speed when it turns** — which is exactly what the folder transcription meant by *"pin 3 runs at a much higher frequency when showing demand and not running"* (`F VAR` up to 3996 Hz against a 333 Hz tach). Worth confirming on the bench, but three sources already agree |
 | ~~Which pads each repair wire joins~~ — **the two long rails are done, 3 Sept 2026** | §8. Both supply chains are mapped pad by pad. ⭐ **The remaining shorter wires are the highest-value job left on this part** — whether any of them shortcut across the film is the question that matters, and ✅ **Matt fitted them, so there is nobody to track down** (4 Sept 2026) |
-| ~~Whether a second flexicon exists~~ — ✅ **CLOSED 4 Sept 2026** | §8. The two photo sets are the **same part from its two faces** — pin side has the legend mirrored, solder side has the orange repair wires. **No spare exists.** "Solder to the staple, never the pad" stands |
+| ⚠ **Whether a spare flexicon exists — HALF closed, and this row used to say otherwise** | §8. ✅ **Closed:** the two photo sets are the **same part from its two faces** — pin side legend mirrored, solder side carrying the orange repair wires — so there is no second film *in the photographs*. ❓ **Still open, and it is a different question:** *does the test tower have a flexicon of its own?* One look answers it and it decides the whole break calculus. It is [`project-memory.md`](/GT2101/project-notes/project-memory/) § NEXT item 4. ⚠ *This row read "CLOSED — no spare exists" until 5 September 2026, contradicting §8 in this same file.* **Until it is answered, assume no spare: solder to the brass staple, never to a pad** |
 | ⚠ **Where the next failure will be** | §8. At the **ends of the orange wires**, where stiffened film meets unstiffened. Stiffening moved the stress rather than removing it — so refit the part as seldom as possible |
 | **Does the `GND` rail reach row 2 pad 14?** | §8. Matt's chain runs 5 → 4 → 3 → 1 and skips row 2. Either the wire reaches it and was not mentioned, or row 2 grounds through original copper |
 | **Row 1's pad count — eight or nine?** | §8. The `GND` chain was given as landing on row 1 pad 9, and §3 has row 1 with eight pads. Almost certainly a count carried over from the nine-pad rows, but if row 1 has a ninth pad then §3 is incomplete and it is one of the three signals stage 1 drives |
-| ~~Whether board 5 grounds the green LED net~~ — ✅✅ **CLOSED 3 Sept 2026** | §7. **The black switch grounds it; board 5 has no circuitry on pin 1 and `5Schem.pdf` does not show the pin at all.** The LED is the 33⅓/FIX indicator. Confirmed two ways on the hardware: pressing the button lights the LED, and pad 1 beeps to `GND` only with the button held. **Nothing for the Pico to fight** — a passive switch and GP5 open-drain are both sinks |
+| ~~Whether board 5 grounds the green LED net~~ — ✅✅ **CLOSED 3 Sept 2026** | §7. **The black switch grounds it; board 5 has no circuitry on pin 1 and `Board-5-Schem.pdf` does not show the pin at all.** The LED is the 33⅓/FIX indicator. Confirmed two ways on the hardware: pressing the button lights the LED, and pad 1 beeps to `GND` only with the button held. **Nothing for the Pico to fight** — a passive switch and GP5 open-drain are both sinks |
 | ⚠ **The green LED already has a job** | §7. It indicates FIX / 33⅓. With the switch pressed the Pico cannot turn it off, only on. Reusing it as a lock indicator overrides an original function — a deliberate decision, not a default |
 | ⚠ **Row 5 pad 8 = `−10 V`** — still 📄 | §7. It sits immediately beside pad 9, which is now confirmed as `GND` and is carrying the Pico's supply return. Nothing has confirmed pad 8, and it is where a slip off 9 lands |
 | Whether `BLANK` (row 2 pad 6 → row 1 pad 2) should also be broken | Left connected, touching the disc will blank the display |

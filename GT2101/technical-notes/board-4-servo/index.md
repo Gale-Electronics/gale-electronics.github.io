@@ -34,6 +34,11 @@ Status markers used throughout: ✅ confirmed against the hardware · 📄 from 
 | **1.048 MHz crystal** | Master timebase, with a ceramic trimmer beside it | can marked `1048.00` |
 | **E113** N-channel JFET | Tacho front-end — see below | — |
 
+⭐ **The crystal's exact figure is 1.048711 MHz**, as board 2's sheet 2B records it, and the
+precision matters: board 2 divides it by 2²¹ and 2¹⁹ to make the display's 0.5 Hz and 2 Hz
+timing, and only that figure gives 0.4999 Hz and 2.000 Hz. The `1048.00` marking on the can
+is the rounded one.
+
 Precision RN55 metal-film resistors (`44K8 F`, `4642 B` and others) set the scaling around the
 op-amp, which is what fixes the drive voltages listed further down.
 
@@ -66,6 +71,12 @@ pins run 1 → 9 left to right with the parts towards you and the connector at t
 board 3 has −10 V on pin 8 and ground on pin 9. Both have +10 V on pin 1. A board pushed into the
 wrong slot will see its supplies reversed.
 
+✅ **Every row of this table was re-read off `Board-4-Layout.pdf` and `Board-4-Schem.pdf` at
+400 dpi on 5 September 2026 and all nine match**, including the destinations the tracer
+circled: pin 3 comes from ② *and* ⑤, pin 6 goes to ③, and pin 5 carries no board number at
+all — which is what marks it as the one signal on this connector that comes from outside the
+tower.
+
 ---
 
 ## How the servo works
@@ -97,6 +108,11 @@ Because the loop compares the tacho against `1×F` one-for-one, in lock the tach
 📄 Derived from the drawings, not yet measured on a running deck. It is recorded here because it
 is easy to arrive at a figure ten times smaller by assuming the loop compares the ×40 frequency
 (1332 Hz at 33⅓) instead of the ×10 one.
+
+📄 **A second, independent strand points at the same number.** The encoder read head is a
+serialised module marked **`M1N 875-600G1A`, S/N 7526-41** — and the `600` in that part number
+is not derived from the loop at all. Two unrelated routes to 600 ppr is worth more than one
+derivation, though neither is a measurement.
 
 ---
 
@@ -139,6 +155,13 @@ modern substitution for this part is already proven on this equipment.
 The 10 V is the loop railing to full demand with the platter stopped, and board 3 mutes it to
 0 V — see [the drawings page](/GT2101/engineering-drawings-schematics/#drive-voltage).
 
+⭐ **These four numbers are recorded in three independent places in the archive**, all read at
+400 dpi on 5 September 2026 and all agreeing: beside the 1747 B output on `Board-4-Schem.pdf`,
+at pin 6 in the `Board-4-Layout.pdf` footer, and — with the *muted* column beside them — in the
+`3Layout.pdf` footer. For a figure the whole firmware drive table rests on, that is about as
+much corroboration as a paper archive can give. 📄 still, not ✅: measuring board 3 pin 7 on a
+running deck remains the single most valuable measurement left in the project.
+
 ---
 
 ## A discrepancy worth recording
@@ -148,6 +171,14 @@ The 10 V is the loop railing to full demand with the platter stopped, and board 
 the sheets (1332 Hz in, 333 Hz out) confirm the ratio is four — but the tracer either worked from
 a different issue of the board or wrote the wrong part number. Anyone relying on that stage should
 check it against the board in front of them.
+
+⭐ **The "different issue" reading is now the stronger one.** `Board-4-Layout.pdf` is a
+*photograph* of the tracer's own board with his labels written on it, and he has written
+**`4013` against the physical part** in that position — not just on the schematic. He was
+labelling something he was looking at. Board 4 is `ISSUE C`, and board 3 has a documented
+`ISSUE B` with a different chip set again, so running changes within this tower are
+established rather than hypothetical. ⚠ The practical consequence is unchanged: check the
+part in front of you.
 
 ---
 
@@ -163,5 +194,29 @@ board (Disk 2A)".
 - The board's outputs go to boards 1, 2 and **3**. There is no "Disk 2A" board; 2A and 2B are two
   schematic sheets of board 2.
 
-That page should be read as ❓ disputed. It is the fourth of four inherited board descriptions to
-fail a check against the hardware.
+✅ Each of those four charges was re-checked against the PDF's own text on 5 September 2026 and
+all four stand.
+
+That page should be read as ❓ disputed. All six inherited board descriptions were checked on
+5 September 2026 and **five of the six fail** — this one among them.
+
+⭐ A pattern runs through the five: **the chip lists are often right and the functions are
+invented.** They read like descriptions written from a parts list by someone who never had a
+board in front of them. The one that passes, `Disk-5-Power-Supply.pdf`, is the exception that
+makes the case: board 5 is the only board whose function you *can* guess correctly from its
+parts list. Prefer the FANATSON tracings and the hardware.
+
+---
+
+## What board 4 got right before board 1 did
+
+Worth recording, because it cost a day. This page has always described pin 9 (`1×F`) as *"the
+display's latch-and-reset clock"* — which is exactly what it is. Board 1's own working note
+meanwhile said that signal *set the display's count window*, and on 5 September 2026 that
+sentence produced a false alarm: an apparent contradiction between the circuit and two archive
+sources, resolved only by re-reading sheet 1A.
+
+Board 1's count window is set by its gate line from board 2. `1×F` from here only runs the
+latch-and-reset housekeeping after the window closes. **The correct account was sitting on this
+page the whole time.** When two board pages disagree, read both before concluding the archive
+is wrong.

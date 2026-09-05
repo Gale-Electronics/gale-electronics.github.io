@@ -11,18 +11,33 @@ description: "Full working study of the GT2101's display board: parts, connector
 
 # GT2101 Board 1 — Display board (Gale 3155ST)
 
-**Studied 21 August 2026** from three drawings — `GaleTT1Layout.pdf`, `GaleTT1ASchem.pdf`
-(sheet 1A), `GaleTT1BSchem.pdf` (sheet 1B) — and from sharp photographs of both sides of a
-spare board, taken the same day.
+**Studied 21 August 2026** from three drawings — `Board-1-Layout.pdf`, `Board-1A-Schem.pdf`
+(sheet 1A), `Board-1B-Schem.pdf` (sheet 1B) — and from sharp photographs of both sides of a
+spare board, taken the same day. *(The three files were called `GaleTT1Layout.pdf`,
+`GaleTT1ASchem.pdf` and `GaleTT1BSchem.pdf` until the drawings folder was tidied; the old
+names are dead links.)*
 
 **Updated 24 August 2026** after bench session 6 — **the Pico now lights the board's green
 LED** (§6b), and the long-standing "no driver transistor needed" claim in §3 is corrected:
 it is true on the 5 V bench and **false at the deck's 10 V**.
 
+**Audited 5 September 2026** — every claim on this page re-read against both schematic
+sheets at 400 dpi. The audit found the §3 signal chain incomplete in one important way
+(**a fifth gate, 4001 D, that nothing on this page had ever mentioned**) and, as a direct
+result, **withdrew the timebase alarm raised earlier the same day** in §4. Details in §3
+and §4.
+
 **Provenance:** the circuit description is 📄, read off hand-traced reverse-engineering
 drawings in the same hand and colour conventions as the backplane sheet (FANATSON, 2015).
 They are not Gale factory drawings. Anything marked ✅ comes from the photographs of the
 board itself and outranks the drawings.
+
+⚠ **One file in the board-1 folder is not evidence.**
+`Board-1-Display-Logic-Interface.pdf` is a one-page summary made in Canva in November 2025,
+not a drawing. It gets two of the five ICs backwards — it calls the **MC14001 an "OR gate"**
+(it is a NOR) and the **MC14011 an "AND gate"** (it is a NAND) — and its claim that the
+board shows "speed derived from tach feedback" is supported by nothing on either sheet.
+Nothing on this page is taken from it.
 
 ✅ The board is legended **`GT201/3155ST`** on the copper side. That takes the board number
 from ❓ (defunct website) to ✅ (read off the part).
@@ -32,8 +47,15 @@ from ❓ (defunct website) to ✅ (read off the part).
 ## 1. What is actually on the board
 
 Five ICs, three transistors for digit select, one for the decimal point, a handful of
-resistors and one capacitor. It is a **three-digit frequency counter**: it counts an
-incoming frequency for a fixed window and shows the total.
+resistors and at least two capacitors. It is a **three-digit frequency counter**: it counts
+an incoming frequency for a fixed window and shows the total.
+
+❓ **The capacitor count is unsettled — found by the 5 Sept audit.** This paragraph used to
+say "one capacitor", but the two sheets between them draw **two**: a **4700 pF** across the
+4553's display-scan-rate pins (3 and 4) on sheet 1B, and the reset-delay capacitor to ground
+on sheet 1A that §3 has always shown. Either the board really has two and the count here was
+wrong, or one of them is drawn but not fitted. Count them on the spare board next time it is
+in your hand — it is a look, not a measurement.
 
 ✅ All five part numbers read directly off the parts, 21 August 2026:
 
@@ -83,7 +105,7 @@ name (`RESET` out, and the pin numbers themselves).
 | 1 | **+10 V** | in | PCB 5 | 4553 pin 16, 4511 pin 16 |
 | 2 | **START/STOP LOW PULSE** | in ← PCB 2 | blanks the display | 4511 pin 4 (`BL`, active low) |
 | 3 | **F DISPLAY** | in ← PCB 2 | the frequency being counted | 4011 pin 13 |
-| 4 | **~1 Hz gate** *(tracer wrote "1Hz?")* | in ← PCB 2 | opens/closes the count window | 4011 pins 1+2 |
+| 4 | **~1 Hz gate** *(tracer wrote "1Hz?")* | in ← PCB 2 | opens/closes the count window | 4011 pins 1+2 **and 4001 pin 13** |
 | 5 | **GREEN LED** | out → PCB 5 | front-panel green LED, cathode side | LED cathode |
 | 6 | **RESET** | out → PCB 2 | Board 1 sends its reset pulse *out* to PCB 2 | 4001 pin 10 |
 | 7 | **F REF** | in ← PCB 4 | clocks the latch/reset timing | 4013 pin 3 (`CL1`) |
@@ -103,7 +125,7 @@ matched exactly — then **verified on the board with a meter**: all three check
 beeped as predicted. This table now outranks the drawings.
 
 **Orientation.** The legend `GT201/3155ST` is printed on the **copper** side and reads
-normally there. In `GaleTT1Layout.pdf` it is printed backwards — so **the drawing is drawn
+normally there. In `Board-1-Layout.pdf` it is printed backwards — so **the drawing is drawn
 in the component-side orientation** (copper seen through the board). Read the drawing as if
 you were looking at the parts.
 
@@ -176,28 +198,42 @@ test one day, but nothing on the Pico plan depends on them.
                        |
                        +-------------------> 4011 D pin 13 ---.
                                                               |  NAND
-   pin 4  ~1 Hz gate  -----> 4011 A (pins 1+2 tied) --pin 3--> 4011 D pin 12
-                             (used as an inverter)            |
-                                                              '--pin 11--> 4553 pin 12  CLOCK
+   pin 4  ~1 Hz gate  --+--[R]--GND                           |
+        (GATE)          |                                     |
+                        +--> 4011 A (pins 1+2 tied) --pin 3--> 4011 D pin 12
+                        |    (used as an inverter)            |
+                        |                                     '--pin 11--> 4553 pin 12  CLOCK
+                        |
+                        '--> 4001 D pin 13 --.
+                                             |  NOR              .--> 4013 R1 (pin 4)
+   4013 Q2 (pin 13) ---> 4001 D pin 12 ------'-------pin 11------+
+                                                                '--> 4013 R2 (pin 10)
 
-   pin 7  F REF  -----------> 4013 CL1 (pin 3)
-                                 |
-                                 +--> 4011 C (pins 8,9) --pin 10--[R]--> 4553 pin 10  LATCH ENABLE
-                                 |
-                                 +--> 4001 C (pins 8,9) --pin 10--+----> pin 6  RESET out to PCB 2
-                                                                  |
-                                            [R] + 470n(?) to GND --+
-                                                     |
-                                              4001 B (inverter)
-                                                     |  [R]
-                                              4001 A (inverter)
-                                                     |  [R]
-                                                     '-----------> 4553 pin 13  RESET
+   pin 7  F REF  -----------> 4013 CL1 (pin 3)      the divider itself:
+                                                      D1=Q̄1, D2=Q̄2, S1=S2=GND,
+                                                      Q̄1 --> CL2  →  plain ÷4
+
+   4013 Q1, Q̄2 ------------> 4011 C (pins 9, 8) --pin 10--[R]--> 4553 pin 10  LATCH ENABLE
+   4013 Q̄1, Q̄2 ------------> 4001 C (pins 8, 9) --pin 10--+----> pin 6  RESET out to PCB 2
+                                                          |
+                                                   4001 B (inverter)
+                                                          |  [R]
+                                                   4001 A (inverter)
+                                                          |  [R]
+                                                          '----> 4553 pin 13  RESET
+                                            (a capacitor to GND at the 4001 B input
+                                             makes the delay — see §1)
 
    4553 Q0..Q3 (pins 9,7,6,5) --> 4511 A,B,C,D (pins 7,1,2,6)
    4511 a..g   (pins 13,12,11,10,9,15,14) --> display segments
    4553 DS1,DS2,DS3 (pins 2,1,15) --> 3 × TIS61 --> the three digit commons
                                   \--> BC214 --[R]--> decimal point
+
+   housekeeping pins, all read off the sheets 5 Sept 2026:
+   4511 pin 3 (LT) held high through a resistor · 4511 pin 5 (LE) to GND
+   4553 pin 11 (DIS) to GND · 4553 pin 14 (OF) not connected
+   4553 pins 3+4 (display scan rate) bridged by 4700 pF
+   4011 gate B (pins 5,6 → 4) is drawn "NOT USED" — a spare NAND, free for Remora
 ```
 
 **Gate polarity.** 4011 D output = NAND(`F DISPLAY`, NOT `gate`). So:
@@ -207,14 +243,53 @@ test one day, but nothing on the Pico plan depends on them.
 
 ✅ Settled on the bench 21 August 2026 — counting happens while the gate is LOW.
 
-**Latch/reset sequence.** The 4013 divides `F REF`; one output makes the latch-enable
-pulse (via 4011 C) and the other makes the reset (via 4001 C). The reset then goes through
-an RC delay and two NOR inverters before reaching the 4553 — that delay is deliberate, so
-the value is safely latched into the display *before* the counter is cleared. Classic
-frequency-counter housekeeping.
+### ⭐ Latch/reset sequence — re-read off sheet 1A, 5 September 2026
 
-❓ The exact 4013 wiring is the least legible part of sheet 1A — the pen scribbles over
-`D1`/`CL2`. The *shape* of the circuit is clear; which flip-flop feeds which gate is not.
+This was the vaguest part of the page and it is now the best-understood. The whole of it is
+📄 (read at 400 dpi), but it predicts the four-state behaviour **measured** on the bench in
+session 2 exactly, which is strong independent corroboration.
+
+**The 4013 is a plain ÷4.** `F REF` clocks CL1; `Q̄1` clocks CL2; each half has `D` tied to
+its own `Q̄`; `S1` and `S2` go to ground. So the two outputs walk through four states:
+
+| state | Q1 | Q2 | what the gates make of it |
+|---|---|---|---|
+| A | 0 | 0 | nothing — idle |
+| B | **1** | 0 | **LATCH.** `4011 C = NAND(Q1, Q̄2)` goes low → 4553 `LE` low → the count is captured and appears |
+| C | 0 | **1** | nothing — idle |
+| D | **1** | **1** | **RESET.** `4001 C = NOR(Q̄1, Q̄2)` goes high → out to PCB 2 on pad 6, and through the RC delay and 4001 B + 4001 A to the 4553's own reset |
+
+Each decode gate is high (or low) in **exactly one** of the four states, which is why the
+bench saw a clean latch–hold–reset–hold lap and not a smeared one. The RC delay before the
+4553's reset is deliberate: the value is safely latched into the display *before* the counter
+is cleared.
+
+### ⚠⚠ The gate line also parks the divider — 4001 D, found 5 September 2026
+
+**Sheet 1A has a fifth gate that no version of this page had ever mentioned:**
+
+```
+   4001 D  =  NOR( 4013 Q2 , GATE )   -->   4013 R1 and R2
+```
+
+`R1` and `R2` — the 4013's two reset inputs — are **not** grounded. They are tied together
+and driven by this gate. So while the count window is open (`GATE` low) and `Q2` is 0, the
+divider is **held in reset** and cannot advance; when the window closes (`GATE` high) the
+divider is released and `F REF` walks it round the four states above.
+
+Three things follow, and they matter:
+
+1. **The count window is set by `GATE`, not by `F REF`.** `F REF` only runs the housekeeping
+   lap after the window has already closed. This is what dissolves the timebase alarm in §4.
+2. **The divider is self-phasing.** Board 1 does not need anything to tell it where it is in
+   the lap — the gate line puts it back to state A every window. That is a strong hint that
+   the phase problem in §6a is solvable in software; see the note there.
+3. `S1` and `S2` to ground is still correct — it is `R1`/`R2` that this page had wrong by
+   omission.
+
+⚠ The pin-8 input of `4001 C` is the one connection on the sheet that took real work to
+trace (it goes right, hairpins, and comes back along the `Q̄1` net). If any of the above ever
+disagrees with the bench, that is the connection to doubt first.
 
 **Blanking.** 4511 pin 5 (`LE`) is tied to GND, so the decoder is always transparent — the
 only blanking control is pin 4 (`BL`), fed from connector pin 2, with a pull-up to +10 V.
@@ -273,10 +348,71 @@ displayed = (count) / 10        e.g. count 333  ->  "33.3"
 With `F DISPLAY` = 1332 Hz at 33⅓ rpm (📄 backplane sheet), a count of 333 needs a window
 of **333 / 1332 = 0.25 s**, not 1 s.
 
-❓ So either the tracer's "1Hz?" is a 1 Hz *repetition rate* with a 250 ms open window, or
-the frequency relationship is different from what the backplane sheet says. This is the
-single biggest unknown left on Board 1 — and the good news is that **it stops mattering
-the moment the Pico owns the gate**, because then we set the window.
+✅ **Settled 5 September 2026 by the Board 2 audit.** The tracer's "1Hz?" is a **2 Hz square
+wave**, and 250 ms is exactly the open half. Board 2 pin 10 is a 4016 two-way switch between
+the **MC14521**'s `Q21` (0.5 Hz) and `Q19` (2 Hz), both divided down from the 1.048711 MHz
+crystal — 1 048 711 ÷ 2¹⁹ = 2.000 Hz. So the window is **fixed and crystal-derived**, exactly
+as the paragraph below concludes from the arithmetic alone. Full chain in
+[`board-2-touch.md`](/GT2101/project-notes/board-2-touch/) §2.
+
+⭐ **And the loop closes both ways:** Board 1's `RESET` output on pad 6 goes to Board 2 pin 13
+and **re-zeroes that same MC14521**. Board 2 sets the window, Board 1 counts in it and hands
+the reset back. That is the real reason `config.py` says *never drive Board 1's pin 10*.
+
+Either way **it stops mattering the moment the Pico owns the gate**, because then we set the
+window.
+
+### ~~⚠⚠ It is worse than a window discrepancy~~ — WITHDRAWN 5 September 2026
+
+**This alarm was raised on the morning of 5 September and withdrawn the same day, by the
+audit that read sheet 1A properly. It was wrong, and it is worth keeping the wreckage.**
+
+What it said: `F REF` sets the count window, `F DISPLAY` is counted, so if both scale with
+speed the display would read the same number at every speed — therefore Board 1's timebase
+must be fixed and crystal-derived, and the two archive sources that call board 1 pad 7
+speed-proportional (the backplane sheet's `F REF ×1`, and
+[`folder-findings.md`](/GT2101/project-notes/folder-findings/) §2.3's *"10–999 Hz set by
+main pot"*) must both be mis-recorded.
+
+⭐ **The premise was false.** `F REF` does **not** set the count window. The window is set by
+the **gate** line on pad 4, which holds the 4013 in reset through 4001 D for as long as it is
+open (§3). `F REF` only runs the latch–hold–reset–hold housekeeping lap *after* the window
+has closed. So `F REF` and the count are not in the same equation at all, and a
+speed-proportional `F REF` is perfectly compatible with the circuit:
+
+| | at 33⅓ rpm |
+|---|---|
+| `F DISPLAY` | 1332 Hz |
+| gate window | 250 ms open → count = 333 → reads `33.3` |
+| `F REF` | ~333 Hz (`×1`) → the four-pulse housekeeping lap takes ~12 ms, comfortably inside the closed part of the cycle |
+| gate repetition | ~1 Hz — the display refreshes about once a second, which is exactly what the tracer's "1Hz?" was describing |
+
+**Both archive sources were right, and so was the tracer.** Nothing in the chain is
+mis-recorded. The `×1` label and the 10–999 Hz transcription stand.
+
+📄 **And a third source, spotted during the audit, says the same thing.**
+[`folder-findings.md`](/GT2101/project-notes/folder-findings/) §2.3's transcription of the
+board-1 connector calls pad 4 the **"1/10 Hz display refresh clock"** and pad 7 the **"speed
+reference 10–999 Hz"** — i.e. the slow line is the window and the fast line is the reference,
+which is exactly the arrangement sheet 1A draws. That transcription had been sitting in the
+archive the whole time, and the alarm was raised without reading it.
+
+⚠ The same transcription calls pad **6** a *"duplicate of 4"*, where this page has it as
+`RESET` out to PCB 2. Sheet 1A is unambiguous (4001 pin 10 → pad 6), and this page wins, but
+it is worth knowing the two records disagree on that one pad.
+
+✅ **The §5 fallback plan is alive again** — it was never in danger.
+
+**Still worth one scope probe** on Board 1 physical pin 11 with the tower running, but now
+only as confirmation, not as a contradiction to resolve: ~333 Hz at 33⅓ rpm is the expected
+answer. A few Hz would mean the `×1` reading is wrong — interesting, but harmless.
+✅ **Board 2's audit has since confirmed the gate independently** (2 Hz, crystal-derived),
+so even that probe is now optional.
+
+⚠ **The lesson.** The alarm was raised from a sentence in this file ("`F REF` sets the count
+window") rather than from the sheet. Four hours of the archive's credibility went into a
+contradiction that did not exist. **Re-read the drawing before declaring that the drawings
+contradict each other.**
 
 ---
 
@@ -319,10 +455,19 @@ counted number of pulses and then commanding the latch removes that whole class 
 It also means the displayed value is exact by construction: no rounding, no window drift,
 no dependence on the "1 Hz?" mystery.
 
+⚠ **One correction to that sequence, from the 5 Sept audit.** Step 1 (gate HIGH) does more
+than stop the counting: taking the gate HIGH is what **releases** the 4013 from reset, and
+taking it LOW in step 3 is what **parks** it again (§3, 4001 D). The sequence above still
+works — the order happens to be right — but the reason each step works is not the reason the
+step numbers suggest, and anyone editing `display.py` should know that the gate line and the
+`F REF` line are not independent.
+
 Fallback if the 4013 chain turns out to be awkward: hold the gate open permanently and
 send `F DISPLAY` as a true frequency, letting the deck's own `F REF` do the timing — i.e.
 the Pico pretends to be PCB 2. That works too, but it depends on knowing the window, so it
-is second choice.
+is second choice. ✅ *This fallback was declared dead earlier on 5 September and is alive
+again — see §4.* ⚠ Note that holding the gate low permanently would hold the 4013 in reset,
+so "gate open permanently" here means whichever level leaves the divider free.
 
 ⚠ **When this moves from the 5 V bench to the 10 V deck, the three display drives go
 through NPN level shifters, and a common-emitter NPN INVERTS.** `GATE_COUNTS_WHEN_LOW`, the
@@ -426,6 +571,21 @@ with a human watching for the dark state. **The permanent fix is to read the boa
 state by itself with nobody watching. That needs one wire and one resistor (anything from
 about 47 kΩ to 470 kΩ at 5 V; a divider in the deck at 10 V). **Not yet done.**
 
+❓ **There may be a cheaper fix — no wire at all. Found by the 5 Sept audit, not yet tested.**
+"Nothing on the board resets it" is not quite true: 4001 D drives the 4013's `R1`/`R2` from
+the gate line (§3), and it asserts reset when **the gate is low and `Q2` is 0**. So from any
+unknown power-up state, this should force a known state using pins the Pico already drives:
+
+```
+hold GATE low, then send up to 4 F REF pulses, then stop
+```
+
+Whatever state the divider woke in, within one lap `Q2` reaches 0 with the gate already low,
+the reset latches on, and the divider parks in state A and stays there. **One bench session
+to try it**, and the test is simply: power-cycle, run that, then run the normal show routine
+and see whether the digits come up right first time, several power-cycles in a row. If it
+works, the connector-pin-10 wire becomes optional rather than the plan.
+
 ---
 
 ## 6b. Bench session 6 — GREEN LED ✅ 24 August 2026
@@ -455,8 +615,9 @@ for _ in range(20):
    this moves to the 10 V deck. Writing it open-drain from the start means the same line of
    code survives the move.
 2. ✅ **The net is free at the Pico end** — grounding pin 8 by hand lights the LED, so
-   nothing else is holding it. ⚠ This does **not** clear Board 5, which is not in the bench
-   chain. See §7.
+   nothing else is holding it. ✅✅ **Board 5 is now cleared too**, metered end to end in
+   bench session 8 on 3 September 2026. ⚠ *This read "this does not clear Board 5" until
+   5 September 2026.* See §7.
 3. ⚠ **Running the four REPL lines back-to-back shows nothing** — the LED lights for
    microseconds. This looked like a dead circuit and was not. Any future bench step that
    toggles an output needs a delay or a loop, and this page should say so before someone
@@ -474,9 +635,12 @@ GREEN_LED_DIRECT = True   # True  = Pico sinks it, open-drain  (5 V bench)
                           # False = via NPN low-side driver, active high (10 V tower)
 ```
 
-**What it should indicate** is still open. The obvious use is a lock indicator: out when stopped, flashing through the
-4 s soft-start ramp, steady once the tacho says the platter is within tolerance. That also
-makes the servo visible during the tacho bring-up, which is the next subsystem.
+⚠ **What it should indicate is no longer open — corrected 5 September 2026.** ✅ **It is
+already the 33⅓ / FIX indicator**, grounded by the black switch (settled 3 September; see
+§7). A lock indicator — out when stopped, flashing through the 4 s soft-start ramp, steady
+once the tacho says the platter is in tolerance — remains the obvious *second* job and would
+make the servo visible during tacho bring-up. ⚠ But it only works while the black switch is
+in **VAR**, and it means overriding a working original function.
 
 ---
 
@@ -487,13 +651,15 @@ makes the servo visible during the tacho bring-up, which is the next subsystem.
 | ~~Gate active-low vs active-high~~ | ✅ **Settled: counts while the gate is LOW.** | — |
 | ~~How many `F REF` edges per latch/reset~~ | ✅ **Settled: a four-state cycle — latch, hold, reset, hold.** | — |
 | ~~Whether `LE` on the 4553 latches on high or low~~ | Moot — we drive the board's own 4011 C, not the 4553 directly | — |
-| **Phase is lost at power-down** | `bench.lock()` needs a human every power-up | Wire connector pin 10 (`RESET` out) into a Pico input |
+| **Phase is lost at power-down** | `bench.lock()` needs a human every power-up | ⭐ **Try the software fix first (§6a): gate low + up to 4 `F REF` pulses**, using 4001 D's reset of the 4013. Only if that fails, wire connector pin 10 (`RESET` out) into a Pico input |
 | ~~Value of the LED series resistor~~ | ✅ **Settled: 1 kΩ, ≈8 mA at 10 V.** | — |
 | ~~Can the Pico drive the green LED~~ | ✅ **Settled 24 Aug: yes, open-drain on GP5.** | — |
-| **Does Board 5 ground the green LED net?** | If it does, the LED is permanently lit in the assembled tower and the Pico cannot switch it. The bench cannot answer this — Board 5 is never in the bench chain | Beep test in the tower, unpowered: Board 1 pin 8 to deck GND. **Silence = free** |
-| What it should indicate | Free feature, no decision yet | Lock indicator is the obvious use |
+| ~~**Does Board 5 ground the green LED net?**~~ — ✅✅ **CLOSED 3 Sept 2026** | **No.** The **black switch** grounds it. Board 5 has no circuitry on pin 1 and `Board-5-Schem.pdf` (was `5Schem.pdf`) does not show the pin at all. Metered end to end in bench session 8, and nothing else is on the net — **there is nothing for the Pico to fight** | — |
+| ~~What it should indicate~~ — ✅ **answered 3 Sept 2026** | **It is already the 33⅓ / FIX indicator.** ⚠ With the black switch in FIX the Pico can turn it **on but not off**, so a lock-indicator scheme only works in VAR — and reusing it overrides a working original function, which is a decision about the project's principle, not a wiring question | — |
 | What the four unlabelled fitted pins carry | Nothing depends on it yet | Beep test, some other day |
 | The green corrosion / brown patch on the copper | Could be leakage between tracks | Clean and inspect before powering |
 | Resistor values throughout | Only matters if a part is faulty | Measure if needed |
-| Exact 4013 wiring | Cosmetic — we drive the chain, not analyse it | Leave open |
-| The 250 ms window discrepancy | Only matters for the fallback plan | Leave open |
+| ~~Exact 4013 wiring~~ — ✅ **read off sheet 1A, 5 Sept 2026, extended by the audit the same day** | Two cascaded toggle flip-flops: `F REF` → `CL1`, **`Q̄1` → `CL2`**, `D` tied to `Q̄` on each half, `S1` and `S2` to ground. **÷4** — exactly the four-state cycle measured on the bench in session 2. ⚠ **But `R1` and `R2` are not grounded**: they are tied together and driven by **4001 D = NOR(Q2, GATE)**, so the gate line parks the divider. See §3 | — |
+| ~~⚠⚠ **The display timebase cannot be speed-proportional**~~ — ✅ **WITHDRAWN 5 Sept 2026, same day it was raised** | The premise was wrong: `F REF` does **not** set the count window, the gate line does (§3, 4001 D). A speed-proportional `F REF` is fine — it just makes the housekeeping lap ~12 ms. Both archive sources stand, and §5's fallback plan is alive again. Full account in §4 | — |
+| Does the gate-low + `F REF` trick give a power-up phase lock? | Would remove the only wire on the §5 plan that is there for housekeeping rather than for the display | One bench session: power-cycle, run it, check the digits come up right first time — several times over (§6a) |
+| Two capacitors on the sheets, one in §1's parts description | Only matters for understanding the reset delay | Count them on the spare board (§1) |

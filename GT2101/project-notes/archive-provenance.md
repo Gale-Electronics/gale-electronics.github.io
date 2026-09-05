@@ -64,28 +64,46 @@ numbers on the layout footers turned out to be trustworthy, and they are what al
 1–4 to be joined into a single signal chain. Where a tracing has been checked against
 hardware it has generally been right.
 
-⚠ **The tracings are also image-only scans.** A text read returns nothing; a session must have
-the PDF attached directly to it to read the drawing visually.
+⚠ **The tracings are image-only scans.** A text read returns nothing. ✅ **But they can be
+read by a connected session — corrected 5 September 2026.** With the
+`engineering-drawings-schematics` folder connected, rendering a sheet to PNG at ~400 dpi and
+zooming reads the pencil annotations directly. That is how the drive-voltage **two-column**
+table and Board 1's 4013 wiring were settled on 5 September. **Attaching the PDF to the chat
+is no longer the only way**, and three files in this repo said it was.
 
 ---
 
-## ⚠ The inherited prose pages have failed, four for four
+## ⚠ The inherited prose pages have failed, five out of six
 
-Typed descriptions copied from the defunct site, no stated sources. **Every one checked
-against the hardware has been substantially wrong about what its board does.**
+**Completed 5 September 2026.** All six are now checked. Typed descriptions copied from the
+defunct site, no stated sources.
 
 | Page | What is wrong with it |
 |---|---|
+| `Board-1-Display-Logic-Interface.pdf` | ⚠ **Added 5 Sept 2026.** Calls the **MC14001 an "OR gate"** and the **MC14011 an "AND gate"** — they are a NOR and a NAND, and board 1's whole latch/reset decode only works because they are. Also claims the board shows speed "derived from tach feedback", which nothing on either sheet supports |
 | `Disk-3-Optical-Sensor.pdf` | Calls board 3 a tachometer processor "mounted close to the motor's photodiode assembly". There is no photodiode, no encoder input, and nothing on the connector that could be one. Board 3 is a **VCO and a drive gate** — the opposite of a tacho processor |
-| `Disk2AServoControl.pdf` | Lists two ICs that are not on the board, omits four that are, puts the PLL on the wrong board, and **does not mention the touch sensor at all** — the most distinctive circuit on it |
-| `Disk2BPowerDriver.pdf` | Describes the **separate motor controller PCB**, not a tower board. Misfiled. This is where the "is disk 2 one board or two?" confusion came from |
+| `Disk-2A-Servo-Control.pdf` | Lists two ICs that are not on the board, omits four that are, puts the PLL on the wrong board, and **does not mention the touch sensor at all** — the most distinctive circuit on it |
+| `Disk-2B-Power-Driver.pdf` | Describes the **separate motor controller PCB**, not a tower board. Misfiled. This is where the "is disk 2 one board or two?" confusion came from |
 | `Disk 4 — Reference Oscillator.pdf` | Board 4 is a crystal reference, a tacho front-end **and the servo**. Calling it a reference oscillator misses what it is for |
+| `Disk-5-Power-Supply.pdf` | ⭐ **The exception. Broadly holds.** Its component list matches the sheets, and "both positive and negative linear regulation stages" is exactly what board 5 draws. Only two details are unsupported: the rails are **not** isolated from each other, and its "early units / later revisions" history is corroborated by nothing. See [`board-5-power.md`](/GT2101/project-notes/board-5-power/) §6 |
 
-**Recommended: all four marked ❓ disputed in the archive, with a pointer to the board study
+**Recommended: the five marked ❓ disputed in the archive, with a pointer to the board study
 that supersedes each.**
+
+⭐ **And the exception explains the rule.** Board 5 is the one board whose function you can
+guess correctly from its parts list — a bridge rectifier and two 4700 µF capacitors can only
+be a power supply. Everywhere else, **the chip lists are often right and the functions are
+invented.** That is the signature of pages written from a parts list by someone who never had
+a board in front of them, and it is why board 5 passing is not evidence that any of them were
+checked against hardware.
 
 ⭐ **Treat the whole inherited prose set as unreliable.** Prefer the tracings, and prefer the
 hardware over both.
+
+⚠ **Two of the filenames above were cited wrongly across this archive** until 5 September
+2026 (`Disk2AServoControl.pdf`, `Disk2BPowerDriver.pdf`, and elsewhere `Disk3OpticalSensor.pdf`
+and `5Schem.pdf`). The drawings folders have been tidied at different times and to different
+conventions; **check a filename before citing it.**
 
 ---
 

@@ -58,13 +58,17 @@ and neither its firmware nor the manufacturing enquiry that went with it is bein
 Gale **GT2101**, late-1970s acrylic-plinth turntable. The project folder holds the original
 Gale schematic and layout PDFs (TT1–TT5, backplane, motor PCB) plus a parts list.
 
-⚠ **Those PDFs are image-only scans** — `project_read` returns empty text. A cloud session
-cannot read them from the project. **Attach a PDF directly to the chat instead** and Claude
-can render and read it visually. That is how Boards 1–4 were worked out.
+⚠ **Those PDFs are image-only scans** — a text read returns empty text. That is how Boards
+1–4 were worked out: the PDF attached directly to the chat and read visually. ✅ **Since
+5 September 2026 that is no longer the only way** — with the
+`engineering-drawings-schematics` folder connected, a session can render a sheet to PNG at
+~400 dpi and read the pencil annotations directly. That is how the drive-voltage columns and
+Board 1's 4013 wiring were settled.
 
 ⚠ **They are also not Gale factory drawings.** Every schematic and layout in the archive is
 hand-drawn reverse-engineering by one person (FANATSON) in 2015. The typed prose pages are
-worse — four have been checked against the hardware and four were substantially wrong. See
+worse — **all six have now been checked and five were substantially wrong**; the sixth
+describes board 5, the one board whose function can be guessed from its parts list. See
 [`archive-provenance.md`](/GT2101/project-notes/archive-provenance/).
 
 ### ⚠⚠ Which tower — corrected 4 September 2026
@@ -295,8 +299,21 @@ speed is lowest voltage, rising roughly through the origin — what a brushless 
 back-EMF rises with speed. **"STILL = 10 V" is Board 4's loop railing to maximum demand with the
 platter stopped, and Board 3 mutes it to 0 V.**
 
-⚠ **The backplane sheet only ever recorded the input column.** That is where the project's
-long-standing "STILL: 10 V" came from, and it was being read as though it reached the motor.
+⚠⚠ **Corrected 5 September 2026.** This read *"the backplane sheet only ever recorded the
+input column."* **It doesn't — the sheet carries both columns**, side by side on the row 3
+pads, with an up-arrow into pad 6 and a down-arrow out of pad 7:
+
+        "O.C."
+        STILL: 10V        STILL: 0V
+        33: 1,2V          33: 1,2V
+        45: 1,6V          45: 1,6V
+        78: 2,4V          78: 2,4V ✓
+
+📄 Read off `motor-overview/backplane.pdf` at 400 dpi. **So the long-standing "STILL = 10 V"
+came from reading one of two columns that were both there** — not from the sheet omitting
+one. ⭐ Worth keeping, because the archive had written itself a false account of its own
+mistake, and that is the same failure as the DC-DC entry in
+[`archive-provenance.md`](/GT2101/project-notes/archive-provenance/).
 
 ### `V_IDLE` is 0 V — and Board 3 enforces it in hardware
 
@@ -379,7 +396,7 @@ board 1: +10 V ── green LED ── 1 kΩ ── board 1 pin 8
 ✅ Confirmed two ways on the hardware, bench session 8: **press the black button and the LED
 lights**, and **pad 1 beeps to deck `GND` only while the button is held.**
 
-✅ Confirmed by omission on the drawing: `5Schem.pdf` carries three outputs — `2 (+10 V)`,
+✅ Confirmed by omission on the drawing: `Board-5-Schem.pdf` carries three outputs — `2 (+10 V)`,
 `9 (0 V)`, `8 (−10 V)` — and **pin 1 is not on it at all.** Board 5 is a power supply plus a
 passive interface for the external flying leads. The `PNP hfe=283` on that sheet is the
 **−10 V pass transistor**, not an LED driver.
@@ -621,10 +638,12 @@ supply into the Pico at 10 V.
 back to back light the LED for microseconds and look exactly like a dead circuit. This cost
 part of an evening on 24 August.
 
-**What the LED should indicate is undecided.** It has no job of its own now that Boards 3
-and 4 handle the servo. The obvious use is a lock indicator — out when stopped, flashing through
-the 4 s soft-start ramp, steady once the tacho says the platter is in tolerance — which also
-makes the servo visible during the tacho bring-up.
+⚠ **Corrected 5 September 2026.** This read *"what the LED should indicate is undecided …
+it has no job of its own."* ✅ **It has one: it is the 33⅓ / FIX indicator**, grounded by the
+black switch — settled 3 September and written up in **§ THE GREEN LED above, in this same
+file.** A lock indicator (out when stopped, flashing through the 4 s soft-start ramp, steady
+once the tacho says the platter is in tolerance) is still the obvious second job, but ⚠ it
+only works while the black switch is in **VAR**, and it overrides an original function.
 
 Superseded: `tacho_count.py` — `bench.tacho()` does the same job and reads `config.py`.
 
@@ -687,7 +706,8 @@ is built** — that list has been amended three times and at least one item on i
 touch divider) is already superseded.
 
 Equipment: spare boards 1–5, a spare motor PCB, a spare motor, a DMM, bench supply and scope.
-❓ **And more than one tower** — inventory pending.
+✅ **And two towers** — inventory settled 4 September 2026, see § THE DECK above: Howie's on
+the deck, Alex's on the bench.
 
 ---
 
@@ -696,10 +716,18 @@ Equipment: spare boards 1–5, a spare motor PCB, a spare motor, a DMM, bench su
 **Board 1's only remaining job is auto-lock, and it is now the project's most annoying
 recurring fault, not a nicety.** The board's 4013 comes up in a random state at every
 power-up, so `bench.lock()` needs a human watching for the digits to go dark — and every
-time that step is skipped, the display looks broken. Wiring connector pin 10 (`RESET` out)
-into a Pico input lets the Pico find that state by itself. One wire and one resistor —
-anything from about 47 kΩ to 470 kΩ at 5 V. **Check the drawer before ordering; this may
-not be blocked at all.**
+time that step is skipped, the display looks broken.
+
+⭐ **Try the free fix first — new 5 September 2026.** The audit of sheet 1A found a gate the
+notes had never recorded: **4001 D = NOR(4013 Q2, GATE)** drives the 4013's reset inputs, so
+**the gate line — which the Pico already drives — can park the divider.** From any power-up
+state, holding `GATE` low and sending up to four `F REF` pulses should land it in a known
+state with no extra hardware at all. **One bench session to find out**, and it needs nothing
+ordered. See [`board-1-display.md`](/GT2101/project-notes/board-1-display/) §3 and §6a.
+
+If that fails: wiring connector pin 10 (`RESET` out) into a Pico input lets the Pico find the
+dark state by itself. One wire and one resistor — anything from about 47 kΩ to 470 kΩ at 5 V.
+**Check the drawer before ordering; this may not be blocked at all.**
 
 Otherwise the next subsystem is **controls** (Board 2 pin 5, two resistors) or **tacho**
 (needs the J113).
@@ -708,7 +736,10 @@ Otherwise the next subsystem is **controls** (Board 2 pin 5, two resistors) or *
 
 ## Open items
 
-- **Order the parts.** See [`parts-to-order.md`](/GT2101/project-notes/parts-to-order/).
+- ~~**Order the parts.**~~ — ✅ **done 4 September 2026, awaiting delivery.** ⚠ The order is
+  back-to-front against the work: the active devices arrived, almost none of the passives did.
+  **One E12 resistor assortment and five J113s unblock the entire build**, and both are
+  pennies. See [`parts-to-order.md`](/GT2101/project-notes/parts-to-order/).
 - **Confirm the tacho pulses per revolution** — expect ~600 per platter turn.
 - **Measure Board 3 pin 7 on the running deck** at each speed. Four numbers that are
   currently 📄 become ✅, and they are the whole specification for `drive.nominal_drive()`.

@@ -56,6 +56,13 @@ Status markers used throughout: ✅ confirmed against the hardware · 📄 from 
   and Vin — six — *plus* the three winding pairs. That is more conductors than a 6-pin DIN holds,
   so either the windings terminate somewhere else on the pod or one of these signals is shared.
   **Needs a pin-by-pin continuity check before anyone wires anything to it.**
+  ❓ **A thread, added 5 September 2026:** `motSchem.pdf` identifies the two tacho-comparator
+  inputs by **letters** — `BROWN` arrives on a pin the tracer circled **`N`**, against a second
+  input **`M`**. Lettered pin designators are not how a 6-pin DIN is numbered; they belong to
+  larger circular connectors. That does not resolve the accounting, but it is the first
+  concrete evidence in the archive that the pod's connector may not be the 6-pin DIN, or may
+  not be the only connector. Worth looking for letters on the pod when the continuity check is
+  done.
 
 ---
 
@@ -83,15 +90,61 @@ Gale's own part numbering, the same `3xxx` family as the control-tower boards (3
 3275ST, 3276ST, 3285NH), and consistent with the ascending sequence recorded in the board register.
 
 ✅ **This is not switched or PWM commutation.** Three position-sensor signals (green / yellow /
-violet) feed LM324 op-amp stages with 470 kΩ feedback and JFET-gated integrators, driving three
+violet) are squared up, gated onto a single analogue speed command, and amplified into three
 complementary Darlington pairs — **3 × BD675A (NPN) + 3 × BD676A (PNP), six power devices** — in
 linear class-AB push-pull. ✅ All six are visible on the board, clamped in two staggered rows of
 three under a single aluminium bar.
 
-📄 A separate LM339 comparator squares up a tacho reference.
-❓ One account has that reference derived from the motor's own winding, which sits awkwardly with
-the separate optical encoder module described above. Both cannot be the primary speed reference.
-Unresolved.
+### ⚠⚠ The two ICs were the wrong way round — corrected 5 September 2026
+
+This section used to say the position sensors fed **LM324** stages with 470 kΩ feedback, and
+that a separate **LM339** squared up the tacho. 📄 `motSchem.pdf`, read at 400 dpi, shows the
+opposite assignment. The chips do both jobs, but not those jobs.
+
+| Chip | What the sheet actually shows |
+|---|---|
+| **LM339** quad comparator | **All four sections.** Three take the position sensors — `GREEN` (pins 8, 9 → 14), `YELLOW` (6, 7 → 1), `VIOLET` (10, 11 → 13) — each with a **470 kΩ** resistor from output back to the **+** input. That is *positive* feedback: hysteresis, which is what squaring a sensor signal wants. The fourth section (4, 5 → 2) is the **tacho** comparator |
+| **LM324** quad op-amp | **Three sections**, one per phase (6, 5 → 7 · 2, 3 → 1 · 13, 12 → 14), sitting *after* the gating network and driving each output pair through a **560 Ω** resistor. The fourth section (9, 10 → 8) is drawn **`NC`** — a spare op-amp on the board |
+
+⚠ The 470 kΩ figure was right; it just belongs to the LM339 sections, not the LM324 ones.
+
+### 📄 One analogue command drives all three phases
+
+The sheet is built around a single vertical net marked **`SPEED IN`**, arriving from the
+control tower. It reaches each of the three phase chains through a **47 kΩ + 47 kΩ** pair with
+a **capacitor to ground** at the junction, and each chain has an **N-channel JFET shunting that
+node to ground**, gated by that phase's LM339 output. So commutation is done here, on the motor
+PCB, by shunting a common amplitude command in turn.
+
+⭐ **This is the single most important fact on the page for the Remora build:** driving this
+motor needs **one analogue amplitude command, not three-phase PWM** — provided the motor PCB is
+retained, which it is. That is a very much smaller job for a Pico than commutating from
+scratch. The same reading is recorded independently in
+[`folder-findings.md`](/GT2101/project-notes/folder-findings/) §2.1.
+
+📄 **The JFETs are the same part as the tower's.** The sheet labels them
+**`JFET NCH — E113 / J113`**, writing both numbers, exactly the substitution recorded on tower
+board 3's sheet 3A (*"defective, replaced by J113 (RS Components)"*). ⭐ So the **J113 on the
+parts list is the right part in three separate places** on this deck: board 3's repair, board
+4's tacho front-end, and the motor PCB itself.
+
+📄 **Rails.** The output Darlingtons run from **±15 V**; the LM339 and LM324 sit on a **−10 V**
+negative rail, with the sensor bias bus fed through a **180 kΩ** to that rail.
+
+### The tacho comparator — and what it is *not* fed from
+
+📄 The fourth LM339 section takes a wire the sheet labels **`BROWN`** on its inverting input and
+a second input marked `M` on its non-inverting, with 470 kΩ hysteresis, and its open-collector
+output — pulled to ground through **4 kΩ7** while the chip's negative rail is −10 V — leaves the
+board as **`TACH`**. ⭐ That independently explains the measured **0 V to −10 V** tacho swing
+from the circuit rather than from the meter.
+
+⚠ **This narrows a long-standing ❓.** One inherited account had the tacho reference *derived
+from the motor's own winding*, which sat awkwardly with the separate optical module. **The sheet
+does not draw that.** `BROWN` is its own conductor; the three winding pairs (green/white,
+red/white, black/white) terminate at the output stages and go nowhere near this comparator. What
+`BROWN` is connected to at the motor end is still ❓ — but "derived from the winding" is not what
+the drawing shows.
 
 ❓ **Two of the ICs are not original.** The LM339N is an ST part and the LM324N carries 1990s date
 codes — either later repairs to a 1976 board, or a later board. Anyone dating a GT2101 from its
@@ -113,7 +166,11 @@ likely to be miscited. Three threads exist, none of them yet a source.
 from the defunct galeaudio.com "Turntable" page. No independent corroboration has been found in
 distributor archives, patent databases, forum histories or contemporary press. galeaudio.com prose
 has now been checked against this hardware on four separate occasions and found substantially
-wrong every time — that is a live reason for caution, not a footnote.
+wrong every time — that is a live reason for caution, not a footnote. ⚠ **Updated 5 September
+2026: the set is now complete.** All six inherited board descriptions have been checked and
+**five were substantially wrong**; the one that holds describes the power supply, the only
+board whose function can be guessed correctly from its parts list. See
+[`archive-provenance.md`](/GT2101/project-notes/archive-provenance/).
 
 **"Adapted from a shipboard gyro."** Reported by two mutually unrelated sources not traceable to
 galeaudio.com (a 2012 magazine account and a repair-shop resale listing). Two independent
@@ -188,6 +245,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | Date | Change |
 |---|---|
 | 2026-08-22 | First version. Consolidated from direct hardware inspection, the 2015 FANATSON schematics, and independent research. |
+| 2026-09-05 | Audited against `motSchem.pdf` at 400 dpi. **Corrected: the LM324 and LM339 roles were the wrong way round.** Added the `SPEED IN` single-command finding, the E113/J113 labelling, the rails, the tacho comparator's circuit-level confirmation of the 0/−10 V swing, and the lettered-pin thread for the connector accounting. Narrowed the "tacho from the winding" ❓. The superseded 22 August copy in `engineering-drawings-schematics/motor-overview/` was retired. |
 
 ---
 

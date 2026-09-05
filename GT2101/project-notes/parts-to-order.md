@@ -29,10 +29,52 @@ since 22 August. The parts are for a **perfboard interface card**: the dividers,
 shifters and JFET front-end that let the Pico read what each original board is doing on the
 backplane, and intervene later if that turns out to be worth doing.
 
-❓ **What is actually in the box has not been logged.** When it arrives, check the contents
-against the list below **before anything goes on the perfboard** — the list has been amended
-three times and at least one item on it (the 22 k/10 k divider) has since been superseded by
-the corrected row in the resistor table below.
+### ✅ What was actually ordered — logged 4 September 2026
+
+Ten line items, all placed 2 September, all AliExpress, all awaiting delivery. ~£29.
+
+| Item | Variant | On the list? |
+|---|---|---|
+| **BC547B** TO-92 transistors | 100 pcs | ✅ wanted ×20 |
+| **LM358P** op-amp, DIP-8 | 20 pcs | ✅ wanted ×5 |
+| **DIP-8 IC sockets** | 10 pcs | ✅ |
+| **TTP223** capacitive touch modules | 20 pcs | ✅ wanted ×5 |
+| **Prototype board**, double-sided | 5 pcs, 5×7 cm | ✅ **the interface card** |
+| **Monolithic ceramic capacitors**, 50 V | **1 µF**, 100 pcs | ✅ wanted ×10 |
+| Round-hole pin header strips, 1×40 | **male**, gold | ➕ not on the list |
+| **Kapton polyimide tape**, 33 m × 50 mm × 0.06 mm | brown | ⭐ not on the list — see below |
+| Solder, 60/40 leaded, 0.8 mm, 50 g | — | ➕ |
+| Desoldering braid, 2 mm × 1.5 m | 2 pcs | ➕ |
+
+### ⚠⚠ What is missing — and the perfboard cannot be populated without it
+
+**Every active device arrived. Almost none of the passives did.**
+
+| Missing | What it blocks |
+|---|---|
+| ⚠⚠ **J113 JFET** | **The tacho, entirely.** Not a divider, not a MOSFET — see below. Nothing substitutes |
+| ⚠⚠ **E12 resistor assortment** | **Nearly everything.** The BC547s need base resistors; the LM358 needs its 10 k RC pair and its 10 kΩ output pull-down; the touch input needs 27 k + 10 k + 1 k; the tacho JFET needs 10 k ×2; auto-lock needs one 47 k–470 k |
+| ⚠ **100 nF** | Decoupling. The 1 µF variant was ordered from a listing that also offered 47 nF and 100 pF, so this slipped through |
+| Female round-hole headers | Only **male** strips were ordered. To plug the Pico into the card rather than solder it down — which is what reversibility wants — the female counterpart is needed |
+| Breadboard · jumper wires · DMM grabber clips | Bench convenience, not blocking |
+
+⭐ **So the order is back-to-front against the work.** The chips can wait; the resistors cannot.
+**One E12 assortment and five J113s unblock the entire build**, and both are pennies.
+
+### ⭐ The Kapton tape was not on the list and is the most useful thing in the order
+
+33 m of 50 mm polyimide at 0.06 mm. It is **the same material as the flexicon's own coverlay**,
+it insulates, it takes soldering heat, and it is thin enough to add no bulk.
+
+**Its immediate job:** a shim between the Pico's solder side and the backplane film. At present
+the Pico's castellations sit directly against copper on the film's outer face — the green LED
+trace runs up the centre of it — with only a fifty-year-old coverlay between them. See
+[`flexicon-backplane-map.md`](/GT2101/project-notes/flexicon-backplane-map/) §7.
+
+⚠ **One caution on the BC547 pack.** The listing title spans several types including
+**2N7000**. If the pack turns out to be mixed rather than all BC547B, note that the 2N7000 is
+specifically the part that **cannot** work as the tacho input — a MOSFET needs a positive gate,
+and the tacho only ever sits at 0 V or −10 V, so it would be off in both states.
 
 ---
 
@@ -106,8 +148,10 @@ on a page served on the home network.
   drops 5 V instead of 10 and dissipates half as much. Even at a Pico W's ~50 mA that is
   ≈0.25 W — about what the plain Pico cost on the old +15 V input.
 - The monitor is only worth writing **once the tacho is read**; until then the page has
-  nothing to show that the bench does not already show. See [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/)
-  § LIVE MONITOR.
+  nothing to show that the bench does not already show. ⚠ *This pointed at
+  `pico-controller-notes.md` § LIVE MONITOR until 5 September 2026. **There is no such
+  section** — the monitor has never been specified anywhere in the repo. If it is wanted, it
+  needs writing.*
 
 A **Pico 2 W** (RP2350) is the faster alternative and would give the servo loop more
 headroom, at slightly higher cost. Either is fine; the plain Pico W is proven with
@@ -116,7 +160,12 @@ MicroPython and is the safe choice.
 ### Op-amp
 
 - **LM358, DIP-8, ×5** plus DIP sockets. Buffers the Pico's filtered PWM into the
-  speed-voltage line. Runs happily on the single +15 V rail.
+  speed-voltage line. ⚠ **Run it from the backplane's +10 V — corrected 5 September 2026.**
+  This said "+15 V", which disagrees with
+  [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/), and +15 V means
+  a wire across the deck to the reservoir — the exact thing the 3 September supply change got
+  rid of. It also needs a **10 kΩ pull-down on its output**, so idle is 0 V by hardware even
+  if the PWM stops.
 
 ### Capacitors
 
@@ -151,18 +200,23 @@ looking like the cheapest option of the three.
 
 ## What earlier work removed from the list
 
-**Board 3 level shifters — not needed.** Board 3 (`GT201/3275ST`) is out of the
-architecture. Its two jobs — generating `F VAR` from the pot, and gating the drive
-voltage to 0 V when the platter is still — both become firmware. Nothing on its nine-pin
-connector needs interfacing to the Pico.
+⚠⚠ **Corrected 5 September 2026 — the three paragraphs that stood here were written under
+the withdrawn remove-the-boards plan.** They said board 3 was *"out of the architecture"*,
+that board 4 *"leaves with Board 3"*, and that the J113 was needed because board 4's E113
+*"goes out with the board"*. **All five boards stay** — settled 29 August 2026. See
+[`project-memory.md`](/GT2101/project-notes/project-memory/) § settled.
 
-**Board 4 level shifters — not needed either.** Board 4 (`GT201/3276ST`) is the other
-half of the same servo and leaves with Board 3 — see [the board 4 study](/GT2101/technical-notes/board-4-servo/). Its crystal,
-reference divider, PLL and error amplifier all become firmware.
+⭐ **The J113 is still required, and the quantity is unchanged — only the reason was wrong.**
+Board 4 stays, so its E113 tacho front-end stays with it. But that front-end feeds *board 4's
+own PLL*, not the Pico. The Pico taps `TACH` in parallel at the backplane (row 4 pad 5) and
+needs a front-end of its own. Same part, same circuit, same count.
 
-**But Board 4's departure adds one part.** Its E113 JFET is the deck's tacho front-end,
-and it goes out with the board — which is why the J113 above is now a **required**
-purchase rather than an optional one.
+⚠ **And "no level shifters for boards 3 and 4" is no longer true either.** Both boards are
+live, and their pins carry signals the Pico wants to **read**: board 3 pin 7 (the drive
+voltage — the calibration prize), board 3 pin 5 (`F VAR`), board 4's `TACH`. A 0–10 V pin
+needs a divider into an ADC; `TACH` needs the JFET. Nothing here is decided, but the parts
+count for reading the original servo has never been worked out and should be before the
+perfboard is laid out.
 
 **Helipot parts — none, ever.** Passive, proven on the bench, reads on GP26 with no
 conditioning of any kind. ✅ Ten turns, full 160–65535 ADC span, confirmed 24 August 2026.

@@ -101,9 +101,11 @@ On 22 August a full board analysis was delivered without reading two documents w
 same morning, and three of its conclusions were already out of date. Step 3 exists because of
 that.
 
-⚠ **The schematic PDFs are image-only scans** — a text read returns empty. A cloud session
-must have them **attached directly to the chat** to read them. That is how Boards 1–4 were
-worked out.
+⚠ **The schematic PDFs are image-only scans** — a text read returns empty. That is how
+Boards 1–4 were worked out, from PDFs attached to the chat. ✅ **Since 5 September 2026,
+connecting the `engineering-drawings-schematics` folder is enough** — a session can render a
+sheet and read it directly. See
+[`archive-provenance.md`](/GT2101/project-notes/archive-provenance/).
 
 ---
 
