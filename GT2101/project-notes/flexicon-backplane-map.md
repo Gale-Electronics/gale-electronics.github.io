@@ -51,11 +51,16 @@ rows, PCB 1 to PCB 5** — independent confirmation that the tower holds five bo
                     1.048 MHz crystal  ──────────────┐
                          (Board 4)                   │
                                                      ▼
-   Helipot ──► Board 2 ──► Board 3 XR2207 ──► F VAR ──► Board 2 ──► ×40 ──► Board 5
-   (on Bd 2)                                                                  │
-                                                        black switch VAR/FIX ─┤
-                                                                              ▼
-                                          Board 4 pin 3  ◄──── 4×F (40–3996 Hz)
+   Helipot ──flying lead──► Board 3 `ORANGE` post ──► XR2207 ──► F VAR ──► Board 5 pad 4
+   (bolted to Bd 2,                                            (already ×40)        │
+    wired to nothing there)                     black switch VAR/FIX ───────────────┤
+                                                                                    ▼
+                                                                             Board 5 pad 3
+                                                                                    │
+                                          Board 4 pin 3  ◄──── 4×F (40–3996 Hz) ────┤
+                                                │                                   │
+                                                │            Board 2 pin 7 ◄─────────┘
+                                                │            (same net — the display's demand)
                                                 │
                                           ÷4 ───┼───► pin 9 ──► Board 1 pin 7 (F REF)
                                                 │
@@ -75,6 +80,22 @@ rows, PCB 1 to PCB 5** — independent confirmation that the tower holds five bo
 **The black speed switch**, on board 5: **VAR released** selects `F VAR` (the Helipot speed);
 **FIX pressed** selects the fixed 1332 Hz. The selected frequency returns to board 4 pin 3 as
 `4×F`.
+
+⚠⚠ **CORRECTED 8 September 2026 — this diagram used to read
+`F VAR ──► Board 2 ──► ×40 ──► Board 5`, and both halves were wrong.** `F VAR` never touches
+board 2, and there is **no `×40` stage anywhere** — it leaves board 3 already at 40 Hz per rpm.
+The old line also sent the Helipot through board 2, which
+[`board-3-fvar-gate.md`](/GT2101/project-notes/board-3-fvar-gate/) §6 had already closed: it is a
+flying lead onto board 3. 📄 All of it re-read off `motor-overview/backplane.pdf` at 350 dpi.
+
+⭐ **Board 5 pad 3, board 4 pad 3 and board 2 pad 7 are ONE net** — the selected demand
+frequency, feeding the servo and the display from the same wire. That is how board 2 gets a
+demand frequency without ever seeing `F VAR` itself, and it is why row 4's map shows no pad
+driving row 2 pad 7.
+
+⭐ **The frequencies are the tracer's, in pencil, on that sheet:** `3996 Hz (×40)` at row 5 pad 4
+— 99.9 rpm, the top of the variable range — and `333 Hz ×4 = 1332 Hz` at pad 7, the FIX
+reference. **Both confirm 40 Hz per rpm, so the Pico's 1333 Hz for 33⅓ is right.**
 
 ### ⭐ What this settles
 
@@ -215,7 +236,7 @@ works but leaves little margin.) Add 1 kΩ in series into the GPIO.
 | 2 | STILL/TURNING | out → board 2 pad 3 |
 | 3 | STILL/TURNING | out → board 2 pad 4 |
 | 4 | **start/stop pulse**, 0 → +10 V | in ← board 2 pad 5 |
-| 5 | **`F VAR`** | out → board 2 |
+| 5 | **`F VAR`** | out → **board 5 pad 4** ⚠ *not* board 2 — corrected 8 Sept 2026 |
 | 6 | **drive voltage IN** | in ← board 4 pad 6 |
 | 7 | ⭐ **drive voltage OUT → the motor** | out |
 | 8 | **−10 V** | in |
@@ -223,6 +244,13 @@ works but leaves little margin.) Add 1 kΩ in series into the GPIO.
 
 ⚠ Pad 7 is the calibration prize. `board-3-fvar-gate.md` §5: measure it at each speed on the
 running deck, and four 📄 figures become ✅.
+
+⚠⚠ **Pads 2 and 3 may no longer be doing anything — opened 8 September 2026.** Sheets 3A, 3B and
+3C put them at the end of a chain that begins at board 3's **`ORANGE` post**, and that post is
+open, because the Helipot's orange lead is now on the Pico. **Board 2's `F DISPLAY` / gate-rate
+mux is thrown from these two pads** (§10), so if they are dead the display can read about 4×
+out. ⭐ **Two meter readings close it: pads 2 and 3 to pad 9, platter stopped then turning.**
+Full statement in [`board-3-fvar-gate.md`](/GT2101/project-notes/board-3-fvar-gate/) §2a.
 
 ---
 
@@ -261,8 +289,8 @@ and does not hold here.
 |:--:|---|---|
 | **1** | **GREEN LED** ← board 1 pad 5 / board 1 pin 8 | ✅ |
 | **2** | **+10 V** | ✅ |
-| 3 | to the **black speed switch** (VAR released / FIX pressed) | 📄 |
-| 4 | `F VAR` / 3996 Hz (×40) | 📄 |
+| 3 | the **black speed switch's COMMON** — the *selected* frequency, out and up to **board 4 pad 3 and board 2 pad 7** (one net) | 📄 |
+| 4 | **`F VAR` in ← board 3 pad 5**; `3996 Hz (×40)` at full scale. Goes to the switch's `VAR RELEASED` contact | 📄 |
 | 5 | **`TACH`** from the motor | 📄 |
 | 6 | **SPEED OUT** to the motor | 📄 |
 | 7 | 1332 Hz FIX | 📄 |
@@ -271,6 +299,11 @@ and does not hold here.
 
 ✅ Pad count and positions read off the part. **Pads 1, 2 and 9 are ✅. Pads 3–8 remain 📄
 from the sheet** and are still unconfirmed against the part.
+
+⭐ **Pads 3, 4 and 7 gained a second 📄 source on 8 September 2026.** `motor-overview/backplane.pdf`
+draws the black switch explicitly: its **common** on pad 3, its `VAR RELEASED` contact on the
+pad 4 line, its `FIX 33,3 PRESSED` contact on the pad 7 line. Two sheets now agree on this end of
+the row, though neither is a measurement.
 
 ✅ **The pad grouping is confirmed on paper too — 5 September 2026.** `Board-5-Layout.pdf`
 draws the connector row and marks its ends `LEFT` and `RIGHT`: from the `LEFT` end, two pads
@@ -467,59 +500,17 @@ The two sets of photographs in `engineering-drawings-schematics/flexicon-connect
 **There is no second backplane.** The rule that follows from it is unchanged and is the most
 important rule on this part: **solder to the brass staple, never to a pad.**
 
-### ⚠ The folder itself needs a tidy — 5 September 2026
+### ✅ The folder has been tidied — done 5 September 2026
 
-Checked by content, not by name. Two pairs in
-`engineering-drawings-schematics/flexicon-connector/` are **byte-identical duplicates** — same
-MD5, same size — filed under two names each:
+Checked by **content, not by name** — `md5sum` on staged copies. Two pairs in
+`engineering-drawings-schematics/flexicon-connector/` were **byte-identical duplicates** — same
+MD5, same size — filed under two names each. **Both spare copies have now been deleted:**
 
-| Kept | Duplicate of it | Bytes |
+| Kept | Deleted duplicate | Bytes |
 |---|---|---|
-| `remora.jpeg` | `raymon.jpeg` | 1 822 277 |
-| `top-pico-mount-front.jpeg` | `IMG_0275.jpeg` | 2 256 158 |
+| `remora.jpeg` | ~~`raymon.jpeg`~~ | 1 822 277 |
+| `top-pico-mount-front.jpeg` | ~~`IMG_0275.jpeg`~~ | 2 256 158 |
 
-⚠ **`raymon.jpeg` is the one to be careful about.** A file named after a person reads like
-provenance — *this photograph came from Raymon* — and it is in fact a byte-for-byte copy of
-`remora.jpeg`. Nothing in this archive cites it, and nothing should start to: it carries no
-information the other file does not, and its name implies a source it does not have.
-
-⚠ **`flexicon-1.2` has no file extension at all** and sits beside `flexicon-1.1.png`,
-`flexicon-1.3.jpeg` and `flexicon-1.4.jpeg`. It is about 2 MB and is presumably the missing
-`.jpeg`, but a file with no extension will not render on the published site and will be
-skipped by anything walking the folder.
-
-**None of this affects a conclusion on this page.** It is recorded because the next person to
-cite a photograph from that folder should know which names point at the same image.
-
-### ⭐ But the two-tower situation may change the break calculus — 4 September 2026
-
-⚠ **That "no spare" claim was verified about two photo sets, not about the whole workshop.** It
-is now known there are **two towers** — Howie's, on the deck, and Alex's, on the bench — and the
-restored film in the photographs is **Howie's tower's own original cable**, currently fitted to
-the test tower.
-
-❓ **So the open question is: does the test tower have a flexicon of its own?** One look answers
-it, and it decides more than tidiness:
-
-- **If no** — nothing changes. One film, no spare, and every rule above stands at full strength.
-- **If yes** — ⭐ **breaks stop being unrecoverable.** Every argument in this project about
-  cutting a trace has assumed a single irreplaceable film. With a second one, a scheme can be
-  proven on the test article while the restoration target stays untouched. That reopens the
-  "stage 1 = the Pico takes the display, three breaks" plan that was shelved as too risky, and
-  it is the only thing that would.
-
-⚠ **Until it is answered, assume no spare and keep soldering to the staples.**
-
-⚠ **And regardless of the answer, the restored film is in the wrong tower.** It is the part the
-Howie restoration depends on, and it is currently in the tower about to receive a breadboard and
-experimental wiring. If the test tower has its own, swap it back and box the restored one — the
-test tower's job is to be experimented on; the restored film's job is to survive.
-
-⚠ **A repair wire is indistinguishable from an etched trace on a meter.** Anyone buzzing this
-part in future will read the repairs as original routing unless this section says otherwise.
-
-❓ On row 1 the repaired pads appear to be **1, 4 and 8** — `+10 V`, the **~1 Hz gate**, and
-`GND`. The gate matters: it is one of the three signals stage 1 drives.
 
 ✅ **Row 5 pad 1 carries no repair wire at all** — bare blob, original copper.
 
@@ -607,9 +598,9 @@ Reversal is re-making three joints.
 |---|---|
 | Whether the crossed pins are **soldered** or friction-fit | Archive value: it is what "reversible" means for anyone who works on the tower later |
 | **What is `R` on the board 2 row of the FANATSON sheet?** | Carried over from `backplane-signal-map.md` when it was merged in, 4 Sept 2026. Never identified |
-| ~~What board 2 pin 9 does with `INV TACH`~~ — ⭐ **effectively answered, 4 Sept 2026** | It feeds board 2's **MC14016 quad analogue switch**, which selects the `F DISPLAY` source. Board 3's window comparator throws it via the STILL/TURNING lines on row 3 pads 2 and 3 → row 2 pads 3 and 4. **So the display shows commanded speed when the platter is stopped and measured speed when it turns** — which is exactly what the folder transcription meant by *"pin 3 runs at a much higher frequency when showing demand and not running"* (`F VAR` up to 3996 Hz against a 333 Hz tach). Worth confirming on the bench, but three sources already agree |
+| ~~What board 2 pin 9 does with `INV TACH`~~ — ⭐ **effectively answered, 4 Sept 2026** | It feeds board 2's **MC14016 quad analogue switch**, which selects the `F DISPLAY` source. Board 3's window comparator throws it via the STILL/TURNING lines on row 3 pads 2 and 3 → row 2 pads 3 and 4. **So the display shows commanded speed when the platter is stopped and measured speed when it turns** — which is exactly what the folder transcription meant by *"pin 3 runs at a much higher frequency when showing demand and not running"* (`F VAR` up to 3996 Hz against a 333 Hz tach). Worth confirming on the bench, but three sources already agree. ⚠⚠ **And now it must be confirmed on the bench** — the 8 September audit found board 3's pads 2 and 3 fed from the now-open `ORANGE` post, so the mux may be stuck. See §5 |
 | ~~Which pads each repair wire joins~~ — **the two long rails are done, 3 Sept 2026** | §8. Both supply chains are mapped pad by pad. ⭐ **The remaining shorter wires are the highest-value job left on this part** — whether any of them shortcut across the film is the question that matters, and ✅ **Matt fitted them, so there is nobody to track down** (4 Sept 2026) |
-| ⚠ **Whether a spare flexicon exists — HALF closed, and this row used to say otherwise** | §8. ✅ **Closed:** the two photo sets are the **same part from its two faces** — pin side legend mirrored, solder side carrying the orange repair wires — so there is no second film *in the photographs*. ❓ **Still open, and it is a different question:** *does the test tower have a flexicon of its own?* One look answers it and it decides the whole break calculus. It is [`project-memory.md`](/GT2101/project-notes/project-memory/) § NEXT item 4. ⚠ *This row read "CLOSED — no spare exists" until 5 September 2026, contradicting §8 in this same file.* **Until it is answered, assume no spare: solder to the brass staple, never to a pad** |
+| ~~Whether a spare flexicon exists~~ — ✅✅ **CLOSED 6 September 2026** | §8. **Alex's tower has its own flexicon** (Matt). ⭐ **There are two films**, so a break is no longer unrecoverable and both towers can be complete at once. ⚠ **Still solder to the brass staple, never to a pad** — a spare is not a licence, and neither film is manufacturable |
 | ⚠ **Where the next failure will be** | §8. At the **ends of the orange wires**, where stiffened film meets unstiffened. Stiffening moved the stress rather than removing it — so refit the part as seldom as possible |
 | **Does the `GND` rail reach row 2 pad 14?** | §8. Matt's chain runs 5 → 4 → 3 → 1 and skips row 2. Either the wire reaches it and was not mentioned, or row 2 grounds through original copper |
 | **Row 1's pad count — eight or nine?** | §8. The `GND` chain was given as landing on row 1 pad 9, and §3 has row 1 with eight pads. Almost certainly a count carried over from the nine-pad rows, but if row 1 has a ninth pad then §3 is incomplete and it is one of the three signals stage 1 drives |

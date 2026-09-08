@@ -18,16 +18,25 @@ archive prose.
 ⚠ **Nothing in the board-3 folder has been renamed.** Boards 1 and 2 had their drawings
 tidied to `Board-N-…`; this folder is still on the tracer's original names.
 
-**Audited 5 September 2026** — all four sheets and the layout re-read at 400 dpi. **The two
-things this page is load-bearing for both survive intact**: the drive-voltage table in §4 and
-the connector map in §3 match the layout footer exactly, figure for figure. Two corrections
-and one new finding, all in §3 and §4.
+**Audited 5 September 2026** — all four sheets and the layout re-read at 400 dpi. ⭐ **The two
+things this page is load-bearing for both survive intact:** the drive-voltage table in §4 and
+the connector map in §3 match the layout footer exactly, figure for figure. **Sheets 3B and 3D
+re-read 6 September 2026** for the `F VAR` path.
+
+**Re-audited 8 September 2026** — all four sheets plus `motor-overview/backplane.pdf` read
+again, at Matt's request, to double-check the `F VAR` injection before it is made permanent.
+⭐ **The injection survives the check and comes out stronger** (§7). ⚠ **But two things in this
+page were wrong:** pad 5 does not go to board 2 (§3), and the `ORANGE` post has a **second job**
+nobody had recorded (§2a). **Current as of 8 September 2026.**
+
+*Corrections this page used to carry inline are in
+[`corrections-log.md`](/GT2101/project-notes/corrections-log/) §1, §2, §10, §11 and §13.*
 
 **Provenance:** ✅ = read off the boards in the photographs. 📄 = from the FANATSON tracings
 (dated 08–09/2015 and **marked "PRELIMINARY"** — ✅ verified on sheet 3A, which is headed
 `FANATSON 8/2015 PRELIMINARY`; the layout is dated 09/2015). ❓ = inherited, unverified.
 
-> ## Status, updated 29 August 2026 — **stays in the deck**
+> ## Status — **stays in the deck**
 >
 > Board 3 and Board 4 are **one servo split across two boards**: Board 4 decides the drive
 > voltage, Board 3 decides whether it is allowed out. See [the board 4 study](/GT2101/technical-notes/board-4-servo/).
@@ -41,15 +50,13 @@ and one new finding, all in §3 and §4.
 
 ---
 
-## 1. The board number — archive gap closed
+## 1. The board number
 
-✅ **Board 3 is `GT201/3275ST`.** Legended on the copper side of every board photographed.
+✅ **Board 3 is `GT201/3275ST`.** Legended on the copper side of every board photographed —
+read off the part itself, not inherited.
 
-The board register recorded **"none recorded"** for Board 3, and the memory doc called the
-missing Board 3 record *"the largest gap in the GT2101 record"*. It is now closed, and from
-the part itself rather than from the defunct website. It also slots exactly into the known
-sequence — 3155ST, 3272ST, **3275ST**, 3276ST, 3285NH — which corroborates the whole
-numbering scheme.
+⭐ It slots exactly into the known sequence — 3155ST, 3272ST, **3275ST**, 3276ST, 3285NH —
+which corroborates the whole numbering scheme.
 
 ### There are two issues of this board
 
@@ -68,46 +75,109 @@ window as Board 1.
 
 ---
 
-## 2. What Board 3 actually does — the archive is wrong
+## 2. What Board 3 does
 
-❓ The inherited page `Disk-3-Optical-Sensor.pdf` *(was `Disk3OpticalSensor.pdf`)* calls Board 3 the *"Optical Sensor /
-Tachometer Processor"*, says it converts an optical encoder output into a speed signal and
-is *"mounted close to the motor's internal photodiode assembly"*. It is typed prose with no
-stated source, in the same style as the rest of the defunct-website material.
+**Board 3 is the variable-speed frequency generator and the drive-voltage gate.** It makes
+`F VAR`, and it decides whether the drive voltage from Board 4 is allowed out to the motor.
 
-**It does not match the board.** There is no photodiode, no encoder input, and nothing on
-the nine-pin connector that could be one. What is actually there:
+📄 What is on it, and what the drawings show each part doing:
 
-| Part | What the drawings show it doing |
+| Part | What it does |
 |---|---|
-| **XR2207** | Voltage-controlled oscillator. Its square output (pin 13) leaves the board as **`F VAR`** |
+| **XR2207** | Voltage-controlled oscillator. Its square output (pin 13) leaves the board as **`F VAR`** — see §3 |
 | **LM3900** (quad Norton) | Wired as a *Fensterkomparator* — a **window comparator**, annotated `STILL` / `TURNING` |
 | **LM308** ×1–2 | Precision op-amp, signal conditioning either side of the comparator |
-| **E113 JFET + BC214 PNP** | An analogue **switch**, driven from half a 4013 |
+| **E113 JFET + BC214 PNP** | An analogue **switch** — the drive gate itself, driven from half a 4013 |
 | **MC14013 / MC14011** | Flip-flop and gating around the switch |
 
-Read together with the connector table in section 3, Board 3 is the **variable-speed
-frequency generator and the drive-voltage gate** — not a tachometer processor. The XR2207
-is a VCO: it turns a voltage *into* a frequency, which is the opposite of what a tacho
-processor does.
+⚠ **There is no photodiode, no encoder input, and nothing on the nine-pin connector that could
+be one.** The XR2207 is a VCO: it turns a voltage *into* a frequency, which is the opposite of
+what a tachometer processor does.
+*(The inherited page `Disk-3-Optical-Sensor.pdf` describes this board as an optical sensor. It
+is marked ❓ disputed — see [`corrections-log.md`](/GT2101/project-notes/corrections-log/) §13.)*
 
-**Recommended for the archive: mark that page ❓ disputed, with this note.**
+---
 
-✅ **Re-read in full 5 September 2026 and every charge above holds** — and one detail is worth
-adding, because it explains the whole set. **Its chip list is right** (LM308, XR2207, LM3900
-really are on this board); only the *function* is invented. The same pattern shows in the
-other three inherited pages, which between them get parts wrong that the galeaudio.com list
-also gets wrong. **These pages look like function guessed from a parts list by someone who
-never had the board.** Four checked across the Board 1, 2 and 3 audits; four wrong.
+## 2a. ⚠⚠ The `ORANGE` post does TWO jobs — found 8 September 2026
 
-📄 A repair is recorded on sheet 3A: the **E113 JFET is annotated "defective, replaced by
-J113 (RS Components)"**, and a nearby diode "replaced by 1N4148". So at least one of these
-boards has been worked on.
+The archive has recorded this post as one thing: *the XR2207's control voltage, by flying lead
+from the Helipot.* **That is only half of it.** Three sheets, read together, show the same node
+going two ways.
 
-✅ **That repair note is now load-bearing elsewhere.** The same E113, in the same
-common-source configuration, is Board 4's tacho front-end — and it is the circuit the Pico
-needs to copy for its own tacho input. **J113 is therefore the part to buy**, with the
-substitution already proven in this deck. See [the board 4 study](/GT2101/technical-notes/board-4-servo/) §6.
+| Path | Sheet | What it does |
+|---|---|---|
+| through a **resistor**, DC | 📄 3B | to the XR2207's **pin 6**, its timing-resistor terminal — this is the frequency control |
+| through a **capacitor**, AC | 📄 3A *and* 3B | to the **LM308's pin 3** (its `+` input). 3A labels the wire `ORANGE POST` in the tracer's own hand |
+
+⚠⚠ **The split is in the board's copper, not in the cable.** There is **one** orange wire and it
+lands on **one** point. You cannot see this from the wire — only by following the track, or by
+reading the sheets. ⭐ **And it does not matter whether that wire sits on the post or directly on
+the XR2207's leg:** either way, when the orange cable left board 3, the LM308 branch lost its
+source too. Same conclusion from both.
+
+### ✅✅ The three posts ARE the Helipot's three leads — confirmed 8 September 2026
+
+📄 Sheet 3B names three flying-lead posts on this board: **`RED`**, **`ORANGE`** and
+**`YELLOW`**. ✅ `board-2-touch-timing/Helipot.jpeg` shows the pot carrying exactly three leads —
+**red, orange and yellow**. **Same three, same colours.** The archive had *"an `ORANGE` post, by
+flying lead from the Helipot"* as an inference; it is now a match on two independent records.
+
+✅ **And the photograph names the wiper.** The pot's legend reads `CCW` / `CW` / **`S`**, and the
+**`S`** — the slider — sits at the **orange** terminal. `R 1K`, `L .25`, date code **7603**.
+
+⭐ **So the whole original speed control reads off in one line, which the archive did not have:**
+
+```
+   Helipot  CCW end ── RED post    ── board 3 GND
+            slider   ── ORANGE post ── XR2207 pin 6  (and the LM308, above)
+            CW  end  ── YELLOW post ── board 3 −V
+```
+
+**The wiper swung the XR2207's control between GND and −V.** 📄 The two end posts' destinations
+are from sheet 3B; the colours and the slider are ✅ from the part.
+
+📄 **And sheet 3C says where the LM308 goes, in block capitals at the top left:
+`FROM LM308 PIN 6`** → a resistor → the LM3900's **`1+ IN`**, and along the same wire to
+**`2− IN`**. Those are amplifiers 1 and 2 — and **`2 OUT` → pad 2, `1 OUT` → pad 3.**
+
+> **So the two STILL/TURNING lines to board 2 trace back to the `ORANGE` post, and that post is
+> now open.**
+
+### ⭐ What this does NOT break — read this before worrying
+
+**The drive gate is untouched, and so is the motor.** The LM3900's *other* pair, amplifiers 3
+and 4, sense the **pad 7 net** — `IN 3−`, its pin 8, verified on sheet 3C — and their outputs
+feed the 4011 → 4013 → BC214 → J113 chain in §4. **The hardware mute, the touch-pulse latch and
+the 0 V-at-rest behaviour are all on that pair.** Nothing about §4 changes.
+
+### ⚠ What it may break — board 2's mode bit, and therefore the display
+
+Pads 2 and 3 → board 2 pads 3 and 4 → the 4001 chain → the **MC14016** that picks the
+`F DISPLAY` source (demand vs `INV TACH`) **and** the gate rate (2 Hz vs 0.5 Hz) **together**.
+The pairing is deliberate: 1332 Hz × 0.25 s and 333 Hz × 1 s both give **333**, so the display
+reads `33.3` either way. **Stick that bit and the source and the window mismatch — the reading
+comes out about 4× wrong.**
+
+⭐ **The test costs nothing and was already on the list:** `fvar.rpm(33.3333)`, platter stopped,
+expect **`33.3`**. **A reading near `133` is this, not the Pico.**
+
+⚠⚠ **Do not treat the above as settled.** A DC pot wiper, through a *series capacitor*, into an
+amplifier, makes no sense as a still-or-turning detector — you cannot see motion in a pot
+voltage. ⭐ **The colour match above rules out one of the three escapes** — `ORANGE` really is the
+wiper — so what is left is that the component is not a capacitor, or that the tracer drew that
+branch wrong. **This is a reading to take, not a conclusion to build on** — see §6.
+
+---
+
+### 📄 A repair recorded on the sheet
+
+Sheet 3A annotates the **E113 JFET** *"defective, replaced by J113 (RS Components)"*, and a
+nearby diode *"replaced by 1N4148"*. So at least one of these boards has been worked on.
+
+⭐ **That repair note is load-bearing elsewhere.** The same E113, in the same common-source
+configuration, is Board 4's tacho front-end — and it is the circuit the Pico needs to copy for
+its own tacho input. **J113 is therefore the part to buy**, with the substitution already proven
+in this deck. See [the board 4 study](/GT2101/technical-notes/board-4-servo/) §6.
 
 ---
 
@@ -119,27 +189,46 @@ the tracer's: ↓ leaving the board, ↑ entering it. A circled ② means the ot
 | Pin | Signal | Direction | Notes |
 |---|---|---|---|
 | 1 | **+10 V** | in | |
-| 2 | **LM3900 `OUT 2`** (its pin 4) | out → Board 2 | ⚠ **corrected 5 Sept 2026 — it *is* named, on sheet 3C.** Annotated `STILL +10 V` / `TURNING ≠10 V`. Arrives at Board 2 pin 3 |
-| 3 | **LM3900 `OUT 1`** (its pin 5) | out → Board 2 | likewise named on 3C, with its own level annotation. Arrives at Board 2 pin 4 |
+| 2 | **LM3900 `OUT 2`** (its pin 4) | out → Board 2 | 📄 Named on sheet 3C, annotated `STILL +10 V` / `TURNING ≠10 V`. Arrives at Board 2 pin 3 |
+| 3 | **LM3900 `OUT 1`** (its pin 5) | out → Board 2 | 📄 Likewise named on 3C, with its own level annotation. Arrives at Board 2 pin 4 |
 | 4 | **start/stop pulse** | in ← Board 2 pin 5 | ✅ named from the Board 2 study: a 0 → +10 V pulse |
-| 5 | **`F VAR`** | out → Board 2 | from XR2207 pin 13 via a resistor, through the 4011 |
+| 5 | **`F VAR`** | out → **board 5 pad 4** ⚠ *not* board 2 | ✅✅ **MEASURED END TO END 7 Sept 2026 on spare board B:** pull-up **10.66 kΩ**, series `R` **10.16 kΩ**, 4011 pin 4 beeps to this pad. ⚠⚠ **The XR2207 is a 14-pin chip** — pin 13 is the **2nd leg from the left along the top row**, printing upright, notch left. ⚠ **This pad is the 4011 OUTPUT — never inject here.** ⭐ **Detailed 6 Sept 2026:** XR2207 pin 13 is an **open-collector** `SQUARE OUT` with a pull-up resistor to the XR2207's own **regulated `+V` (its pin 1)** — ⚠ *not* to +10 V, which this row used to say; a series `R` carries it to the **4011's pins 5+6, strapped as an inverter**, whose pin 4 is this pad. This makes it the cheapest place in the project for the Pico to inject a speed command — see [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § `F VAR` |
 | 6 | **drive voltage IN** | in ← **Board 4 pin 6** | ✅ source now named |
 | 7 | **drive voltage OUT** | out | see the table below |
 | 8 | **−10 V** | in | |
 | 9 | **GND** | in | |
 
-⚠ **Pins 2 and 3 were listed here as "unnamed on the drawing" until the 5 Sept audit.** They
-are named — just on sheet 3C rather than on the layout, which is where this table came from.
-That substantially answers the first open question in §6: they are the window comparator's
-two outputs, reporting STILL versus TURNING to Board 2. ⚠ The **level** annotations beside
-them are faint pencil and the `+` / `≠` marks do not read cleanly even at 400 dpi, so which
-state is high is still 📄-with-a-question-mark. The *identity* of the pins is not.
+### ⚠⚠ Pad 5 goes to **board 5**, not board 2 — corrected 8 September 2026
+
+This row read *"out → Board 2"* from the day the table was built, and
+[`flexicon-backplane-map.md`](/GT2101/project-notes/flexicon-backplane-map/) §5 said the same.
+**Both were wrong, and board 2's own 14-pin map is the tell — it has no `F VAR` input.**
+
+📄 `motor-overview/backplane.pdf`, read at 350 dpi, draws row 3 pad 5 (labelled **`VAR`**)
+running **straight down to row 5 pad 4**, passing row 4 with no pad on the way. From there the
+**black switch** chooses it or the fixed 1332 Hz, and the choice returns on **row 5 pad 3**.
+
+⭐ **And that return is one net with three pads** — board 5 pad 3 = **board 4 pad 3** = **board 2
+pad 7**. The same selected frequency feeds the servo *and* the display. That is how board 2 gets
+a demand frequency without ever seeing `F VAR` itself.
+
+⚠ **`F VAR` is already ×40 when it leaves this board.** The old signal chain in the flexicon map
+showed a `×40` stage on board 2; there is none, anywhere. The backplane sheet writes
+**`3996 Hz (×40)`** beside row 5 pad 4 and **`1332 Hz`** beside pad 7, both in the tracer's hand.
+⭐ **So the Pico's 1333 Hz for 33⅓ rpm is confirmed twice more**, and the error never reached the
+firmware.
+
+⚠ **Pins 2 and 3 are named on sheet 3C, not on the layout** — which is where this table was
+built from, and why they were long recorded as "unnamed". They are the window comparator's two
+outputs, reporting STILL versus TURNING to Board 2. ⚠ The **level** annotations beside them are
+faint pencil and the `+` / `≠` marks do not read cleanly even at 400 dpi, so **which state is
+high is still 📄 with a question mark.** The *identity* of the pins is not.
 
 ⚠ The layout sheet is headed **"NORMAL COPPER SIDE (mounted upside down)"** — so unlike the
 Board 1 and Board 4 drawings, this one is *not* mirrored. Do not carry an orientation habit
 across.
 
-⚠⚠ **And do not carry one between this board's own sheets either — added 5 Sept 2026.**
+⚠⚠ **And do not carry one between this board's own sheets either.**
 Sheet **3C is headed `LM3900 gespiegelt` and footed `LM3900 MIRRORED!`**, and sheet **3D is
 footed `4011 MIRRORED!`**. So the layout is un-mirrored while two of the four schematic
 sheets are mirrored, on the same board, in the same set. Read the pin numbers the tracer
@@ -173,22 +262,11 @@ as a paper archive gets.
 | 45 rpm | 1.6 V | 1.6 V |
 | 78 rpm | 2.4 V | 2.4 V |
 
-⚠⚠ **This paragraph used to say "the backplane sheet only ever recorded one column, and it
-was the input one." It is not true, and it was corrected on 5 September 2026.**
+📄 `motor-overview/backplane.pdf`, read at 400 dpi, records **both columns side by side** on the
+two adjacent pads, the second reading **`STILL: 0 V`** in the tracer's own hand.
 
-`motor-overview/backplane.pdf`, read at 400 dpi, records **both columns, side by side on the
-two adjacent pads** — and the second column reads **`STILL: 0 V`** in the tracer's own hand.
-The information was complete in the archive the whole time.
-
-⭐ **So "STILL = 10 V" was never a gap in the source. It was a misreading of a source that had
-both numbers on it.** That is a less comfortable account than the one this page used to give,
-and it is the accurate one. A missing column is bad luck; a misread column is a habit, and the
-defence against it is the one this project keeps relearning: **go back to the drawing.**
-
-The figure had been sitting in the project notes as though the input column were what reaches
-the motor.
-
-It isn't. **When the platter is stopped, the demand rails to 10 V and Board 3 holds its
+⚠ **Do not read the input column as what reaches the motor.** **When the platter is stopped,
+the demand rails to 10 V and Board 3 holds its
 output at 0 V.** Running, it passes the voltage straight through. That is exactly what the
 LM3900 window comparator and the JFET switch are for: the comparator decides STILL versus
 TURNING, and the switch mutes the drive when the platter is not moving.
@@ -228,15 +306,11 @@ taking.
 
 ### What this changes
 
-- **The motor is protected in hardware, and stays that way.** The memory doc worried that
-  reading the drive table the wrong way round would "command full drive into a stationary
-  platter — the case that cooks the BD675A/676A". That 10 V never leaves Board 3.
-- ✅ **Board 3 stays fitted, so the hardware still-gate stays in circuit.** ⚠ An earlier
-  version of this section warned that "with Board 3 out of the architecture, that protection
-  leaves with it," and called it the single biggest risk of the build. **That was written
-  under the withdrawn remove-the-boards plan and does not apply.** `V_IDLE = 0 V` and the
-  ceiling in `drive.set_drive()` are belt-and-braces agreeing with the hardware, not the only
-  braces. Do not inherit that alarm.
+- **The motor is protected in hardware.** The 10 V never leaves Board 3, so there is no path
+  by which full drive reaches a stationary platter and cooks the BD675A/676A.
+- ✅ **Board 3 stays fitted, so the hardware still-gate stays in circuit.** `V_IDLE = 0 V` and
+  the ceiling in `drive.set_drive()` are belt-and-braces agreeing with the hardware, not the
+  only braces.
 - **`V_IDLE` in the firmware should be 0 V, not 10 V.** The motor wants nothing when
   stopped, 1.2 V at 33⅓, 1.6 V at 45, 2.4 V at 78. Those four numbers are the real
   specification for `drive.nominal_drive()`.
@@ -269,9 +343,25 @@ original servo, live, with the right answers on its pins.
 
 | ❓ | Why it matters |
 |---|---|
-| ~~What pins 2 and 3 carry exactly~~ — ✅ **largely answered 5 Sept 2026** | They are the LM3900 window comparator's `OUT 2` (pin 4 → pad 2) and `OUT 1` (pin 5 → pad 3), named on sheet 3C with STILL/TURNING annotations (§3). ⚠ Which state is the high one is still 📄 — the pencil `+`/`≠` marks do not read cleanly. One meter reading on pads 2 and 3, platter stopped then turning, would close it |
-| ~~What drives the XR2207's control voltage~~ | ✅ **Moot, 24 August 2026.** The Helipot is now wired directly to the Pico and to nothing else — whatever path it had through Board 2 is already broken |
+| **Which of pins 2 and 3 is high in which state** | They are the LM3900 window comparator's `OUT 2` (pin 4 → pad 2) and `OUT 1` (pin 5 → pad 3), named on sheet 3C with STILL/TURNING annotations (§3). The pencil `+`/`≠` marks do not read cleanly. **One meter reading on pads 2 and 3, platter stopped then turning, closes it** |
+| **Whether the STILL gate is really 0 V** | 📄 only. Measure pin 7 with the platter stopped. ⭐ **Worth more than it looks:** pin 7 is also what the window comparator senses (§4), so one reading tests the gate *and* the STILL/TURNING logic at once |
+| ⭐ **What is the real negative rail?** | Pin 8 to pin 9, DC volts. Two pins side by side, and confusing them offsets every reading on this board by the whole rail — see the bench warning in [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § `F VAR`. The archive only has ±10 V on paper |
+| ⚠⚠ **Are pads 2 and 3 still doing anything?** | §2a. Sheets 3A/3B/3C put them at the end of a chain that starts at the now-open `ORANGE` post. If they are dead, board 2's display mux is stuck and the display can read ~4× out. **Two readings close it: pads 2 and 3 to pad 9, platter stopped then turning. If they do not move, the lines are dead** |
+| ❓ **Is that really a capacitor between the `ORANGE` post and the LM308?** | §2a. It is what both 3A and 3B draw, and it is what makes the chain above implausible. ⭐ **Now the only escape left**, since the colour match has confirmed `ORANGE` is the wiper. One continuity check on a **spare** board — post to LM308 pin 3, powered down — would say whether it is a capacitor, a link, or nothing. ⚠ Not a job for the live tower |
 | Whether ISSUE B behaves the same | Different chip set; the schematics do not describe it. Archive interest only — the spare is not being pressed into service |
-| Whether the STILL gate is really 0 V | 📄 only. Measure pin 7 with the platter stopped. ⭐ **Worth more than it looks**: pin 7 is also what the window comparator senses (§4), so one reading there tests the gate *and* the STILL/TURNING logic at once |
 | Why one plain board has an MC1747CL and the other doesn't | Possibly a running change within the same issue; possibly the empty-holes test in [`archive-provenance.md`](/GT2101/project-notes/archive-provenance/) |
-| ~~Is the archive's "optical sensor" page salvageable~~ | ✅ **Answered: no.** Board 4 is a crystal reference, tacho front-end and PLL servo — there is no photodiode or optical encoder anywhere in the tower. The page describes no board that exists |
+
+### ✅ Settled
+
+⭐⭐ **What board 3 pin 5 is doing — MEASURED 6 September 2026: 0.05 V, parked, stable**, in both
+black-switch positions and across a power cycle. **The XR2207 is not oscillating**, because its
+control voltage arrives on the `ORANGE` post and that wire is now on the Pico. ⭐ **So the Pico
+can inject `F VAR` here with no break at all** — one BC547B, one base resistor, one wire. It
+also confirms the black switch sits *downstream* of this board, on board 5.
+
+Also settled: what pins 2 and 3 carry (**the window comparator's two outputs**) · what drives the XR2207's
+control voltage (**an `ORANGE` post on this board, by flying lead from the Helipot — not via
+Board 2**; that lead is now on the Pico, so the input is open — ⚠ **but see §2a: that post is
+not single-purpose**) · whether the archive's "optical
+sensor" page is salvageable (**no** — Board 4 is the crystal, tacho front-end and PLL servo;
+there is no photodiode or optical encoder anywhere in the tower).

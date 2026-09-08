@@ -33,9 +33,14 @@ a pair of 401s rebuilt with modern drivers — the cabinet is still Gale, but th
 company built into it has gone, and nobody paying Gale money is paying for a box.
 
 That is the whole argument for the approach below. Everything added has to be sympathetic to
-what is already there. This deck currently runs a well-made modern replacement controller; it
-is being removed and the original five boards refitted, because a working deck that is no
-longer original is not the thing worth preserving.
+what is already there.
+
+⚠ **A clarification, 6 September 2026.** This paragraph used to say the deck's modern controller
+"is being removed". **It is not.** There are two towers: the deck plays right now on a
+well-made tower of new PCBs and a new power supply fitted inside an original housing, built by a
+previous restorer, and **it works very well.** All the bench work happens on a second, entirely
+original tower. Whether the first is ever taken back to original is an open question, not a
+plan — and the fact that the deck plays is exactly why this project is under no time pressure.
 
 It also sets the editorial rule for this archive: **what previous owners and engineers found
 out is kept — their testimony, their measurements, their dead ends. What they bolted on is
@@ -220,7 +225,8 @@ voltage, that board 3 was an optical sensor, that "disk 2" was two boards. **Eve
 came from inherited prose with no stated source, and every one fell over on contact with the
 hardware.** The 2015 hand tracings, by contrast, have held up.
 
-The deck being worked on still has a later replacement controller fitted and working, so none
-of this is being done under pressure. **That board is being removed and the original five
-refitted**; it is not part of this project and is not documented here. That is the only reason it has been possible to stop
-and check each claim rather than guess.
+**The deck plays**, on a well-made modern tower built by a previous restorer, so none of this is
+being done under pressure — and that is the only reason it has been possible to stop and check
+each claim rather than guess. The bench work happens on a separate, entirely original tower.
+That modern tower is not a subject of this archive, under the editorial rule above; ⚠ **that is
+not the same as saying it is in the way.**

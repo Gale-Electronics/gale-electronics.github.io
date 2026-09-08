@@ -419,8 +419,56 @@ contradict each other.**
 ## 5. What this means for the Pico
 
 This is the useful part. Board 1 needs **four wires from the Pico plus power** — five with
-the green LED — and the Pico then owns the display completely: no board modification,
-nothing unplugged, all original parts.
+the green LED.
+
+### ☠☠ But "nothing unplugged" is wrong — corrected 5 September 2026
+
+This section used to end *"and the Pico then owns the display completely: no board
+modification, nothing unplugged, all original parts."* **That is true on the bench and false
+in the tower**, and it is the same shape of error as the green LED's driver-transistor claim
+in §3: right about the board in isolation, wrong about the board in the deck.
+
+**Three of the four lines the Pico would drive already have a live CMOS driver at the other
+end of the flexicon.** All three were confirmed from the drawings on 5 September 2026:
+
+| Board 1 pad | What the Pico wants to do | What is already driving it |
+|---|---|---|
+| 3 — `F DISPLAY` | drive | **Board 2 pad 8** — the common of a 4016 two-way switch |
+| 4 — gate | drive | **Board 2 pad 10** — the 4016 selecting 0.5 Hz or 2 Hz |
+| 7 — `F REF` | drive | **Board 4 pad 9** — the MC14520 ÷4 divider output |
+| 2 — `BLANK` | optional | **Board 2 pad 6** — leave it open and this one never arises |
+
+⚠ **All five boards stay powered.** So on the bench, with board 1 alone, those pads are free
+and the Pico is the only driver — which is exactly why bench sessions 2 and 6 worked. In the
+assembled tower each of those three pads is a **CMOS output driving into a CMOS output**.
+
+**What that actually does:** a 4000-series output at 10 V will source or sink only a few
+milliamps into a short, so this is not a bang. It is worse than a bang. The net sits at an
+indeterminate level that depends on which side is winning at that instant, both devices run
+outside their ratings, and **the display will partly work** — right some of the time, wrong or
+flickering the rest. That is the exact failure
+[`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § HOW THE PICO MEETS
+THE TOWER already warns about: *"Listen before driving. Boards 2 and 4 are alive and pulsing.
+Driving a net before its break is made gives continuous, dynamic contention that would
+partially 'work' — the worst kind of fault."* **That rule was right and this page contradicted
+it.**
+
+⭐ **The Pico does not need a modified Board 1. It needs three breaks in the backplane** —
+between board 2 pad 8 and board 1 pad 3, board 2 pad 10 and board 1 pad 4, and board 4 pad 9
+and board 1 pad 7. Board 1 itself is still untouched, still original, and that part of the
+claim always held.
+
+☠ **And that is the expensive part, so it is not being done yet.** The backplane is a single
+1976 flexible film, **there is no spare**, and this archive's standing rule is *solder to the
+brass staple, never to a pad* — see
+[`flexicon-backplane-map.md`](/GT2101/project-notes/flexicon-backplane-map/) §8. Three breaks
+in an irreplaceable part is a decision about the deck, not a wiring detail.
+
+✅ **What is unaffected.** The **green LED on pad 5 needs no break at all** — board 5 has no
+circuitry on that net, the black switch is a passive sink and the Pico's open-drain pin is
+another, and two sinks simply OR together. The **`RESET` output on pad 6 is an input to the
+Pico**, so it needs no break either. Those two are clean in the tower today; the three drive
+lines are not.
 
 | Pico → | Board 1 pad | Physical pin | Why |
 |---|---|---|---|

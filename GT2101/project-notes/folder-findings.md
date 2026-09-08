@@ -12,18 +12,6 @@ description: "Technical data, live contradictions, people and document leads ext
 
 # GT2101 — Folder findings: technical material and leads
 
-⚠ **Renamed and given frontmatter, 4 September 2026.** This file was
-`GT2101_interview_extraction_1.md` and **had no frontmatter at all** — no layout, no title, no
-permalink — so it was the only document in `project-notes/` that did not publish as a page.
-`index.md` could only link to the containing folder, because there was no URL to point at.
-Twenty-one kilobytes of the best provenance material in the project was effectively invisible
-on the site.
-
-The old name was misleading too: this is not an interview transcript. It is the technical and
-documentary yield of the whole offline folder, and the name now says so. ⚠ **Two notes
-elsewhere in the repo cited it as `GT2101_interview_extraction.md`, without the `_1` — a
-filename that never existed.** Those references are corrected.
-
 **Source:** an offline mirror of galeaudio.com plus the FANATSON tracings, since folded into this repository.
 **Revised:** 28 August 2026. Supersedes the earlier interview-extraction version.
 **Removed in this pass:** Ira Gale biography, Warhol/*Pork*, celebrity owners, dealer and showroom history, speaker restoration threads, for-sale classifieds, and the general people index. None of it bore on the deck.
@@ -130,10 +118,6 @@ separate bench-order note, **which no longer exists** — the work is now groupe
 [`project-memory.md`](/GT2101/project-notes/project-memory/) § NEXT by what each job needs
 rather than by step number. The findings below are unchanged; only their labels were tied to
 something that has gone.
-
-**Refitting the original boards — the "most important unknown" is answered from documents.**
-Howie's own account: the new PCBs were **already on order** — "the new pcb's are still on order from the supplier, but some of the new modern ESC bits and pieces have arrived" — and only then, "**in the meantime**, one of the guys found an interesting flaw in the flexible 'strap'." The rebuild was a project decision ahead of any board failure, driven by faster sampling, replaceable parts, and a wanted feature (perspex dial stepping 33.3→45→78 on the lock button). He intended to **"keep the original and now working parts as backup."** After the strap repair the originals ran: "hey presto …. it works … dial speed on the led, touch the top to rotate."
-**Reading: Level A is live, not dead on arrival.** `[1st]`
 
 **Running the deck original — the pass criterion may be softer than it looks.** Simon Y, Gale audio Google group, **21 Dec 2010**, relaying Nigel Hobden: the deck has "fluctuating speed which according to Nigel and one other person is an **inherent issue due to the configuration of the circuitry**." If that holds, a deck that doesn't lock perfectly is not necessarily faulty. Counter-evidence in the same thread: **John Mayberry, 23 Dec 2010** — "No, I've had no electronic issues. It has always turned on/off and adjusted to speed quickly." `[2nd]` / `[1st]`
 

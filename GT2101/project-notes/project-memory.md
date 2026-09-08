@@ -17,9 +17,6 @@ nothing, and detaches without leaving a mark. The Pico rides on the GT2101 the s
 five original boards stay in the tower, powered and running, and the Pico helps them rather
 than replacing them.
 
-⚠ The old name **PICOMOD is retired.** *Mod* means modification, and nothing here is modified.
-The name argued against the principle, and it is how the remove-the-boards plan crept in.
-
 ---
 
 ## ⚠⚠ WHAT THIS DOCUMENT IS — rewritten 4 September 2026
@@ -41,17 +38,6 @@ The `V_IDLE` one was bad enough that the bench-order note had to carry a standin
 caution amounting to *don't believe the memory doc on this point*. **A bootstrap document
 that needs a warning label attached to it elsewhere in the repo has stopped doing its job.**
 
-### ⭐ The rule that keeps it short
-
-> **Nothing in this file may contain a pin number, a voltage, a part number, a resistor
-> value or a firmware setting.** Anything that can go stale lives in exactly one specific
-> document, and this file points at it.
-
-The one exception is the board table below, because without it this file cannot orient
-anybody — and those part numbers were read off etched copper and are not going to change.
-
-**If you find yourself adding circuit detail here, you are putting it in the wrong file.**
-
 ---
 
 ## ⚠ WHERE THE WORK LIVES — settled 25 August 2026
@@ -71,17 +57,6 @@ anyone.
 2. **This repository.**
 3. Nothing else.
 
-⚠ **This replaces the earlier arrangement**, in which notes were split between the repo, a
-claude.ai project and a separate working folder. On 24 August the claude.ai project emptied
-without warning and took twenty-one documents with it; seven were recovered from a live
-session's context and the rest were lost. **Do not keep the only copy of anything outside
-this repository.**
-
-⚠ **There is no second folder, and no other copy of this archive.** Earlier ZIP downloads and
-scratch folders contained no `.git` and never reached GitHub. They are struck from the record.
-If a note, an instruction or a session points anywhere else, that pointer is wrong and should
-be corrected, not followed.
-
 ### End of every session
 
 GitHub Desktop → check the changed-file list → summary line → **Commit to main** →
@@ -97,27 +72,12 @@ GitHub Desktop → check the changed-file list → summary line → **Commit to 
    are the ones most likely to change your answer.
 4. Only then start.
 
-On 22 August a full board analysis was delivered without reading two documents written that
-same morning, and three of its conclusions were already out of date. Step 3 exists because of
-that.
-
-⚠ **The schematic PDFs are image-only scans** — a text read returns empty. That is how
-Boards 1–4 were worked out, from PDFs attached to the chat. ✅ **Since 5 September 2026,
-connecting the `engineering-drawings-schematics` folder is enough** — a session can render a
-sheet and read it directly. See
-[`archive-provenance.md`](/GT2101/project-notes/archive-provenance/).
-
 ---
 
 ## ⚠ Scope — PICO ONLY
 
 The project is **only** this: adding new control logic to the GT2101's control tower using a
 Raspberry Pi Pico. Everything else on the deck stays original.
-
-**The replacement controller is out of scope entirely.** It is not being reverse-engineered,
-recloned, dated or written about. Its firmware, its part numbers and the manufacturing
-enquiry that went with it are all dropped. See the inventory note below for which tower it is
-actually in — this was misdescribed until 4 September.
 
 ### Why — the principle behind the whole project
 
@@ -136,13 +96,6 @@ their mistakes, their dead ends. What they *bolted on* is not. **Findings are th
 non-original hardware is not.**
 
 ---
-
-## THE HARDWARE — inventory, 4 September 2026
-
-⚠⚠ **There are two towers, and until 4 September this archive did not know it.** Every
-document in the repo was written as though there were one deck, one tower and one set of
-boards. The bench order still reads, in places, as if a modern board is being taken out of
-the only tower Matt owns. **It is not.**
 
 ### The two towers
 
@@ -206,38 +159,6 @@ the test tower.**
 open. Until it is answered, **treat the restored flexicon as the only one** and keep the rule:
 **solder to the brass staple, never to a pad.**
 
-### ❓⚠ Is the restored flexicon the one that ran jerky?
-
-**A question worth answering before step 4, and nobody has asked it.** Howie's team *"fitted a
-replacement flex strap"*, after which the deck ran but with **"really jerky"** rotation that
-they never diagnosed and the record simply stops on.
-
-So there may be **two** straps in that tower's history — the original, and Howie's
-replacement. **Which one does Matt have, and is the orange-wired repair on the strap that
-misbehaved?**
-
-⭐ **It changes what the precedent means.** As currently written,
-the bench notes recorded jerky rotation as *"precedent on a repaired flexicon, not a new fault
-of yours."* **If
-it is the same physical part, it is not precedent — it is an undiagnosed fault still present
-in the component**, and the right response is to look for it rather than to accept it.
-
-### ⚠⚠ The restored flexicon is in the wrong tower
-
-**The least replaceable part in the project is currently installed in the tower that is about
-to receive a breadboard, a Pico and experimental connections.**
-
-Two things make this worse than it looks:
-
-1. It is the part the **Howie restoration depends on**. If it is damaged during Pico bring-up,
-   the restoration loses its backplane, not just the bench.
-2. §8 of the flexicon map records that stiffening moved the stress to the **ends of the orange
-   wires**, so each refit loads the pads harder than before — and this one already has to come
-   out of the test tower and go into Howie's tower at least once more.
-
-⭐ **If the test tower has its own flexicon, put it back in and box the restored one until the
-Howie restoration.** The test tower's job is to be experimented on; the restored film's job is
-to survive.
 
 ### The plan
 
@@ -267,7 +188,7 @@ register. Boards carry **ISSUE letters** — a revision axis nobody had recorded
 **Boards 3 and 4 are one servo split across two boards** — 4 decides the drive voltage,
 3 decides whether it is allowed out.
 
-⚠ **All five boards stay.** The Pico is added alongside the original logic, not in place of
+⚠ The Pico is added alongside the original logic, not in place of
 any of it. It listens first, and only once the tacho, the demand and the drive are logged and
 understood does anything get injected — at the backplane, one connection at a time.
 
@@ -312,10 +233,6 @@ understood does anything get injected — at the backplane, one connection at a 
 
 Each of these was argued out, and re-litigating one costs a session.
 
-- **All five boards stay.** An earlier plan removed boards 3 and 4 and put the Pico in a
-  vacated slot. **Withdrawn in full.** Any note reasoning from "with board 3 out" is stale.
-- **Boards 3 and 4 are one servo split across two boards** — this corrected a wrong
-  description of boards 2 and 3 inherited from the defunct website.
 - **The tacho runs at ~600 pulses per platter revolution, not 60 and not 2400.** The figure
   has been wrong twice, each time by assuming the wrong reference frequency.
 - **`V_IDLE` is 0 V, not 10 V** — and board 3's hardware gate enforces it. Firmware agrees
@@ -329,11 +246,6 @@ Each of these was argued out, and re-litigating one costs a session.
 ---
 
 ## ⚠ Open challenges — nobody has answered these
-
-**The counterweight to the list above.** Rescued on 4 September 2026 from the fresh-eyes brief —
-a document written to be handed to a sceptic, retired once the rest of it had been absorbed
-elsewhere. These four were the only part of it that lived nowhere else. They are
-deliberately uncomfortable and they should stay that way.
 
 **1. Is "listen to everything first, break nothing" actually the cheapest order — or
 procrastination dressed as caution?**
@@ -357,14 +269,6 @@ motor PCB has its own JFET gating on all three phases off `SPEED IN`. **If drive
 the platter does not turn, there are two candidates and no way to tell them apart from outside.**
 Nobody has argued this through.
 
-**4. What has been missed entirely?**
-
-The one that keeps paying. On 4 September alone it produced: **two towers** rather than one,
-**Howie already being a documented source** in this archive rather than an anonymous previous
-owner, and **the display-source chain** — board 3's window comparator throwing board 2's
-analogue switch to show demand when stopped and tach when running — which had been sitting
-unnoticed across three board studies.
-
 ---
 
 ## STATUS — 4 September 2026
@@ -381,44 +285,21 @@ own etched part numbers and studied from their own drawings. The architecture is
 carrying the dividers, level shifters and JFET front-end. Log the box contents against the
 parts list before anything is built.
 
-⚠ **The three most valuable things still unmeasured**, all of which turn 📄 into ✅:
+⚠ **The four most valuable things still unmeasured**, all of which turn 📄 into ✅:
 
 1. **Board 3 pin 7 on a running deck**, at each speed. Four numbers that are the entire
    specification for `drive.nominal_drive()` and the safety ceiling.
 2. **The tacho pulses per revolution.** Expect ~600, ~333 Hz at 33⅓.
 3. **The tower gap** the Pico has to straddle. Nothing gets printed until that number exists.
+4. ⚠ **Board 3 pads 2 and 3, platter stopped then turning** — added 8 September 2026. They tell
+   board 2 whether the deck is moving, and the 8 September audit found them fed from the
+   `ORANGE` post, which Remora has left open. **If they do not move, the display can read about
+   4× out and it is not the Pico's fault.** See
+   [`board-3-fvar-gate.md`](/GT2101/project-notes/board-3-fvar-gate/) §2a and
+   [`corrections-log.md`](/GT2101/project-notes/corrections-log/) §17.
 
 ---
 
-## NEXT
-
-⚠ **The separate bench-order note was deleted on 4 September 2026.** What follows is now the
-only statement of what to do next, so it is kept here deliberately. **One session, one goal,
-one measurable outcome.**
-
-### ⭐ Needs nothing — available now
-
-**No parts, nothing dismantled, no risk to anything.** Several of these had been sitting behind
-blockers they never actually had.
-
-1. ⭐ **Measure the tacho frequency, on the deck as it stands.** The tacho is made by the encoder
-   disc and the LM339 on the **motor PCB** — original hardware, turning right now — so **it does
-   not care which tower is fitted.** One scope probe. *Measurable outcome: the frequency on
-   `TACH` at 33⅓.* ~333 Hz confirms 600 ppr; ~1332 Hz means you have landed upstream of board
-   4's ÷4. ⚠ **Scope, not a meter** — it swings 0 to −10 V. This figure has been wrong twice,
-   and it sets `TACHO_PPR`, every measurement window and the servo tuning.
-2. **Copy `config.py` into [`firmware/`](/GT2101/project-notes/firmware/).** Two minutes in
-   Thonny, and it is the only record of which GP pin goes to which wire. Eight of the nine
-   firmware files exist nowhere but on the Pico.
-3. **Photograph the encoder disc while it is intact.** No disc geometry exists anywhere in this
-   archive, and there is already a photograph of a shattered one. While looking: does it carry
-   only the tach track, or a commutation pattern as well? Answerable by eye.
-4. **Does the test tower have a flexicon of its own?** One look, and it decides the whole break
-   calculus — see [`flexicon-backplane-map.md`](/GT2101/project-notes/flexicon-backplane-map/) §8.
-5. **Board 1 auto-lock.** One wire and one resistor, anything from about 47 kΩ to 470 kΩ.
-   **Check the drawer before assuming it is blocked.** Removes the project's most annoying
-   recurring fault.
-6. **Measure the tower gap.** One number. Nothing is printed until it exists.
 
 ### Needs the parts box
 
@@ -428,10 +309,5 @@ list has been amended three times. Then the perfboard interface card, the tacho 
 the touch wire (☠ row 2 pad 5, **never** pad 6), and the 10 V level shifters. Detail in
 [`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/).
 
-### Needs a tower on the deck — a decision, not a step
-
-Anything needing a turning **original** servo means **displacing Howie's tower from the deck**:
-running the restored tower in FIX to see whether it holds 33⅓, and measuring board 3 pin 7 at
-each speed — the calibration prize, and the most valuable measurement left in the project.
 
 ⚠ **There is no hurry. The deck plays.** Do everything above first.

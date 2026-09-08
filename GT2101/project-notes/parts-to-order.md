@@ -48,12 +48,32 @@ Ten line items, all placed 2 September, all AliExpress, all awaiting delivery. ~
 
 ### ⚠⚠ What is missing — and the perfboard cannot be populated without it
 
-**Every active device arrived. Almost none of the passives did.**
+⚠⚠ **CORRECTED 7 September 2026 — this line said "Every active device arrived."** It had not.
+As of the bench session on the evening of **6 September the order had still not been delivered**, and the
+`F VAR` transistor was built from an **NPN desoldered from a Quad FM4 board** instead. ⭐ **Treat
+every "arrived" claim in this file as unverified until the box is opened and logged against the
+table above** — that logging job has been in § NEXT since 4 September and is now overdue.
+
+### ⭐ What is actually on the bench, 7 September 2026 — from salvage, not from the order
+
+| Part | Species | Use |
+|---|---|---|
+| **BC183L** · **BC413** · **ZTX650** | ✅ **NPN** | any of the three works as the `F VAR` sink. One of them is the transistor now proven — ⚠ **which one was not written down** |
+| **BC214C** | ❌ **PNP** | **cannot work.** It is the complement of the BC184 and it held off in every test, costing most of an evening |
+| **10 kΩ** | — | ⭐ **the base resistor. Use this one** |
+| **960 kΩ** | — | ⚠ **too big.** The Pico's internal pull-up is ~50–80 kΩ, so with 960 kΩ in series the discovery scan cannot pull the base pin low and finds nothing even with a good transistor |
+
+⚠⚠ **Check the species on a meter before wiring any salvaged transistor.** Diode range, probes
+on the bare legs, never through a resistor. See
+[`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § `F VAR` for the
+four-reading test.
+
+**The passives position is unchanged:**
 
 | Missing | What it blocks |
 |---|---|
 | ⚠⚠ **J113 JFET** | **The tacho, entirely.** Not a divider, not a MOSFET — see below. Nothing substitutes |
-| ⚠⚠ **E12 resistor assortment** | **Nearly everything.** The BC547s need base resistors; the LM358 needs its 10 k RC pair and its 10 kΩ output pull-down; the touch input needs 27 k + 10 k + 1 k; the tacho JFET needs 10 k ×2; auto-lock needs one 47 k–470 k |
+| ⚠ **E12 resistor assortment** | **Phase 2 and later, not the critical path** — corrected 7 Sept 2026, this row said "nearly everything". The one base resistor `F VAR` needed came out of the drawer. Still wanted for: the LM358's 10 k RC pair and 10 kΩ pull-down; the touch input's 27 k + 10 k + 1 k; the tacho JFET's 10 k ×2; auto-lock's 47 k–470 k |
 | ⚠ **100 nF** | Decoupling. The 1 µF variant was ordered from a listing that also offered 47 nF and 100 pF, so this slipped through |
 | Female round-hole headers | Only **male** strips were ordered. To plug the Pico into the card rather than solder it down — which is what reversibility wants — the female counterpart is needed |
 | Breadboard · jumper wires · DMM grabber clips | Bench convenience, not blocking |
@@ -75,6 +95,30 @@ trace runs up the centre of it — with only a fifty-year-old coverlay between t
 **2N7000**. If the pack turns out to be mixed rather than all BC547B, note that the 2N7000 is
 specifically the part that **cannot** work as the tacho input — a MOSFET needs a positive gate,
 and the tacho only ever sits at 0 V or −10 V, so it would be off in both states.
+
+---
+
+## ⭐⭐ READ THIS FIRST — the two-wire architecture, 6 September 2026
+
+**Most of this list is now phase 2 or later.** The architecture changed on 6 September: Remora
+is **two signal wires** — the Helipot's orange wiper in, `F VAR` out — and the Pico is a digital
+replacement for the XR2207 and nothing else. See
+[`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § ARCHITECTURE.
+
+| | What, and why |
+|---|---|
+| ✅✅ **Needed now — DONE** | **One NPN and one base resistor.** ⭐ **Built and proven on the bench, 7 September 2026** from an FM4 salvage NPN and a 10 kΩ: base **GP16**, collector **GP17**, emitter to GND. The board supplies its own pull-up, so no collector resistor is wanted |
+| ⚠ ~~**Missing and blocking**~~ **— no longer blocking** | The **E12 assortment** is still wanted, but the one base resistor it was holding up came out of the drawer. **Nothing on the critical path waits for the order now** |
+| **Phase 2** | **J113 ×5**, for `TACH` in through the JFET inverter. Listen-only; injects nothing |
+| ❌ **Not needed at all now** | The **LM358**, its two-stage RC filter (10 k/1 µF ×2) and its 10 kΩ output pull-down. **That whole circuit existed to inject the drive voltage, which the two-wire build does not do.** The `V_IDLE` discussion below goes with it |
+| **Not needed yet** | The touch divider (27 k + 10 k + 1 k), the display level shifters, the green-LED NPN, most of the perfboard |
+
+⭐ **Nothing here is wasted** — the drive and touch parts are what a later phase would need, and
+they are already bought. **But do not populate a perfboard for circuits the build no longer
+uses.**
+
+⚠ **Everything below this banner was written for the six-connection architecture.** It is
+accurate as a parts reference; it is no longer a to-do list.
 
 ---
 
@@ -132,30 +176,39 @@ auto-lock job is not blocked at all. Worth checking before ordering anything.
   PNP is forward-biased in both states and its output sits high permanently. It cannot
   work. **PNPs are no longer needed for anything on this list.**
 
-### ⭐ Raspberry Pi Pico W — added 24 August 2026
+### ✅✅ Raspberry Pi Pico W — DECIDED 6 September 2026: not for phase 1
 
-**Buy one, keep the plain Pico as the spare.** Matt's idea, 24 August: watch the deck live
-on a page served on the home network.
+**Build phase 1 on the plain Pico you already have. Buy the W anyway — it costs pennies — and
+keep it in the drawer for phase 2.**
 
-- ✅ **Drop-in.** GP numbering is identical, and none of the four wires in use (GP2, GP3,
-  GP4, GP26) clash with the wireless chip. No rewiring, no config change.
-- ⚠ **GP23, GP24, GP25 and GP29 belong to the wireless chip** on a Pico W, and the on-board
-  LED moves to `Pin("LED")` rather than GP25. Nothing in this project uses those pins, but
-  do not assign them later without checking.
-- ⚠ **Power.** WiFi adds roughly 50 mA average with much larger bursts. The LM7805 copes,
-  but it is more heat to shed — decide the heatsink after this is fitted, not before.
-  ⭐ **Easier than it was:** since 3 September the 7805 runs from **+10 V**, not +15 V, so it
-  drops 5 V instead of 10 and dissipates half as much. Even at a Pico W's ~50 mA that is
-  ≈0.25 W — about what the plain Pico cost on the old +15 V input.
-- The monitor is only worth writing **once the tacho is read**; until then the page has
-  nothing to show that the bench does not already show. ⚠ *This pointed at
-  `pico-controller-notes.md` § LIVE MONITOR until 5 September 2026. **There is no such
-  section** — the monitor has never been specified anywhere in the repo. If it is wanted, it
-  needs writing.*
+⭐ **The two-wire architecture removed its reason for being here.** The W was added on 24 August
+for a live web monitor on the home network. On the two-wire build **the Pico is blind**: it knows
+the pot position and the frequency it just commanded, and the deck's own display already shows
+both, better. The monitor earns its keep when `TACH` comes in — phase 2 — and not before.
+Meanwhile a radio inside the plinth is the last thing an audio device wants. Full reasoning in
+[`pico-controller-notes.md`](/GT2101/project-notes/pico-controller-notes/) § POWER.
 
-A **Pico 2 W** (RP2350) is the faster alternative and would give the servo loop more
-headroom, at slightly higher cost. Either is fine; the plain Pico W is proven with
-MicroPython and is the safe choice.
+**The facts, which still hold whenever the W does go in:**
+
+- ✅ **Drop-in.** GP numbering is identical, and none of the wires in use (GP2, GP3, GP4, GP26)
+  clash with the wireless chip. No rewiring, no config change. **So this decision is reversible
+  — a swap, not a redesign.**
+- ⚠ **GP23, GP24, GP25 and GP29 belong to the wireless chip** on a Pico W, and the on-board LED
+  moves to `Pin("LED")` rather than GP25. Nothing in this project uses those pins, but do not
+  assign them later without checking.
+- ⚠⚠ 📄 **GP23 becomes `WL_ON`, and the SMPS low-ripple mode pin moves to `WL_GPIO1` on the
+  CYW43 chip** — so forcing the quiet supply mode on a W means powering up the radio first.
+  ❓ Whether MicroPython exposes `WL_GPIO1` conveniently has not been checked.
+- ⚠ **Power.** WiFi adds roughly 50 mA average with much larger bursts. On the +10 V input the
+  7805 drops 5 V, so even at ~50 mA that is ≈0.25 W — about what the plain Pico cost on the old
+  +15 V input. More heat to shed, but not much.
+- ⚠ **The monitor has never been specified anywhere in the repo.** If it is wanted, it needs
+  writing.
+
+❌ **A Pico 2 W (RP2350) is not wanted either.** This list justified it as giving "the servo loop
+more headroom" — but **on the two-wire build there is no servo loop in the Pico.** It emits a
+square wave between 1.3 and 3.1 kHz, which is a **PIO** job: rock-steady, jitter-free, and
+independent of whatever the CPU is doing. An RP2040 will not notice it is happening.
 
 ### Op-amp
 
