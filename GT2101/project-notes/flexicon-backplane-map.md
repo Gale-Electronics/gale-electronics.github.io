@@ -5,6 +5,8 @@ permalink: /GT2101/project-notes/flexicon-backplane-map/
 description: "The GT2101's flexible backplane mapped pad by pad: orientation, row order, which pad carries which signal, and the record of the 2026 repairs."
 ---
 
+Photo record: [Flexicon backplane photographs](/GT2101/components-parts/#flexicon-backplane).
+
 *A working note — part of the GT2101 project's live record, written as the work happens and including the wrong turns. The polished write-ups live in [Technical Notes](/GT2101/technical-notes/).*
 
 ---
