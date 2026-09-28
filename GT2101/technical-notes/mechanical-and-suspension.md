@@ -41,6 +41,8 @@ tubes rubbed in their cups. Matt swapped them on 24 August and **the deck now fl
 differ, and a deck with them on the wrong legs would read as a tired suspension rather than a
 mis-assembled one.
 
+For the photo record of the tower parts, see [Suspension & Springs](/GT2101/components-parts/#suspension-springs).
+
 ### ⚠ Still open — and the numbers moved in the wrong direction
 
 | | Before the swap | After | Target |
