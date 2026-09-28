@@ -75,6 +75,10 @@ For the dated evidence, source notes, people, surviving-prototype research and o
 ## Historical Context & Provenance
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
+  <a href="/GT2101/prototypes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+    <strong>Prototype Records</strong><br>
+    <small>Photographs and provenance for three distinct GT2101 prototype machines.</small>
+  </a>
   <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Interviews &amp; Provenance</strong><br>
     <small>Recovered correspondence, oral histories, and archive interviews with original engineers and collaborators.</small>
@@ -87,3 +91,4 @@ For the dated evidence, source notes, people, surviving-prototype research and o
 All materials are preserved for <strong>educational and historical reference</strong>.  
 Original rights remain with their respective authors, engineers, photographers, and contributors.
 </small>
+
