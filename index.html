@@ -17,7 +17,8 @@ title: Gale Electronics Archive
   <meta property="og:description" content="Preserving the legacy of Gale Electronics, GS401 loudspeakers, GT2101 turntable, documents, schematics and provenance.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gale-electronics.github.io/">
-  <meta property="og:image" content="https://gale-electronics.github.io/gale-logo.jpg">
+  <meta property="og:image" content="https://gale-electronics.github.io/GT2101/design-by-DCA/GT2101_Turntable_side-profile_hero.jpg">
+  <meta property="og:image:alt" content="Gale GT2101 optical servo turntable in side profile, photographed by DCA Design Consultants">
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- Primer CSS -->
@@ -25,7 +26,7 @@ title: Gale Electronics Archive
 
   <style>
     :root{
-      --ink:#f0f6fc;
+      --ink:#24292f;
       --muted:#57606a;
       --accent:#58a6ff;
       --card:#ffffff;
@@ -45,41 +46,35 @@ title: Gale Electronics Archive
 
     /* Hero */
     .hero{
-      background: radial-gradient(1200px 600px at 20% -10%, #1f2328 0%, #0d1117 50%, #0d1117 100%);
+      background:#fff;
       color:var(--ink);
       border-radius:16px;
-      padding:clamp(1.5rem,4vw,3rem);
-      position:relative;
       overflow:hidden;
+      border:1px solid #d8dee4;
+      box-shadow:0 4px 18px rgba(31,35,40,.06);
     }
-    .hero .glow{
-      position:absolute;
-      inset:-40% -20% auto auto;
-      width:900px;height:900px;
-      opacity:.18;filter:blur(60px);
-      background:conic-gradient(from 180deg at 50% 50%, #58a6ff, #8b949e, #a5d6ff, #58a6ff);
-      border-radius:50%;mix-blend-mode:screen;
-      pointer-events:none;
-    }
+    .hero-visual{position:relative;margin:0;background:#fff;border-bottom:1px solid #eaeef2;}
+    .hero-visual img{display:block;width:100%;height:auto;}
+    .hero-credit{position:absolute;right:.8rem;bottom:.8rem;background:rgba(13,17,23,.78);color:#fff;border-radius:4px;padding:.35rem .55rem;font-size:.78rem;}
+    .hero-content{padding:clamp(1.25rem,3.5vw,2.6rem);}
+    .hero-head{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;margin-bottom:.55rem;}
     .hero h1{
       font-size:clamp(2rem,4vw,2.8rem);
-      margin:0 0 .6rem;
+      margin:0;
     }
     .hero .sub{
-      color:#c9d1d9;
+      color:#57606a;
       max-width:70ch;
       margin:0;
     }
 
     .hero-logo{
-      position:absolute;
-      top:1.2rem;right:1.4rem;
-      width:clamp(var(--logo-min), var(--logo-ideal), var(--logo-max));
+      width:clamp(76px, 9vw, 112px);
       height:auto;
       border-radius:8px;
-      border:1px solid rgba(255,255,255,.15);
-      background:rgba(13,17,23,.85);
-      padding:6px 8px;        /* a touch thicker for presence */
+      border:1px solid #d8dee4;
+      background:#fff;
+      padding:5px;
     }
 
     /* Archive badge */
@@ -92,13 +87,15 @@ title: Gale Electronics Archive
 
     /* Responsive layout */
     @media (max-width: 900px){
-      .hero{ text-align:center; padding:2rem 1rem 2.2rem; }
-      .hero-logo{
-        position:static; display:block; margin:0 auto 1rem;
-        /* BIGGER on mobile */
-        width:clamp(var(--logo-min-m), var(--logo-ideal-m), var(--logo-max-m));
-      }
-      .hero .sub{ margin:0 auto; }
+      .hero-content{padding:1.5rem;}
+      .hero-credit{font-size:.7rem;right:.55rem;bottom:.55rem;}
+    }
+    @media (max-width: 520px){
+      .hero-head{align-items:flex-start;gap:.75rem;}
+      .hero h1{font-size:1.8rem;line-height:1.15;}
+      .hero-logo{width:68px;}
+      .hero-content{padding:1.1rem;}
+      .badge-archival{align-items:flex-start;font-size:.86rem;}
     }
 
     /* Cards */
@@ -133,22 +130,28 @@ title: Gale Electronics Archive
 
     <!-- HERO -->
     <section class="hero" role="region" aria-label="Introduction">
-      <img class="hero-logo" src="{{ site.logo | default: '/gale-logo.jpg' | relative_url }}" alt="Gale Electronics logo">
-      <div class="glow" aria-hidden="true"></div>
+      <figure class="hero-visual">
+        <img src="/GT2101/design-by-DCA/GT2101_Turntable_side-profile_hero.jpg" alt="Gale GT2101 optical servo turntable in side profile, with its control tower at left and tonearm above the acrylic plinth" fetchpriority="high">
+        <figcaption class="hero-credit">GT2101 · DCA Design Consultants</figcaption>
+      </figure>
+      <div class="hero-content">
+        <div class="hero-head">
+          <h1>Gale Electronics Archive</h1>
+          <img class="hero-logo" src="{{ site.logo | default: '/gale-logo.jpg' | relative_url }}" alt="Gale Electronics logo">
+        </div>
+        <p class="sub">
+          Preserving the legacy of <strong>Gale Electronics</strong>, from the <strong>GS401</strong> loudspeakers
+          (engineering by Ira Gale, David Lyth, Billy Woodman; styling by Jon Bannenberg)
+          to the <strong>GT2101</strong> turntable (developed with DCA Design Consultants),
+          in a permanent, version-controlled GitHub Pages archive.
+        </p>
 
-      <h1>Gale Electronics Archive</h1>
-      <p class="sub">
-        Preserving the legacy of <strong>Gale Electronics</strong>, from the <strong>GS401</strong> loudspeakers
-        (engineering by Ira Gale, David Lyth, Billy Woodman; styling by Jon Bannenberg)
-        to the <strong>GT2101</strong> turntable (developed with DCA Design Consultants),
-        in a permanent, version-controlled GitHub Pages archive.
-      </p>
-
-      <div class="badge-archival">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
-        </svg>
-        <span>This is a historical archive. Includes material preserved from <em>galeaudio.com</em> (2011–2016) with attribution.</span>
+        <div class="badge-archival">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
+          </svg>
+          <span>This is a historical archive. Includes material preserved from <em>galeaudio.com</em> (2011–2016) with attribution.</span>
+        </div>
       </div>
     </section>
 

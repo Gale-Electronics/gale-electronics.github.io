@@ -129,6 +129,17 @@ Notable owners reportedly included **J. Paul Getty**, **Elton John**, **Frank Si
 
 ---
 
+## Later Ownership Reports
+
+Posts in the Gale Audio Google Group and related audio discussions provide a few direct, first-person ownership reports. These are individual recollections, not a complete register of surviving GT2101s.
+
+- **John Mayberry:** In a 2009 post, Mayberry wrote that his two turntables were a Gale GT2101 and a Transcriptors Skeleton. In a 2017 Gale Audio Group thread about a GT2101 for sale, he added that he had bought his from **Alan Coleman**, former managing director of DWLabs/Gale. ([2009 post](https://groups.google.com/g/lecson-audio/c/n64ZuZkrJI4); [2017 Gale Audio Group thread](https://groups.google.com/g/gale-audio/c/HQPspYlFgFY))
+- **Carl Smith:** In the same 2017 thread, Smith wrote that he was tempted to sell “mine,” indicating that he owned a GT2101. ([2017 Gale Audio Group thread](https://groups.google.com/g/gale-audio/c/HQPspYlFgFY))
+
+In that thread, **David of Vintage Gale** said that three GT2101s had passed through his workshop, explicitly adding that they were there to work on, “but not own.” This is useful restoration history, but it is not an ownership report and should not be counted as one.
+
+---
+
 ## Archival Summary
 
 By all accounts, the **Gale GT2101** was decades ahead of its time — a design that combined bold visual architecture with precision motor engineering.  
