@@ -23,7 +23,15 @@ This identifies the pictured machine as the original prototype **based on** Frei
 
 ## Black-and-white prototype photograph
 
-The black-and-white photograph preserved in the old GaleAudio.com website shows a **different machine** from the Freivokh-associated photograph above. Its angular, two-level structure and exposed components are visible, but its identity, date and provenance have not been established. We have not yet located a usable original image file to reproduce here.
+An image recovered from the old GaleAudio.com site's September 2011 WordPress uploads shows a **different machine** from the Freivokh-associated photograph above. Its angular, two-level structure and exposed components are visible. The upload context dates the website file, not the photograph or the machine; the machine's identity, date and provenance remain unconfirmed.
+
+![Black-and-white photograph of a Gale turntable prototype, from the old GaleAudio.com website](images/gale-prototype-bw-page-3.jpg)
+
+### Related technical drawing
+
+This drawing was uploaded alongside the photograph as page 4 in the same named scan sequence. It shows a three-arm chassis plan and side section with reference callouts. It is design documentation, not a photograph of another surviving prototype. Its precise relationship to the photographed machine, a specific prototype, or the production model has not been established.
+
+![Technical drawing of a three-arm turntable chassis and side section](images/gale-prototype-drawing-page-4.jpg)
 
 ## Ray Churchouse prototype, now with Mark Churchouse
 
@@ -61,3 +69,4 @@ More photographs of Mark’s prototype can be added to this record as they are p
 - The archive has evidence for three separate prototype machines in these records. It does **not** establish the total number of prototypes made.
 
 See the [GT2101 historical timeline and source notes](/GT2101/research-notes/) for the broader development and marketing chronology.
+
