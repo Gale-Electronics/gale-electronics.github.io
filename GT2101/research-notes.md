@@ -67,6 +67,8 @@ Nigel Hobden's September 2026 recollection now weighs against any significant ro
 
 A working hypothesis, not established by any source, is that Win may have given Ira Gale **informal advice as an old college friend** with a strong interest in hi-fi, rather than taking part in the design itself. His best-known turntable work appears later than the GT2101's development, although the 1979 SDC-10 account shows he was already working on turntables by the end of the 1970s.
 
+How Win came to be credited is itself worth noting. He is well regarded in the turntable world and is known to have been a friend of Ira Gale, so later accounts may have linked him to the GT2101 **by association**, assuming a contribution without evidence for one. No source reviewed so far documents what, if anything, he did on the deck.
+
 ### Lucy Daniels
 
 Lucy Daniels was the office manager at Gale Electronics & Design. She was not involved in the technical work. A former employee who joined Gale in 1974 recalls that a friend knew "the secretary, Lucy, at Gale's" (see [Jules's story](/voices/stories/jules-former-gale-employee/)), and in January 1981 Lucy Daniels signed the [D. W. Labs letter to Huub Bouwmeester](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981), which gives the company's own account of the GT2101's origins, cost and sales.
