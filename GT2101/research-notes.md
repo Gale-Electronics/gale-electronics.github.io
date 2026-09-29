@@ -84,6 +84,7 @@ According to Hobden:
 - **Dennis Arnall**, named as the designer in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the prototype, rather than for DCA or Gale (see [Dennis Arnall](#dennis-arnall)).
 - DCA was reorganised around this time: as Hobden recalls it, the firm's **associates were bought out, or made directors**, as David Carter Associates changed from a partnership of associates into a company with directors.
 - **DCA also originally designed the Gale GS401 loudspeaker**, not only the GT2101. Jon Bannenberg was the GS401's stylist, responsible for its appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
+- **Billy Woodman** worked for Gale. Hobden did not say what his role was.
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
 - Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.
 
