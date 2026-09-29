@@ -53,7 +53,7 @@ The available material supports an association between DCA and later GT2101 engi
 
 ### Paul Ramsden
 
-Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nigel Hobden managed. The archive records, as of September 2026, that Ramsden was **responsible for all of the GT2101's electronic and electrical design**. Ramsden is not among the five named patent inventors.
+Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nigel Hobden managed. Ramsden and Hobden had been at university together before working together at DCA; which university, and when, is not yet recorded. The archive records, as of September 2026, that Ramsden was **responsible for all of the GT2101's electronic and electrical design**. Ramsden is not among the five named patent inventors.
 
 His own undated statement, preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, is consistent with that role. He says Ira Gale came to DCA with the turntable's look already established but needing help with the electronics and mechanical engineering, and that most of the work was done at DCA. He also says an outside consultant was brought in to stabilise the phase-locked loop and that Steve Twitchet hand-laid the circular control-tower PCBs. According to Ramsden, the motors arrived as finished Litton units, so DCA's electronics work did not extend to the motor internals.
 
