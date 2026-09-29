@@ -22,6 +22,7 @@ This page brings together research on the GT2101's development, public launch, c
 | 1 November 1974 | *Felix*, issue 367, reported on the Fair. Richard Szczepanski's article identifies Dennis Arnall as the turntable's designer and credits Peter Crawford with the photographs. | [Felix 367](https://issues.felixonline.co.uk/felix_367.pdf) |
 | Date not established | Nigel Hobden recalls that, with Ira Gale owing DCA a large sum, he was effectively transferred from DCA to Gale Electronics & Design, where as technical director he oversaw production of the GT2101 turntable and the Gale speakers. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | Later 1970s | Later trade coverage and directories describe the GT2101's unusual motor, optical speed sensing, magnetic bearing and digital control. Individual specifications vary by source and should be checked against each original scan. | See [contemporary sources](#contemporary-technical-coverage) below. |
+| 28 January 1981 | A letter from D. W. Labs Limited, signed by Lucy Daniels, says the GT2101 is no longer in production. It says the deck cost almost £250,000 to develop and was originally meant to sell for about £400, but rose to about £1,200. It describes a design bought from a Royal College of Art student and changed from belt to direct drive, and around 200 units sold over three years. It also says the turntable's costs were one of the chief reasons for Gale Electronics and Design Ltd's demise. | [Letter to Huub Bouwmeester, 28 January 1981](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) |
 
 The patent-family record identifies **GB 46296/74** (normalised there as GB4629674) as a UK priority application dated 25 October 1974. That establishes an application reference, not that a UK patent was granted. The German and Japanese family filings likewise do not by themselves establish UK protection. A UK file search remains an open research task.
 
@@ -82,6 +83,8 @@ According to Hobden:
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
 - Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.
 
+A **1981 company letter** from D. W. Labs Limited independently supports the central point: it says the original triangular Perspex design was created by a Royal College of Art student, bought from him, and modified from belt drive to direct drive. See the [letter to Huub Bouwmeester, 28 January 1981](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981).
+
 This account supplies a possible missing link between Freivokh's student prototype, Gale's ownership of the design, DCA's engineering involvement and Hobden's later role at Gale. It is consistent with the patent naming both Freivokh and Hobden as inventors. The dates of the rights purchase, the move to DCA and Hobden's transfer are still to be established, as is whether the debt shaped DCA's later involvement with the GT2101.
 
 ## The early prototype now owned by Jonathan Carter
@@ -113,7 +116,7 @@ The following publications are leads for checking specifications against origina
 
 The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production, with Paul Ramsden responsible for the electronic and electrical design. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
 
-Production totals also vary in the surviving accounts: the GaleAudio.com text says approximately 60 to 200 units, while other recollections give lower figures. Until production records or a stronger contemporary source are found, this archive should describe the GT2101 as **made in small numbers** and retain the estimates with attribution rather than present one total as settled.
+Production totals also vary in the surviving accounts: the GaleAudio.com text says approximately 60 to 200 units, while other recollections give lower figures. The 28 January 1981 D. W. Labs letter, the earliest company statement found so far, says "something in the region of 200 turntables were sold during the three years that it was in production", though the writer presents this as a belief, not a record. Until production records or a stronger contemporary source are found, this archive should describe the GT2101 as **made in small numbers** and retain the estimates with attribution rather than present one total as settled.
 
 The old GaleAudio.com material is an important preservation source, especially where it retains named recollections such as Newitt's. It is not automatically independent corroboration: label it as archive testimony and distinguish it from contemporary documents.
 
@@ -127,6 +130,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
 7. When did Ira Gale buy the rights to Freivokh's design, when did the prototype reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence confirm his account?
 8. Can reliable production records resolve the conflicting estimates of units made?
+9. Who was Lucy Daniels, who signed the 1981 D. W. Labs letter, and what was D. W. Labs Limited's relationship to Gale Electronics & Design?
 
 ## Evidence guide
 
