@@ -27,6 +27,7 @@ description: "Gale GS401 loudspeakers — engineering by Ira Gale, David Lyth an
   Styled by <strong>Jon Bannenberg</strong> under the direction of <strong>Ira Gale</strong>, the GS401 combined radical aesthetics with serious acoustic intent.  
   <strong>David Lyth</strong> oversaw production and driver supply through Volt Loudspeakers, while <strong>Billy Woodman</strong> was involved during early development at Volt, though the extent of his direct input into the GS401’s final tuning remains uncertain.  
   The design’s chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of 1970s British audio design.  
+  In a September 2026 conversation, Gale's former technical director <strong>Nigel Hobden</strong> said the GS401 was also <strong>designed by DCA (David Carter Associates)</strong>, the consultancy that engineered the GT2101 turntable. How DCA's work divided with Bannenberg's styling and the Volt driver work is not yet established; see the <a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">research notes</a>.<br>
   Each model — the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (walnut veneer), and <strong>GS401C</strong> (walnut veneer with curved grilles) — shared identical drivers and crossovers, differing only in finish.
 </div>
 
