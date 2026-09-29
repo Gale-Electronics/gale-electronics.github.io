@@ -43,6 +43,8 @@ The patent names **Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel
 
 The 1 November 1974 *Felix* article calls Dennis Arnall the designer and describes him as a former gyroscope designer. Arnall is not among the five inventors named in the later patent. That difference is unresolved: practical or engineering responsibility, divided design work and journalistic shorthand are all possibilities, but none is established by the evidence here. No secure pre-1974 biography or employer has yet been identified.
 
+It had been assumed that Arnall worked for DCA or Gale. In his September 2026 recollection, however, Nigel Hobden said he believed Arnall **worked with Kenneth Freivokh to produce the prototype**. If so, that could help explain the gap between *Felix* calling Arnall the designer and the patent leaving him out: he may have contributed to Freivokh's original prototype rather than to the later Gale and DCA work. This is Hobden's understanding, not a documented role, and Arnall's employer is still unconfirmed.
+
 ### DCA and the Carter connection
 
 Nigel Hobden is both a patent inventor and, according to a [Newcomen Society biography](https://www.newcomen.com/), someone whose early experience was at DCA (David Carter Associates). The archive also contains provenance supplied by Jonathan Carter: his father David Carter received an early GT2101 as a DCA retirement gift. This is valuable owner-supplied provenance, distinct from a contemporary document.
@@ -66,6 +68,7 @@ According to Hobden:
 - **Kenneth Freivokh** finished a prototype turntable while at university. This agrees with Freivokh's own 2012 statement that he machined an experimental machine at the Royal College of Art in 1971/2 (see [Prototypes](/GT2101/prototypes/)).
 - **Ira Gale bought the design and the rights** to that turntable so that he could produce it himself.
 - Gale **took the prototype to DCA** (David Carter Associates). Hobden, then working at DCA, first saw Freivokh's prototype there.
+- **Dennis Arnall**, named as the designer in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the prototype, rather than for DCA or Gale (see [Dennis Arnall](#dennis-arnall)).
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
 - Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.
 
@@ -107,7 +110,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 ## Open research questions
 
 1. Is Jonathan Carter's machine the prototype photographed at the 1974 Audio Fair?
-2. What was Dennis Arnall's exact role, and where had he worked on gyroscopes?
+2. What was Dennis Arnall's exact role? Did he work with Freivokh on the prototype, as Nigel Hobden believes, and where had he worked on gyroscopes?
 3. What specifically did Dr Sao Win contribute to GT2101 development?
 4. What was the outcome of UK application GB 46296/74, and can its file be located?
 5. What drawings and engineering records survive from Gale or DCA?
