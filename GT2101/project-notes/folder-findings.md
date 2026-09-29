@@ -153,7 +153,7 @@ A 600-line disc read in quadrature gives 2400 edges at the disc, of which the to
 ## 4. Live technical contradictions
 
 **4.1 Motor manufacturer.** `[SITE]` "made by Inland in the USA" · `[SITE]` elsewhere on the same page "adapted from one of the **Inland/Litton Industries (we're tracking it down)** designs used for shipboard gyros" · `[1st]` **Paul Ramsden**, DCA: "**I think** the motors came in as finished units from **Litton Industries** – we had nothing to do with the insides."
-Ramsden is the cleanest witness — British, at DCA, no US narrative to serve — but he hedges and speaks only for what arrived at DCA. **Unresolved.**
+Ramsden is the cleanest witness — British, at DCA, no US narrative to serve — but he hedges and speaks only for what arrived at DCA. · `[1st]` **Nigel Hobden**, in conversation, **29 Sep 2026**: named **Litton** as the motor source **unprompted**. Two first-hand DCA/Gale witnesses now say Litton. **Leaning Litton; Inland still unresolved.**
 
 **4.2 Were the motors ever opened?** `[1st]` Ramsden: "finished units … **we had nothing to do with the insides**." · `[2nd]` Nigel Hobden via Simon Y: "they used a **special clamp when they opened up the motors**. This ensured along with a **special spacer** so that gap could set correctly **between each head**. Knowing the distance was critical. **Each one was set individually?**"
 Both can be true if the opening happened **at Gale in London**, not at DCA in Warwick — which would mean in-house work on the motor internals, exactly what the US-origin framing flattens. Simon Y flags his own uncertainty. **This is the single most valuable claim to put back to Hobden verbatim.**
@@ -191,7 +191,7 @@ Both can be true if the opening happened **at Gale in London**, not at DCA in Wa
 | **Paul Ramsden** | DCA electronics group. First-hand on the control system and on what DCA did and did not touch. Named **Steve Twitchet** as the man who hand-taped the circular board layouts | Statement solicited and given, undated |
 | **"fanatson" (Markus)** | Posts Jan/Feb 2012 as a 401A owner in **A-6020 Innsbruck, Austria**. Same handle as your 2015 FANATSON tracings — and the motor PCB sheet is signed FANATSON 10.9.2015. If it is him, he is the one person who could settle the two-numbering-systems problem directly. **Handle match only; not established** | 2012 |
 | **Huub Bouwmeester** | Netherlands. Obtained and preserved the John Daly email; identified the prototype photo by writing to Freivokh directly. Good at getting answers out of people | 2012 |
-| **Lucy Bartlett** | Not technical, but in **January 2012 was still in touch with Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth**. The routing hub | Jan 2012 |
+| **Lucy Daniels** | Gale office manager; signed the 28 Jan 1981 D. W. Labs letter. Not technical, but in **January 2012 was still in touch with Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth**. The routing hub | Jan 2012 |
 | **Mark Brumby** | Posted the LP12 motor substitution in the Gale audio group, Dec 2010. Knows the deck physically | Dec 2010 |
 | **Dr Sao Win** | Shares the (unnumbered) patents; his own machine is claimed by Robin Wyatt of Robyatt Audio | Mayberry spoke with him "a few months" before Sep 2016; retired, Santa Barbara area |
 

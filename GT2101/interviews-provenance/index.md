@@ -34,10 +34,12 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
 - **Concept:** Royal College of Art graduate **Kenneth Freivokh**, whose prototype styling set the aesthetic direction. Freivokh later became a world-renowned yacht designer.  
 - **Industrial Design:** **David Carter, CBE** (Design Consultants Associates – DCA)  
 - **Engineering:** **Nigel Hobden**  
+- **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design, including the touch start/stop on the control tower  
 - **Collaborators:** **Ira Gale** and **Dr. Sao Win**, classmates from Harvey Mudd College.  
   - Gale studied music at the Royal Academy of Music.  
   - Win studied at Cambridge and helped co-develop the DC servo system.  
   - They jointly held patents for the design.  
+  - *Archive note (2026): these credits come from the old GaleAudio.com text. Win is not among the five inventors named on the 1974 patent, and Gale's technical director Nigel Hobden does not recall him being involved. See the [research notes](/GT2101/research-notes/#dr-sao-win).*  
 
 The turntable was produced in very small numbers — approximately **60 to 200 units** — at a cost of **$1,975 USD** (without tonearm).  
 It featured **a separate stainless-steel motor pod**, **quartz-locked optical servo system**, and a **floating magnetic bearing**.  

@@ -29,6 +29,10 @@ description: "Gale GT2101 PCB close-ups, populated boards, motor assemblies and 
   Open any image in a new tab to view the full-resolution file. Captions note board names, revisions, and GT2101 locations where known.
 </p>
 
+<p class="lede">
+  <strong>Supplier note:</strong> the curly cable connecting the control tower to the motor was made by <strong>Core Technologies</strong> in Scotland, according to Gale's former technical director Nigel Hobden (<a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">conversation, 29 September 2026</a>).
+</p>
+
 <h2 class="gallery-heading">Board 1 — Display, 3155ST</h2><div class="gallery">
 <figure><a href="/GT2101/engineering-drawings-schematics/board-1-display/Board-1-front-3155ST.jpeg" target="_blank" rel="noopener"><img src="/GT2101/engineering-drawings-schematics/board-1-display/Board-1-front-3155ST.jpeg" alt="Board 1 component side, full-resolution photograph"></a><figcaption>Board 1 component side, full-resolution photograph. <a href="/GT2101/engineering-drawings-schematics/board-1-display/Board-1-front-3155ST.jpeg" target="_blank" rel="noopener">Open full size</a></figcaption></figure>
 <figure><a href="/GT2101/engineering-drawings-schematics/board-1-display/Board-1-back-3155ST.jpeg" target="_blank" rel="noopener"><img src="/GT2101/engineering-drawings-schematics/board-1-display/Board-1-back-3155ST.jpeg" alt="Board 1 copper side, full-resolution photograph"></a><figcaption>Board 1 copper side, full-resolution photograph. <a href="/GT2101/engineering-drawings-schematics/board-1-display/Board-1-back-3155ST.jpeg" target="_blank" rel="noopener">Open full size</a></figcaption></figure>

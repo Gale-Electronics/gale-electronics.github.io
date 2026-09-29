@@ -20,7 +20,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <ul class="highlights">
         <li>Built the first working GS401 prototype in his London workshop before formal production began.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
-        <li>Collaborated with Dr Sao Win and DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
+        <li>Worked with DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
       </ul>
     </div>
   </article>
@@ -55,7 +55,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <article class="person-card">
   <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
   <div class="person-body">
-    <h3>Jon Bannenberg <span class="role">Styling • Industrial Design</span></h3>
+    <h3>Jon Bannenberg <span class="role">Styling</span></h3>
     <p>Australian-born designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
     <ul class="highlights">
       <li>Conceived the GS401’s defining look, chrome end caps, fully wrapped cloth, and balanced proportions.</li>
