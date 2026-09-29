@@ -55,7 +55,7 @@ The available material supports an association between DCA and later GT2101 engi
 
 ### Paul Ramsden
 
-Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nigel Hobden managed. Ramsden and Hobden had been at university together before working together at DCA; which university, and when, is not yet recorded. The archive records, as of September 2026, that Ramsden was **responsible for all of the GT2101's electronic and electrical design**. Ramsden is not among the five named patent inventors.
+Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nigel Hobden managed. Ramsden and Hobden had been at university together before working together at DCA; which university, and when, is not yet recorded. Nigel Hobden credits Ramsden with **all of the GT2101's electronic and electrical design**. In particular, Hobden recalls that the **touch start/stop** on the control tower was Ramsden's idea and his work, and that touch-control technology was very new at the time. Ramsden is not among the five named patent inventors.
 
 His own undated statement, preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, is consistent with that role. He says Ira Gale came to DCA with the turntable's look already established but needing help with the electronics and mechanical engineering, and that most of the work was done at DCA. He also says an outside consultant was brought in to stabilise the phase-locked loop and that Steve Twitchet hand-laid the circular control-tower PCBs. According to Ramsden, the motors arrived as finished Litton units, so DCA's electronics work did not extend to the motor internals.
 
@@ -92,6 +92,7 @@ According to Hobden:
 - **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
 - **The curly cable** connecting the control tower to the motor was made by **Core Technologies** in Scotland.
 - **Dr Sao Win:** Hobden does not recall ever meeting or seeing Win, or hearing his name at Gale (see [Dr Sao Win](#dr-sao-win)).
+- **Paul Ramsden** created the GT2101's electronics, including the touch start/stop on the control tower, which was very new technology at the time (see [Paul Ramsden](#paul-ramsden)).
 - **Billy Woodman** worked for Gale. Hobden did not say what his role was.
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
 - Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.

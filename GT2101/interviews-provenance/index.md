@@ -34,7 +34,7 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
 - **Concept:** Royal College of Art graduate **Kenneth Freivokh**, whose prototype styling set the aesthetic direction. Freivokh later became a world-renowned yacht designer.  
 - **Industrial Design:** **David Carter, CBE** (Design Consultants Associates – DCA)  
 - **Engineering:** **Nigel Hobden**  
-- **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design  
+- **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design, including the touch start/stop on the control tower  
 - **Collaborators:** **Ira Gale** and **Dr. Sao Win**, classmates from Harvey Mudd College.  
   - Gale studied music at the Royal Academy of Music.  
   - Win studied at Cambridge and helped co-develop the DC servo system.  

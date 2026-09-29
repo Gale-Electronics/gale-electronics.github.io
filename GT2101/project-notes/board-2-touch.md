@@ -11,6 +11,8 @@ description: "Working study of the GT2101's touch start/stop board, its 14-pin c
 
 # GT2101 Board 2 — `GT201/3272ST`
 
+**Designer:** the touch start/stop was the idea and work of **Paul Ramsden** in DCA's electronics group, according to Nigel Hobden (29 Sep 2026), who recalls touch control being very new technology at the time. See the [research notes](/GT2101/research-notes/#paul-ramsden).
+
 **Studied 22 August 2026** from sheets `Board-2A-Schem.pdf`, `Board-2BSchem.pdf` and
 `2Layout.pdf` (FANATSON, 17.09.2015), plus photographs of the spare board.
 
