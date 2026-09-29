@@ -20,7 +20,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <ul class="highlights">
         <li>Built the first working GS401 prototype in his London workshop before formal production began.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
-        <li>Collaborated with Dr Sao Win and DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
+        <li>Worked with DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
       </ul>
     </div>
   </article>

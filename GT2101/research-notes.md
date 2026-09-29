@@ -63,6 +63,10 @@ His own undated statement, preserved on the [Interviews & Provenance](/GT2101/in
 
 The history preserved with the GaleAudio.com archive and user-supplied material say that Dr Sao Win knew Ira Gale and helped with GT2101 development. Independent contemporary material shows Win's later work on turntables and audio electronics, including [a 1979 account of his SDC-10 turntable](https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/70s/Audio-1979-06-b.pdf) and an [Audionics document acknowledging his assistance](https://w140.com/tekwiki/images/e/e0/Audionics_Info.pdf). Those sources establish relevant experience, but do **not** independently establish the exact work he performed on the GT2101.
 
+Nigel Hobden's September 2026 recollection now weighs against any significant role. Hobden worked at Gale's Bruton Place offices in Mayfair and oversaw the GT2101's production, yet he does not recall ever meeting Win, seeing him, or hearing his name mentioned while he was at Gale. Win is also not among the five named patent inventors, and no contemporary source reviewed so far connects him to the deck.
+
+A working hypothesis, not established by any source, is that Win may have given Ira Gale **informal advice as an old college friend** with a strong interest in hi-fi, rather than taking part in the design itself. His best-known turntable work appears later than the GT2101's development, although the 1979 SDC-10 account shows he was already working on turntables by the end of the 1970s.
+
 ### Lucy Daniels
 
 Lucy Daniels was the office manager at Gale Electronics & Design. She was not involved in the technical work. A former employee who joined Gale in 1974 recalls that a friend knew "the secretary, Lucy, at Gale's" (see [Jules's story](/voices/stories/jules-former-gale-employee/)), and in January 1981 Lucy Daniels signed the [D. W. Labs letter to Huub Bouwmeester](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981), which gives the company's own account of the GT2101's origins, cost and sales.
@@ -85,6 +89,7 @@ According to Hobden:
 - **DCA also originally designed the Gale GS401 loudspeaker**, not only the GT2101. Jon Bannenberg was the GS401's stylist, responsible for its appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
 - **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
 - **The curly cable** connecting the control tower to the motor was made by **Core Technologies** in Scotland.
+- **Dr Sao Win:** Hobden does not recall ever meeting or seeing Win, or hearing his name at Gale (see [Dr Sao Win](#dr-sao-win)).
 - **Billy Woodman** worked for Gale. Hobden did not say what his role was.
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
 - Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.
@@ -126,7 +131,7 @@ The [28 January 1981 letter](/GT2101/manuals-literature/#letter-from-d-w-labs-li
 
 ## Working history and confidence
 
-The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production, with Paul Ramsden responsible for the electronic and electrical design. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
+The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh and others were involved at different stages, with any role for Dr Sao Win now in doubt; and that DCA later contributed to engineering and production, with Paul Ramsden responsible for the electronic and electrical design. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
 
 Production totals also vary in the surviving accounts: the GaleAudio.com text says approximately 60 to 200 units, while other recollections give lower figures. The 28 January 1981 D. W. Labs letter, the earliest company statement found so far, says "something in the region of 200 turntables were sold during the three years that it was in production", though the writer presents this as a belief, not a record. Until production records or a stronger contemporary source are found, this archive should describe the GT2101 as **made in small numbers** and retain the estimates with attribution rather than present one total as settled.
 
@@ -136,7 +141,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 
 1. Is Jonathan Carter's machine the prototype photographed at the 1974 Audio Fair?
 2. What was Dennis Arnall's exact role? Did he work with Freivokh on the prototype, as Nigel Hobden believes, and where had he worked on gyroscopes?
-3. What specifically did Dr Sao Win contribute to GT2101 development?
+3. Did Dr Sao Win contribute to GT2101 development at all, given that Nigel Hobden does not recall him? If so, was it more than informal advice to Ira Gale?
 4. What was the outcome of UK application GB 46296/74, and can its file be located?
 5. What drawings and engineering records survive from Gale or DCA?
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?

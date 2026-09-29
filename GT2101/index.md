@@ -13,7 +13,7 @@ This section of the archive documents its engineering, construction, and cultura
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1.1rem;margin:1.4rem 0;">
   <strong>Archival Note</strong><br>
   The GT2101 was a <strong>servo-controlled direct-drive turntable</strong> developed by Gale Electronics. A 1974 contemporary report named <strong>Dennis Arnall</strong> as its designer; a patent application dated 25 October 1974 names Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor as inventors. Later evidence associates <strong>David Carter's DCA</strong> with engineering work. The exact division of design and engineering roles remains under research.
-  The GaleAudio.com archive and user-supplied history also credit <strong>Dr Sao Win</strong> with helping on development; independent sources confirm his audio-engineering work but do not yet establish his precise GT2101 contribution. Production estimates vary, so this archive does not present a single unit total as settled.
+  The GaleAudio.com archive and user-supplied history also credit <strong>Dr Sao Win</strong> with helping on development, but Gale's technical director Nigel Hobden does not recall him being involved, and no contemporary source connects him to the deck. He may have offered Ira Gale informal advice as a friend. Production estimates vary, so this archive does not present a single unit total as settled.
 </div>
 
 For the dated evidence, source notes, people, surviving-prototype research and open questions, see [GT2101 Historical Research &amp; Sources](/GT2101/research-notes/).
