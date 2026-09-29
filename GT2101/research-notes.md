@@ -62,9 +62,11 @@ His own undated statement, preserved on the [Interviews & Provenance](/GT2101/in
 
 The history preserved with the GaleAudio.com archive and user-supplied material say that Dr Sao Win knew Ira Gale and helped with GT2101 development. Independent contemporary material shows Win's later work on turntables and audio electronics, including [a 1979 account of his SDC-10 turntable](https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/70s/Audio-1979-06-b.pdf) and an [Audionics document acknowledging his assistance](https://w140.com/tekwiki/images/e/e0/Audionics_Info.pdf). Those sources establish relevant experience, but do **not** independently establish the exact work he performed on the GT2101.
 
-### Lucy Bartlett
+### Lucy Daniels
 
-Lucy Bartlett was the office manager at Gale Electronics & Design. She was not involved in the technical work, but in January 2012 she was still in touch with former colleagues Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth. That makes her an important link to people who worked at Gale.
+Lucy Daniels was the office manager at Gale Electronics & Design. She was not involved in the technical work. A former employee who joined Gale in 1974 recalls that a friend knew "the secretary, Lucy, at Gale's" (see [Jules's story](/voices/stories/jules-former-gale-employee/)), and in January 1981 Lucy Daniels signed the [D. W. Labs letter to Huub Bouwmeester](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981), which gives the company's own account of the GT2101's origins, cost and sales.
+
+The 2010–2012 restoration correspondence in this archive names a **Lucy Bartlett** who in January 2012 was still in touch with former Gale colleagues Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth. She is believed to be the same person as Lucy Daniels, perhaps under a later married name, but that has not yet been confirmed.
 
 ### Other named contributors
 
@@ -131,7 +133,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
 7. When did Ira Gale buy the rights to Freivokh's design, when did the prototype reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence confirm his account?
 8. Can reliable production records resolve the conflicting estimates of units made?
-9. Who was Lucy Daniels, who signed the 1981 D. W. Labs letter, and what was D. W. Labs Limited's relationship to Gale Electronics & Design?
+9. Is the Lucy Bartlett of the 2012 correspondence the same person as Lucy Daniels, and what was D. W. Labs Limited's relationship to Gale Electronics & Design?
 
 ## Evidence guide
 
