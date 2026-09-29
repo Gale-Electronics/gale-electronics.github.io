@@ -61,6 +61,10 @@ His own undated statement, preserved on the [Interviews & Provenance](/GT2101/in
 
 The history preserved with the GaleAudio.com archive and user-supplied material say that Dr Sao Win knew Ira Gale and helped with GT2101 development. Independent contemporary material shows Win's later work on turntables and audio electronics, including [a 1979 account of his SDC-10 turntable](https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/70s/Audio-1979-06-b.pdf) and an [Audionics document acknowledging his assistance](https://w140.com/tekwiki/images/e/e0/Audionics_Info.pdf). Those sources establish relevant experience, but do **not** independently establish the exact work he performed on the GT2101.
 
+### Lucy Bartlett
+
+Lucy Bartlett was the office manager at Gale Electronics & Design. She was not involved in the technical work, but in January 2012 she was still in touch with former colleagues Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth. That makes her an important link to people who worked at Gale.
+
 ### Other named contributors
 
 The *Felix* report is by Richard Szczepanski and its photographs are credited to Peter Crawford. Earlier *Felix* issues also list a Peter Crawford as a contributor, but the available mastheads do not establish his course or department. An Imperial College record identifies a 1979 PhD thesis by Richard Szczepanski, which supports his Imperial connection but does not add to the GT2101 account.
