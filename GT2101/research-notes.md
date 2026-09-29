@@ -22,6 +22,7 @@ This page brings together research on the GT2101's development, public launch, c
 | 1 November 1974 | *Felix*, issue 367, reported on the Fair. Richard Szczepanski's article identifies Dennis Arnall as the turntable's designer and credits Peter Crawford with the photographs. | [Felix 367](https://issues.felixonline.co.uk/felix_367.pdf) |
 | Date not established | Nigel Hobden recalls that, with Ira Gale owing DCA a large sum, he was effectively transferred from DCA to Gale Electronics & Design, where as technical director he oversaw production of the GT2101 turntable and the Gale speakers. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | Later 1970s | Later trade coverage and directories describe the GT2101's unusual motor, optical speed sensing, magnetic bearing and digital control. Individual specifications vary by source and should be checked against each original scan. | See [contemporary sources](#contemporary-technical-coverage) below. |
+| Late 1970s or early 1980s (exact date not established) | Gale Electronics & Design Ltd failed and **Donald Wong** bought the company, trading as D. W. Labs Limited. The business moved from Bruton Place, Mayfair, to smaller premises, with offices at Gray's Inn Road and a registered address in Kensal Road. | [D. W. Labs and the sale of Gale](#d-w-labs-and-the-sale-of-gale) |
 | 28 January 1981 | A letter from D. W. Labs Limited, signed by Lucy Daniels, says the GT2101 is no longer in production. It says the deck cost almost £250,000 to develop and was originally meant to sell for about £400, but rose to about £1,200. It describes a design bought from a Royal College of Art student and changed from belt to direct drive, and around 200 units sold over three years. It also says the turntable's costs were one of the chief reasons for Gale Electronics and Design Ltd's demise. | [Letter to Huub Bouwmeester, 28 January 1981](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) |
 
 The patent-family record identifies **GB 46296/74** (normalised there as GB4629674) as a UK priority application dated 25 October 1974. That establishes an application reference, not that a UK patent was granted. The German and Japanese family filings likewise do not by themselves establish UK protection. A UK file search remains an open research task.
@@ -66,8 +67,6 @@ The history preserved with the GaleAudio.com archive and user-supplied material 
 
 Lucy Daniels was the office manager at Gale Electronics & Design. She was not involved in the technical work. A former employee who joined Gale in 1974 recalls that a friend knew "the secretary, Lucy, at Gale's" (see [Jules's story](/voices/stories/jules-former-gale-employee/)), and in January 1981 Lucy Daniels signed the [D. W. Labs letter to Huub Bouwmeester](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981), which gives the company's own account of the GT2101's origins, cost and sales.
 
-The 2010–2012 restoration correspondence in this archive names a **Lucy Bartlett** who in January 2012 was still in touch with former Gale colleagues Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth. She is believed to be the same person as Lucy Daniels, perhaps under a later married name, but that has not yet been confirmed.
-
 ### Other named contributors
 
 The *Felix* report is by Richard Szczepanski and its photographs are credited to Peter Crawford. Earlier *Felix* issues also list a Peter Crawford as a contributor, but the available mastheads do not establish his course or department. An Imperial College record identifies a 1979 PhD thesis by Richard Szczepanski, which supports his Imperial connection but does not add to the GT2101 account.
@@ -84,6 +83,8 @@ According to Hobden:
 - **Dennis Arnall**, named as the designer in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the prototype, rather than for DCA or Gale (see [Dennis Arnall](#dennis-arnall)).
 - DCA was reorganised around this time: as Hobden recalls it, the firm's **associates were bought out, or made directors**, as David Carter Associates changed from a partnership of associates into a company with directors.
 - **DCA also originally designed the Gale GS401 loudspeaker**, not only the GT2101. Jon Bannenberg was the GS401's stylist, responsible for its appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
+- **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
+- **The curly cable** connecting the control tower to the motor was made by **Core Technologies** in Scotland.
 - **Billy Woodman** worked for Gale. Hobden did not say what his role was.
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
 - Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.
@@ -117,6 +118,12 @@ The following publications are leads for checking specifications against origina
 - **1978 UK Hi-Fi Year Book** — reported listing at approximately £1,195 plus VAT.
 - **January 1976, *Poptronics*** — a reported photograph and description that may help compare later production geometry with the 1974 prototype.
 
+## D. W. Labs and the sale of Gale
+
+Gale Electronics & Design Ltd did not survive the late 1970s. A former employee recalls staff being "paid out in the street in Bruton Place" when Gale went broke, after which **Donald Wong** bought the company and a skeleton crew moved to Kensal Rise (see [Jules's story](/voices/stories/jules-former-gale-employee/)). Wong's company was **D. W. Labs Limited**. The purchase is thought to have taken place in the late 1970s or early 1980s; the exact date is not yet established.
+
+The [28 January 1981 letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) confirms the arrangement. It is on D. W. Labs Limited letterhead carrying the Gale Electronics logo, gives the office as 88–90 Gray's Inn Road, London WC1, and the registered office as 326 Kensal Road, London W10. Its directors were Donald Wong (Singapore), K. C. Cheong (Hong Kong), Ian Dampney and Nigel Hobden, who was company secretary. The letter itself says the GT2101's development costs were one of the chief reasons for the demise of Gale Electronics and Design Ltd.
+
 ## Working history and confidence
 
 The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production, with Paul Ramsden responsible for the electronic and electrical design. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
@@ -135,7 +142,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
 7. When did Ira Gale buy the rights to Freivokh's design, when did the prototype reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence confirm his account?
 8. Can reliable production records resolve the conflicting estimates of units made?
-9. Is the Lucy Bartlett of the 2012 correspondence the same person as Lucy Daniels, and what was D. W. Labs Limited's relationship to Gale Electronics & Design?
+9. When exactly did Donald Wong buy Gale, and what happened to Gale production under D. W. Labs?
 
 ## Evidence guide
 

@@ -70,7 +70,7 @@ A typed reply to an enquiry about the GT2101 from Huub Bouwmeester in Apeldoorn,
 - It records that Freivokh's original design was **belt drive** and was modified by Gale for direct drive.
 - It gives a development cost of **almost £250,000**, a planned price of about **£400** rising to about **£1,200**, a production run of **about three years**, and sales of **around 200** turntables.
 - It says the GT2101 and its development costs were **one of the chief reasons for the demise of Gale Electronics and Design Ltd**, and that the deck was unprofitable even at its final price.
-- It shows Gale-branded business continuing under **D. W. Labs Limited** in 1981, with Ian Dampney and Nigel Hobden among the directors.
+- It shows Gale continuing under **D. W. Labs Limited**, the company of **Donald Wong**, who bought Gale after it failed. By 1981 the business had moved from Bruton Place, Mayfair, to Gray's Inn Road, with Ian Dampney and Nigel Hobden among the directors.
 
 See the [GT2101 research notes](/GT2101/research-notes/) for how this letter fits the wider timeline.
 
