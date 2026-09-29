@@ -16,9 +16,11 @@ This page brings together research on the GT2101's development, public launch, c
 | Date | What the record supports | Evidence |
 |---|---|---|
 | Around 1972 | The 1974 Audio Fair programme said the deck had been under development for more than two years. The identity of every contributor at this early stage is not established by that statement. | [International Audio Festival & Fair 1974 programme](https://www.worldradiohistory.com/UK/Miscellaneous/International-Audio-Festival-%26-Fair-1974.pdf) |
+| After Freivokh's 1971/2 Royal College of Art experiment (exact date not established) | Nigel Hobden recalls that Ira Gale bought the design and rights to Kenneth Freivokh's student turntable prototype, then took it to DCA (David Carter Associates), where Hobden first saw it. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | 25 October 1974 | Priority date recorded for the patent family describing a sound record player deck. The named inventors are Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor; the listed assignee is Gale Electronics & Design Ltd. | [Patent family record: DE2547849A1](https://patents.google.com/patent/DE2547849A1/en) |
 | 28 October–3 November 1974 | Gale Electronics & Design Ltd exhibited at the International Audio Festival & Fair at Olympia, London. The programme listed stand G6 and described the GT2101 as a direct-drive turntable. | [1974 Fair programme](https://www.worldradiohistory.com/UK/Miscellaneous/International-Audio-Festival-%26-Fair-1974.pdf) |
 | 1 November 1974 | *Felix*, issue 367, reported on the Fair. Richard Szczepanski's article identifies Dennis Arnall as the turntable's designer and credits Peter Crawford with the photographs. | [Felix 367](https://issues.felixonline.co.uk/felix_367.pdf) |
+| Date not established | Nigel Hobden recalls that, with Ira Gale owing DCA a large sum, he was effectively transferred from DCA to Gale Electronics & Design, where as technical director he oversaw production of the GT2101 turntable and the Gale speakers. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | Later 1970s | Later trade coverage and directories describe the GT2101's unusual motor, optical speed sensing, magnetic bearing and digital control. Individual specifications vary by source and should be checked against each original scan. | See [contemporary sources](#contemporary-technical-coverage) below. |
 
 The patent-family record identifies **GB 46296/74** (normalised there as GB4629674) as a UK priority application dated 25 October 1974. That establishes an application reference, not that a UK patent was granted. The German and Japanese family filings likewise do not by themselves establish UK protection. A UK file search remains an open research task.
@@ -45,7 +47,7 @@ The 1 November 1974 *Felix* article calls Dennis Arnall the designer and describ
 
 Nigel Hobden is both a patent inventor and, according to a [Newcomen Society biography](https://www.newcomen.com/), someone whose early experience was at DCA (David Carter Associates). The archive also contains provenance supplied by Jonathan Carter: his father David Carter received an early GT2101 as a DCA retirement gift. This is valuable owner-supplied provenance, distinct from a contemporary document.
 
-The available material supports an association between DCA and later GT2101 engineering. It does not yet document exactly when the work moved from Gale's prototype development to DCA production engineering, or assign every mechanical and electronic contribution. The precise role of Michael Taylor at DCA also needs further independent evidence.
+The available material supports an association between DCA and later GT2101 engineering. Nigel Hobden's own September 2026 recollection (below) now describes how the Freivokh prototype reached DCA and how he moved from DCA to Gale. The documents do not yet confirm exactly when the work moved from Gale's prototype development to DCA production engineering, or assign every mechanical and electronic contribution. The precise role of Michael Taylor at DCA also needs further independent evidence.
 
 ### Dr Sao Win
 
@@ -54,6 +56,20 @@ The history preserved with the GaleAudio.com archive and user-supplied material 
 ### Other named contributors
 
 The *Felix* report is by Richard Szczepanski and its photographs are credited to Peter Crawford. Earlier *Felix* issues also list a Peter Crawford as a contributor, but the available mastheads do not establish his course or department. An Imperial College record identifies a 1979 PhD thesis by Richard Szczepanski, which supports his Imperial connection but does not add to the GT2101 account.
+
+## Nigel Hobden's recollection, September 2026
+
+In September 2026 Nigel Hobden, technical director of Gale Electronics & Design and one of the five named patent inventors, spoke about the GT2101's origins. He is the only person in this record who worked on the project and is recorded directly rather than through an intermediary. This is **first-hand archive testimony** given about fifty years after the events. It is the strongest account yet of how the turntable passed between Freivokh, Gale and DCA, but it has not yet been matched to contemporary documents.
+
+According to Hobden:
+
+- **Kenneth Freivokh** finished a prototype turntable while at university. This agrees with Freivokh's own 2012 statement that he machined an experimental machine at the Royal College of Art in 1971/2 (see [Prototypes](/GT2101/prototypes/)).
+- **Ira Gale bought the design and the rights** to that turntable so that he could produce it himself.
+- Gale **took the prototype to DCA** (David Carter Associates). Hobden, then working at DCA, first saw Freivokh's prototype there.
+- **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
+- Hobden was **effectively transferred from DCA to Gale**. There, he oversaw the production of both the GT2101 turntable and the Gale speakers.
+
+This account supplies a possible missing link between Freivokh's student prototype, Gale's ownership of the design, DCA's engineering involvement and Hobden's later role at Gale. It is consistent with the patent naming both Freivokh and Hobden as inventors. The dates of the rights purchase, the move to DCA and Hobden's transfer are still to be established, as is whether the debt shaped DCA's later involvement with the GT2101.
 
 ## The early prototype now owned by Jonathan Carter
 
@@ -82,7 +98,7 @@ The following publications are leads for checking specifications against origina
 
 ## Working history and confidence
 
-The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production. Parts of this account rely on user-supplied history and GaleAudio.com recollections. The exact sequence, prototype count, transition to DCA and individual responsibilities remain open.
+The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
 
 Production totals also vary in the surviving accounts: the GaleAudio.com text says approximately 60 to 200 units, while other recollections give lower figures. Until production records or a stronger contemporary source are found, this archive should describe the GT2101 as **made in small numbers** and retain the estimates with attribution rather than present one total as settled.
 
@@ -96,7 +112,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 4. What was the outcome of UK application GB 46296/74, and can its file be located?
 5. What drawings and engineering records survive from Gale or DCA?
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
-7. When and how did DCA's production-engineering work follow the early Gale prototype development?
+7. When did Ira Gale buy the rights to Freivokh's design, when did the prototype reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence confirm his account?
 8. Can reliable production records resolve the conflicting estimates of units made?
 
 ## Evidence guide
