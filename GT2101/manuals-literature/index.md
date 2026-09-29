@@ -48,7 +48,7 @@ A home for **factory manuals, period write-ups, service notes, and contemporary 
 
 ![Typed letter on D. W. Labs Limited letterhead with a Gale Electronics logo, dated 28 January 1981, signed by Lucy Daniels](dw-labs-letter-1981-01-28.webp)
 
-A typed reply to an enquiry about the GT2101 from Huub Bouwmeester in Apeldoorn, the Netherlands. It is written on D. W. Labs Limited letterhead from 88–90 Gray's Inn Road, London WC1, with the Gale Electronics logo at the foot, and signed by **Lucy Daniels**. The listed directors of D. W. Labs are Donald Wong (Singapore), K. C. Cheong (Hong Kong), I. T. Dampney and N. M. Hobden (Secretary).
+A typed reply to an enquiry about the GT2101 from Huub Bouwmeester in Apeldoorn, the Netherlands. It is written on D. W. Labs Limited letterhead from 88–90 Gray's Inn Road, London WC1, with the Gale Electronics logo at the foot, and signed by **Lucy Daniels**. Huub Bouwmeester has shared the letter publicly on Facebook. The listed directors of D. W. Labs are Donald Wong (Singapore), K. C. Cheong (Hong Kong), I. T. Dampney and N. M. Hobden (Secretary).
 
 **Transcription**
 
