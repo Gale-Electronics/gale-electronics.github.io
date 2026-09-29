@@ -51,6 +51,12 @@ Nigel Hobden is both a patent inventor and, according to a [Newcomen Society bio
 
 The available material supports an association between DCA and later GT2101 engineering. Nigel Hobden's own September 2026 recollection (below) now describes how the Freivokh prototype reached DCA and how he moved from DCA to Gale. The documents do not yet confirm exactly when the work moved from Gale's prototype development to DCA production engineering, or assign every mechanical and electronic contribution. The precise role of Michael Taylor at DCA also needs further independent evidence.
 
+### Paul Ramsden
+
+Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nigel Hobden managed. The archive records, as of September 2026, that Ramsden was **responsible for all of the GT2101's electronic and electrical design**. Ramsden is not among the five named patent inventors.
+
+His own undated statement, preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, is consistent with that role. He says Ira Gale came to DCA with the turntable's look already established but needing help with the electronics and mechanical engineering, and that most of the work was done at DCA. He also says an outside consultant was brought in to stabilise the phase-locked loop and that Steve Twitchet hand-laid the circular control-tower PCBs. According to Ramsden, the motors arrived as finished Litton units, so DCA's electronics work did not extend to the motor internals.
+
 ### Dr Sao Win
 
 The history preserved with the GaleAudio.com archive and user-supplied material say that Dr Sao Win knew Ira Gale and helped with GT2101 development. Independent contemporary material shows Win's later work on turntables and audio electronics, including [a 1979 account of his SDC-10 turntable](https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/70s/Audio-1979-06-b.pdf) and an [Audionics document acknowledging his assistance](https://w140.com/tekwiki/images/e/e0/Audionics_Info.pdf). Those sources establish relevant experience, but do **not** independently establish the exact work he performed on the GT2101.
@@ -101,7 +107,7 @@ The following publications are leads for checking specifications against origina
 
 ## Working history and confidence
 
-The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
+The current reconstruction suggests that acrylic-deck development was underway by about 1972; that Gale, Freivokh, Win and others were involved at different stages; and that DCA later contributed to engineering and production, with Paul Ramsden responsible for the electronic and electrical design. Parts of this account rely on user-supplied history and GaleAudio.com recollections. Nigel Hobden's 2026 recollection adds a first-hand sequence: Freivokh's prototype, Gale's purchase of the rights, the prototype's arrival at DCA and Hobden's transfer from DCA to Gale. The exact dates, prototype count, transition to DCA and individual responsibilities remain open.
 
 Production totals also vary in the surviving accounts: the GaleAudio.com text says approximately 60 to 200 units, while other recollections give lower figures. Until production records or a stronger contemporary source are found, this archive should describe the GT2101 as **made in small numbers** and retain the estimates with attribution rather than present one total as settled.
 
