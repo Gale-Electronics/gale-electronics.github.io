@@ -21,6 +21,19 @@ This identifies the pictured machine as the original one **based on** Freivokh�
 
 **Source:** GaleAudio.com WordPress archive, “Mystery Turntable Identified!”, 12 April 2012; preserved in John Maybury’s original website files.
 
+### Ken Freivokh’s account, September 2026
+
+In an email to the archive in September 2026, Ken Freivokh added the following:
+
+- **His thesis.** He wrote a thesis of more than 40 pages on the turntable, titled **“A Transcription Turntable Unit”**, with studies, drawings and photographs. He completed it and presented it to the Royal College of Art at the **end of March 1972**. He still has the paper copy and has offered to scan it for the archive.
+- **Where it was made.** All the work on the turntable was done at the college, with the help of the Industrial Design (Engineering) technicians and their lathes and other machinery.
+- **How many he made.** He believes he worked on **two** versions of the star-shaped turntable. One had a top plate in **brown translucent acrylic**; that is the machine in the [black-and-white photograph](#black-and-white-photograph) below, where the top plate looks dark.
+- **A third, square version.** He also made a further version with a **square base and lid**, which was more practical for keeping dust out but, in his words, not as “pure” or elegant. He believes it is still in storage.
+- **Dennis Arnall.** He does not recall anyone called Dennis Arnall.
+- **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as **bought**: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
+
+Since leaving the college, Freivokh has worked mainly as a yacht designer, including the 88m *Maltese Falcon* and the 107m *Black Pearl*.
+
 ### Magazine article: “Speak up”, Freivokh's turntable and loudspeaker
 
 ![Magazine clipping headed “Speak up”, showing Kenneth Freivokh's star-shaped acrylic turntable and his transparent horn-loaded loudspeaker](images/freivokh-speak-up-article.png)
@@ -45,9 +58,11 @@ An item from the “Things seen” section of ***Design*** (the Design Council's
 
 ## Black-and-white photograph
 
-An image recovered from the old GaleAudio.com site's September 2011 WordPress uploads shows a **different machine** from the Freivokh-associated photograph above. Its angular, two-level structure and exposed components are visible. The upload context dates the website file, not the photograph or the machine; the machine's identity, date and provenance remain unconfirmed.
+An image recovered from the old GaleAudio.com site's September 2011 WordPress uploads shows a **different machine** from the 2012 photograph above. Its angular, two-level structure and exposed components are visible. The upload context dates the website file, not the photograph.
 
-**Possible match with the 1973 *Design* photograph.** This machine closely resembles the turntable pictured in the August 1973 *Design* article above: the same star-shaped layout, the same arrangement of pucks and central stack, and what appears to be the same tone arm. The acrylic looks dark here but clear in the *Design* picture. That difference may come from lighting and reflections in black-and-white photography, because acrylic can look black when it is not catching the light. If the two photographs do show the same machine, this would be Freivokh's own belt-driven turntable of 1973. This is a working identification based on visual comparison, not a confirmed one; a larger scan of the *Design* photograph would allow a closer check of the arm, fixings and cut-outs.
+**Identified by Ken Freivokh.** In September 2026 Freivokh identified this as one of the two star-shaped turntables he worked on at the Royal College of Art. Its top plate was **brown translucent acrylic**, not black; it looks dark in this black-and-white print.
+
+**Comparison with the 1973 *Design* photograph.** This machine closely resembles the turntable pictured in the August 1973 *Design* article above: the same star-shaped layout, the same arrangement of pucks and central stack, and what appears to be the same tone arm. The acrylic looks dark here but clear in the *Design* picture. Freivokh's account of two versions, one with a brown top plate, suggests the two photographs may show his two different versions rather than the same machine in different light. A larger scan of the *Design* photograph would allow a closer check of the arm, fixings and cut-outs.
 
 ![Black-and-white photograph of an early Gale turntable, from the old GaleAudio.com website](images/gale-early-bw-page-3.jpg)
 
@@ -88,7 +103,8 @@ More photographs of Mark’s machine can be added to this record as they are pro
 - The three machines described above are distinct examples, according to the owner’s identification of the photographs.
 - Freivokh’s signed 2012 statement explicitly connects the first pictured machine to the experimental machine he machined at the Royal College of Art in 1971/2.
 - The “Speak up” magazine article describes Freivokh's own turntable as belt-driven, with a three-point record support instead of a platter. Source: *Design* no. 296, August 1973.
-- The black-and-white machine has no confirmed maker, owner, date or link to a named machine. It closely resembles the turntable in the August 1973 *Design* photograph, and may be the same machine: Freivokh's own belt-driven turntable. This is not yet confirmed.
+- Ken Freivokh has identified the black-and-white machine as one of his two star-shaped turntables, with a brown translucent top plate.
+- Freivokh wrote a thesis, “A Transcription Turntable Unit”, presented to the Royal College of Art at the end of March 1972. He also made a third, square-based version.
 - The Ray/Mark Churchouse machine has family provenance, but its date and exact development stage have not yet been documented here.
 - It is possible that the Ray/Mark machine relates to development after Freivokh’s earlier experiment, but no evidence reviewed so far establishes that Gale or Sao Win acquired Freivokh’s machine or worked on this specific machine. Keep this as an open research question, not a confirmed link.
 - The archive has evidence for three separate early machines in these records. It does **not** establish the total number of early machines made.

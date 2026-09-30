@@ -16,6 +16,7 @@ This page brings together research on the GT2101's development, public launch, c
 | Date | What the record supports | Evidence |
 |---|---|---|
 | Around 1972 | The 1974 Audio Fair programme said the deck had been under development for more than two years. The identity of every contributor at this early stage is not established by that statement. | [International Audio Festival & Fair 1974 programme](https://www.worldradiohistory.com/UK/Miscellaneous/International-Audio-Festival-%26-Fair-1974.pdf) |
+| End of March 1972 | Kenneth Freivokh presents his thesis “A Transcription Turntable Unit”, more than 40 pages of studies, drawings and photographs, to the Royal College of Art. The turntable was built at the college with the help of its Industrial Design (Engineering) technicians. | [Ken Freivokh, email, September 2026](/GT2101/early-machines/#ken-freivokhs-account-september-2026) — archive testimony; thesis held by Freivokh |
 | August 1973 | *Design*, the Design Council's journal, features Kenneth Freivokh, an ex-Royal College of Art industrial design student, with his transparent acrylic horn loudspeaker and his **belt-driven** acrylic turntable, which uses a three-point record support instead of a platter. | [*Design* no. 296, “Things seen”, pp. 20–23](/GT2101/early-machines/#magazine-article-speak-up-freivokhs-turntable-and-loudspeaker) |
 | After Freivokh's 1971/2 Royal College of Art experiment (exact date not established) | Nigel Hobden recalls that Ira Gale bought the design and rights to Kenneth Freivokh's student turntable, then took it to DCA (David Carter Associates), where Hobden first saw it. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | 25 October 1974 | Priority date recorded for the patent family describing a sound record player deck. The named inventors are Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor; the listed assignee is Gale Electronics & Design Ltd. | [Patent family record: DE2547849A1](https://patents.google.com/patent/DE2547849A1/en) |
@@ -47,6 +48,8 @@ The patent names **Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel
 The 1 November 1974 *Felix* article calls Dennis Arnall the designer and describes him as a former gyroscope designer. Arnall is not among the five inventors named in the later patent. That difference is unresolved: practical or engineering responsibility, divided design work and journalistic shorthand are all possibilities, but none is established by the evidence here. No secure pre-1974 biography or employer has yet been identified.
 
 It had been assumed that Arnall worked for DCA or Gale. In his September 2026 recollection, however, Nigel Hobden said he believed Arnall **worked with Kenneth Freivokh to produce the precursor turntable**. If so, that could help explain the gap between *Felix* calling Arnall the designer and the patent leaving him out: he may have contributed to Freivokh's original turntable rather than to the later Gale and DCA work. This is Hobden's understanding, not a documented role, and Arnall's employer is still unconfirmed.
+
+Ken Freivokh, however, does not recall anyone called Dennis Arnall, and says all the work on his turntable was done at the Royal College of Art with the help of the college's Industrial Design (Engineering) technicians (email, September 2026). That makes Hobden's suggestion less likely, and leaves Arnall's connection to the GT2101 unexplained.
 
 ### DCA and the Carter connection
 
@@ -87,7 +90,7 @@ According to Hobden:
 - **Kenneth Freivokh** finished a precursor turntable while at university. This agrees with Freivokh's own 2012 statement that he machined an experimental machine at the Royal College of Art in 1971/2 (see [Early Machines](/GT2101/early-machines/)).
 - **Ira Gale bought the design and the rights** to that turntable so that he could produce it himself.
 - Gale **took Freivokh's turntable to DCA** (David Carter Associates). Hobden, then working at DCA, first saw it there.
-- **Dennis Arnall**, named as the designer in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the turntable, rather than for DCA or Gale (see [Dennis Arnall](#dennis-arnall)).
+- **Dennis Arnall**, named as the designer in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the turntable, rather than for DCA or Gale. Freivokh himself does not recall Arnall (see [Dennis Arnall](#dennis-arnall)).
 - DCA was reorganised around this time: as Hobden recalls it, the firm's **associates were bought out, or made directors**, as David Carter Associates changed from a partnership of associates into a company with directors.
 - **DCA also originally designed the Gale GS401 loudspeaker**, not only the GT2101. Jon Bannenberg was the GS401's stylist, responsible for its appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
 - **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
@@ -99,6 +102,8 @@ According to Hobden:
 - Hobden was **effectively transferred from DCA to Gale**, where he became a director. This happened after DCA had taken on the turntable, and it is understood to have been one way of relieving the debt Gale owed DCA. At Gale, he oversaw the production of both the GT2101 turntable and the Gale speakers.
 
 An August 1973 item in *Design* magazine, “Speak up”, describes Freivokh as an ex-Royal College of Art industrial design student and his turntable as **belt-driven**, with a three-point record support instead of a platter (see [Early Machines](/GT2101/early-machines/#magazine-article-speak-up-freivokhs-turntable-and-loudspeaker)). A **1981 company letter** from D. W. Labs Limited independently supports the central point: it says the original triangular Perspex design was created by a Royal College of Art student, bought from him, and modified from belt drive to direct drive. See the [letter to Huub Bouwmeester, 28 January 1981](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981).
+
+Freivokh's own account differs on one important point. He says Ira Gale and others built and sold his design without his knowledge, and that he received no royalties, recognition or payment (see [Ken Freivokh's account](/GT2101/early-machines/#ken-freivokhs-account-september-2026)). The 1974 patent does name him as an inventor. The archive records both accounts; it does not settle them.
 
 This account supplies a possible missing link between Freivokh's student turntable, Gale's ownership of the design, DCA's engineering involvement and Hobden's later role at Gale. It is consistent with the patent naming both Freivokh and Hobden as inventors. The dates of the rights purchase, the move to DCA and Hobden's transfer are still to be established, as is whether the debt shaped DCA's later involvement with the GT2101.
 
@@ -144,12 +149,12 @@ The old GaleAudio.com material is an important preservation source, especially w
 ## Open research questions
 
 1. Is Jonathan Carter's machine the one photographed at the 1974 Audio Fair?
-2. What was Dennis Arnall's exact role? Did he work with Freivokh on the precursor turntable, as Nigel Hobden believes, and where had he worked on gyroscopes?
+2. What was Dennis Arnall's exact role? Nigel Hobden believes he worked with Freivokh, but Freivokh does not recall him. Where had he worked on gyroscopes?
 3. Did Dr Sao Win contribute to GT2101 development at all, given that Nigel Hobden does not recall him? If so, was it more than informal advice to Ira Gale?
 4. What was the outcome of UK application GB 46296/74, and can its file be located?
 5. What drawings and engineering records survive from Gale or DCA?
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
-7. When did Ira Gale buy the rights to Freivokh's design, when did Freivokh's turntable reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence confirm his account?
+7. Did Ira Gale buy the rights to Freivokh's design, as Hobden and the 1981 letter say, or use it without payment, as Freivokh says? When did Freivokh's turntable reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence settle these questions?
 8. Can reliable production records resolve the conflicting estimates of units made?
 9. When exactly did Donald Wong buy Gale, and what happened to Gale production under D. W. Labs?
 
