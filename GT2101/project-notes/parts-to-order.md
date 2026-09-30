@@ -39,7 +39,7 @@ Ten line items, all placed 2 September, all AliExpress, all awaiting delivery. ~
 | **LM358P** op-amp, DIP-8 | 20 pcs | ✅ wanted ×5 |
 | **DIP-8 IC sockets** | 10 pcs | ✅ |
 | **TTP223** capacitive touch modules | 20 pcs | ✅ wanted ×5 |
-| **Prototype board**, double-sided | 5 pcs, 5×7 cm | ✅ **the interface card** |
+| **Perfboard**, double-sided | 5 pcs, 5×7 cm | ✅ **the interface card** |
 | **Monolithic ceramic capacitors**, 50 V | **1 µF**, 100 pcs | ✅ wanted ×10 |
 | Round-hole pin header strips, 1×40 | **male**, gold | ➕ not on the list |
 | **Kapton polyimide tape**, 33 m × 50 mm × 0.06 mm | brown | ⭐ not on the list — see below |
