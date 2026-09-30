@@ -47,6 +47,8 @@ An item from the “Things seen” section of ***Design*** (the Design Council's
 
 An image recovered from the old GaleAudio.com site's September 2011 WordPress uploads shows a **different machine** from the Freivokh-associated photograph above. Its angular, two-level structure and exposed components are visible. The upload context dates the website file, not the photograph or the machine; the machine's identity, date and provenance remain unconfirmed.
 
+**Possible match with the 1973 *Design* photograph.** This machine closely resembles the turntable pictured in the August 1973 *Design* article above: the same star-shaped layout, the same arrangement of pucks and central stack, and what appears to be the same tone arm. The acrylic looks dark here but clear in the *Design* picture. That difference may come from lighting and reflections in black-and-white photography, because acrylic can look black when it is not catching the light. If the two photographs do show the same machine, this would be Freivokh's own belt-driven turntable of 1973. This is a working identification based on visual comparison, not a confirmed one; a larger scan of the *Design* photograph would allow a closer check of the arm, fixings and cut-outs.
+
 ![Black-and-white photograph of an early Gale turntable, from the old GaleAudio.com website](images/gale-early-bw-page-3.jpg)
 
 ### Related technical drawing
@@ -86,7 +88,7 @@ More photographs of Mark’s machine can be added to this record as they are pro
 - The three machines described above are distinct examples, according to the owner’s identification of the photographs.
 - Freivokh’s signed 2012 statement explicitly connects the first pictured machine to the experimental machine he machined at the Royal College of Art in 1971/2.
 - The “Speak up” magazine article describes Freivokh's own turntable as belt-driven, with a three-point record support instead of a platter. Source: *Design* no. 296, August 1973.
-- The black-and-white machine has no confirmed maker, owner, date or link to a named machine.
+- The black-and-white machine has no confirmed maker, owner, date or link to a named machine. It closely resembles the turntable in the August 1973 *Design* photograph, and may be the same machine: Freivokh's own belt-driven turntable. This is not yet confirmed.
 - The Ray/Mark Churchouse machine has family provenance, but its date and exact development stage have not yet been documented here.
 - It is possible that the Ray/Mark machine relates to development after Freivokh’s earlier experiment, but no evidence reviewed so far establishes that Gale or Sao Win acquired Freivokh’s machine or worked on this specific machine. Keep this as an open research question, not a confirmed link.
 - The archive has evidence for three separate early machines in these records. It does **not** establish the total number of early machines made.
