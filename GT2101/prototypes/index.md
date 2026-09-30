@@ -21,6 +21,25 @@ This identifies the pictured machine as the original prototype **based on** Frei
 
 **Source:** GaleAudio.com WordPress archive, “Mystery Turntable Identified!”, 12 April 2012; preserved in John Maybury’s original website files.
 
+### Magazine article: “Speak up”, Freivokh's turntable and loudspeaker
+
+![Magazine clipping headed “Speak up”, showing Kenneth Freivokh's star-shaped acrylic turntable and his transparent horn-loaded loudspeaker](images/freivokh-speak-up-article.png)
+
+A period magazine clipping describing two designs by Kenneth Freivokh as an ex-Royal College of Art industrial design student: a transparent horn-loaded loudspeaker and a **belt-driven acrylic turntable**. The name of the magazine and the date of the issue have not yet been identified. The photographer's credit printed down the side of the picture is not legible in this copy.
+
+**Transcription**
+
+> **Speak up** This omni-directional horn-loaded loudspeaker, designed by ex-RCA industrial design student Kenneth Freivokh, is built entirely in transparent [illegible]in acrylic sheet. The compound horn is approximately six times more efficient than conventional enclosures and it provides improved bass and mid-range reproduction. Meanwhile a single full-range drive unit, fitted with a specially designed stabilizer-diffuser, achieves stable omni-directional sound distribution: the positioning of the units in a room is not critical. With this system it has also been possible to minimise intermodulation distortion commonly associated with loudspeakers fitted with multiple drive units and crossovers and the smooth inner walls of the 8ft long exponential folded horn enables proper loading of mid-range frequencies.
+>
+> The belt-driven turntable, also designed by Kenneth Freivokh, incorporates a three-point support for the record instead of the usual round platter, to provide more positive support for warped records and, at the same time prevent the transfer of dust which occurs with rubber mats. The tone arm and turntable sub-assembly share a common suspension system, based on three conical springs and foam pads housed in height-adjustable feet. These parts are completely isolated from motor vibrations, acoustic feed-back and external shock.
+
+**Why it matters**
+
+- It is **contemporary, published evidence** that Freivokh's own turntable was **belt-driven**, agreeing with the 1981 D. W. Labs letter's statement that the original design was belt drive before Gale changed it to direct drive.
+- It confirms Freivokh as the designer of the turntable in his own right, as a Royal College of Art industrial design student.
+- The turntable described here holds the record on a **three-point support instead of a round platter**. The machine in the 2012 photograph above has a round platter. That fits Freivokh's own description of the 2012 machine as a prototype **based on** his experimental one, rather than the experimental machine itself.
+- Its suspension (three conical springs with foam pads in height-adjustable feet) is an early form of the three-point suspension idea that the GT2101 kept.
+
 ## Black-and-white prototype photograph
 
 An image recovered from the old GaleAudio.com site's September 2011 WordPress uploads shows a **different machine** from the Freivokh-associated photograph above. Its angular, two-level structure and exposed components are visible. The upload context dates the website file, not the photograph or the machine; the machine's identity, date and provenance remain unconfirmed.
@@ -63,6 +82,7 @@ More photographs of Mark’s prototype can be added to this record as they are p
 
 - The three machines described above are distinct examples, according to the owner’s identification of the photographs.
 - Freivokh’s signed 2012 statement explicitly connects the first pictured machine to the experimental machine he machined at the Royal College of Art in 1971/2.
+- The “Speak up” magazine article describes Freivokh's own turntable as belt-driven, with a three-point record support instead of a platter. The magazine and date are still to be identified.
 - The black-and-white machine has no confirmed maker, owner, date or link to a named prototype.
 - The Ray/Mark Churchouse machine has family provenance, but its date and exact development stage have not yet been documented here.
 - It is possible that the Ray/Mark machine relates to development after Freivokh’s earlier experiment, but no evidence reviewed so far establishes that Gale or Sao Win acquired Freivokh’s machine or worked on this specific prototype. Keep this as an open research question, not a confirmed link.
