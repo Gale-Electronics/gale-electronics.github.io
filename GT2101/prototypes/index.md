@@ -25,7 +25,7 @@ This identifies the pictured machine as the original prototype **based on** Frei
 
 ![Magazine clipping headed “Speak up”, showing Kenneth Freivokh's star-shaped acrylic turntable and his transparent horn-loaded loudspeaker](images/freivokh-speak-up-article.png)
 
-A period magazine clipping describing two designs by Kenneth Freivokh as an ex-Royal College of Art industrial design student: a transparent horn-loaded loudspeaker and a **belt-driven acrylic turntable**. The name of the magazine and the date of the issue have not yet been identified. The photographer's credit printed down the side of the picture is not legible in this copy.
+A period magazine clipping describing two designs by Kenneth Freivokh as an ex-Royal College of Art industrial design student: a transparent horn-loaded loudspeaker and a **belt-driven acrylic turntable**. The image was found on [VADS](https://vads.ac.uk/), the UK online resource for visual arts collections. The name of the magazine and the date of the issue have not yet been identified. The photographer's credit printed down the side of the picture is not legible in this copy.
 
 **Transcription**
 
