@@ -211,7 +211,7 @@ say exactly that.
 
 ## Development history
 
-❓ **Single source, family provenance, not independently verified.** A prototype held by a private
+❓ **Single source, family provenance, not independently verified.** An early machine held by a private
 collector — given directly by Ira Gale to the collector's father, reportedly a Gale employee —
 differs from the production deck in ways that matter:
 
@@ -223,7 +223,7 @@ differs from the production deck in ways that matter:
 If accurate, that makes the direct-drive motor and its servo a **later addition to an already
 developed plinth and suspension concept**, rather than part of the design from the outset. It
 rests on one verbal account and un-annotated photographs. To be updated if better documentation of
-that prototype appears.
+that machine appears.
 
 ---
 

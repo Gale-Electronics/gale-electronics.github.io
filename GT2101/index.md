@@ -16,7 +16,7 @@ This section of the archive documents its engineering, construction, and cultura
   The GaleAudio.com archive and user-supplied history also credit <strong>Dr Sao Win</strong> with helping on development, but Gale's technical director Nigel Hobden, who joined Gale after DCA took on the turntable, does not recall him being involved, and no contemporary source connects him to the deck. He may have offered Ira Gale informal advice as a friend. Production estimates vary, so this archive does not present a single unit total as settled.
 </div>
 
-For the dated evidence, source notes, people, surviving-prototype research and open questions, see [GT2101 Historical Research &amp; Sources](/GT2101/research-notes/).
+For the dated evidence, source notes, people, surviving-machine research and open questions, see [GT2101 Historical Research &amp; Sources](/GT2101/research-notes/).
 
 ---
 
@@ -75,9 +75,9 @@ For the dated evidence, source notes, people, surviving-prototype research and o
 ## Historical Context & Provenance
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
-  <a href="/GT2101/prototypes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
-    <strong>Prototype Records</strong><br>
-    <small>Photographs and provenance for three distinct GT2101 prototype machines.</small>
+  <a href="/GT2101/early-machines/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+    <strong>Early Machines</strong><br>
+    <small>Photographs and provenance for three distinct early machines connected with the GT2101.</small>
   </a>
   <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Interviews &amp; Provenance</strong><br>

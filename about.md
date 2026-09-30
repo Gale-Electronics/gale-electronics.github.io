@@ -18,7 +18,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <h3>Ira Gale <span class="role">Founder • Technical Direction</span></h3>
       <p>Visionary founder of Gale Electronics — an American engineer whose obsession with design precision and experimentation defined the company’s DNA. Known for combining technical curiosity with an uncompromising eye for form.</p>
       <ul class="highlights">
-        <li>Built the first working GS401 prototype in his London workshop before formal production began.</li>
+        <li>Built the first working GS401 in his London workshop before formal production began.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
         <li>Worked with DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
       </ul>
@@ -31,7 +31,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
   <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
   <div class="person-body">
     <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
-    <p>Production lead on the GS401—turned Ira’s prototype into a stable, repeatable product with defined jigs, sourcing and QC. Later founded Volt Loudspeakers.</p>
+    <p>Production lead on the GS401—turned Ira’s original design into a stable, repeatable product with defined jigs, sourcing and QC. Later founded Volt Loudspeakers.</p>
     <ul class="highlights">
       <li>Moved from early CTS 8-inch woofers to British-built units; tightened tolerances on baffle/crossover assembly.</li>
       <li>“It was all about production” — standardised steps and checks so every pair matched.</li>
@@ -91,7 +91,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
     </figure>
     <div class="copy">
       <h2>1973 — The GS401 Loudspeaker</h2>
-      <p>The first product, the GS401, originated from a working prototype that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
+      <p>The first product, the GS401, originated from a working design that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
       <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was taking shape.</p>
       <p><strong>Jon Bannenberg’s</strong> sculptural styling — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
       <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille), <strong>401C</strong> (curved grille).</p>

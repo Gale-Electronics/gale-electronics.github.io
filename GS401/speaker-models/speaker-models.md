@@ -38,6 +38,6 @@ A visual guide to the primary GS401 loudspeaker variants — used to help restor
 ---
 
 <small>
-More speaker variants, prototypes, and high-resolution reference shots will be added here over time.  
+More speaker variants, early versions, and high-resolution reference shots will be added here over time.  
 If you have a GS401 variation not shown, please contact us to contribute to the archive.
 </small>

@@ -31,7 +31,7 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
 
 ## Design & Production Credits
 
-- **Concept:** Royal College of Art graduate **Kenneth Freivokh**, whose prototype styling set the aesthetic direction. Freivokh later became a world-renowned yacht designer.  
+- **Concept:** Royal College of Art graduate **Kenneth Freivokh**, whose earlier turntable design set the aesthetic direction. Freivokh later became a world-renowned yacht designer.  
 - **Industrial Design:** **David Carter, CBE** (Design Consultants Associates – DCA)  
 - **Engineering:** **Nigel Hobden**  
 - **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design, including the touch start/stop on the control tower  
