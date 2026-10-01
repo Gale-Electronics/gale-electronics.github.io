@@ -44,14 +44,12 @@ title: Gale Electronics and Design
     .hero{
       background:#fff;
       color:var(--ink);
-      border-radius:16px;
-      overflow:hidden;
-      border:1px solid #d8dee4;
+      border-bottom:1px solid #d8dee4;
     }
-    .hero-visual{position:relative;margin:0;background:#fff;border-bottom:1px solid #eaeef2;}
+    .hero-visual{position:relative;margin:0;background:#fff;}
     .hero-visual img{display:block;width:100%;height:auto;}
-    .hero-credit{position:absolute;right:.8rem;bottom:.8rem;background:rgba(13,17,23,.78);color:#fff;border-radius:4px;padding:.35rem .55rem;font-size:.78rem;}
-    .hero-content{padding:clamp(1.25rem,3.5vw,2.6rem);}
+    .hero-credit{position:absolute;right:1rem;bottom:.6rem;color:#57606a;font-size:.78rem;}
+    .hero-content{max-width:1012px;margin:0 auto;padding:clamp(1.25rem,3.5vw,2.6rem) 16px;}
     .hero-head{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;margin-bottom:.55rem;}
     .hero h1{
       font-size:clamp(2rem,4vw,2.8rem);
@@ -66,30 +64,25 @@ title: Gale Electronics and Design
     .hero-logo{
       width:clamp(76px, 9vw, 112px);
       height:auto;
-      border-radius:8px;
-      border:1px solid #d8dee4;
-      background:#fff;
-      padding:5px;
     }
 
     /* Archive badge */
     .badge-archival{
-      display:inline-flex;align-items:center;gap:.5rem;
-      background:#fff1c2;color:#3b2300;border:1px solid #ffd17b;
-      border-radius:.5rem;padding:.45rem .65rem;font-size:.95rem;
+      display:flex;align-items:center;gap:.5rem;
+      color:var(--muted);font-size:.95rem;
       margin-top:.9rem;
     }
 
     /* Responsive layout */
     @media (max-width: 900px){
-      .hero-content{padding:1.5rem;}
+      .hero-content{padding:1.5rem 16px;}
       .hero-credit{font-size:.7rem;right:.55rem;bottom:.55rem;}
     }
     @media (max-width: 520px){
       .hero-head{align-items:flex-start;gap:.75rem;}
       .hero h1{font-size:1.8rem;line-height:1.15;}
       .hero-logo{width:68px;}
-      .hero-content{padding:1.1rem;}
+      .hero-content{padding:1.1rem 16px;}
       .badge-archival{align-items:flex-start;font-size:.86rem;}
     }
 
@@ -120,8 +113,7 @@ title: Gale Electronics and Design
   </style>
 </head>
 
-<body class="p-5">
-  <main class="container-lg">
+<body>
 
     <!-- HERO -->
     <section class="hero" role="region" aria-label="Introduction">
@@ -150,11 +142,12 @@ title: Gale Electronics and Design
       </div>
     </section>
 
+  <main class="container-lg px-3 py-5">
     <!-- EXPLORE GRID -->
     <section class="mt-4" role="region" aria-label="Explore sections">
       <div class="d-flex flex-justify-between flex-items-center mb-2">
         <h2 class="h3">Explore</h2>
-        <span class="link-muted">Curated sections <span class="pill">Live</span></span>
+        <span class="link-muted">Curated sections</span>
       </div>
 
       <div class="cards">

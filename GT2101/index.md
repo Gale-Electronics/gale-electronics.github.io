@@ -5,18 +5,48 @@ nav_exclude: true
 description: "The Gale GT2101 turntable — its history, engineering, documentation, restoration and provenance."
 ---
 
+<figure style="margin:0 0 1.5rem;">
+  <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_topdown_wide.jpg" alt="The Gale GT2101 from above: a star-shaped clear acrylic chassis with polished steel pillars and platter, the tone arm at right, and the round control tower linked by a coiled cable" style="width:100%;height:auto;display:block;" fetchpriority="high"></a>
+  <figcaption style="text-align:right;">GT2101 from above, with its control tower. Photograph: DCA Design Consultants.</figcaption>
+</figure>
+
 # GT2101 Turntable
 
-The **Gale GT2101** stands as one of the boldest statements in 1970s British hi-fi design — a seamless fusion of industrial art and technical precision.  
+The Gale GT2101 stands as one of the boldest statements in 1970s British hi-fi design: a seamless fusion of industrial art and technical precision.  
 This section of the archive documents its engineering, construction, and cultural legacy, preserving material once thought lost when *galeaudio.com* went offline.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1.1rem;margin:1.4rem 0;">
   <strong>Archival Note</strong><br>
-  The GT2101 was a <strong>servo-controlled direct-drive turntable</strong> developed by Gale Electronics. Its design began with <strong>Kenneth Freivokh</strong>'s turntable, built at the Royal College of Art in 1971–72; a patent application dated 25 October 1974 names Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor as inventors. Later evidence associates <strong>David Carter's DCA</strong> with engineering work. At DCA, <strong>Paul Ramsden</strong> created the GT2101's electronics and electrical design, including, according to Nigel Hobden, the <strong>touch start/stop</strong> on the control tower, a very new technology at the time. The exact division of design and engineering roles remains under research.
-  The GaleAudio.com archive and user-supplied history also credit <strong>Dr Sao Win</strong> with helping on development, but Gale's technical director Nigel Hobden, who joined Gale after DCA took on the turntable, does not recall him being involved, and no contemporary source connects him to the deck. He may have offered Ira Gale informal advice as a friend. Production estimates vary, so this archive does not present a single unit total as settled.
+  The GT2101 was a servo-controlled direct-drive turntable developed by Gale Electronics. Its design began with Kenneth Freivokh's turntable, built at the Royal College of Art in 1971–72; a patent application dated 25 October 1974 names Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor as inventors. Later evidence associates David Carter's DCA with engineering work. At DCA, Paul Ramsden created the GT2101's electronics and electrical design, including, according to Nigel Hobden, the touch start/stop on the control tower, a very new technology at the time. The exact division of design and engineering roles remains under research.
+  The GaleAudio.com archive and user-supplied history also credit Dr Sao Win with helping on development, but Gale's technical director Nigel Hobden, who joined Gale after DCA took on the turntable, does not recall him being involved, and no contemporary source connects him to the deck. He may have offered Ira Gale informal advice as a friend. Production estimates vary, so this archive does not present a single unit total as settled.
 </div>
 
 For the dated evidence, source notes, people, surviving-machine research and open questions, see [GT2101 Historical Research &amp; Sources](/GT2101/research-notes/).
+
+## From prototype to production
+
+Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production GT2101 photographed by DCA (colour). The production deck kept the three-pointed acrylic chassis and steel pillars but changed from belt drive to direct drive, with a separate control tower.
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px;margin:1.2rem 0;">
+  <figure style="margin:0;">
+    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/freivokh-thesis/images/photo-09-perspective.jpg" alt="Freivokh’s 1972 prototype from above at an angle: clear and dark acrylic plates, steel weights and a unipivot tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
+    <figcaption>1972: Freivokh’s belt-driven prototype. From his Royal College of Art thesis.</figcaption>
+  </figure>
+  <figure style="margin:0;">
+    <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg" alt="The production GT2101 at a three-quarter angle, showing the clear acrylic plates, steel pillars, platter weights and tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
+    <figcaption>Production GT2101. Photograph: DCA Design Consultants.</figcaption>
+  </figure>
+  <figure style="margin:0;">
+    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/freivokh-thesis/images/photo-11-front.jpg" alt="Low front view of Freivokh’s 1972 prototype, showing the stacked acrylic plates, steel pillars and drive belt" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
+    <figcaption>1972: front view of the prototype, with the drive belt visible.</figcaption>
+  </figure>
+  <figure style="margin:0;">
+    <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_right-side_detail-arm-base.jpg" alt="Side detail of the production GT2101, showing the direct-drive motor housing below the plates and a steel pillar" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
+    <figcaption>Production GT2101: side detail with the direct-drive motor below the plates. Photograph: DCA.</figcaption>
+  </figure>
+</div>
+
+More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2101/early-machines/freivokh-thesis/) · [Early Machines](/GT2101/early-machines/)
 
 ---
 
