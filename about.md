@@ -28,7 +28,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 
 
 <article class="person-card">
-  <img src="/assets/about/nigel-hobden.png" alt="Nigel Hobden at work inside an equipment cabinet" loading="lazy">
+  <img src="/assets/about/nigel-hobden.png" alt="Portrait of Nigel Hobden" loading="lazy">
   <div class="person-body">
     <h3>Nigel Hobden <span class="role">Technical Director • Engineering</span></h3>
     <p>Engineer who moved from DCA to Gale Electronics &amp; Design, where as technical director he oversaw production of both the GT2101 turntable and the Gale speakers. He is one of the five inventors named on the 1974 GT2101 patent application, and his first-hand recollections are among the most important sources in this archive.</p>
