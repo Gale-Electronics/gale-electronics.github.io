@@ -25,7 +25,7 @@ This identifies the pictured machine as the original one **based on** Freivokh�
 
 In an email to the archive in September 2026, Ken Freivokh added the following:
 
-- **His thesis.** He wrote a thesis of more than 40 pages on the turntable, titled **“A Transcription Turntable Unit”**, with studies, drawings and photographs. He completed it and presented it to the Royal College of Art at the **end of March 1972**. He still has the paper copy and has offered to scan it for the archive.
+- **His thesis.** He wrote a thesis of more than 40 pages on the turntable, titled **“A Transcription Turntable Unit”**, with studies, drawings and photographs. He completed it and presented it to the Royal College of Art at the **end of March 1972**. He still has the paper copy, and in October 2026 sent the archive a scan of it. The [full scan and a transcription](/GT2101/early-machines/freivokh-thesis/) are now on this site.
 - **Where it was made.** All the work on the turntable was done at the college, with the help of the Industrial Design (Engineering) technicians and their lathes and other machinery.
 - **How many he made.** He believes he worked on **two** versions of the star-shaped turntable. One had a top plate in **brown translucent acrylic**; that is the machine in the [black-and-white photograph](#black-and-white-photograph) below, where the top plate looks dark.
 - **A third, square version.** He also made a further version with a **square base and lid**, which was more practical for keeping dust out but, in his words, not as “pure” or elegant. He believes it is still in storage.
@@ -36,7 +36,7 @@ Since leaving the college, Freivokh has worked mainly as a yacht designer, inclu
 
 ### Thesis photographs, 1972
 
-These photographs are from Ken Freivokh’s Royal College of Art degree thesis, **“A Transcription Turntable Unit”**, presented at the end of March 1972. They show his star-shaped acrylic turntable as he built it at the college.
+These photographs are from Ken Freivokh’s Royal College of Art degree thesis, **“A Transcription Turntable Unit”**, presented at the end of March 1972. They show his star-shaped acrylic turntable as he built it at the college. All six thesis photographs, its six engineering drawings and the full text are on the [thesis page](/GT2101/early-machines/freivokh-thesis/).
 
 ![Ken Freivokh’s thesis turntable from above, showing the star-shaped clear and dark acrylic plates, steel pillars and tonearm](images/freivokh-thesis-01-overview.jpg)
 
@@ -46,9 +46,9 @@ These photographs are from Ken Freivokh’s Royal College of Art degree thesis, 
 
 ![Ken Freivokh’s thesis turntable, close-up of the tonearm and a suspension pillar](images/freivokh-thesis-04-tonearm.jpg)
 
-The photographs appear to show the features described in *Design* in August 1973 (below): a belt drive around the sub-platter, and a record support made of separate raised pads rather than a round platter. They also show the clear and dark acrylic plates and the steel pillars that the GT2101 later kept.
+The photographs appear to show the features described in *Design* in August 1973 (below): a belt drive around the sub-platter, and a record support made of separate raised pads rather than a round platter. They also show the clear and dark acrylic plates and the steel pillars that the GT2101 later kept. The thesis text describes the same features: a flat neoprene belt drive, a triangular acrylic “tricept” with three steel weights and rubber record supports in place of a platter, and one spring suspension shared by the arm and the turntable.
 
-**Source:** Ken Freivokh, “A Transcription Turntable Unit”, degree thesis, Royal College of Art, March 1972.
+**Source:** Ken Freivokh, [“A Transcription Turntable Unit”](/GT2101/early-machines/freivokh-thesis/), degree thesis, Royal College of Art, March 1972.
 
 ### Magazine article: “Speak up”, Freivokh's turntable and loudspeaker
 
