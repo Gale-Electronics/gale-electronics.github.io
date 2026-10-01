@@ -41,7 +41,7 @@ The 1974 Fair programme described the technology as having “more in common wit
 
 ### Patent inventors
 
-The patent names **Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor** as inventors. This is strong evidence of their named contribution to the patented invention; it does not, on its own, describe each person's day-to-day design or production role.
+The patent names **Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor** as inventors. This is strong evidence of their named contribution to the patented invention; it does not, on its own, describe each person's day-to-day design or production role. As far as the sources show, Ira Gale's part was to acquire Freivokh's design, fund its development and commission DCA to engineer it; no source describes him designing or engineering the deck himself. His place on the patent may reflect his position as head of the company that owned it.
 
 ### Dennis Arnall
 

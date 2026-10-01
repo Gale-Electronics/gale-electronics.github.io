@@ -39,7 +39,7 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
   - Gale studied music at the Royal Academy of Music.  
   - Win studied at Cambridge and helped co-develop the DC servo system.  
   - They jointly held patents for the design.  
-  - *Archive note (2026): these credits come from the old GaleAudio.com text. Win is not among the five inventors named on the 1974 patent, and Gale's technical director Nigel Hobden does not recall him being involved during Hobden's time at Gale, which began after DCA took on the turntable. See the [research notes](/GT2101/research-notes/#dr-sao-win).*  
+  - *Archive note (2026): these credits come from the old GaleAudio.com text. Win is not among the five inventors named on the 1974 patent, and Gale's technical director Nigel Hobden does not recall him being involved during Hobden's time at Gale, which began after DCA took on the turntable. Ira Gale is named on the patent alongside four others, but no source describes him designing or engineering the turntable: his part was to acquire Freivokh's design, fund it and commission DCA. See the [research notes](/GT2101/research-notes/#dr-sao-win).*  
 
 The turntable was produced in very small numbers — approximately **60 to 200 units** — at a cost of **$1,975 USD** (without tonearm).  
 It featured **a separate stainless-steel motor pod**, **quartz-locked optical servo system**, and a **floating magnetic bearing**.  

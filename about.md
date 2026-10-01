@@ -1,12 +1,12 @@
 ---
 layout: bare
 title: About Gale Electronics
-description: "The story of Gale Electronics, founded by Ira Gale — who designed the GS401 loudspeakers and GT2101 turntable, and how this archive preserves the record."
+description: "The story of Gale Electronics, founded by Ira Gale, the people who designed and engineered the GS401 loudspeakers and GT2101 turntable, and how this archive preserves the record."
 ---
 
 <!-- Page Header -->
 <h1>About Gale Electronics</h1>
-<p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by <strong>Ira Gale</strong>, an American audio enthusiast determined to fuse technical rigour with striking industrial design.</p>
+<p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by <strong>Ira Gale</strong>, an American entrepreneur with ambitious ideas, the money and backers to pursue them, and a talent for bringing designers and engineers together.</p>
 
 <!-- Key Figures -->
 <h2 id="key-figures">Key Figures</h2>
@@ -15,12 +15,12 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
   <article class="person-card">
     <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
     <div class="person-body">
-      <h3>Ira Gale <span class="role">Founder • Technical Direction</span></h3>
-      <p>Visionary founder of Gale Electronics — an American engineer whose obsession with design precision and experimentation defined the company’s DNA. Known for combining technical curiosity with an uncompromising eye for form.</p>
+      <h3>Ira Gale <span class="role">Founder • Backer</span></h3>
+      <p>Founder of Gale Electronics. Ira was the man behind the company: he had the ideas, the money and the backers, and he brought together the designers, engineers and consultancies who made Gale’s products. The archive does not credit him as the designer of the GT2101 turntable.</p>
       <ul class="highlights">
         <li>Built the first working GS401 in his London workshop before formal production began.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
-        <li>Worked with DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
+        <li>Took Ken Freivokh’s turntable design to David Carter’s DCA to be engineered into the GT2101.</li>
       </ul>
     </div>
   </article>
@@ -139,7 +139,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
     <div class="copy">
       <h2>1974 — The GT2101 Turntable</h2>
       <p>The <strong>Gale GT2101</strong> began as <strong>Ken Freivokh’s</strong> belt-driven acrylic turntable, designed and machined while he was a student at the Royal College of Art in 1971/2. Ira Gale took the design to <strong>David Carter’s DCA</strong>, where it was re-engineered as a servo-controlled direct-drive deck, with electronics by <strong>Paul Ramsden</strong>, including the touch start/stop on the control tower, and motors supplied as finished units by Litton. <strong>Nigel Hobden</strong> then moved from DCA to Gale as technical director to oversee its production.</p>
-      <p>The 1974 patent application names <strong>David Carter</strong>, <strong>Ken Freivokh</strong>, <strong>Ira Gale</strong>, <strong>Nigel Hobden</strong> and <strong>Michael Taylor</strong> as inventors. Earlier accounts also credited <strong>Dr Sao Win</strong>, a friend of Ira Gale, with the motor system, but no contemporary source supports this and Nigel Hobden does not recall him being involved. <a href="/GT2101/research-notes/">See the research notes.</a></p>
+      <p>The 1974 patent application names <strong>David Carter</strong>, <strong>Ken Freivokh</strong>, <strong>Ira Gale</strong>, <strong>Nigel Hobden</strong> and <strong>Michael Taylor</strong> as inventors. As far as the sources show, Ira Gale’s part was to acquire Freivokh’s design, fund its development and commission DCA to engineer it; no source describes him designing or engineering the deck himself. Earlier accounts also credited <strong>Dr Sao Win</strong>, a friend of Ira Gale, with the motor system, but no contemporary source supports this and Nigel Hobden does not recall him being involved. <a href="/GT2101/research-notes/">See the research notes.</a></p>
       <p>The GT2101 was shown at the October 1974 Audio Fair and made in small numbers in London; estimates of how many were built vary. Its development costs were later named as one of the chief reasons for Gale’s demise. Today it remains one of the rarest and most visually striking British turntables.</p>
     </div>
   </div>
