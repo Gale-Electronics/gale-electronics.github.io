@@ -28,6 +28,20 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 
 
 <article class="person-card">
+  <img src="/assets/about/nigel-hobden.png" alt="Portrait of Nigel Hobden" loading="lazy">
+  <div class="person-body">
+    <h3>Nigel Hobden <span class="role">Technical Director • Engineering</span></h3>
+    <p>Engineer who moved from DCA to Gale Electronics &amp; Design, where as technical director he oversaw production of both the GT2101 turntable and the Gale speakers. He is one of the five inventors named on the 1974 GT2101 patent application, and his first-hand recollections are among the most important sources in this archive.</p>
+    <ul class="highlights">
+      <li>First saw Kenneth Freivokh’s precursor turntable at DCA, after Ira Gale bought the design and brought it there.</li>
+      <li>Transferred from DCA to Gale, partly as a way of relieving the debt Gale owed DCA.</li>
+      <li>Later a director and company secretary of <strong>D. W. Labs Limited</strong>, which continued Gale after its sale to Donald Wong.</li>
+    </ul>
+    <a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026" class="person-link">↳ Read his recollection</a>
+  </div>
+</article>
+
+<article class="person-card">
   <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
   <div class="person-body">
     <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
@@ -138,7 +152,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <h2>Sources and Acknowledgements</h2>
 <ul>
   <li>Original documentation from <em>GaleAudio.com</em></li>
-  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, and <strong>Ray Churchhouse</strong></li>
+  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong></li>
   <li>Styling records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
   <li>Technical data from <strong>DCA Design Consultants</strong></li>
   <li>Research and curation by <strong>John Maybury (galeaudio.com)</strong>, <strong>Dave Smith</strong> &amp; <strong>Matt The Shepherd (Vintage Gale, UK)</strong></li>
