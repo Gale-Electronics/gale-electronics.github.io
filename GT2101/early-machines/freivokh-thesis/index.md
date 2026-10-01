@@ -7,7 +7,7 @@ description: "Full scan and transcription of Kenneth Freivokh’s March 1972 Roy
 
 # A Transcription Turntable Unit (1972)
 
-**Kenneth Freivokh**, *A Transcription Turntable Unit: A Report on an Experimental Design Project in the Field of Domestic Audio Equipment*. Presented to the Royal College of Art, School of Industrial Design (Engineering), March 1972. 37 typed pages, six engineering drawings and six photographs.
+Kenneth Freivokh, *A Transcription Turntable Unit: A Report on an Experimental Design Project in the Field of Domestic Audio Equipment*. Presented to the Royal College of Art, School of Industrial Design (Engineering), March 1972. 37 typed pages, six engineering drawings and six photographs.
 
 Ken Freivokh sent the archive this scan of his own bound copy in October 2026. For the background to the thesis and how it relates to the GT2101, see [Early Machines](/GT2101/early-machines/#ken-freivokhs-precursor-turntable).
 
@@ -26,7 +26,7 @@ A short guide to the design as Freivokh describes it, with page references:
 - **The “tricept”.** A triangular acrylic platform with three polished stainless-steel weights at its points replaces the usual platter and mat. Small rubber inserts on the weights support the record (pp. 20–21).
 - **Main bearing.** A silver-steel centre spindle and a p.t.f.e. thrust bearing that also serves as the centre spindle for the record, with a Fluorosint journal bearing (pp. 22–23).
 - **Suspension.** The tone arm and turntable sub-assembly share one sprung base plate. It sits on three adjustable conical springs over the feet, with soft polyurethane foam damping pads (pp. 24–25).
-- **Materials.** Stainless steel cylinders and clear acrylic platforms, left unfinished so that the structure “does not attempt to conceal the simple operational principles proposed” (p. 19). Drawing D4 specifies the adjustable base plate in ¼in **brown** acrylic.
+- **Materials.** Stainless steel cylinders and clear acrylic platforms, left unfinished so that the structure “does not attempt to conceal the simple operational principles proposed” (p. 19). Drawing D4 specifies the adjustable base plate in ¼in brown acrylic.
 - **Arm.** The first prototype used a 10in unipivot arm with fluid damping and its own cueing (p. 20).
 
 ---
@@ -382,7 +382,7 @@ The author does, however, feel some satisfaction in having set out in print the 
 
 ### Bibliography
 
-<small>[p. 36]</small> **Books :**
+<small>[p. 36]</small> Books :
 
 - BOYCE, William F. *Hi-Fi Stereo Handbook*. Slough, Bucks, W. Foulsham & Co. Ltd. 1965
 - BRIGGS, G.A. *A to Z in Audio*. Yorkshire, Wharfedale Wireless Works Ltd., 1960
@@ -395,7 +395,7 @@ The author does, however, feel some satisfaction in having set out in print the 
 - McKENZIE, A.E.E. *Sound*. Cambridge, University Press, 1963
 - SPROXTON, Colin. Ed. *Hi-Fi Year Book, 1972*. London, IPC Electrical-Electronic Press Ltd., 1971.
 
-<small>[p. 37]</small> **Periodicals :**
+<small>[p. 37]</small> Periodicals :
 
 - BICKERSTAFFE, J. “Warp Wow: An Investigation into the Effects of Deformation on Disc Replay Systems.” *Hi-Fi News*, October 1970 p. 1535
 - CRABBE, John. “Into the Hi-Fi Future” *Audio Annual*, 1970 pp. 469 - 473
