@@ -24,7 +24,7 @@ img { max-width: 100%; height: auto; }
 .skip-link { position: absolute; left: -9999px; top: 0; z-index: 10; padding: .7rem 1rem; background: white; }
 .skip-link:focus { left: 1rem; top: 1rem; }
 .site-shell { width: min(1120px, 100% - 40px); margin: 0 auto; }
-.site-header { padding: 22px 0 16px; }
+.site-header { padding: 22px 0 16px; border-bottom: 0; min-height: 0; }
 .masthead { display: flex; align-items: center; gap: 14px; color: inherit; text-decoration: none; }
 .masthead img { width: 54px; height: 54px; object-fit: contain; border-radius: 9px; background: white; padding: 4px; }
 .masthead .site { color: var(--navy); font-size: 1.28rem; font-weight: 700; letter-spacing: .015em; }
