@@ -15,7 +15,7 @@ description: "The Gale GT2101 turntable — its history, engineering, documentat
 The Gale GT2101 stands as one of the boldest statements in 1970s British hi-fi design: a seamless fusion of industrial art and technical precision.  
 This section of the archive documents its engineering, construction, and cultural legacy, preserving material once thought lost when *galeaudio.com* went offline.
 
-The GT2101 was expensive and made in small numbers. It listed at about £1,195 plus VAT in 1978, roughly £7,000 to £9,000 in today's money allowing for inflation, having originally been planned to sell for about £400. A [1981 letter from D. W. Labs](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says about 200 were sold in its three years of production; other estimates are lower, some as low as 60. The same letter puts its development cost at almost £250,000 and calls it one of the chief reasons for the demise of Gale Electronics and Design Ltd.
+The GT2101 was expensive and made in small numbers. It sold for about £1,200, roughly £7,000 to £9,000 in today's money, having originally been planned to sell for about £400. A [1981 letter from D. W. Labs](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says about 200 were sold in its three years of production; other estimates are lower, some as low as 60. The same letter puts its development cost at almost £250,000 and calls it one of the chief reasons for the demise of Gale Electronics and Design Ltd.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1.1rem;margin:1.4rem 0;">
   <strong>Archival Note</strong><br>
