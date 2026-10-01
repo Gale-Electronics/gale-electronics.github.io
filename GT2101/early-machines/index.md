@@ -88,11 +88,13 @@ This drawing was uploaded alongside the photograph as page 4 in the same named s
 
 ![Technical drawing of a three-arm turntable chassis and side section](images/gale-early-drawing-page-4.jpg)
 
-## Ray Churchouse’s early machine, now with Mark Churchouse
+## Ray Churchouse’s Ken Freivokh turntable, now with Mark Churchouse
 
-The photographs below document the early machine that belonged to **Ray Churchouse** and is now with his son **Mark Churchouse**. The photos were supplied from material shared about the machine. Mark says his father displayed it in his Unilet shops. Mark also relays that someone who worked in the shop said it had never worked. This is second-hand testimony; the archive has no independent record of the display history or operational status. Mark says he has no further information about Gale from his father.
+**Ken Freivokh has confirmed that he made this turntable** (confirmation to the archive, October 2026). It is one of Freivokh’s own machines, not a Gale prototype.
 
-![Ray Churchouse’s early machine, now held by Mark Churchouse](images/churchouse-machine-01.jpg)
+The photographs below document the turntable that belonged to **Ray Churchouse** and is now with his son **Mark Churchouse**. The photos were supplied from material shared about the machine. Mark says his father displayed it in his Unilet shops. Mark also relays that someone who worked in the shop said it had never worked. This is second-hand testimony; the archive has no independent record of the display history or operational status. Mark says he has no further information about Gale from his father.
+
+![Ray Churchouse’s Ken Freivokh turntable, now held by Mark Churchouse](images/churchouse-machine-01.jpg)
 
 ### Plinth and platter
 
@@ -112,7 +114,7 @@ The photographs below document the early machine that belonged to **Ray Churchou
 
 ![Controller and chassis, side view](images/churchouse-controller-and-chassis.jpg)
 
-More photographs of Mark’s machine can be added to this record as they are provided.
+More photographs of Mark’s turntable can be added to this record as they are provided.
 
 ## What is established, and what remains open
 
@@ -121,8 +123,7 @@ More photographs of Mark’s machine can be added to this record as they are pro
 - The “Speak up” magazine article describes Freivokh's own turntable as belt-driven, with a three-point record support instead of a platter. Source: *Design* no. 296, August 1973.
 - Ken Freivokh has identified the black-and-white machine as one of his two star-shaped turntables, with a brown translucent top plate.
 - Freivokh wrote a thesis, “A Transcription Turntable Unit”, presented to the Royal College of Art at the end of March 1972. He also made a third, square-based version.
-- The Ray/Mark Churchouse machine has family provenance, but its date and exact development stage have not yet been documented here.
-- It is possible that the Ray/Mark machine relates to development after Freivokh’s earlier experiment, but no evidence reviewed so far establishes that Gale or Sao Win acquired Freivokh’s machine or worked on this specific machine. Keep this as an open research question, not a confirmed link.
+- Ken Freivokh has confirmed that he made the Ray/Mark Churchouse turntable (October 2026). It is a Freivokh machine, not a Gale prototype. Which of his versions it is, when it was made, and how it came to Ray Churchouse are not yet recorded.
 - The archive has evidence for three separate early machines in these records. It does **not** establish the total number of early machines made.
 
 See the [GT2101 historical timeline and source notes](/GT2101/research-notes/) for the broader development and marketing chronology.
