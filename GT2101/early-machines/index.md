@@ -2,12 +2,12 @@
 title: GT2101 Early Machines
 layout: bare
 permalink: /GT2101/early-machines/
-description: "Photographic records and provenance notes for three distinct early machines connected with the Gale GT2101."
+description: "Photographs and provenance for Ken Freivokh's own early turntables, the design that led to the Gale GT2101."
 ---
 
 # GT2101 Early Machines
 
-This page records three **distinct early machines** identified in the photographs and source material reviewed so far. It is not a claim that only three early machines were made. Provenance and recollections are attributed to their sources; uncertain identifications are marked as such.
+This page records the early turntables identified in the photographs and source material reviewed so far. **All of them are Ken Freivokh’s own machines, made as part of his Royal College of Art work, not Gale prototypes.** Gale’s GT2101 came later, developed from his design. Provenance and recollections are attributed to their sources; uncertain identifications are marked as such. See [how the machines fit together](#how-the-machines-fit-together) below.
 
 ## Ken Freivokh’s precursor turntable
 
@@ -82,7 +82,7 @@ An image recovered from the old GaleAudio.com site's September 2011 WordPress up
 
 **Comparison with the 1973 *Design* photograph.** This machine closely resembles the turntable pictured in the August 1973 *Design* article above: the same star-shaped layout, the same arrangement of pucks and central stack, and what appears to be the same tone arm. The acrylic looks dark here but clear in the *Design* picture. Freivokh's account of two versions, one with a brown top plate, suggests the two photographs may show his two different versions rather than the same machine in different light. A larger scan of the *Design* photograph would allow a closer check of the arm, fixings and cut-outs.
 
-![Black-and-white photograph of an early Gale turntable, from the old GaleAudio.com website](images/gale-early-bw-page-3.jpg)
+![Black-and-white photograph of Ken Freivokh’s turntable with a brown translucent acrylic plate, from the old GaleAudio.com website](images/gale-early-bw-page-3.jpg)
 
 ### Related technical drawing
 
@@ -122,15 +122,31 @@ The photographs below document the turntable that belonged to **Ray Churchouse**
 
 More photographs of Mark’s turntable can be added to this record as they are provided.
 
+## How the machines fit together
+
+Putting Ken Freivokh’s own statements next to the photographs gives the following reading. Each identification of a machine as Freivokh’s comes from him; the order and the link to his thesis are the archive’s interpretation, and have not yet been put to him.
+
+| Machine | What it looks like | Reading |
+|---|---|---|
+| [2012 GaleAudio.com photograph](#ken-freivokhs-precursor-turntable) | All clear acrylic; fully round pads on the three corners | **First development machine.** Freivokh describes his first as having “a full round on the three corners” |
+| [Ray/Mark Churchouse turntable](#ray-churchouses-ken-freivokh-turntable-now-with-mark-churchouse) | All clear acrylic; same motor, belt drive and arm, with more refined corner ends | **Second development machine**, by Freivokh’s own account |
+| [Black-and-white photograph](#black-and-white-photograph) and [thesis photographs](#thesis-photographs-1972) | Clear acrylic with a dark (brown translucent) star-shaped plate | **The finished thesis turntable**, presented in March 1972 |
+
+The black-and-white photograph and the thesis photographs appear to show the **same machine**: the same dark star-shaped plate between clear plates, the same pads, pillars and central stack, and the same arm. Freivokh identified the black-and-white machine as the one with the brown translucent top plate.
+
+On this reading, the two all-clear machines were Freivokh’s development pieces on the way to his thesis, and the brown-plate machine was the finished design. It is likely, though not documented, that this finished design is what Ira Gale saw and bought the rights to. When Freivokh mentioned “two versions” of the star-shaped turntable, he may have been counting differently; this should be checked with him.
+
 ## What is established, and what remains open
 
-- The three machines described above are distinct examples, according to the owner’s identification of the photographs.
+- All the early machines described above are Ken Freivokh’s own, not Gale prototypes. The 2012 machine, the Churchouse machine and the brown-plate machine are distinct examples.
 - Freivokh’s signed 2012 statement explicitly connects the first pictured machine to the experimental machine he machined at the Royal College of Art in 1971/2.
 - The “Speak up” magazine article describes Freivokh's own turntable as belt-driven, with a three-point record support instead of a platter. Source: *Design* no. 296, August 1973.
 - Ken Freivokh has identified the black-and-white machine as one of his two star-shaped turntables, with a brown translucent top plate.
 - Freivokh wrote a thesis, “A Transcription Turntable Unit”, presented to the Royal College of Art at the end of March 1972. He also made a third, square-based version.
 - Ken Freivokh has confirmed that he made the Ray/Mark Churchouse turntable (email, 1 October 2026). He believes it is his **second** version: the same motor, belt drive and arm as the first, with more refined ends to the three platter arms. When it was made, and how it came to Ray Churchouse, are not yet recorded.
-- The archive has evidence for three separate early machines in these records. It does **not** establish the total number of early machines made.
+- The thesis photographs and the black-and-white photograph appear to show the same brown-plate machine, Freivokh’s finished thesis turntable. Freivokh has not yet confirmed this, or the order of his machines suggested [above](#how-the-machines-fit-together).
+- Whether the finished thesis turntable is the design Ira Gale saw and bought is likely but not documented.
+- The archive does **not** establish the total number of machines Freivokh made.
 
 See the [GT2101 historical timeline and source notes](/GT2101/research-notes/) for the broader development and marketing chronology.
 

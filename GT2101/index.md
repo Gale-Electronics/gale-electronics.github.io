@@ -77,7 +77,7 @@ For the dated evidence, source notes, people, surviving-machine research and ope
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
   <a href="/GT2101/early-machines/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Early Machines</strong><br>
-    <small>Photographs and provenance for three distinct early machines connected with the GT2101.</small>
+    <small>Photographs and provenance for Ken Freivokh’s own early turntables, the design that led to the GT2101.</small>
   </a>
   <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Interviews &amp; Provenance</strong><br>
