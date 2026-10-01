@@ -33,11 +33,25 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
     <h3>Nigel Hobden <span class="role">Technical Director • Engineering</span></h3>
     <p>Engineer who moved from DCA to Gale Electronics &amp; Design, where as technical director he oversaw production of both the GT2101 turntable and the Gale speakers. He is one of the five inventors named on the 1974 GT2101 patent application, and his first-hand recollections are among the most important sources in this archive.</p>
     <ul class="highlights">
-      <li>First saw Kenneth Freivokh’s precursor turntable at DCA, after Ira Gale bought the design and brought it there.</li>
+      <li>First saw Kenneth Freivokh’s precursor turntable at DCA, after (as he recalls it) Ira Gale bought the design and brought it there.</li>
       <li>Transferred from DCA to Gale, partly as a way of relieving the debt Gale owed DCA.</li>
       <li>Later a director and company secretary of <strong>D. W. Labs Limited</strong>, which continued Gale after its sale to Donald Wong.</li>
     </ul>
     <a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026" class="person-link">↳ Read his recollection</a>
+  </div>
+</article>
+
+<article class="person-card">
+  <img src="/assets/about/ken-freivokh.png" alt="Portrait of Ken Freivokh" loading="lazy">
+  <div class="person-body">
+    <h3>Ken Freivokh <span class="role">Original Turntable Design</span></h3>
+    <p>Industrial designer whose Royal College of Art student turntable, machined at the college in 1971/2, was the starting point for the GT2101. His star-shaped acrylic deck was belt-driven; Gale later developed it into the direct-drive GT2101. He is one of the five inventors named on the 1974 patent application, and went on to become a leading yacht designer, including the 88m <em>Maltese Falcon</em> and the 107m <em>Black Pearl</em>.</p>
+    <ul class="highlights">
+      <li>Presented his thesis, <em>“A Transcription Turntable Unit”</em>, to the Royal College of Art in March 1972.</li>
+      <li>His acrylic turntable and horn loudspeaker were featured in <em>Design</em> magazine in August 1973.</li>
+      <li>Says Gale built and sold his design without his knowledge, and that he received no royalties, recognition or payment. Other sources say the design was bought; the archive records both accounts.</li>
+    </ul>
+    <a href="/GT2101/early-machines/#ken-freivokhs-account-september-2026" class="person-link">↳ Read his account</a>
   </div>
 </article>
 
@@ -152,7 +166,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <h2>Sources and Acknowledgements</h2>
 <ul>
   <li>Original documentation from <em>GaleAudio.com</em></li>
-  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong></li>
+  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong>, and correspondence with <strong>Ken Freivokh</strong></li>
   <li>Styling records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
   <li>Technical data from <strong>DCA Design Consultants</strong></li>
   <li>Research and curation by <strong>John Maybury (galeaudio.com)</strong>, <strong>Dave Smith</strong> &amp; <strong>Matt The Shepherd (Vintage Gale, UK)</strong></li>
