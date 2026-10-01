@@ -3,7 +3,7 @@ title: GS401 Loudspeakers
 layout: bare
 permalink: /GS401/
 nav_exclude: true
-description: "Gale GS401 loudspeakers — styled by Jon Bannenberg, engineered for production by DCA (David Carter Associates), with drive units made in-house. Drivers, crossovers, restoration and documentation."
+description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, engineered for production by DCA (David Carter Associates), with drive units made in-house. Drivers, crossovers, restoration and documentation."
 ---
 
 # GS401 Loudspeakers
@@ -11,7 +11,7 @@ description: "Gale GS401 loudspeakers — styled by Jon Bannenberg, engineered f
 <div style="display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin:1.5rem 0;">
   <figure style="flex:1 1 320px;max-width:380px;margin:0;text-align:center;">
     <img src="/GS401/speaker-models/401a.png" alt="Gale GS401A loudspeaker" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
-    <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — styling by Jon Bannenberg, 1973.</figcaption>
+    <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — industrial design by Jon Bannenberg, 1973.</figcaption>
   </figure>
 
   <div style="flex:2 1 380px;min-width:260px;">
@@ -25,7 +25,7 @@ description: "Gale GS401 loudspeakers — styled by Jon Bannenberg, engineered f
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1rem;margin:1.2rem 0;">
   <strong>Archival note:</strong><br>
   Gale took a finished, working GS401 to <strong>DCA (David Carter Associates)</strong>, the consultancy that also engineered the GT2101 turntable, to be turned into a production model that could be made at scale. DCA did not design the speaker itself. This is according to Gale's former technical director <strong>Nigel Hobden</strong> (<a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">conversation, 29 September 2026</a>).<br>
-  <strong>Jon Bannenberg</strong> was the stylist, working under the direction of <strong>Ira Gale</strong>. He was responsible for how the speaker looks, including the chrome end-caps and, it is believed, the stand, rather than its acoustic design.<br>
+  <strong>Jon Bannenberg</strong> was the industrial designer, working under the direction of <strong>Ira Gale</strong>. He was responsible for the speaker’s form and appearance, including the chrome end-caps and, it is believed, the stand, rather than its acoustic design.<br>
   <strong>David Lyth</strong> oversaw production and has said the drive units were made and assembled in-house. <strong>Billy Woodman</strong> was involved during early development at Volt, and Nigel Hobden recalls that he worked for Gale. His exact role, and the extent of his direct input into the GS401's final tuning, remain uncertain.<br>
   The design's chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of 1970s British audio design.<br>
   Each model — the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (walnut veneer), and <strong>GS401C</strong> (walnut veneer with curved grilles) — shared identical drivers and crossovers, differing only in finish.

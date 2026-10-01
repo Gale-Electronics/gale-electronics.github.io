@@ -83,8 +83,8 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <article class="person-card">
   <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
   <div class="person-body">
-    <h3>Jon Bannenberg <span class="role">Styling</span></h3>
-    <p>Australian-born designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
+    <h3>Jon Bannenberg <span class="role">Industrial Design</span></h3>
+    <p>Australian-born industrial designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
     <ul class="highlights">
       <li>Conceived the GS401’s defining look, chrome end caps, fully wrapped cloth, and balanced proportions.</li>
       <li>Introduced design language that bridged audio, architecture, and luxury yacht styling.</li>
@@ -121,7 +121,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <h2>1973 — The GS401 Loudspeaker</h2>
       <p>The first product, the GS401, originated from a working design that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
       <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was taking shape.</p>
-      <p><strong>Jon Bannenberg’s</strong> sculptural styling — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
+      <p><strong>Jon Bannenberg’s</strong> sculptural industrial design — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
       <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille), <strong>401C</strong> (curved grille).</p>
     </div>
   </div>
@@ -168,7 +168,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <ul>
   <li>Original documentation from <em>GaleAudio.com</em></li>
   <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong>, and correspondence with <strong>Ken Freivokh</strong></li>
-  <li>Styling records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
+  <li>Design records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
   <li>Technical data from <strong>DCA Design Consultants</strong></li>
   <li>Research and curation by <strong>John Maybury (galeaudio.com)</strong>, <strong>Dave Smith</strong> &amp; <strong>Matt The Shepherd (Vintage Gale, UK)</strong></li>
   <li>Contributions from the international Gale community</li>
