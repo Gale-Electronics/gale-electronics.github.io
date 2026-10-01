@@ -34,6 +34,22 @@ In an email to the archive in September 2026, Ken Freivokh added the following:
 
 Since leaving the college, Freivokh has worked mainly as a yacht designer, including the 88m *Maltese Falcon* and the 107m *Black Pearl*.
 
+### Thesis photographs, 1972
+
+These photographs are from Ken Freivokh’s Royal College of Art degree thesis, **“A Transcription Turntable Unit”**, presented at the end of March 1972. They show his star-shaped acrylic turntable as he built it at the college.
+
+![Ken Freivokh’s thesis turntable from above, showing the star-shaped clear and dark acrylic plates, steel pillars and tonearm](images/freivokh-thesis-01-overview.jpg)
+
+![Ken Freivokh’s thesis turntable, side view with the tonearm in the foreground](images/freivokh-thesis-02-side.jpg)
+
+![Ken Freivokh’s thesis turntable, low view across the deck towards the tonearm](images/freivokh-thesis-03-rear.jpg)
+
+![Ken Freivokh’s thesis turntable, close-up of the tonearm and a suspension pillar](images/freivokh-thesis-04-tonearm.jpg)
+
+The photographs appear to show the features described in *Design* in August 1973 (below): a belt drive around the sub-platter, and a record support made of separate raised pads rather than a round platter. They also show the clear and dark acrylic plates and the steel pillars that the GT2101 later kept.
+
+**Source:** Ken Freivokh, “A Transcription Turntable Unit”, degree thesis, Royal College of Art, March 1972.
+
 ### Magazine article: “Speak up”, Freivokh's turntable and loudspeaker
 
 ![Magazine clipping headed “Speak up”, showing Kenneth Freivokh's star-shaped acrylic turntable and his transparent horn-loaded loudspeaker](images/freivokh-speak-up-article.png)
