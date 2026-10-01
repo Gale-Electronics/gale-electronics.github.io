@@ -33,11 +33,25 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
     <h3>Nigel Hobden <span class="role">Technical Director • Engineering</span></h3>
     <p>Engineer who moved from DCA to Gale Electronics &amp; Design, where as technical director he oversaw production of both the GT2101 turntable and the Gale speakers. He is one of the five inventors named on the 1974 GT2101 patent application, and his first-hand recollections are among the most important sources in this archive.</p>
     <ul class="highlights">
-      <li>First saw Kenneth Freivokh’s precursor turntable at DCA, after Ira Gale bought the design and brought it there.</li>
+      <li>First saw Kenneth Freivokh’s precursor turntable at DCA, after (as he recalls it) Ira Gale bought the design and brought it there.</li>
       <li>Transferred from DCA to Gale, partly as a way of relieving the debt Gale owed DCA.</li>
       <li>Later a director and company secretary of <strong>D. W. Labs Limited</strong>, which continued Gale after its sale to Donald Wong.</li>
     </ul>
     <a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026" class="person-link">↳ Read his recollection</a>
+  </div>
+</article>
+
+<article class="person-card">
+  <img src="/assets/about/ken-freivokh.png" alt="Portrait of Ken Freivokh" loading="lazy">
+  <div class="person-body">
+    <h3>Ken Freivokh <span class="role">Original Turntable Design</span></h3>
+    <p>Industrial designer whose Royal College of Art student turntable, machined at the college in 1971/2, was the starting point for the GT2101. His star-shaped acrylic deck was belt-driven; Gale later developed it into the direct-drive GT2101. He is one of the five inventors named on the 1974 patent application, and went on to become a leading yacht designer, including the 88m <em>Maltese Falcon</em> and the 107m <em>Black Pearl</em>.</p>
+    <ul class="highlights">
+      <li>Presented his thesis, <em>“A Transcription Turntable Unit”</em>, to the Royal College of Art in March 1972.</li>
+      <li>His acrylic turntable and horn loudspeaker were featured in <em>Design</em> magazine in August 1973.</li>
+      <li>Says Gale built and sold his design without his knowledge, and that he received no royalties, recognition or payment. Other sources say the design was bought; the archive records both accounts.</li>
+    </ul>
+    <a href="/GT2101/early-machines/#ken-freivokhs-account-september-2026" class="person-link">↳ Read his account</a>
   </div>
 </article>
 
@@ -69,8 +83,8 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <article class="person-card">
   <img src="/assets/about/jon-bannenberg.png" alt="Portrait of Jon Bannenberg" loading="lazy">
   <div class="person-body">
-    <h3>Jon Bannenberg <span class="role">Styling</span></h3>
-    <p>Australian-born designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
+    <h3>Jon Bannenberg <span class="role">Industrial Design</span></h3>
+    <p>Australian-born industrial designer who brought a sculptural, architectural sensibility to Gale’s products. His work on the GS401 gave British hi-fi one of its most iconic visual identities. Bannenberg later became recognised worldwide as a pioneer of modern yacht design through the 1970s and 1980s.</p>
     <ul class="highlights">
       <li>Conceived the GS401’s defining look, chrome end caps, fully wrapped cloth, and balanced proportions.</li>
       <li>Introduced design language that bridged audio, architecture, and luxury yacht styling.</li>
@@ -107,7 +121,7 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <h2>1973 — The GS401 Loudspeaker</h2>
       <p>The first product, the GS401, originated from a working design that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
       <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was taking shape.</p>
-      <p><strong>Jon Bannenberg’s</strong> sculptural styling — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
+      <p><strong>Jon Bannenberg’s</strong> sculptural industrial design — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
       <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille), <strong>401C</strong> (curved grille).</p>
     </div>
   </div>
@@ -120,12 +134,13 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg"
            alt="Gale GT2101 turntable in clear acrylic with stainless-steel motor pod and LED speed tower"
            loading="lazy">
-      <figcaption>Gale GT2101 — design collaboration with DCA.</figcaption>
+      <figcaption>Gale GT2101 — developed from Ken Freivokh’s design, engineered with DCA.</figcaption>
     </figure>
     <div class="copy">
-      <h2>1975 — The GT2101 Turntable</h2>
-      <p>The <strong>Gale GT2101</strong>, developed with <strong>John Carter’s DCA Design Consultants</strong>, was Gale’s most ambitious statement. Its transparent acrylic chassis, stainless-steel motor pod and LED speed-display tower reflected the scientific precision of a servo-controlled direct-drive motor system co-developed by <strong>Dr Sao Win</strong> and <strong>Ira Gale</strong>.</p>
-      <p>Each unit was hand-built in London; fewer than a hundred are known to exist. Today it remains one of the rarest and most visually striking British turntables.</p>
+      <h2>1974 — The GT2101 Turntable</h2>
+      <p>The <strong>Gale GT2101</strong> began as <strong>Ken Freivokh’s</strong> belt-driven acrylic turntable, designed and machined while he was a student at the Royal College of Art in 1971/2. Ira Gale took the design to <strong>David Carter’s DCA</strong>, where it was re-engineered as a servo-controlled direct-drive deck, with electronics by <strong>Paul Ramsden</strong>, including the touch start/stop on the control tower, and motors supplied as finished units by Litton. <strong>Nigel Hobden</strong> then moved from DCA to Gale as technical director to oversee its production.</p>
+      <p>The 1974 patent application names <strong>David Carter</strong>, <strong>Ken Freivokh</strong>, <strong>Ira Gale</strong>, <strong>Nigel Hobden</strong> and <strong>Michael Taylor</strong> as inventors. Earlier accounts also credited <strong>Dr Sao Win</strong>, a friend of Ira Gale, with the motor system, but no contemporary source supports this and Nigel Hobden does not recall him being involved. <a href="/GT2101/research-notes/">See the research notes.</a></p>
+      <p>The GT2101 was shown at the October 1974 Audio Fair and made in small numbers in London; estimates of how many were built vary. Its development costs were later named as one of the chief reasons for Gale’s demise. Today it remains one of the rarest and most visually striking British turntables.</p>
     </div>
   </div>
 </section>
@@ -152,8 +167,8 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
 <h2>Sources and Acknowledgements</h2>
 <ul>
   <li>Original documentation from <em>GaleAudio.com</em></li>
-  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong></li>
-  <li>Styling records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
+  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong>, and correspondence with <strong>Ken Freivokh</strong></li>
+  <li>Design records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
   <li>Technical data from <strong>DCA Design Consultants</strong></li>
   <li>Research and curation by <strong>John Maybury (galeaudio.com)</strong>, <strong>Dave Smith</strong> &amp; <strong>Matt The Shepherd (Vintage Gale, UK)</strong></li>
   <li>Contributions from the international Gale community</li>
