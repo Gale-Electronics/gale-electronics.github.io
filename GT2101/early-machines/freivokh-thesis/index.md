@@ -486,10 +486,10 @@ All six drawings carry the same title block: “Transcription Turntable Unit · 
 
 ## Photographs
 
-The thesis has no captions on the photograph pages. The captions below are its List of Illustrations entries. Photographs 12 to 14 are bound sideways in the thesis and are shown here turned upright.
+The thesis has no captions on the photograph pages. The captions below are its List of Illustrations entries. Photographs 9, 11, 12 and 13 are shown from clean prints of the same photographs. Photographs 10 and 14 are taken from the scan, as no better copy is available. Photograph 14 is bound sideways in the thesis and is shown here turned upright.
 
 <figure>
-  <a href="images/photo-09-perspective.jpg"><img src="images/photo-09-perspective.jpg" alt="The turntable from above at an angle: clear sprung plate, dark adjustable base plate, clear triangular tricept with three steel weights and white record supports, and the tone arm with cartridge"></a>
+  <a href="/GT2101/early-machines/images/freivokh-thesis-01-overview.jpg"><img src="/GT2101/early-machines/images/freivokh-thesis-01-overview.jpg" alt="The turntable from above at an angle: clear sprung plate, dark adjustable base plate, clear triangular tricept with three steel weights and white record supports, and the tone arm with cartridge"></a>
   <figcaption>[p. 44] 9. Perspective view of turntable complete with tone arm and cartridge.</figcaption>
 </figure>
 
@@ -499,17 +499,17 @@ The thesis has no captions on the photograph pages. The captions below are its L
 </figure>
 
 <figure>
-  <a href="images/photo-11-front.jpg"><img src="images/photo-11-front.jpg" alt="Low front view across the turntable showing the stacked acrylic plates, steel pillars, drive belt and the tone arm"></a>
+  <a href="/GT2101/early-machines/images/freivokh-thesis-03-rear.jpg"><img src="/GT2101/early-machines/images/freivokh-thesis-03-rear.jpg" alt="Low front view across the turntable showing the stacked acrylic plates, steel pillars, drive belt and the tone arm"></a>
   <figcaption>[p. 46] 11. Front perspective view.</figcaption>
 </figure>
 
 <figure>
-  <a href="images/photo-12-tonearm.jpg"><img src="images/photo-12-tonearm.jpg" alt="Side view of the unipivot tone arm, its pillar and counterweight, with the drive belt and central stack behind"></a>
+  <a href="/GT2101/early-machines/images/freivokh-thesis-02-side.jpg"><img src="/GT2101/early-machines/images/freivokh-thesis-02-side.jpg" alt="Side view of the unipivot tone arm, its pillar and counterweight, with the drive belt and central stack behind"></a>
   <figcaption>[p. 47] 12. Detail of unipivot tone arm.</figcaption>
 </figure>
 
 <figure>
-  <a href="images/photo-13-arm-mounting.jpg"><img src="images/photo-13-arm-mounting.jpg" alt="Close view of the tone arm pillar, its single-hole mounting in the sprung plate and the anti-skating weight on a thread"></a>
+  <a href="/GT2101/early-machines/images/freivokh-thesis-04-tonearm.jpg"><img src="/GT2101/early-machines/images/freivokh-thesis-04-tonearm.jpg" alt="Close view of the tone arm pillar, its single-hole mounting in the sprung plate and the anti-skating weight on a thread"></a>
   <figcaption>[p. 48] 13. Detail of arm mounting and anti-skating system.</figcaption>
 </figure>
 
