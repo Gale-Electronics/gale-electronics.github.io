@@ -92,7 +92,7 @@ According to Hobden:
 - Gale **took Freivokh's turntable to DCA** (David Carter Associates). Hobden, then working at DCA, first saw it there.
 - **Dennis Arnall**, named in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the turntable, rather than for DCA or Gale. Freivokh himself does not recall Arnall (see [Dennis Arnall](#dennis-arnall)).
 - DCA was reorganised around this time: as Hobden recalls it, the firm's **associates were bought out, or made directors**, as David Carter Associates changed from a partnership of associates into a company with directors.
-- **DCA also originally designed the Gale GS401 loudspeaker**, not only the GT2101. Jon Bannenberg was the GS401's stylist, responsible for its appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
+- **DCA also worked on the Gale GS401 loudspeaker**, not only the GT2101, but did not design it. Gale brought DCA a finished, working speaker, already styled by Jon Bannenberg, and DCA's job was to turn it into a production model that could be made at scale. Bannenberg was the GS401's stylist, responsible for its appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
 - **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
 - **The curly cable** connecting the control tower to the motor was made by **Core Technologies** in Scotland.
 - **Dr Sao Win:** Hobden does not recall ever meeting or seeing Win, or hearing his name at Gale. Hobden joined Gale only after DCA took on the turntable, so this does not cover the earliest period (see [Dr Sao Win](#dr-sao-win)).
