@@ -134,12 +134,13 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
       <img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg"
            alt="Gale GT2101 turntable in clear acrylic with stainless-steel motor pod and LED speed tower"
            loading="lazy">
-      <figcaption>Gale GT2101 — design collaboration with DCA.</figcaption>
+      <figcaption>Gale GT2101 — developed from Ken Freivokh’s design, engineered with DCA.</figcaption>
     </figure>
     <div class="copy">
-      <h2>1975 — The GT2101 Turntable</h2>
-      <p>The <strong>Gale GT2101</strong>, developed with <strong>John Carter’s DCA Design Consultants</strong>, was Gale’s most ambitious statement. Its transparent acrylic chassis, stainless-steel motor pod and LED speed-display tower reflected the scientific precision of a servo-controlled direct-drive motor system co-developed by <strong>Dr Sao Win</strong> and <strong>Ira Gale</strong>.</p>
-      <p>Each unit was hand-built in London; fewer than a hundred are known to exist. Today it remains one of the rarest and most visually striking British turntables.</p>
+      <h2>1974 — The GT2101 Turntable</h2>
+      <p>The <strong>Gale GT2101</strong> began as <strong>Ken Freivokh’s</strong> belt-driven acrylic turntable, designed and machined while he was a student at the Royal College of Art in 1971/2. Ira Gale took the design to <strong>David Carter’s DCA</strong>, where it was re-engineered as a servo-controlled direct-drive deck, with electronics by <strong>Paul Ramsden</strong>, including the touch start/stop on the control tower, and motors supplied as finished units by Litton. <strong>Nigel Hobden</strong> then moved from DCA to Gale as technical director to oversee its production.</p>
+      <p>The 1974 patent application names <strong>David Carter</strong>, <strong>Ken Freivokh</strong>, <strong>Ira Gale</strong>, <strong>Nigel Hobden</strong> and <strong>Michael Taylor</strong> as inventors. Earlier accounts also credited <strong>Dr Sao Win</strong>, a friend of Ira Gale, with the motor system, but no contemporary source supports this and Nigel Hobden does not recall him being involved. <a href="/GT2101/research-notes/">See the research notes.</a></p>
+      <p>The GT2101 was shown at the October 1974 Audio Fair and made in small numbers in London; estimates of how many were built vary. Its development costs were later named as one of the chief reasons for Gale’s demise. Today it remains one of the rarest and most visually striking British turntables.</p>
     </div>
   </div>
 </section>
