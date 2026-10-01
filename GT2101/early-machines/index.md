@@ -32,6 +32,8 @@ In an email to the archive in September 2026, Ken Freivokh added the following:
 - **Dennis Arnall.** He does not recall anyone called Dennis Arnall.
 - **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as **bought**: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
 
+In a further email on 1 October 2026, Freivokh said he had only a couple of meetings with Ira Gale, and that he learned from them that **the turntable had been accepted by the Museum of Modern Art, New York**. The archive has not yet confirmed this with the museum, or established which version of the turntable it refers to.
+
 Since leaving the college, Freivokh has worked mainly as a yacht designer, including the 88m *Maltese Falcon* and the 107m *Black Pearl*.
 
 ### Thesis photographs, 1972
@@ -90,7 +92,11 @@ This drawing was uploaded alongside the photograph as page 4 in the same named s
 
 ## Ray Churchouse’s Ken Freivokh turntable, now with Mark Churchouse
 
-**Ken Freivokh has confirmed that he made this turntable** (confirmation to the archive, October 2026). It is one of Freivokh’s own machines, not a Gale prototype.
+**Ken Freivokh has confirmed that he made this turntable.** It is one of Freivokh’s own machines, not a Gale prototype. In an email to the archive on 1 October 2026 he identified it as his second version:
+
+> “Indeed, I believe that was the second prototype, still with the same motor, belt drive and arm, but with the more refined and practical treatment of the platter terminations – the original was a full round on the three corners.”
+
+So this second machine kept the first one’s motor, belt drive and tonearm, and changed the shape of the ends of the three platter arms: on the first machine they were fully rounded.
 
 The photographs below document the turntable that belonged to **Ray Churchouse** and is now with his son **Mark Churchouse**. The photos were supplied from material shared about the machine. Mark says his father displayed it in his Unilet shops. Mark also relays that someone who worked in the shop said it had never worked. This is second-hand testimony; the archive has no independent record of the display history or operational status. Mark says he has no further information about Gale from his father.
 
@@ -123,7 +129,7 @@ More photographs of Mark’s turntable can be added to this record as they are p
 - The “Speak up” magazine article describes Freivokh's own turntable as belt-driven, with a three-point record support instead of a platter. Source: *Design* no. 296, August 1973.
 - Ken Freivokh has identified the black-and-white machine as one of his two star-shaped turntables, with a brown translucent top plate.
 - Freivokh wrote a thesis, “A Transcription Turntable Unit”, presented to the Royal College of Art at the end of March 1972. He also made a third, square-based version.
-- Ken Freivokh has confirmed that he made the Ray/Mark Churchouse turntable (October 2026). It is a Freivokh machine, not a Gale prototype. Which of his versions it is, when it was made, and how it came to Ray Churchouse are not yet recorded.
+- Ken Freivokh has confirmed that he made the Ray/Mark Churchouse turntable (email, 1 October 2026). He believes it is his **second** version: the same motor, belt drive and arm as the first, with more refined ends to the three platter arms. When it was made, and how it came to Ray Churchouse, are not yet recorded.
 - The archive has evidence for three separate early machines in these records. It does **not** establish the total number of early machines made.
 
 See the [GT2101 historical timeline and source notes](/GT2101/research-notes/) for the broader development and marketing chronology.

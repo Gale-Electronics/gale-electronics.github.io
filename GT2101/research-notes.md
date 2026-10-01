@@ -69,7 +69,7 @@ The history preserved with the GaleAudio.com archive and user-supplied material 
 
 Nigel Hobden's September 2026 recollection weighs against any significant role in the **later** development. Hobden worked at Gale's Bruton Place offices in Mayfair and oversaw the GT2101's production, yet he does not recall ever meeting Win, seeing him, or hearing his name mentioned while he was at Gale. However, Hobden only moved to Gale **after** DCA had taken on the turntable, so his recollection does not cover the earlier period of the belt-drive machines made after Ira Gale bought Freivokh's design. Any involvement by Win in that earlier period is neither supported nor ruled out by Hobden's account. Win is also not among the five named patent inventors, and no contemporary source reviewed so far connects him to the deck.
 
-The early period now looks closed as well. Ken Freivokh says all the work on his turntables was done at the Royal College of Art with the college's technicians, and in October 2026 he confirmed that he also made the early machine owned by Ray Churchouse, now with Mark Churchouse (see [Early Machines](/GT2101/early-machines/#ray-churchouses-ken-freivokh-turntable-now-with-mark-churchouse)). **None of the early machines identified so far has any connection to Win.** Across the early machines, the patent, Hobden's recollection and the contemporary sources, the archive has found no evidence that Win worked on the GT2101 or its precursors.
+The early period now looks closed as well. Ken Freivokh says all the work on his turntables was done at the Royal College of Art with the college's technicians, and on 1 October 2026 he confirmed that he also made the early machine owned by Ray Churchouse, which he believes was his second version, now with Mark Churchouse (see [Early Machines](/GT2101/early-machines/#ray-churchouses-ken-freivokh-turntable-now-with-mark-churchouse)). **None of the early machines identified so far has any connection to Win.** Across the early machines, the patent, Hobden's recollection and the contemporary sources, the archive has found no evidence that Win worked on the GT2101 or its precursors.
 
 A working hypothesis, not established by any source, is that Win may have given Ira Gale **informal advice as an old college friend** with a strong interest in hi-fi, rather than taking part in the design itself. His best-known turntable work appears later than the GT2101's development, although the 1979 SDC-10 account shows he was already working on turntables by the end of the 1970s.
 
@@ -159,6 +159,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 7. Did Ira Gale buy the rights to Freivokh's design, as Hobden and the 1981 letter say, or use it without payment, as Freivokh says? When did Freivokh's turntable reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence settle these questions?
 8. Can reliable production records resolve the conflicting estimates of units made?
 9. When exactly did Donald Wong buy Gale, and what happened to Gale production under D. W. Labs?
+10. Was the turntable accepted by the Museum of Modern Art, New York, as Ken Freivokh says he learned from Ira Gale? If so, which version, when, and is it still in the collection?
 
 ## Evidence guide
 
