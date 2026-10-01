@@ -32,7 +32,7 @@ In an email to the archive in September 2026, Ken Freivokh added the following:
 - **Dennis Arnall.** He does not recall anyone called Dennis Arnall.
 - **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as **bought**: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
 
-In a further email on 1 October 2026, Freivokh said he had only a couple of meetings with Ira Gale, and that he learned from them that **the turntable had been accepted by the Museum of Modern Art, New York**. The archive has not yet confirmed this with the museum, or established which version of the turntable it refers to.
+In a further email on 1 October 2026, Freivokh said he had only a couple of meetings with Ira Gale, and that he learned from them that **the turntable had been accepted by the Museum of Modern Art, New York**. **This is not supported.** A search of MoMA’s online collection for “turntable” (October 2026) finds only a Transcriptors turntable, and nothing at all relating to Gale or Freivokh. What Ira Gale told him may have been mistaken or exaggerated.
 
 Since leaving the college, Freivokh has worked mainly as a yacht designer, including the 88m *Maltese Falcon* and the 107m *Black Pearl*.
 

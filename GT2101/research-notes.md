@@ -159,7 +159,6 @@ The old GaleAudio.com material is an important preservation source, especially w
 7. Did Ira Gale buy the rights to Freivokh's design, as Hobden and the 1981 letter say, or use it without payment, as Freivokh says? When did Freivokh's turntable reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence settle these questions?
 8. Can reliable production records resolve the conflicting estimates of units made?
 9. When exactly did Donald Wong buy Gale, and what happened to Gale production under D. W. Labs?
-10. Was the turntable accepted by the Museum of Modern Art, New York, as Ken Freivokh says he learned from Ira Gale? If so, which version, when, and is it still in the collection?
 
 ## Evidence guide
 
