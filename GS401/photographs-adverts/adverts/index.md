@@ -58,7 +58,7 @@ description: "Period magazine adverts for the Gale GS401 loudspeakers, including
     --ink:#222;
     --muted:#666;
     --accent:#6e9fff; /* Gale blue */
-    --shadow:0 6px 18px rgba(0,0,0,.06);
+    --shadow:none;
     --radius:14px;
     --wrap:1100px;
   }
@@ -83,9 +83,9 @@ description: "Period magazine adverts for the Gale GS401 loudspeakers, including
     overflow:hidden;
     text-align:left;
     box-shadow:var(--shadow);
-    transition:transform .15s ease, box-shadow .2s ease;
+    transition:transform .15s ease;
   }
-  .card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .card:hover{transform:translateY(-2px)}
   .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
   .meta{padding:10px 12px;font-size:14px;border-top:1px solid var(--border);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .empty{padding:14px 12px;border:1px dashed var(--border);border-radius:10px;background:#fff}

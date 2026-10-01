@@ -65,7 +65,7 @@ description: "Owner-submitted photographs of Gale GS401 loudspeakers, original a
     --ink:#222;
     --muted:#666;
     --accent:#6e9fff; /* Gale blue */
-    --shadow:0 6px 18px rgba(0,0,0,.06);
+    --shadow:none;
     --radius:14px;
     --wrap:1100px;
   }
@@ -90,9 +90,9 @@ description: "Owner-submitted photographs of Gale GS401 loudspeakers, original a
     overflow:hidden;
     text-align:left;
     box-shadow:var(--shadow);
-    transition:transform .15s ease, box-shadow .2s ease;
+    transition:transform .15s ease;
   }
-  .card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .card:hover{transform:translateY(-2px)}
   .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
   .meta{
     display:flex;align-items:center;justify-content:space-between;

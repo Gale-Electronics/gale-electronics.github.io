@@ -8,7 +8,7 @@ description: "How Derek Carter's DCA Design Consultants turned Ira Gale's radica
 <style>
   :root{
     --paper:#f7f5ee; --card:#fff; --border:#e0dacb; --ink:#111; --muted:#6b6b6b;
-    --radius:14px; --shadow:0 4px 18px rgba(0,0,0,.06);
+    --radius:14px; --shadow:none;
   }
   body{background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;margin:20px}
   h1{font-size:2rem;margin:.2rem 0 .8rem}
@@ -29,7 +29,7 @@ description: "How Derek Carter's DCA Design Consultants turned Ira Gale's radica
   }
   .lightbox img{
     max-width:96vw; max-height:92vh; width:auto; height:auto; border-radius:12px;
-    box-shadow:0 10px 30px rgba(0,0,0,.5);
+    
   }
   .lightbox:target{display:flex}
   .lightbox .close{

@@ -10,7 +10,7 @@ description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, e
 
 <div style="display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin:1.5rem 0;">
   <figure style="flex:1 1 320px;max-width:380px;margin:0;text-align:center;">
-    <img src="/GS401/speaker-models/401a.png" alt="Gale GS401A loudspeaker" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.1);">
+    <img src="/GS401/speaker-models/401a.png" alt="Gale GS401A loudspeaker" style="width:100%;height:auto;border-radius:10px;">
     <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — industrial design by Jon Bannenberg, 1973.</figcaption>
   </figure>
 
