@@ -69,6 +69,8 @@ The history preserved with the GaleAudio.com archive and user-supplied material 
 
 Nigel Hobden's September 2026 recollection weighs against any significant role in the **later** development. Hobden worked at Gale's Bruton Place offices in Mayfair and oversaw the GT2101's production, yet he does not recall ever meeting Win, seeing him, or hearing his name mentioned while he was at Gale. However, Hobden only moved to Gale **after** DCA had taken on the turntable, so his recollection does not cover the earlier period of the belt-drive machines made after Ira Gale bought Freivokh's design. Any involvement by Win in that earlier period is neither supported nor ruled out by Hobden's account. Win is also not among the five named patent inventors, and no contemporary source reviewed so far connects him to the deck.
 
+The early period now looks closed as well. Ken Freivokh says all the work on his turntables was done at the Royal College of Art with the college's technicians, and in October 2026 he confirmed that he also made the early machine owned by Ray Churchouse, now with Mark Churchouse (see [Early Machines](/GT2101/early-machines/#ray-churchouses-ken-freivokh-turntable-now-with-mark-churchouse)). **None of the early machines identified so far has any connection to Win.** Across the early machines, the patent, Hobden's recollection and the contemporary sources, the archive has found no evidence that Win worked on the GT2101 or its precursors.
+
 A working hypothesis, not established by any source, is that Win may have given Ira Gale **informal advice as an old college friend** with a strong interest in hi-fi, rather than taking part in the design itself. His best-known turntable work appears later than the GT2101's development, although the 1979 SDC-10 account shows he was already working on turntables by the end of the 1970s.
 
 How Win came to be credited is itself worth noting. He is well regarded in the turntable world and is known to have been a friend of Ira Gale, so later accounts may have linked him to the GT2101 **by association**, assuming a contribution without evidence for one. No source reviewed so far documents what, if anything, he did on the deck.
@@ -150,7 +152,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 
 1. Is Jonathan Carter's machine the one photographed at the 1974 Audio Fair?
 2. What was Dennis Arnall's exact role? Nigel Hobden believes he worked with Freivokh, but Freivokh does not recall him. Where had he worked on gyroscopes?
-3. Did Dr Sao Win contribute to GT2101 development at all, given that Nigel Hobden does not recall him? If so, was it more than informal advice to Ira Gale?
+3. Is there any evidence at all for Dr Sao Win's involvement? None has been found: Nigel Hobden does not recall him, he is not on the patent, and the early machines identified so far are Ken Freivokh's own. If he contributed anything, was it more than informal advice to Ira Gale?
 4. What was the outcome of UK application GB 46296/74, and can its file be located?
 5. What drawings and engineering records survive from Gale or DCA?
 6. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
