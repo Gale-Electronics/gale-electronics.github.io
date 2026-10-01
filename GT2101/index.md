@@ -34,7 +34,7 @@ Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px;margin:1.2rem 0;">
   <figure style="margin:0;">
     <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/images/freivokh-thesis-01-overview.jpg" alt="Freivokh’s 1972 turntable from above at an angle: star-shaped clear and dark acrylic plates, steel weights and a unipivot tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
-    <figcaption>1972: Freivokh’s belt-driven turntable. From his Royal College of Art thesis.</figcaption>
+    <figcaption>1972: Freivokh’s belt-driven turntable, from his Royal College of Art thesis. This is the turntable Ira Gale acquired from Freivokh and handed to DCA to develop into the GT2101.</figcaption>
   </figure>
   <figure style="margin:0;">
     <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg" alt="The production GT2101 at a three-quarter angle, showing the clear acrylic plates, steel pillars, platter weights and tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
