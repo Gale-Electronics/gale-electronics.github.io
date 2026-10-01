@@ -32,6 +32,16 @@ In an email to the archive in September 2026, Ken Freivokh added the following:
 - **Dennis Arnall.** He does not recall anyone called Dennis Arnall.
 - **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as **bought**: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
 
+### Ken Freivokh’s account, October 2026
+
+In a further email to the archive in October 2026, Freivokh described Ira Gale’s part in the design:
+
+- **The original design.** He says Ira Gale “played no part on the initial idea, concepts design and even execution of the first couple of prototypes”. Gale first saw the design “when he saw it actually working at the Royal College”. Freivokh credits him with “recognising that it was an interesting and novel approach to the design”.
+- **The thinking behind it.** In his words, the aim was “to achieve near perfection but with the simplest possible approach. Hence a straightforward drive motor, isolated by the drive belt from the sprung assembly.” His [1972 thesis](/GT2101/early-machines/freivokh-thesis/) describes the design in the same terms.
+- **What Gale added.** He says Gale’s contribution was to “commission a synchronous motor to achieve a direct drive solution”. In his view, this “perhaps militates against the simplicity of the original, which did not require a separate free standing ‘tower’”.
+
+His account of the change from belt drive to direct drive agrees with the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981). As with the question of credit above, the archive records his account alongside the other sources.
+
 Since leaving the college, Freivokh has worked mainly as a yacht designer, including the 88m *Maltese Falcon* and the 107m *Black Pearl*.
 
 ### Thesis photographs, 1972
