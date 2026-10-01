@@ -61,10 +61,6 @@ title: Gale Electronics and Design
       margin:0;
     }
 
-    .hero-logo{
-      width:clamp(76px, 9vw, 112px);
-      height:auto;
-    }
 
     /* Archive badge */
     .badge-archival{
@@ -81,7 +77,6 @@ title: Gale Electronics and Design
     @media (max-width: 520px){
       .hero-head{align-items:flex-start;gap:.75rem;}
       .hero h1{font-size:1.8rem;line-height:1.15;}
-      .hero-logo{width:68px;}
       .hero-content{padding:1.1rem 16px;}
       .badge-archival{align-items:flex-start;font-size:.86rem;}
     }
@@ -124,7 +119,6 @@ title: Gale Electronics and Design
       <div class="hero-content">
         <div class="hero-head">
           <h1>Gale Electronics and Design</h1>
-          <img class="hero-logo" src="{{ site.logo | default: '/gale-logo.jpg' | relative_url }}" alt="Gale Electronics logo">
         </div>
         <p class="sub">
           Preserving the legacy of Gale Electronics, from the GS401 loudspeakers
