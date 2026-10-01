@@ -90,7 +90,7 @@ description: "Original Gale GS401 manuals, specification sheets and printed lite
     --ink:#222;
     --muted:#666;
     --accent:#6e9fff; /* Gale blue */
-    --shadow:0 6px 18px rgba(0,0,0,.06);
+    --shadow:none;
     --radius:14px;
     --wrap:1100px;
   }
@@ -108,9 +108,9 @@ description: "Original Gale GS401 manuals, specification sheets and printed lite
   .card{
     display:block;width:100%;text-align:left;background:var(--card);
     border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);
-    transition:transform .15s ease, box-shadow .2s ease; cursor:pointer;
+    transition:transform .15s ease; cursor:pointer;
   }
-  .card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.10)}
+  .card:hover{transform:translateY(-2px)}
   .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
   .meta{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;font-size:14px;border-top:1px solid var(--border)}
   .label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -127,7 +127,7 @@ description: "Original Gale GS401 manuals, specification sheets and printed lite
   }
   #lightbox[aria-hidden="false"]{ display:flex; }
   .lb-figure{max-width:min(96vw,1200px); width:100%; text-align:center; color:#fff}
-  #lb-img{max-width:100%; max-height:82vh; width:auto; height:auto; border-radius:8px; box-shadow:0 10px 30px rgba(0,0,0,.4)}
+  #lb-img{max-width:100%; max-height:82vh; width:auto; height:auto; border-radius:8px;}
   #lb-cap{margin:.6rem 0 0; font-size:.95rem; color:#e8e8e8}
   .lb-actions{margin-top:.6rem; display:flex; gap:10px; justify-content:center}
   .lb-actions a{color:#fff; text-decoration:none; border:1px solid rgba(255,255,255,.5); padding:.35rem .6rem; border-radius:999px}

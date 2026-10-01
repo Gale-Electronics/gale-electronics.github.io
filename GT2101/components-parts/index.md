@@ -6,7 +6,7 @@ description: "Gale GT2101 PCB close-ups, populated boards, motor assemblies and 
 ---
 
 <style>
-  :root{--paper:#f7f5ee;--card:#fff;--border:#e0dacb;--ink:#111;--muted:#6b6b6b;--radius:14px;--shadow:0 4px 18px rgba(0,0,0,.06)}
+  :root{--paper:#f7f5ee;--card:#fff;--border:#e0dacb;--ink:#111;--muted:#6b6b6b;--radius:14px;--shadow:none}
   body{background:var(--paper);color:var(--ink);margin:20px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif}
   h1{font-size:2rem;margin:.2rem 0 .8rem}
   .gallery-heading{font-size:1.35rem;margin:2rem 0 .3rem}
