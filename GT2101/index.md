@@ -29,7 +29,7 @@ Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production 
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px;margin:1.2rem 0;">
   <figure style="margin:0;">
-    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/freivokh-thesis/images/photo-09-perspective.jpg" alt="Freivokh’s 1972 prototype from above at an angle: clear and dark acrylic plates, steel weights and a unipivot tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
+    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/images/freivokh-thesis-01-overview.jpg" alt="Freivokh’s 1972 prototype from above at an angle: star-shaped clear and dark acrylic plates, steel weights and a unipivot tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
     <figcaption>1972: Freivokh’s belt-driven prototype. From his Royal College of Art thesis.</figcaption>
   </figure>
   <figure style="margin:0;">
@@ -37,8 +37,8 @@ Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production 
     <figcaption>Production GT2101. Photograph: DCA Design Consultants.</figcaption>
   </figure>
   <figure style="margin:0;">
-    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/freivokh-thesis/images/photo-11-front.jpg" alt="Low front view of Freivokh’s 1972 prototype, showing the stacked acrylic plates, steel pillars and drive belt" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
-    <figcaption>1972: front view of the prototype, with the drive belt visible.</figcaption>
+    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/images/freivokh-thesis-02-side.jpg" alt="Side view of Freivokh’s 1972 prototype, showing the stacked acrylic plates, steel pillars, drive belt and tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
+    <figcaption>1972: side view of the prototype, with the drive belt visible.</figcaption>
   </figure>
   <figure style="margin:0;">
     <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_right-side_detail-arm-base.jpg" alt="Side detail of the production GT2101, showing the direct-drive motor housing below the plates and a steel pillar" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
