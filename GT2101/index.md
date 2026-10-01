@@ -38,7 +38,7 @@ Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production 
   </figure>
   <figure style="margin:0;">
     <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg" alt="The production GT2101 at a three-quarter angle, showing the clear acrylic plates, steel pillars, platter weights and tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
-    <figcaption>Production GT2101. Photograph: DCA Design Consultants.</figcaption>
+    <figcaption>The finished GT2101 as designed by DCA, now direct drive with a new control tower. Photograph: DCA Design Consultants.</figcaption>
   </figure>
 </div>
 
