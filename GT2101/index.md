@@ -36,14 +36,6 @@ Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production 
     <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg" alt="The production GT2101 at a three-quarter angle, showing the clear acrylic plates, steel pillars, platter weights and tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
     <figcaption>Production GT2101. Photograph: DCA Design Consultants.</figcaption>
   </figure>
-  <figure style="margin:0;">
-    <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/images/freivokh-thesis-02-side.jpg" alt="Side view of Freivokh’s 1972 prototype, showing the stacked acrylic plates, steel pillars, drive belt and tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
-    <figcaption>1972: side view of the prototype, with the drive belt visible.</figcaption>
-  </figure>
-  <figure style="margin:0;">
-    <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_right-side_detail-arm-base.jpg" alt="Side detail of the production GT2101, showing the direct-drive motor housing below the plates and a steel pillar" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
-    <figcaption>Production GT2101: side detail with the direct-drive motor below the plates. Photograph: DCA.</figcaption>
-  </figure>
 </div>
 
 More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2101/early-machines/freivokh-thesis/) · [Early Machines](/GT2101/early-machines/)
