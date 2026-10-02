@@ -16,7 +16,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
     <div class="person-body">
       <h3>Ira Gale <span class="role">Founder</span></h3>
-      <p>An American who founded Gale Electronics in London. He is thought to have been an art dealer, and a 1981 company letter mentions his “own interest in art”. He was not an engineer: his strength was spotting striking design and bringing in the people to make it work, such as Jon Bannenberg for the GS401’s styling and DCA for the GT2101’s engineering.</p>
+      <p>An American who founded Gale Electronics in London. He is thought to have been, among other things, an art dealer, and a 1981 company letter mentions his “own interest in art”. He was not an engineer: his strength was spotting striking design and bringing in the people to make it work, such as Jon Bannenberg for the GS401’s styling and DCA for the GT2101’s engineering.</p>
       <ul class="highlights">
         <li>Already had a working GS401 before production began, according to David Lyth.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
