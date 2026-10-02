@@ -1,5 +1,6 @@
 title: Gale Electronics
 description: Open archive preserving the history, design and engineering of Gale Electronics.
+url: https://gale-electronics.github.io
 theme: minima
 markdown: kramdown
 plugins:
@@ -11,3 +12,14 @@ collections:
   gs401:
     output: true
 permalink: /:collection/:name/
+exclude:
+  - README.md
+  - rename-gt2101-files.ps1
+  # Retired stub kept in the repo for provenance; not a page.
+  - GT2101/engineering-drawings-schematics/motor-overview/motor-findings.md
+defaults:
+  # Search Console ownership file: must be served, must not be in the sitemap.
+  - scope:
+      path: google27afd91fefdf90a4.html
+    values:
+      sitemap: false

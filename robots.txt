@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://gale-electronics.github.io/sitemap.xml
+Sitemap: https://gale-electronics.github.io/sitemap.txt
