@@ -16,7 +16,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
     <div class="person-body">
       <h3>Ira Gale <span class="role">Founder</span></h3>
-      <p>An American who founded Gale Electronics in London. He is thought to have been, among other things, an art dealer, and a 1981 company letter mentions his “own interest in art”. He was not an engineer: his strength was spotting striking design and bringing in the people to make it work, such as Jon Bannenberg for the GS401’s styling and DCA for the GT2101’s engineering.</p>
+      <p>An American who founded Gale Electronics in London. He is thought to have been, among other things, an art dealer, and a 1981 company letter mentions his “own interest in art”. He was not an engineer: his strength was spotting striking design and bringing in the people to make it work, such as Jon Bannenberg for the GS401’s styling and DCA, who made the GS401 into a production speaker and engineered the GT2101.</p>
       <ul class="highlights">
         <li>Already had a working GS401 before production began, according to David Lyth.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
@@ -59,7 +59,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
   <img src="/assets/about/david-lyth.png" alt="Portrait of David Lyth" loading="lazy">
   <div class="person-body">
     <h3>David Lyth <span class="role">Production • Loudspeaker Engineering</span></h3>
-    <p>Production lead on the GS401—turned Ira’s original design into a stable, repeatable product with defined jigs, sourcing and QC. Later founded Volt Loudspeakers.</p>
+    <p>Ran production of the GS401. DCA turned Ira’s working speaker into a production design, and Lyth then built it as a stable, repeatable product with defined jigs, sourcing and QC. Later founded Volt Loudspeakers.</p>
     <ul class="highlights">
       <li>Moved from early CTS 8-inch woofers to British-built units; tightened tolerances on baffle/crossover assembly.</li>
       <li>“It was all about production” — standardised steps and checks so every pair matched.</li>
@@ -120,7 +120,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <div class="copy">
       <h2>1973 — The GS401 Loudspeaker</h2>
       <p>The first product, the GS401, originated from a working design that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
-      <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>Billy Woodman</strong> (later founder of ATC) helped refine and industrialise what was taking shape.</p>
+      <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>DCA</strong> made that model into a production speaker, which Lyth then produced. <strong>Billy Woodman</strong> (later founder of ATC) also worked for Gale at this time.</p>
       <p><strong>Jon Bannenberg’s</strong> sculptural industrial design — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
       <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille), <strong>401C</strong> (curved grille).</p>
     </div>
