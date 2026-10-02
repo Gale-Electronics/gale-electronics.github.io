@@ -175,7 +175,7 @@ Both can be true if the opening happened **at Gale in London**, not at DCA in Wa
 - Board 3 pin 6 and board 4 pin 6, both marked "???" in the source
 - What caused the jerky rotation reported after that strap replacement
 - Attribution of the ribbon pin tables — uncredited on the page
-- Any GT2101 patent number. The Sao Win / Ira Gale shared-patent claim carries no number anywhere. (The only patent number in the folder is EP0128672, Ira Gale with Michael Shain, computer protection — unrelated)
+- Any GT2101 patent number. (The only patent number in the folder is EP0128672, Ira Gale with Michael Shain, computer protection — unrelated)
 - Whether original towers were ever replaced in period. Only the one modern rebuild is documented
 
 ---
@@ -193,7 +193,6 @@ Both can be true if the opening happened **at Gale in London**, not at DCA in Wa
 | **Huub Bouwmeester** | Netherlands. Obtained and preserved the John Daly email; identified the turntable photo by writing to Freivokh directly. Good at getting answers out of people | 2012 |
 | **Lucy Daniels** | Gale office manager; signed the 28 Jan 1981 D. W. Labs letter. Not technical, but in **January 2012 was still in touch with Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth**. The routing hub | Jan 2012 |
 | **Mark Brumby** | Posted the LP12 motor substitution in the Gale audio group, Dec 2010. Knows the deck physically | Dec 2010 |
-| **Dr Sao Win** | Shares the (unnumbered) patents; his own machine is claimed by Robin Wyatt of Robyatt Audio | Mayberry spoke with him "a few months" before Sep 2016; retired, Santa Barbara area |
 
 **Ruled out:** David Lyth — speakers only, left before the GT2101.
 

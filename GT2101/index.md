@@ -22,7 +22,7 @@ The GT2101 was expensive and made in small numbers. It sold for about £1,200, r
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1.1rem;margin:1.4rem 0;">
   <strong>Archival Note</strong><br>
   The GT2101 was a servo-controlled direct-drive turntable developed by Gale Electronics. Its design began with Kenneth Freivokh's turntable, built at the Royal College of Art in 1971–72; a patent application dated 25 October 1974 names Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor as inventors. Later evidence associates David Carter's DCA with engineering work. At DCA, Paul Ramsden created the GT2101's electronics and electrical design, including, according to Nigel Hobden, the touch start/stop on the control tower, a very new technology at the time. The exact division of design and engineering roles remains under research.
-  The GaleAudio.com archive and user-supplied history also credit Dr Sao Win with helping on development, but Gale's technical director Nigel Hobden, who joined Gale after DCA took on the turntable, does not recall him being involved, and no contemporary source connects him to the deck. He may have offered Ira Gale informal advice as a friend. Production estimates vary, so this archive does not present a single unit total as settled.
+  Production estimates vary, so this archive does not present a single unit total as settled.
 </div>
 
 For the dated evidence, source notes, people, surviving-machine research and open questions, see [GT2101 Historical Research &amp; Sources](/GT2101/research-notes/).

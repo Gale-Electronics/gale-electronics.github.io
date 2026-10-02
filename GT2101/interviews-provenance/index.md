@@ -35,11 +35,7 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
 - **Industrial Design:** **David Carter, CBE** (Design Consultants Associates – DCA)  
 - **Engineering:** **Nigel Hobden**  
 - **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design, including the touch start/stop on the control tower  
-- **Collaborators:** **Ira Gale** and **Dr. Sao Win**, classmates from Harvey Mudd College.  
-  - Gale studied music at the Royal Academy of Music.  
-  - Win studied at Cambridge and helped co-develop the DC servo system.  
-  - They jointly held patents for the design.  
-  - *Archive note (2026): these credits come from the old GaleAudio.com text. Win is not among the five inventors named on the 1974 patent, and Gale's technical director Nigel Hobden does not recall him being involved during Hobden's time at Gale, which began after DCA took on the turntable. See the [research notes](/GT2101/research-notes/#dr-sao-win).*  
+- **Client:** **Ira Gale**, who bought Freivokh's design and took it to DCA.  
 
 The turntable was produced in very small numbers — approximately **60 to 200 units** — at a cost of **$1,975 USD** (without tonearm).  
 It featured **a separate stainless-steel motor pod**, **quartz-locked optical servo system**, and a **floating magnetic bearing**.  
@@ -122,12 +118,6 @@ Notable owners reportedly included **J. Paul Getty**, **Elton John**, **Frank Si
 **Adrian Newitt (2014):**  
 > “I wrote the *Hi-Fi News & Record Review* article. I borrowed DCA’s turntable at the time — not sure where it went later.  
 > I worked at DCA and knew editor Steve Harris. Pity you didn’t track me down sooner.”
-
-**Robyatt (2014):**  
-> “I own **Sao Win’s** personal turntable and have the emails from him to prove it.”
-
-**Emmaco (site owner, 2016):**  
-> “I spoke with Dr. Win recently. He’s retired, living in the Santa Barbara area, and still passionate about music and education.”
 
 ---
 

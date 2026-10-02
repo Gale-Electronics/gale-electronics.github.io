@@ -132,7 +132,7 @@ More photographs of Mark’s machine can be added to this record as they are pro
 - Ken Freivokh has identified the black-and-white machine as one of his two star-shaped turntables, with a brown translucent top plate.
 - Freivokh wrote a thesis, “A Transcription Turntable Unit”, presented to the Royal College of Art at the end of March 1972. He also made a third, square-based version.
 - The Ray/Mark Churchouse machine has family provenance, but its date and exact development stage have not yet been documented here.
-- It is possible that the Ray/Mark machine relates to development after Freivokh’s earlier experiment, but no evidence reviewed so far establishes that Gale or Sao Win acquired Freivokh’s machine or worked on this specific machine. Keep this as an open research question, not a confirmed link.
+- It is possible that the Ray/Mark machine relates to development after Freivokh’s earlier experiment, but no evidence reviewed so far establishes that Gale acquired Freivokh’s machine or worked on this specific machine. Keep this as an open research question, not a confirmed link.
 - The archive has evidence for three separate early machines in these records. It does not establish the total number of early machines made.
 
 See the [GT2101 historical timeline and source notes](/GT2101/research-notes/) for the broader development and marketing chronology.
