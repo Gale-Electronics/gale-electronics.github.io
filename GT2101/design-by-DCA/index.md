@@ -2,7 +2,7 @@
 title: Design by DCA
 layout: bare
 permalink: /GT2101/design-by-DCA/
-description: "How Derek Carter's DCA Design Consultants turned Ira Gale's radical GT2101 concept into a produced turntable."
+description: "How David Carter's DCA Design Consultants turned Kenneth Freivokh's turntable, brought to them by Ira Gale, into the production GT2101."
 ---
 
 <style>
@@ -46,7 +46,7 @@ description: "How Derek Carter's DCA Design Consultants turned Ira Gale's radica
 # Design by DCA
 
 <p class="lede">
-  In the mid-1970s, <strong>Ira Gale</strong> engaged <strong>DCA Design Consultants</strong>, led by founder <strong>Derek Carter</strong>, to realise a radical vision for a transparent, suspended record player that fused precision engineering with modernist form. 
+  In the mid-1970s, <strong>Ira Gale</strong> engaged <strong>DCA Design Consultants</strong>, led by founder <strong>David Carter</strong>, to turn Kenneth Freivokh’s belt-driven acrylic turntable into a production record player. 
   The collaboration produced the <strong>Gale GT2101</strong>, layered perspex over stainless-steel pods, plus a separate cylindrical control tower housing the speed electronics and LED display. 
   This page preserves a studio portrait of the DCA team alongside high-resolution product photographs that document the language and craft of this partnership.
 </p>
