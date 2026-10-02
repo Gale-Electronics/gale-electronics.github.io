@@ -1,12 +1,12 @@
 ---
 layout: bare
 title: About Gale Electronics
-description: "The story of Gale Electronics, founded by Ira Gale — who designed the GS401 loudspeakers and GT2101 turntable, and how this archive preserves the record."
+description: "The story of Gale Electronics, founded by Ira Gale, the people behind the GS401 loudspeakers and GT2101 turntable, and how this archive preserves the record."
 ---
 
 <!-- Page Header -->
 <h1>About Gale Electronics</h1>
-<p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by <strong>Ira Gale</strong>, an American audio enthusiast determined to fuse technical rigour with striking industrial design.</p>
+<p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by <strong>Ira Gale</strong>, an American with a background in the art world, who set out to make hi-fi that looked as good as it sounded.</p>
 
 <!-- Key Figures -->
 <h2 id="key-figures">Key Figures</h2>
@@ -15,12 +15,12 @@ description: "The story of Gale Electronics, founded by Ira Gale — who designe
   <article class="person-card">
     <img src="/assets/about/ira-gale.png" alt="Portrait of Ira Gale" loading="lazy">
     <div class="person-body">
-      <h3>Ira Gale <span class="role">Founder • Technical Direction</span></h3>
-      <p>Visionary founder of Gale Electronics — an American engineer whose obsession with design precision and experimentation defined the company’s DNA. Known for combining technical curiosity with an uncompromising eye for form.</p>
+      <h3>Ira Gale <span class="role">Founder</span></h3>
+      <p>An American who founded Gale Electronics in London. He is thought to have been an art dealer, and a 1981 company letter mentions his “own interest in art”. He was not an engineer: his strength was spotting striking design and bringing in the people to make it work, such as Jon Bannenberg for the GS401’s styling and DCA for the GT2101’s engineering.</p>
       <ul class="highlights">
-        <li>Built the first working GS401 in his London workshop before formal production began.</li>
+        <li>Already had a working GS401 before production began, according to David Lyth.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
-        <li>Worked with DCA Design Consultants on the GT2101’s servo-controlled motor system.</li>
+        <li>Acquired Kenneth Freivokh’s turntable design and took it to DCA, who engineered it into the direct-drive GT2101.</li>
       </ul>
     </div>
   </article>
