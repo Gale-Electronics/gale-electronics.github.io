@@ -35,7 +35,7 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
 - **Industrial Design:** **David Carter, CBE** (Design Consultants Associates – DCA)  
 - **Engineering:** **Nigel Hobden**  
 - **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design, including the touch start/stop on the control tower  
-- **Client:** **Ira Gale**, who bought Freivokh's design and took it to DCA.  
+- **Client:** **Ira Gale**, who took Freivokh's design to DCA. Freivokh says he was never paid for it (see [Early Machines](/GT2101/early-machines/#payment-for-the-design-3-october-2026)).  
 
 The turntable was produced in very small numbers — approximately **60 to 200 units** — at a cost of **$1,975 USD** (without tonearm).  
 It featured **a separate stainless-steel motor pod**, **quartz-locked optical servo system**, and a **floating magnetic bearing**.  

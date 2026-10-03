@@ -20,7 +20,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
       <ul class="highlights">
         <li>Already had a working GS401 before production began, according to David Lyth.</li>
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
-        <li>Acquired Kenneth Freivokh’s turntable design and took it to DCA, who engineered it into the direct-drive GT2101.</li>
+        <li>Took Kenneth Freivokh’s turntable design to DCA, who engineered it into the direct-drive GT2101. Freivokh says he was never paid for it.</li>
       </ul>
     </div>
   </article>
@@ -49,7 +49,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <ul class="highlights">
       <li>Presented his thesis, <em>“A Transcription Turntable Unit”</em>, to the Royal College of Art in March 1972.</li>
       <li>His acrylic turntable and horn loudspeaker were featured in <em>Design</em> magazine in August 1973.</li>
-      <li>Says Gale built and sold his design without his knowledge, and that he received no royalties, recognition or payment. Other sources say the design was bought; the archive records both accounts.</li>
+      <li>Says Gale built and sold his design without his knowledge, and that he received no royalties, recognition or payment. Asked in October 2026 what Gale paid for the design rights, he said he cannot recall receiving a single penny. Other sources say the design was bought; the archive records both accounts.</li>
     </ul>
     <a href="/GT2101/early-machines/#ken-freivokhs-account-september-2026" class="person-link">↳ Read his account</a>
   </div>

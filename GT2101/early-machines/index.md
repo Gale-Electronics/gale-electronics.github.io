@@ -30,7 +30,7 @@ In an email to the archive in September 2026, Ken Freivokh added the following:
 - **How many he made.** He believes he worked on two versions of the star-shaped turntable. One had a top plate in brown translucent acrylic; that is the machine in the [black-and-white photograph](#black-and-white-photograph) below, where the top plate looks dark.
 - **A third, square version.** He also made a further version with a square base and lid, which was more practical for keeping dust out but, in his words, not as “pure” or elegant. He believes it is still in storage.
 - **Dennis Arnall.** He does not recall anyone called Dennis Arnall.
-- **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as bought: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
+- **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as bought: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them. Freivokh repeated the point about payment in October 2026 (see [Payment for the design](#payment-for-the-design-3-october-2026) below).
 
 ### Ken Freivokh’s account, October 2026
 
@@ -41,6 +41,12 @@ In a further email to the archive in October 2026, Freivokh described Ira Gale�
 - **What Gale added.** He says Gale’s contribution was to “commission a synchronous motor to achieve a direct drive solution”. In his view, this “perhaps militates against the simplicity of the original, which did not require a separate free standing ‘tower’”.
 
 His account of the change from belt drive to direct drive agrees with the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981). As with the question of credit above, the archive records his account alongside the other sources.
+
+### Payment for the design, 3 October 2026
+
+On 3 October 2026 the archive asked Freivokh by email how much Gale had paid for the design rights. He replied that he cannot recall receiving a single penny.
+
+According to Freivokh, then, Ira Gale did not buy the design from him. This differs from Nigel Hobden’s recollection that Gale bought the design and the rights, and from the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981), which says the design was “purchased”. Ira Gale has died, so his side cannot be asked. No agreement, receipt or other document has been found that records a payment. Until one is, the archive records Freivokh’s account alongside the others and does not describe the design as bought.
 
 Since leaving the college, Freivokh has worked mainly as a yacht designer, including the 88m *Maltese Falcon* and the 107m *Black Pearl*.
 
