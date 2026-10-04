@@ -66,7 +66,7 @@ Notable owners reportedly included **J. Paul Getty**, **Elton John**, **Frank Si
 - Dual-layer acrylic plinth connected by three **tri-point suspension towers**.  
 - **Top tier:** motor assembly, platter, and tonearm.  
 - **Lower tier:** chassis foundation.  
-- **Motor:** high-torque **Inland brushless DC**, with a **Litton 600-line optical encoder** and magnetic bearing using **samarium-cobalt magnets**.  
+- **Motor:** high-torque **Inland brushless DC**, with magnetic bearing using **samarium-cobalt magnets**. The GT2101 used a **Litton optical encoder**, providing **600 counts per revolution**.  
 - **Controller:** cylindrical stainless-steel housing with push-buttons and LED display.  
 - Variable speed **10 – 99.9 rpm**, with quartz-locked **33.3 rpm** mode.  
 - Claimed precision: **speed monitored 600 times per revolution**, correction via servo loop.  
