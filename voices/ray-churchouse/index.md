@@ -24,7 +24,7 @@ This page collects everything the archive holds on Ray in one place. It also lis
 | Interview recording | Audio interview with Ray (WAV). The original galeaudio.com page linked an edited version, `Ray-Churchouse-Interview-Edited.wav`, which the site mirror did not capture. | [Interview page](/voices/interviews/ray.html) |
 | Portrait | Photograph used on the About page | [About Gale](/about#key-figures) |
 | Early turntable | An early Gale turntable that belonged to Ray and is now with his son Mark Churchouse, with six photographs | [Early Machines](/GT2101/early-machines/#ray-churchouses-early-machine-now-with-mark-churchouse) |
-| Press | *Beat Instrumental*, August 1973: Ray as manager of R.E.W., Charing Cross Road | [Below](#contemporary-sources) |
+| Press | Akai Centre advert, *Recording*, 1968 (reported); *Beat Instrumental*, August 1973: Ray as manager of R.E.W., Charing Cross Road | [Below](#contemporary-sources) |
 | Recollections | Ray's own words and memories of him, from the GaleAudio WordPress site and from Jules, a former Gale employee | [Below](#in-his-own-words) |
 
 ## In his own words
@@ -54,9 +54,25 @@ The [interview page](/voices/interviews/ray.html) summarises the recording as co
 
 ## Contemporary sources
 
+These are records made at the time, not later recollections. They are in date order.
+
+### *Recording* magazine, March 1968 (reported): the Akai Centre, Pentonville Road
+
+An advertisement for **The Akai Centre**, **242/4 Pentonville Road, London N1** (telephone TERminus 8200), names Ray as the person running the shop:
+
+> "Ray Churchouse and his staff are all 100% AKAI enthusiasts and are able to give you expert advice and technical assistance based upon years of selling not only AKAI but every other make and type of Tape Recorder."
+
+The advert offers the Akai 1710 four-track stereo recorder at 69 gns and the Akai M8 at 109 gns. It says the shop is about 100 yards from King's Cross and St Pancras stations, and gives the opening hours as Monday to Saturday, 9 a.m. to 6 p.m., with a half day on Thursday. The advert includes an uncaptioned photograph of a man. It does not say who he is.
+
+- **Source:** advertisement, *Recording* magazine, reported as the March 1968 issue (World Radio History). Page number not yet recorded.
+- **Found via:** ChatGPT search, October 2026. The quoted wording was checked against an image of the advert. The **publication and date have not yet been checked**, because the crop shows neither.
+- **What it establishes:** Ray was the named face of a specialist tape-recorder shop near King's Cross. The advert claims he already had "years of selling" behind him.
+- **What it does not establish:** Whether he owned the shop or managed it, how long he was there, or who is in the photograph.
+- **Still to do:** Confirm the issue date and page from the magazine cover or page header.
+
 ### *Beat Instrumental*, August 1973: manager of R.E.W., Charing Cross Road
 
-The earliest record of Ray found so far is from 1973 itself. It is not a later recollection. *Beat Instrumental*'s "Instrumental News" pages ran a short piece, "Sounds for Stars", on the **R.E.W. Audio and Visual** shop at **146 Charing Cross Road**, London. The article describes the shop as carrying "one of the finest stocks of hi-fi recording and video equipment in the country".
+*Beat Instrumental*'s "Instrumental News" pages ran a short piece, "Sounds for Stars", on the **R.E.W. Audio and Visual** shop at **146 Charing Cross Road**, London. The article describes the shop as carrying "one of the finest stocks of hi-fi recording and video equipment in the country".
 
 > "Ray Churchouse, manager of the Charing Cross branch, told Beat that a large proportion of the equipment was for professional use, and that many of the customers were studio engineers, technicians and musicians – who knew what they were after."
 
@@ -74,10 +90,10 @@ The archive's own pages describe Ray in two different ways. Both are kept here u
 | Question | Account A | Account B |
 |---|---|---|
 | His role at Gale | Ira's **first employee and sales manager** (Ray's own comment; Jules calls him "the salesman") | A **supplier and adviser** to Ira during the early GS401 work (About page card, source not given) |
-| His shops | Manager of **R.E.W.**, 146 Charing Cross Road, in 1973 ([Beat Instrumental](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road)). Mark says Ray displayed the turntable in his **Unilet** shops | The interview page links him with **Hi-Fi-Fo-Fum**, South Kensington; the About page says he "founded one of London's most successful hi-fi stores" without naming it |
+| His shops | Runs **The Akai Centre**, Pentonville Road, in 1968 (reported date). Manager of **R.E.W.**, 146 Charing Cross Road, in 1973 ([Beat Instrumental](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road)). Mark says Ray displayed the turntable in his **Unilet** shops | The interview page links him with **Hi-Fi-Fo-Fum**, South Kensington; the About page says he "founded one of London's most successful hi-fi stores" without naming it |
 | Later career | The About page says he later worked with **Quad**. No source is given. | — |
 
-These may all be true at different dates. The 1973 article now fixes one point: Ray was a shop manager at R.E.W. before the period Jules remembers him at Gale. That fits a sequence of Ira meeting Ray as a shop customer, Ray joining Gale as its salesman, then returning to retail. Apart from 1973, the order and dates are not established.
+These may all be true at different dates. The 1968 and 1973 sources now fix one point: Ray was a specialist tape and hi-fi retailer, at the Akai Centre and then R.E.W., before the period Jules remembers him at Gale. That fits a sequence of Ira meeting Ray as a shop customer, Ray joining Gale as its salesman, then returning to retail. Apart from those two dates, the order and dates are not established.
 
 ## Timeline
 
@@ -86,6 +102,7 @@ Only dated, sourced entries go here. Undated points stay in [Leads](#leads-to-ch
 | Date | Event | Source |
 |---|---|---|
 | Early 1970s | Ira Gale visits Ray's shop and buys components to take apart | Ray, quoted on the [About page](/about#legacy) |
+| 1968 (reported; issue date not yet checked) | Ray and his staff run The Akai Centre, 242/4 Pentonville Road, London N1 | [Akai Centre advert, *Recording*](#recording-magazine-march-1968-reported-the-akai-centre-pentonville-road) |
 | 1973 | Manager of the R.E.W. Audio and Visual shop, 146 Charing Cross Road | [*Beat Instrumental*, Aug 1973, p. 50](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road) |
 | 1974–1977 | Ray is Gale's salesman at Bruton Place and works the hi-fi shows | [Jules](/voices/stories/jules-former-gale-employee/) |
 | January 2012 | Still in touch with Lucy Daniels | [Folder findings](/GT2101/project-notes/folder-findings/) |
@@ -93,12 +110,13 @@ Only dated, sourced entries go here. Undated points stay in [Leads](#leads-to-ch
 ## Open questions
 
 1. When did Ray join Gale, and when did he leave?
-2. Which shops did he own or work at besides R.E.W.: Hi-Fi-Fo-Fum, Unilet, others? Where and when?
-3. Was R.E.W. the shop where Ira Gale bought components to take apart? When did Ray leave R.E.W. for Gale?
-4. Did he work for Quad, and in what role?
-5. How did he come to own the early turntable, and when did he get it?
-6. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
-7. Is there a fuller or unedited version of the interview recording?
+2. Which shops did he own or work at besides the Akai Centre and R.E.W.: Hi-Fi-Fo-Fum, Unilet, others? Where and when?
+3. Did Ray own the Akai Centre or manage it, and when did he move from there to R.E.W.?
+4. Was R.E.W. the shop where Ira Gale bought components to take apart? When did Ray leave R.E.W. for Gale?
+5. Did he work for Quad, and in what role?
+6. How did he come to own the early turntable, and when did he get it?
+7. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
+8. Is there a fuller or unedited version of the interview recording?
 
 ## Leads to check
 
