@@ -24,7 +24,7 @@ This page collects everything the archive holds on Ray in one place. It also lis
 | Interview recording | Audio interview with Ray (WAV). The original galeaudio.com page linked an edited version, `Ray-Churchouse-Interview-Edited.wav`, which the site mirror did not capture. | [Interview page](/voices/interviews/ray.html) |
 | Portrait | Photograph used on the About page | [About Gale](/about#key-figures) |
 | Early turntable | An early Gale turntable that belonged to Ray and is now with his son Mark Churchouse, with six photographs | [Early Machines](/GT2101/early-machines/#ray-churchouses-early-machine-now-with-mark-churchouse) |
-| Press | Akai Centre advert, *Recording*, 1968 (reported); *Beat Instrumental*, August 1973: Ray as manager of R.E.W., Charing Cross Road | [Below](#contemporary-sources) |
+| Press | Akai Centre advert, *Recording*, 1968 (reported); *Beat Instrumental*, August 1973: Ray as manager of R.E.W., Charing Cross Road; *Hi-Fi Choice*, 1987 (reported): Ray as MD of Hi-Fi Experience, "ex REW, GALE & UNILET" | [Below](#contemporary-sources) |
 | Recollections | Ray's own words and memories of him, from the GaleAudio WordPress site and from Jules, a former Gale employee | [Below](#in-his-own-words) |
 
 ## In his own words
@@ -83,17 +83,32 @@ Ray goes on to name customers. The Faces bought video equipment, Marc Bolan boug
 - **What it establishes:** In 1973 Ray was manager of R.E.W.'s Charing Cross Road branch, selling hi-fi, recording and video equipment to professional customers. This is before the 1974–1977 period when Jules remembers him as Gale's salesman.
 - **What it does not establish:** Whether R.E.W. is the shop where Ira Gale bought components to take apart, or when Ray left R.E.W. for Gale.
 
+### *Hi-Fi Choice*, 1987 (reported): Managing Director of Hi-Fi Experience, "ex REW, GALE & UNILET"
+
+A full-page piece headed **"The Story So Far…"** tells the story of the **Hi-Fi Experience** chain of specialist shops. Under the heading "Experience at the beginning" it says:
+
+> "The Managing Director is RAY CHURCHOUSE (ex REW, GALE & UNILET)"
+
+A photograph is captioned "RAY CHURCHOUSE – MD (LONDON)". The text names several co-directors from other specialist retailers. It also says the first Hi-Fi Experience opened in the basement of **Lion House, Tottenham Court Road**, London, with demonstration rooms fitted out by leading manufacturers. The footer lists branches at Lion House, 227 Tottenham Court Road, London W1; JCV House, Warwick; Milton Keynes; and Erricks, Bradford.
+
+- **Source:** *Hi-Fi Choice*, reported as a 1987 issue (World Radio History). Issue and page not yet recorded.
+- **Found via:** ChatGPT search, October 2026. The quoted line and caption were checked against an image of the page. The image is low resolution: the co-directors' names and the opening date are not quoted here because they cannot be read reliably. The **publication and date have not yet been checked**.
+- **What kind of source it is:** a promotional page for Hi-Fi Experience, the company Ray ran. It is a record made during his own career, not a later recollection by others, but it is his company describing itself.
+- **What it establishes:** By about 1987 Ray was Managing Director of Hi-Fi Experience in London. His company's own publicity lists **Gale** as one of his past employers, between R.E.W. and Unilet. This is the first source found outside the Gale archive that ties him to Gale by name.
+- **What it does not establish:** Dates at each employer, or that "REW, GALE & UNILET" is in date order. The order matches what is otherwise known (R.E.W. in 1973, Gale from about 1974), but the page does not say so.
+- **Still to do:** Confirm the issue and page, and read the co-directors' names and the opening date from a clearer scan.
+
 ## Where the accounts disagree
 
 The archive's own pages describe Ray in two different ways. Both are kept here until a primary source settles it.
 
 | Question | Account A | Account B |
 |---|---|---|
-| His role at Gale | Ira's **first employee and sales manager** (Ray's own comment; Jules calls him "the salesman") | A **supplier and adviser** to Ira during the early GS401 work (About page card, source not given) |
-| His shops | Runs **The Akai Centre**, Pentonville Road, in 1968 (reported date). Manager of **R.E.W.**, 146 Charing Cross Road, in 1973 ([Beat Instrumental](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road)). Mark says Ray displayed the turntable in his **Unilet** shops | The interview page links him with **Hi-Fi-Fo-Fum**, South Kensington; the About page says he "founded one of London's most successful hi-fi stores" without naming it |
+| His role at Gale | Ira's **first employee and sales manager** (Ray's own comment; Jules calls him "the salesman"). His company's 1987 publicity lists Gale among his past employers ([Hi-Fi Choice](#hi-fi-choice-1987-reported-managing-director-of-hi-fi-experience-ex-rew-gale--unilet)) | A **supplier and adviser** to Ira during the early GS401 work (About page card, source not given) |
+| His shops | Later Managing Director of **Hi-Fi Experience**, Tottenham Court Road, by about 1987, "ex REW, GALE & UNILET". Runs **The Akai Centre**, Pentonville Road, in 1968 (reported date). Manager of **R.E.W.**, 146 Charing Cross Road, in 1973 ([Beat Instrumental](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road)). Mark says Ray displayed the turntable in his **Unilet** shops | The interview page links him with **Hi-Fi-Fo-Fum**, South Kensington; the About page says he "founded one of London's most successful hi-fi stores" without naming it |
 | Later career | The About page says he later worked with **Quad**. No source is given. | — |
 
-These may all be true at different dates. The 1968 and 1973 sources now fix one point: Ray was a specialist tape and hi-fi retailer, at the Akai Centre and then R.E.W., before the period Jules remembers him at Gale. That fits a sequence of Ira meeting Ray as a shop customer, Ray joining Gale as its salesman, then returning to retail. Apart from those two dates, the order and dates are not established.
+These may all be true at different dates. The 1968 and 1973 sources now fix one point: Ray was a specialist tape and hi-fi retailer, at the Akai Centre and then R.E.W., before the period Jules remembers him at Gale. That fits a sequence of Ira meeting Ray as a shop customer, Ray joining Gale as its salesman, then returning to retail. The 1987 page lists R.E.W., Gale and Unilet in an order that fits this, then Hi-Fi Experience. Apart from the 1968 and 1973 dates, the order and dates are not established.
 
 ## Timeline
 
@@ -101,22 +116,24 @@ Only dated, sourced entries go here. Undated points stay in [Leads](#leads-to-ch
 
 | Date | Event | Source |
 |---|---|---|
-| Early 1970s | Ira Gale visits Ray's shop and buys components to take apart | Ray, quoted on the [About page](/about#legacy) |
 | 1968 (reported; issue date not yet checked) | Ray and his staff run The Akai Centre, 242/4 Pentonville Road, London N1 | [Akai Centre advert, *Recording*](#recording-magazine-march-1968-reported-the-akai-centre-pentonville-road) |
+| Early 1970s | Ira Gale visits Ray's shop and buys components to take apart | Ray, quoted on the [About page](/about#legacy) |
 | 1973 | Manager of the R.E.W. Audio and Visual shop, 146 Charing Cross Road | [*Beat Instrumental*, Aug 1973, p. 50](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road) |
-| 1974–1977 | Ray is Gale's salesman at Bruton Place and works the hi-fi shows | [Jules](/voices/stories/jules-former-gale-employee/) |
+| 1974–1977 | Ray is Gale's salesman at Bruton Place and works the hi-fi shows. His later company's publicity lists Gale between R.E.W. and Unilet | [Jules](/voices/stories/jules-former-gale-employee/); [*Hi-Fi Choice*, 1987](#hi-fi-choice-1987-reported-managing-director-of-hi-fi-experience-ex-rew-gale--unilet) |
+| 1987 (reported; issue not yet checked) | Managing Director of Hi-Fi Experience, Lion House, Tottenham Court Road, London | [*Hi-Fi Choice*](#hi-fi-choice-1987-reported-managing-director-of-hi-fi-experience-ex-rew-gale--unilet) |
 | January 2012 | Still in touch with Lucy Daniels | [Folder findings](/GT2101/project-notes/folder-findings/) |
 
 ## Open questions
 
 1. When did Ray join Gale, and when did he leave?
-2. Which shops did he own or work at besides the Akai Centre and R.E.W.: Hi-Fi-Fo-Fum, Unilet, others? Where and when?
+2. When was he at Unilet, and where were the Unilet shops where he showed the turntable? When was he at Hi-Fi-Fo-Fum, if at all?
 3. Did Ray own the Akai Centre or manage it, and when did he move from there to R.E.W.?
 4. Was R.E.W. the shop where Ira Gale bought components to take apart? When did Ray leave R.E.W. for Gale?
-5. Did he work for Quad, and in what role?
-6. How did he come to own the early turntable, and when did he get it?
-7. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
-8. Is there a fuller or unedited version of the interview recording?
+5. Did he work for Quad, and in what role? The 1987 page lists R.E.W., Gale and Unilet but not Quad.
+6. When did Hi-Fi Experience open, and when did Ray leave it?
+7. How did he come to own the early turntable, and when did he get it?
+8. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
+9. Is there a fuller or unedited version of the interview recording?
 
 ## Leads to check
 
