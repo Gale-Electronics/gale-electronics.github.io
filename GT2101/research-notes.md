@@ -26,6 +26,7 @@ This page brings together research on the GT2101's development, public launch, c
 | Later 1970s | Later trade coverage and directories describe the GT2101's unusual motor, optical speed sensing, magnetic bearing and digital control. Individual specifications vary by source and should be checked against each original scan. | See [contemporary sources](#contemporary-technical-coverage) below. |
 | Late 1970s or early 1980s (exact date not established) | Gale Electronics & Design Ltd failed and **Donald Wong** bought the company, trading as D. W. Labs Limited. The business moved from Bruton Place, Mayfair, to smaller premises, with offices at Gray's Inn Road and a registered address in Kensal Road. | [D. W. Labs and the sale of Gale](#d-w-labs-and-the-sale-of-gale) |
 | 28 January 1981 | A letter from D. W. Labs Limited, signed by Lucy Daniels, says the GT2101 is no longer in production. It says the deck cost almost £250,000 to develop and was originally meant to sell for about £400, but rose to about £1,200. It describes a design bought from a Royal College of Art student and changed from belt to direct drive, and around 200 units sold over three years. It also says the turntable's costs were one of the chief reasons for Gale Electronics and Design Ltd's demise. | [Letter to Huub Bouwmeester, 28 January 1981](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) |
+| 1 August 1985 | *Stereophile* publishes Dick Olsher's review of the **Gale GS402 loudspeaker**, a D. W. Labs-era product. It says: "As I understand it, the basic design resulted from a collaboration of Ira Gale and Sao Win, who were college classmates at the time." No source is given. This is the earliest written source found so far for a Sao Win connection with Gale. | [Stereophile review](https://www.stereophile.com/content/gale-gs402-loudspeaker); see [Dr Sao Win: an open question](/GT2101/research-notes/sao-win/) |
 
 The patent-family record identifies **GB 46296/74** (normalised there as GB4629674) as a UK priority application dated 25 October 1974. That establishes an application reference, not that a UK patent was granted. The German and Japanese family filings likewise do not by themselves establish UK protection. A UK file search remains an open research task.
 
@@ -63,6 +64,14 @@ Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nig
 
 His own undated statement, preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, is consistent with that role. He says Ira Gale came to DCA with the turntable's look already established but needing help with the electronics and mechanical engineering, and that most of the work was done at DCA. He also says an outside consultant was brought in to stabilise the phase-locked loop and that Steve Twitchet hand-laid the circular control-tower PCBs. According to Ramsden, the motors arrived as finished Litton units, so DCA's electronics work did not extend to the motor internals.
 
+### Dr Sao Win
+
+**Dr Sao Win is not named on the 1974 patent**, and Nigel Hobden has said he has never heard of Sao Win or Win Laboratories in connection with Gale or the GT2101. Later accounts nevertheless describe Win as Ira Gale's college classmate and collaborator, and one says the two "shared the patents on the design". The earliest written source found so far for the connection is Dick Olsher's 1985 *Stereophile* review of the Gale GS402 loudspeaker, which introduces it with "As I understand it" and gives no source.
+
+There is also reported provenance that a current owner bought a GT2101 directly from Sao Win. That is genuine evidence of a physical connection between Win and a GT2101, but when and how he acquired it, and what it means, are unknown.
+
+The evidence, the later claims and the hypotheses under investigation, including a possible conflation of **Donald Wong / D. W. Labs** with **Sao Win / Win Labs**, are set out separately on [Dr Sao Win and the GT2101: an open question](/GT2101/research-notes/sao-win/). None of those hypotheses is established.
+
 ### Lucy Daniels
 
 Lucy Daniels was the office manager at Gale Electronics & Design. She was not involved in the technical work. A former employee who joined Gale in 1974 recalls that a friend knew "the secretary, Lucy, at Gale's" (see [Jules's story](/voices/stories/jules-former-gale-employee/)), and in January 1981 Lucy Daniels signed the [D. W. Labs letter to Huub Bouwmeester](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981), which gives the company's own account of the GT2101's origins, cost and sales.
@@ -85,6 +94,8 @@ According to Hobden:
 - **DCA also worked on the Gale GS401 loudspeaker**, not only the GT2101, but did not design it. Gale brought DCA a finished, working speaker, with its industrial design already done by Jon Bannenberg, and DCA's job was to turn it into a production model that could be made at scale. Bannenberg was the GS401's industrial designer, responsible for its form and appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
 - **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
 - **The curly cable** connecting the control tower to the motor was made by **Core Technologies** in Scotland.
+- **DCA engineered the GT2101**, including the electronics, the control tower and the servo loop.
+- **Dr Sao Win:** Hobden has never heard of Sao Win or Win Laboratories in connection with Gale or the GT2101. This is important first-hand testimony against any significant role, but not absolute proof: Hobden joined Gale after DCA took on the turntable (see [Dr Sao Win](#dr-sao-win)).
 - **Paul Ramsden** created the GT2101's electronics, including the touch start/stop on the control tower, which was very new technology at the time (see [Paul Ramsden](#paul-ramsden)).
 - **Billy Woodman** worked for Gale. Hobden did not say what his role was.
 - **Ira Gale ran up a large bill with DCA** and came to owe the firm a lot of money.
@@ -118,6 +129,7 @@ The following publications are leads for checking specifications against origina
 - **January 1976, *Radio-Electronics*** — “Optical Servo Turntable” reportedly describes a 10-pole, three-phase brushless DC motor, optical commutation, magnetic bearing, remote control and quartz-referenced speed monitoring.
 - **1976, *Stereo Hi-Fi Directory*** — reported specifications include a 1.048 MHz quartz crystal, optical monitoring at 600 times per revolution, 13 mm Plexiglas and SME 3002 compatibility. Verify the original scan before citing these as settled specifications.
 - **March 1975, Swedish *Radio & Television*** — reported company background and speed-stability figures; original-page verification remains necessary.
+- **c. 1976, Swedish dealer advert** — Mandins, Norrköping, with importer Imports & Exports by Holmström, Åby. Shows the GT2101 on a GS401 and claims 10.0–99.0 rpm, ±0.001% speed deviation at 33⅓ rpm and a five-year guarantee. The year and magazine are not printed on the cutting. [Advert, transcription and translation](/GT2101/marketing/#swedish-advert)
 - **1978 UK Hi-Fi Year Book** — reported listing at approximately £1,195 plus VAT.
 - **January 1976, *Poptronics*** — a reported photograph and description that may help compare later production geometry with the 1974 machine.
 
@@ -145,6 +157,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 6. Did Ira Gale buy the rights to Freivokh's design, as Hobden and the 1981 letter say, or use it without payment, as Freivokh says? When did Freivokh's turntable reach DCA, and when was Nigel Hobden transferred to Gale? Can documents such as agreements, DCA invoices or correspondence settle these questions?
 7. Can reliable production records resolve the conflicting estimates of units made?
 8. When exactly did Donald Wong buy Gale, and what happened to Gale production under D. W. Labs?
+9. Why does Sao Win appear in the 1985 *Stereophile* history of Gale when he does not appear in the 1974 patent or in Nigel Hobden's recollection, yet there is direct provenance evidence that he owned a GT2101? Where did Dick Olsher's information come from? See [Dr Sao Win: an open question](/GT2101/research-notes/sao-win/).
 
 ## Evidence guide
 
@@ -152,6 +165,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 - **Later independent evidence:** institutional biographies and records, later specialist publications and patent citations.
 - **Archive testimony:** GaleAudio.com material, recollections by named participants and owner-supplied provenance. Preserve the speaker and context; do not silently convert recollection into a contemporary fact.
 - **Working hypotheses:** identification of early machines, exact role attribution, development sequence and production totals. Keep these explicitly provisional until corroborated.
+- **Repetition is not corroboration.** A claim found on several modern websites may trace back to a single earlier statement. Count independent sources, not appearances. The Sao Win story is the clearest example in this archive.
 
 ## Preservation note
 

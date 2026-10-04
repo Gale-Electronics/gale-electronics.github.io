@@ -419,6 +419,31 @@ three weeks and nobody put them side by side.**
 
 ---
 
+## 18. Dr Sao Win — removed, then restored as an open question — 2–3 October 2026
+
+**2 October:** every attribution of the GT2101 to Dr Sao Win was removed, because no
+contemporary source, patent or first-hand account connected him to the deck.
+
+**3 October:** he is back, **as a question, not a credit.** Two things changed:
+
+- 📄 The earliest written source for the story was found: Dick Olsher's *Stereophile* review of
+  the **GS402 loudspeaker**, 1 August 1985 — *"As I understand it, the basic design resulted
+  from a collaboration of Ira Gale and Sao Win, who were college classmates at the time."*
+  Unsourced, and about a D. W. Labs-era speaker, not the turntable.
+- ⭐ A current owner reports buying a GT2101 **directly from Sao Win.** That is a real physical
+  connection, so the story cannot simply be written off as a mistake.
+
+✅ **What did not change:** Win is not on the 1974 patent (DE2547849A1), Nigel Hobden has never
+heard of him or Win Labs in connection with Gale, and Fremer's 2012 *"shared the patents"* is
+contradicted by the patent. **He is not credited with any part of the GT2101's design.**
+
+The GaleAudio.com credit and the Robyatt and Emmaco comments are restored to
+[Interviews & Provenance](/GT2101/interviews-provenance/) as preserved later claims, with
+archive notes. The evidence, later claims and hypotheses (including a possible Wong / Win
+conflation) are kept apart on [Dr Sao Win: an open question](/GT2101/research-notes/sao-win/).
+
+---
+
 ## Verification — 6 September 2026
 
 Every fact removed from a working note during the 6 September tidy is recorded above. The

@@ -36,6 +36,11 @@ It appeared on the cover of *Stereo Review* (October 1975) and *Playboy* (April 
 - **Engineering:** **Nigel Hobden**  
 - **Electronics & Electrical Design:** **Paul Ramsden** (DCA electronics group), responsible for all of the GT2101's electronic and electrical design, including the touch start/stop on the control tower  
 - **Client:** **Ira Gale**, who bought Freivokh's design and took it to DCA.  
+- **Collaborators:** **Ira Gale** and **Dr. Sao Win**, classmates from Harvey Mudd College.  
+  - Gale studied music at the Royal Academy of Music.  
+  - Win studied at Cambridge and helped co-develop the DC servo system.  
+  - They jointly held patents for the design.  
+  - *Archive note (2026): this credit is a **later claim**, preserved as GaleAudio.com gave it. Win is not among the five inventors named on the 1974 patent, Nigel Hobden has never heard of him in connection with Gale, and Paul Ramsden and Hobden both describe the servo electronics as DCA's work. The earliest written version found so far is a 1985 Stereophile review of the GS402 loudspeaker. See [Dr Sao Win: an open question](/GT2101/research-notes/sao-win/).*  
 
 The turntable was produced in very small numbers — approximately **60 to 200 units** — at a cost of **$1,975 USD** (without tonearm).  
 It featured **a separate stainless-steel motor pod**, **quartz-locked optical servo system**, and a **floating magnetic bearing**.  
@@ -114,6 +119,14 @@ Notable owners reportedly included **J. Paul Getty**, **Elton John**, **Frank Si
 **Kavi Alexander (2012):**  
 > “Friend Sven-Eric Borja had one in the ‘70s. When ‘high end’ was spinning on rubber bands, there was the Gale — advanced and beautiful.  
 > Gale → EMT → Paragon → Electro Research A75 → stacked Quads = heaven.”
+
+**Robyatt (2014):**  
+> “I own **Sao Win’s** personal turntable and have the emails from him to prove it.”
+
+**Emmaco (site owner, 2016):**  
+> “I spoke with Dr. Win recently. He’s retired, living in the Santa Barbara area, and still passionate about music and education.”
+
+*Archive note (2026): a current GT2101 owner has separately told the archive that he bought his turntable directly from Sao Win. Whether that is the machine Robyatt refers to has not been confirmed. See [Dr Sao Win: an open question](/GT2101/research-notes/sao-win/#a-gt2101-owned-by-sao-win).*
 
 **Adrian Newitt (2014):**  
 > “I wrote the *Hi-Fi News & Record Review* article. I borrowed DCA’s turntable at the time — not sure where it went later.  
