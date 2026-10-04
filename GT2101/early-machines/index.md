@@ -100,7 +100,7 @@ This drawing was uploaded alongside the photograph as page 4 in the same named s
 
 ## Ray Churchouse’s early machine, now with Mark Churchouse
 
-The photographs below document the early machine that belonged to Ray Churchouse and is now with his son Mark Churchouse. The photos were supplied from material shared about the machine. Mark says his father displayed it in his Unilet shops. Mark also relays that someone who worked in the shop said it had never worked. This is second-hand testimony; the archive has no independent record of the display history or operational status. Mark says he has no further information about Gale from his father.
+The photographs below document the early machine that belonged to Ray Churchouse and is now with his son Mark Churchouse. The photos were supplied from material shared about the machine. Mark says his father displayed it in his Unilet shops. Mark also relays that someone who worked in the shop said it had never worked. This is second-hand testimony; the archive has no independent record of the display history or operational status. Mark says he has no further information about Gale from his father. More on Ray: [Ray Churchouse archive](/voices/ray-churchouse/).
 
 ![Ray Churchouse’s early machine, now held by Mark Churchouse](images/churchouse-machine-01.jpg)
 

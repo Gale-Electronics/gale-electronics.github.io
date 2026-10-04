@@ -17,6 +17,8 @@ exclude:
   - rename-gt2101-files.ps1
   # Retired stub kept in the repo for provenance; not a page.
   - GT2101/engineering-drawings-schematics/motor-overview/motor-findings.md
+  # Working notes for outside searches; not a page.
+  - voices/ray-churchouse/research-brief.md
 defaults:
   # Search Console ownership file: must be served, must not be in the sitemap.
   - scope:
