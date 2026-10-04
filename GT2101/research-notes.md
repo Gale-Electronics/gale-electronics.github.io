@@ -129,6 +129,7 @@ The following publications are leads for checking specifications against origina
 - **January 1976, *Radio-Electronics*** — “Optical Servo Turntable” reportedly describes a 10-pole, three-phase brushless DC motor, optical commutation, magnetic bearing, remote control and quartz-referenced speed monitoring.
 - **1976, *Stereo Hi-Fi Directory*** — reported specifications include a 1.048 MHz quartz crystal, optical monitoring at 600 times per revolution, 13 mm Plexiglas and SME 3002 compatibility. Verify the original scan before citing these as settled specifications.
 - **March 1975, Swedish *Radio & Television*** — reported company background and speed-stability figures; original-page verification remains necessary.
+- **c. 1976, Swedish dealer advert** — Mandins, Norrköping, with importer Imports & Exports by Holmström, Åby. Shows the GT2101 on a GS401 and claims 10.0–99.0 rpm, ±0.001% speed deviation at 33⅓ rpm and a five-year guarantee. The year and magazine are not printed on the cutting. [Advert, transcription and translation](/GT2101/marketing/#swedish-advert)
 - **1978 UK Hi-Fi Year Book** — reported listing at approximately £1,195 plus VAT.
 - **January 1976, *Poptronics*** — a reported photograph and description that may help compare later production geometry with the 1974 machine.
 

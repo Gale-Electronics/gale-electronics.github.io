@@ -90,6 +90,16 @@ description: "Adverts, brochures, press features and international magazine cove
     </figcaption>
   </figure>
 
+  <figure>
+    <a href="#mkt-5">
+      <img src="/GT2101/marketing/ad-c1976_gale-gt2101-gs401_mandins-norrkoping_sweden_bw_001.jpg"
+           alt="Swedish dealer advert headed Audioprodukter från Gale, showing a GT2101 turntable and its control tower standing on a GS401 loudspeaker, with the Mandins shop logo">
+    </a>
+    <figcaption>
+      Swedish dealer advert, “Audioprodukter från Gale”, for a December demonstration at <strong>Mandins</strong>, Norrköping, showing the GT2101 on a GS401 loudspeaker. Importer: Imports &amp; Exports by Holmström, Åby. Dated 1976 by its source; the year and publication are not printed on the cutting. <a href="#swedish-advert">Transcription and translation below.</a>
+    </figcaption>
+  </figure>
+
 </div>
 
 <!-- LIGHTBOX TARGETS -->
@@ -112,6 +122,31 @@ description: "Adverts, brochures, press features and international magazine cove
   <img src="/GT2101/marketing/Radio_Gijutsu_Aug1976_GT2101_Feature.jpg" alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976, enlarged">
   <span class="close" aria-label="Close">×</span>
 </a>
+
+<a href="#" class="lightbox" id="mkt-5">
+  <img src="/GT2101/marketing/ad-c1976_gale-gt2101-gs401_mandins-norrkoping_sweden_bw_001.jpg" alt="Swedish Gale dealer advert for Mandins, Norrköping, showing the GT2101 on a GS401 loudspeaker, enlarged">
+  <span class="close" aria-label="Close">×</span>
+</a>
+
+<h2 id="swedish-advert">Swedish dealer advert, Mandins, Norrköping (c. 1976)</h2>
+
+<p class="lede">A single-page magazine advert in Swedish for a December special showing of Gale products at Mandins, “the sound shop in the town centre”, in Norrköping. The photograph shows a GT2101, with its control tower at left, standing on top of a GS401 loudspeaker. The importer was <strong>Imports &amp; Exports by Holmström</strong>, box 107, 616 00 Åby. The side credits read “Annonssida: Ulf Holmström” (advertisement page) and “Foto: Inge Hallberg”.</p>
+
+<p class="lede">The cutting is dated 1976 by the source that supplied it. Neither the year nor the magazine is printed on the page, so both are still to be confirmed. The specifications are the advertiser’s claims, not measurements. <a href="/assets/docs/Gale-Mandins-Norrkoping-advert-c1976.pdf">⤓ Download the scan (PDF, 0.5&nbsp;MB)</a></p>
+
+<p class="lede">The text panels at the foot are faint in the scan. The transcription below comes from the PDF’s text layer, made by FineReader in 2020, and may contain OCR errors. The translation is the archive’s own.</p>
+
+<table>
+  <thead><tr><th>Swedish (as printed)</th><th>English translation</th></tr></thead>
+  <tbody>
+    <tr><td>Audioprodukter från Gale</td><td>Audio products from Gale</td></tr>
+    <tr><td>December Specialvisning i Norrköping</td><td>December special showing in Norrköping</td></tr>
+    <tr><td>MANDINS — Ljudbutiken i centrum</td><td>Mandins — the sound shop in the town centre</td></tr>
+    <tr><td><strong>HÖGTALAREN GS401:</strong> Verklighetstrogen ljudåtergivning genom unika transientegenskaper som ger en notabel klarhet, både pop- och klassisk musik återges med lika hög kvalitet, i detta avseende är GS401 unik. Effekttålighet: 200 watt. Garanti: 7 år.</td><td><strong>The GS401 loudspeaker:</strong> Lifelike sound reproduction through unique transient properties that give a notable clarity; both pop and classical music are reproduced with equally high quality, and in this respect the GS401 is unique. Power handling: 200 watts. Guarantee: 7 years.</td></tr>
+    <tr><td><strong>SKIVSPELAREN GT2101:</strong> Hastigheter: 10.0–99.0 rpm. Hastighetsavvikelse (33⅓ rpm): ±0.001%. Svaj: Inte mätbart med dagens teknologi. Rumble: Lägre än den bästa testutrustnings egen inre störnivå. Garanti: 5 år.</td><td><strong>The GT2101 record player:</strong> Speeds: 10.0–99.0 rpm. Speed deviation (33⅓ rpm): ±0.001%. Wow: not measurable with today’s technology. Rumble: lower than the internal noise level of the best test equipment. Guarantee: 5 years.</td></tr>
+    <tr><td>Importör: Imports &amp; Exports by Holmström, box 107, 616 00 Åby</td><td>Importer: Imports &amp; Exports by Holmström, box 107, 616 00 Åby</td></tr>
+  </tbody>
+</table>
 
 <p class="lede" style="margin-top:1.2rem">
   <em>Images © Gale Electronics Archive / DCA Design Consultants — preserved for historical scholarship and commentary.</em>
