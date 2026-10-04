@@ -24,6 +24,7 @@ This page collects everything the archive holds on Ray in one place. It also lis
 | Interview recording | Audio interview with Ray (WAV). The original galeaudio.com page linked an edited version, `Ray-Churchouse-Interview-Edited.wav`, which the site mirror did not capture. | [Interview page](/voices/interviews/ray.html) |
 | Portrait | Photograph used on the About page | [About Gale](/about#key-figures) |
 | Early turntable | An early Gale turntable that belonged to Ray and is now with his son Mark Churchouse, with six photographs | [Early Machines](/GT2101/early-machines/#ray-churchouses-early-machine-now-with-mark-churchouse) |
+| Press | *Beat Instrumental*, August 1973: Ray as manager of R.E.W., Charing Cross Road | [Below](#contemporary-sources) |
 | Recollections | Ray's own words and memories of him, from the GaleAudio WordPress site and from Jules, a former Gale employee | [Below](#in-his-own-words) |
 
 ## In his own words
@@ -51,6 +52,21 @@ The [interview page](/voices/interviews/ray.html) summarises the recording as co
 - **Lucy Daniels**, Gale's office manager, was still in touch with Ray in January 2012 ([folder findings](/GT2101/project-notes/folder-findings/)).
 - **Mark Churchouse**, Ray's son, says his father displayed the early turntable in his **Unilet** shops. Mark says he has no further information about Gale from his father.
 
+## Contemporary sources
+
+### *Beat Instrumental*, August 1973: manager of R.E.W., Charing Cross Road
+
+The earliest record of Ray found so far is from 1973 itself. It is not a later recollection. *Beat Instrumental*'s "Instrumental News" pages ran a short piece, "Sounds for Stars", on the **R.E.W. Audio and Visual** shop at **146 Charing Cross Road**, London. The article describes the shop as carrying "one of the finest stocks of hi-fi recording and video equipment in the country".
+
+> "Ray Churchouse, manager of the Charing Cross branch, told Beat that a large proportion of the equipment was for professional use, and that many of the customers were studio engineers, technicians and musicians – who knew what they were after."
+
+Ray goes on to name customers. The Faces bought video equipment, Marc Bolan bought a 4-channel recorder and video equipment, and the Moody Blues and Shawn Phillips bought recording equipment. Shawn Phillips's was for a studio in Rome. Ray also says R.E.W. was selling 4-track recorders to the new commercial radio stations and video equipment to advertising agencies. **Jan Murray**, a director of R.E.W., is quoted in the same piece. A photograph caption names **Mickie Most** as one of the "stars" shopping there.
+
+- **Source:** *Beat Instrumental*, August 1973, "Instrumental News: Sounds for Stars", p. 50. [Scan at World Radio History](https://www.worldradiohistory.com/UK/Beat-Instrumental/Beat-Instrumental-1973-08-S-OCR.pdf)
+- **Found via:** ChatGPT search, October 2026. The quotation was checked against the page scan.
+- **What it establishes:** In 1973 Ray was manager of R.E.W.'s Charing Cross Road branch, selling hi-fi, recording and video equipment to professional customers. This is before the 1974–1977 period when Jules remembers him as Gale's salesman.
+- **What it does not establish:** Whether R.E.W. is the shop where Ira Gale bought components to take apart, or when Ray left R.E.W. for Gale.
+
 ## Where the accounts disagree
 
 The archive's own pages describe Ray in two different ways. Both are kept here until a primary source settles it.
@@ -58,10 +74,10 @@ The archive's own pages describe Ray in two different ways. Both are kept here u
 | Question | Account A | Account B |
 |---|---|---|
 | His role at Gale | Ira's **first employee and sales manager** (Ray's own comment; Jules calls him "the salesman") | A **supplier and adviser** to Ira during the early GS401 work (About page card, source not given) |
-| His shops | Mark says Ray displayed the turntable in his **Unilet** shops | The interview page links him with **Hi-Fi-Fo-Fum**, South Kensington; the About page says he "founded one of London's most successful hi-fi stores" without naming it |
+| His shops | Manager of **R.E.W.**, 146 Charing Cross Road, in 1973 ([Beat Instrumental](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road)). Mark says Ray displayed the turntable in his **Unilet** shops | The interview page links him with **Hi-Fi-Fo-Fum**, South Kensington; the About page says he "founded one of London's most successful hi-fi stores" without naming it |
 | Later career | The About page says he later worked with **Quad**. No source is given. | — |
 
-These may all be true at different dates: a shop customer of Ira's in the early 1970s, then Gale's salesman, then a retailer again. The order and dates are not established.
+These may all be true at different dates. The 1973 article now fixes one point: Ray was a shop manager at R.E.W. before the period Jules remembers him at Gale. That fits a sequence of Ira meeting Ray as a shop customer, Ray joining Gale as its salesman, then returning to retail. Apart from 1973, the order and dates are not established.
 
 ## Timeline
 
@@ -70,17 +86,19 @@ Only dated, sourced entries go here. Undated points stay in [Leads](#leads-to-ch
 | Date | Event | Source |
 |---|---|---|
 | Early 1970s | Ira Gale visits Ray's shop and buys components to take apart | Ray, quoted on the [About page](/about#legacy) |
+| 1973 | Manager of the R.E.W. Audio and Visual shop, 146 Charing Cross Road | [*Beat Instrumental*, Aug 1973, p. 50](#beat-instrumental-august-1973-manager-of-rew-charing-cross-road) |
 | 1974–1977 | Ray is Gale's salesman at Bruton Place and works the hi-fi shows | [Jules](/voices/stories/jules-former-gale-employee/) |
 | January 2012 | Still in touch with Lucy Daniels | [Folder findings](/GT2101/project-notes/folder-findings/) |
 
 ## Open questions
 
 1. When did Ray join Gale, and when did he leave?
-2. Which shops did he own or work at: R.E.W. (Charing Cross Road, see [Leads](#leads-to-check)), Hi-Fi-Fo-Fum, Unilet, others? Where and when?
-3. Did he work for Quad, and in what role?
-4. How did he come to own the early turntable, and when did he get it?
-5. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
-6. Is there a fuller or unedited version of the interview recording?
+2. Which shops did he own or work at besides R.E.W.: Hi-Fi-Fo-Fum, Unilet, others? Where and when?
+3. Was R.E.W. the shop where Ira Gale bought components to take apart? When did Ray leave R.E.W. for Gale?
+4. Did he work for Quad, and in what role?
+5. How did he come to own the early turntable, and when did he get it?
+6. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
+7. Is there a fuller or unedited version of the interview recording?
 
 ## Leads to check
 
@@ -96,13 +114,7 @@ Template for each lead:
 - **Notes:** <what the source actually says, quoted where possible>
 -->
 
-### Manager of R.E.W.'s Charing Cross Road shop, 1973
-- **Status:** unverified. The quoted wording has not yet been checked against the scan.
-- **Source:** *Beat Instrumental*, August 1973, "Instrumental News", article "Sounds for Stars", p. 50 (as reported). [Scan at World Radio History](https://www.worldradiohistory.com/UK/Beat-Instrumental/Beat-Instrumental-1973-08-S-OCR.pdf)
-- **Found via:** ChatGPT search, October 2026. A web search confirms that the issue exists and that R.E.W. (Audio Visual) Ltd was at 146 Charing Cross Road, London WC2, in 1973. It did not surface the Churchouse sentence.
-- **Notes:** The article is reported to cover the R.E.W. Audio & Visual shop at 146 Charing Cross Road and to say: "Ray Churchouse, manager of the Charing Cross branch, told Beat…". Ray then talks about the shop's professional customers, and The Faces, Marc Bolan, the Moody Blues and Shawn Phillips are named. Jan Murray is named as a director of R.E.W.
-- **Why it matters:** If confirmed, this is a contemporary source, not a later recollection. It would date Ray to hi-fi retail in 1973, before the 1974–1977 period when Jules remembers him as Gale's salesman. It would also fit Ray's story of Ira Gale buying equipment from "his shop" in the early 1970s. That raises a new question: is R.E.W. the shop where Ira bought components?
-- **To verify:** Open p. 50 of the scan, confirm the sentence word for word, then note the printed page number and move the entry into the timeline.
+*No open leads. Verified leads are moved into the page above.*
 
 ## Contribute
 
