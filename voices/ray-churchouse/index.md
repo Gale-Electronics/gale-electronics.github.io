@@ -76,7 +76,7 @@ Only dated, sourced entries go here. Undated points stay in [Leads](#leads-to-ch
 ## Open questions
 
 1. When did Ray join Gale, and when did he leave?
-2. Which shops did he own or work at: Hi-Fi-Fo-Fum, Unilet, others? Where and when?
+2. Which shops did he own or work at: R.E.W. (Charing Cross Road, see [Leads](#leads-to-check)), Hi-Fi-Fo-Fum, Unilet, others? Where and when?
 3. Did he work for Quad, and in what role?
 4. How did he come to own the early turntable, and when did he get it?
 5. Which US military exchange (PX) stores did Gale supply through him, in the UK and in Germany?
@@ -96,7 +96,13 @@ Template for each lead:
 - **Notes:** <what the source actually says, quoted where possible>
 -->
 
-*No leads recorded yet.*
+### Manager of R.E.W.'s Charing Cross Road shop, 1973
+- **Status:** unverified. The quoted wording has not yet been checked against the scan.
+- **Source:** *Beat Instrumental*, August 1973, "Instrumental News", article "Sounds for Stars", p. 50 (as reported). [Scan at World Radio History](https://www.worldradiohistory.com/UK/Beat-Instrumental/Beat-Instrumental-1973-08-S-OCR.pdf)
+- **Found via:** ChatGPT search, October 2026. A web search confirms that the issue exists and that R.E.W. (Audio Visual) Ltd was at 146 Charing Cross Road, London WC2, in 1973. It did not surface the Churchouse sentence.
+- **Notes:** The article is reported to cover the R.E.W. Audio & Visual shop at 146 Charing Cross Road and to say: "Ray Churchouse, manager of the Charing Cross branch, told Beat…". Ray then talks about the shop's professional customers, and The Faces, Marc Bolan, the Moody Blues and Shawn Phillips are named. Jan Murray is named as a director of R.E.W.
+- **Why it matters:** If confirmed, this is a contemporary source, not a later recollection. It would date Ray to hi-fi retail in 1973, before the 1974–1977 period when Jules remembers him as Gale's salesman. It would also fit Ray's story of Ira Gale buying equipment from "his shop" in the early 1970s. That raises a new question: is R.E.W. the shop where Ira bought components?
+- **To verify:** Open p. 50 of the scan, confirm the sentence word for word, then note the printed page number and move the entry into the timeline.
 
 ## Contribute
 
