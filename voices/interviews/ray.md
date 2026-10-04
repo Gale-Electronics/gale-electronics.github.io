@@ -19,4 +19,6 @@ Ray helped establish Gale’s UK retail network and the US Air Force PX distribu
 
 In this interview Ray talks about the atmosphere at **Hi-Fi-Fo-Fum** in South Kensington, celebrity clients including **Yul Brynner**, and how Gale Electronics grew from a small operation into a recognised name in high-fidelity audio.
 
+More on Ray, including the early turntable his family holds: [Ray Churchouse archive](/voices/ray-churchouse/).
+
 *[Recorded for the Gale Electronics Archive — © Gale Electronics Oral History Project]*

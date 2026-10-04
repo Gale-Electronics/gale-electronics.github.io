@@ -94,15 +94,16 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
 </article>
 
 <article class="person-card">
-  <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchhouse" loading="lazy">
+  <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchouse" loading="lazy">
   <div class="person-body">
-    <h3>Ray Churchhouse <span class="role">Trade • Industry Provenance</span></h3>
+    <h3>Ray Churchouse <span class="role">Trade • Industry Provenance</span></h3>
     <p>A major figure in British hi-fi retail and distribution, Ray supplied components to Gale during its formative period and later worked with <strong>Quad</strong>. He founded one of London’s most successful and respected hi-fi stores, known for serving musicians, producers, and celebrities throughout the 1970s and 1980s.</p>
     <ul class="highlights">
       <li>Key supplier and adviser to <strong>Ira Gale</strong> during the early GS401 experiments.</li>
       <li>Founder of a leading London hi-fi shop, selling to some of the biggest names in music.</li>
       <li>Later joined <strong>Quad</strong>, continuing his influence across the UK audio industry.</li>
     </ul>
+    <a href="/voices/ray-churchouse/" class="person-link">↳ Ray Churchouse archive</a>
     <a href="/assets/audio/Ray-Churchouse-Interview.wav" class="person-link">↳ Listen to interview</a>
   </div>
 </article>
@@ -157,7 +158,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
   <p>This <strong>Gale Electronics Archive</strong> and the <strong>Vintage Gale</strong> project exist to preserve the technical, visual and historical record of the company’s work — including schematics, PCB layouts, adverts, driver data and interviews with the original engineers.</p>
   <p>The archive builds on the decades of support provided by <strong>Dave Smith</strong>, who assisted Gale owners for over forty years. Due to ill health, Dave can no longer continue; the baton has passed to <strong>Matt</strong>, ensuring Gale’s legacy is maintained with the same care and attention to detail.</p>
   <blockquote>
-    <p>A memory that captures <strong>Ira Gale’s</strong> character comes from <strong>Ray Churchhouse</strong>, who recalled Ira visiting his shop in the early 1970s and buying top-end components not to listen to — but to take apart and understand.</p>
+    <p>A memory that captures <strong>Ira Gale’s</strong> character comes from <strong>Ray Churchouse</strong>, who recalled Ira visiting his shop in the early 1970s and buying top-end components not to listen to — but to take apart and understand.</p>
     <p>“I knew he was going to pull it to bits the moment he left the shop,” said Ray. “He wanted to understand every part of it.”</p>
   </blockquote>
   <p>Together, these archives ensure that Gale’s contribution to British hi-fi design remains accessible to restorers, researchers and enthusiasts worldwide.</p>
@@ -167,7 +168,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
 <h2>Sources and Acknowledgements</h2>
 <ul>
   <li>Original documentation from <em>GaleAudio.com</em></li>
-  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchhouse</strong> and <strong>Nigel Hobden</strong>, and correspondence with <strong>Ken Freivokh</strong></li>
+  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchouse</strong> and <strong>Nigel Hobden</strong>, and correspondence with <strong>Ken Freivokh</strong></li>
   <li>Design records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
   <li>Technical data from <strong>DCA Design Consultants</strong></li>
   <li>Research and curation by <strong>John Maybury (galeaudio.com)</strong>, <strong>Dave Smith</strong> &amp; <strong>Matt The Shepherd (Vintage Gale, UK)</strong></li>
