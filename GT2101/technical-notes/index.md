@@ -15,6 +15,12 @@ Every claim in this section carries a status marker: ✅ confirmed against the h
 Where a note contradicts the inherited descriptions elsewhere in this archive, the note is
 the later work and says why.
 
+## How it works
+
+- [**How the speed servo works**](/GT2101/technical-notes/servo-loop/) — a plain-language
+  explanation of the closed loop from the Helipot to the motor and back, with what is
+  established kept apart from what is reconstructed. Start here if you are new to the deck.
+
 ## The boards
 
 - [**Disk 4 — the servo board**](/GT2101/technical-notes/board-4-servo/) — `GT201/3276ST ISSUE C`.
