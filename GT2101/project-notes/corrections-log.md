@@ -461,7 +461,7 @@ role is **unresolved**.
 designer. No document connects him to DCA or Gale. Freivokh does not recall him; Hobden
 believes he worked with Freivokh.
 
-❓ **Added as an UNPROVEN hypothesis:** that Arnall may have been the **unnamed outside
+**Added as an UNPROVEN hypothesis:** that Arnall may have been the **unnamed outside
 consultant** Paul Ramsden recalls being brought in to stabilise the PLL, or another external
 specialist on the servo and control electronics. Ramsden does not name the consultant, and the
 archive does not say Arnall designed the PLL. See
