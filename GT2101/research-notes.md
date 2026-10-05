@@ -21,7 +21,7 @@ This page brings together research on the GT2101's development, public launch, c
 | After Freivokh's 1971/2 Royal College of Art experiment (exact date not established) | Nigel Hobden recalls that Ira Gale bought the design and rights to Kenneth Freivokh's student turntable, then took it to DCA (David Carter Associates), where Hobden first saw it. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | 25 October 1974 | Priority date recorded for the patent family describing a sound record player deck. The named inventors are Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor; the listed assignee is Gale Electronics & Design Ltd. | [Patent family record: DE2547849A1](https://patents.google.com/patent/DE2547849A1/en) |
 | 28 October–3 November 1974 | Gale Electronics & Design Ltd exhibited at the International Audio Festival & Fair at Olympia, London. The programme listed stand G6 and described the GT2101 as a direct-drive turntable. | [1974 Fair programme](https://www.worldradiohistory.com/UK/Miscellaneous/International-Audio-Festival-%26-Fair-1974.pdf) |
-| 1 November 1974 | *Felix*, issue 367, reported on the Fair. Richard Szczepanski's article, with photographs by Peter Crawford, names a Dennis Arnall as the turntable's designer. No other source supports that credit (see [Dennis Arnall](#dennis-arnall)). | [Felix 367](https://issues.felixonline.co.uk/felix_367.pdf) |
+| 1 November 1974 | *Felix*, issue 367, reported on the Fair. Richard Szczepanski's article, with photographs by Peter Crawford, states that "the designer of the turntable, Dennis Arnall, is a former gyroscope designer", and describes him discussing the prototype's servo motor, pulse-counted speed measurement and 5.0 MHz crystal reference. Arnall is not named on the patent, and his precise role is unresolved (see [Dennis Arnall](#dennis-arnall)). | [Felix 367](https://issues.felixonline.co.uk/felix_367.pdf) |
 | Date not established | Nigel Hobden recalls that, with Ira Gale owing DCA a large sum, he was effectively transferred from DCA to Gale Electronics & Design, where as technical director he oversaw production of the GT2101 turntable and the Gale speakers. | [Nigel Hobden, conversation, September 2026](#nigel-hobdens-recollection-september-2026) — archive testimony |
 | Later 1970s | Later trade coverage and directories describe the GT2101's unusual motor, optical speed sensing, magnetic bearing and digital control. Individual specifications vary by source and should be checked against each original scan. | See [contemporary sources](#contemporary-technical-coverage) below. |
 | Late 1970s or early 1980s (exact date not established) | Gale Electronics & Design Ltd failed and **Donald Wong** bought the company, trading as D. W. Labs Limited. The business moved from Bruton Place, Mayfair, to smaller premises, with offices at Gray's Inn Road and a registered address in Kensal Road. | [D. W. Labs and the sale of Gale](#d-w-labs-and-the-sale-of-gale) |
@@ -46,11 +46,66 @@ The patent names **Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel
 
 ### Dennis Arnall
 
-**The archive does not credit Dennis Arnall as the GT2101's designer.** The only source that does is the 1 November 1974 *Felix* article, which calls him the designer and describes him as a former gyroscope designer. No other source supports this: the design began with Kenneth Freivokh's Royal College of Art turntable, and Freivokh does not recall him. Arnall is not among the five inventors named in the later patent. That difference is unresolved: practical or engineering responsibility, divided design work and journalistic shorthand are all possibilities, but none is established by the evidence here. No secure pre-1974 biography or employer has yet been identified.
+**Dennis Arnall is documented as the designer of the turntable in a contemporary 1974 source, but his precise role is unresolved.** The archive does not credit him as the GT2101's sole designer, and it does not dismiss the 1974 attribution as an error.
 
-It had been assumed that Arnall worked for DCA or Gale. In his September 2026 recollection, however, Nigel Hobden said he believed Arnall **worked with Kenneth Freivokh to produce the precursor turntable**. If so, that could help explain the gap between *Felix* calling Arnall the designer and the patent leaving him out: he may have contributed to Freivokh's original turntable rather than to the later Gale and DCA work. This is Hobden's understanding, not a documented role, and Arnall's employer is still unconfirmed.
+#### What the contemporary source says
 
-Ken Freivokh, however, does not recall anyone called Dennis Arnall, and says all the work on his turntable was done at the Royal College of Art with the help of the college's Industrial Design (Engineering) technicians (email, September 2026). That makes Hobden's suggestion less likely, and leaves Arnall's connection to the GT2101 unexplained.
+The 1 November 1974 issue of *Felix* (issue 367), reporting on the Audio Fair, states:
+
+> "The designer of the turntable, Dennis Arnall, is a former gyroscope designer…"
+
+The article goes on to describe Arnall discussing the prototype shown at the Fair and its technology: direct coupling to a DC servo motor, motor speed measured by a pulse counter coupled to the motor shaft, a 5.0 MHz crystal oscillator reference, continuously adjustable speed from 10 to 99 rpm and a digital speed readout (see [What the 1974 machine was reported to do](#what-the-1974-machine-was-reported-to-do)).
+
+This is **primary contemporary evidence** that, in November 1974, Arnall was publicly presented as the designer of the turntable and was associated with the prototype at the Audio Fair. What it does not establish independently is what he designed, who employed him, or how his work related to that of the people named on the patent. No secure pre-1974 biography or employer has yet been identified, and the archive has not confirmed where he worked on gyroscopes.
+
+#### The patent discrepancy
+
+The later patent names five inventors: **Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor**. Arnall is not among them. The archive therefore does **not** claim that Arnall was the sole designer of the GT2101.
+
+Absence from a patent does not show that someone had no design role, however. Patent inventorship covers the claimed invention, not every piece of engineering in a product. Arnall may have contributed engineering that did not lead to inventorship, or may have worked as an external specialist or consultant. Paul Ramsden, whom Nigel Hobden credits with the GT2101's electronic and electrical design, is not named on the patent either.
+
+#### What the witnesses recall
+
+- **Nigel Hobden** (conversation, September 2026) believes Arnall **worked with Kenneth Freivokh to produce the precursor turntable**, rather than for DCA or Gale. This is Hobden's understanding, not a documented role.
+- **Ken Freivokh** (email, September 2026) does not recall anyone called Dennis Arnall, and says all the work on his turntable was done at the Royal College of Art with the help of the college's Industrial Design (Engineering) technicians. That makes Hobden's suggestion less likely.
+- **Paul Ramsden**, in his undated statement as preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, says:
+
+  > "Most was done at DCA, though we brought in an outside consultant to stabilise the phase-locked loop (PLL) that locks the motor to the crystal oscillator."
+
+  The consultant is **not named** in the surviving account, and Ramsden does not connect the consultant with Arnall. The version on that page appears to be condensed: its sentence about the motors differs in wording from the Ramsden quotation recorded in the project notes. The original statement should be checked before this sentence is relied on word for word.
+
+#### Hypothesis (unproven): was Arnall the outside consultant?
+
+**Status: UNPROVEN — working hypothesis, not established.** Could Dennis Arnall have been the unnamed outside consultant Ramsden recalls, or one of the external specialists involved in the GT2101's servo and control electronics?
+
+The question is worth recording because several independent strands point the same way:
+
+- *Felix* identifies Arnall as the designer of the turntable.
+- *Felix* identifies him specifically as a **former gyroscope designer**.
+- The GT2101 used a sophisticated crystal-referenced servo system to hold platter speed, and the 1974 Fair programme described its technology as having "more in common with inertial guidance systems" than conventional record players.
+- Paul Ramsden, separately, recalls an unnamed outside consultant being brought in to stabilise the PLL that locks the motor to the crystal oscillator.
+- Arnall was publicly associated with the prototype at the 1974 Audio Fair, and the technology *Felix* reports him discussing is the speed-control system.
+
+If true, this would be a plausible explanation for why a former gyroscope designer was publicly described as the designer of a turntable whose most unusual engineering lay partly in its precision servo and control system. It is **not** evidence that Arnall designed the PLL, or that he was the consultant. Closed-loop control in general was commonplace by 1974, in aircraft, industry and other turntables, so the question is narrower: whether the GT2101's specialist servo work, and in particular the PLL stabilisation, drew on gyroscope or inertial-instrument experience. For how the servo works and why, see [How the speed servo works](/GT2101/technical-notes/servo-loop/#why-this-matters-in-the-context-of-dennis-arnall). No document connects him to DCA or Gale, and none names the consultant.
+
+#### What the archive's reconstruction is, and is not
+
+The archive's current reconstruction is **not** "Freivokh designed the turntable, then Arnall designed the entire electronics."
+
+The more cautious interpretation is:
+
+- Kenneth Freivokh's earlier design provides the physical and design starting point.
+- Ira Gale and the DCA team developed the commercial GT2101, with Paul Ramsden responsible for the electronic and electrical design, according to Nigel Hobden.
+- Specialist engineering may have been contributed by others, including the outside consultant Ramsden recalls.
+- Dennis Arnall **may** have had a specialist or consulting role, potentially connected with the servo and control system.
+
+That would explain how *Felix* could accurately call Arnall "the designer of the turntable" without his having designed the entire machine. Journalistic shorthand, divided design work, or Arnall presenting the deck on Gale's behalf at the Fair remain possible explanations too.
+
+#### Cautions
+
+- Do not describe Arnall as the GT2101's sole designer, or as the designer of its PLL.
+- Do not connect Arnall to DCA or Gale, or give him an employment history, without documentary evidence.
+- Do not assume that a modern listing for a **Dennis E. Arnall** refers to the same person.
 
 ### DCA and the Carter connection
 
@@ -62,7 +117,7 @@ The available material supports an association between DCA and later GT2101 engi
 
 Paul Ramsden worked in the electronics group at DCA Design in Warwick, which Nigel Hobden managed. Ramsden and Hobden had been at university together before working together at DCA; which university, and when, is not yet recorded. Nigel Hobden credits Ramsden with **all of the GT2101's electronic and electrical design**. In particular, Hobden recalls that the **touch start/stop** on the control tower was Ramsden's idea and his work, and that touch-control technology was very new at the time. Ramsden is not among the five named patent inventors.
 
-His own undated statement, preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, is consistent with that role. He says Ira Gale came to DCA with the turntable's look already established but needing help with the electronics and mechanical engineering, and that most of the work was done at DCA. He also says an outside consultant was brought in to stabilise the phase-locked loop and that Steve Twitchet hand-laid the circular control-tower PCBs. According to Ramsden, the motors arrived as finished Litton units, so DCA's electronics work did not extend to the motor internals.
+His own undated statement, preserved on the [Interviews & Provenance](/GT2101/interviews-provenance/) page, is consistent with that role. He says Ira Gale came to DCA with the turntable's look already established but needing help with the electronics and mechanical engineering, and that most of the work was done at DCA. He also says an outside consultant, whom he does not name, was brought in to stabilise the phase-locked loop (see the unproven [Arnall hypothesis](#hypothesis-unproven-was-arnall-the-outside-consultant)), and that Steve Twitchet hand-laid the circular control-tower PCBs. According to Ramsden, the motors arrived as finished Litton units, so DCA's electronics work did not extend to the motor internals.
 
 ### Dr Sao Win
 
@@ -150,7 +205,7 @@ The old GaleAudio.com material is an important preservation source, especially w
 ## Open research questions
 
 1. Is Jonathan Carter's machine the one photographed at the 1974 Audio Fair?
-2. What was Dennis Arnall's exact role? Nigel Hobden believes he worked with Freivokh, but Freivokh does not recall him. Where had he worked on gyroscopes?
+2. What was Dennis Arnall's exact role? *Felix* called him the designer of the turntable in 1974, but he is not on the patent. Nigel Hobden believes he worked with Freivokh, but Freivokh does not recall him. Was he the unnamed outside consultant Paul Ramsden recalls bringing in to stabilise the PLL (unproven)? Where had he worked on gyroscopes? Can Ramsden's original statement, DCA records or Gale correspondence name the consultant?
 3. What was the outcome of UK application GB 46296/74, and can its file be located?
 4. What drawings and engineering records survive from Gale or DCA?
 5. Can the original Adrian Newitt *Hi-Fi & Record Review* article or his transparencies be found?
