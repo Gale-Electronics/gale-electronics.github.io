@@ -193,6 +193,13 @@ galeaudio.com (a 2012 magazine account and a repair-shop resale listing). Two in
 secondhand accounts agreeing is meaningfully better than one, but it is still narrative, not a
 document.
 
+❓ **Context, not a source for this motor:** a 1970 NASA report,
+[NTRS 19700018163](https://ntrs.nasa.gov/citations/19700018163), is described to the archive as a
+Bendix/NASA study of an **integral brushless DC torquer-encoder**, a brushless torque motor
+combined with position feedback in one unit. Not yet checked against the report. If accurate, it
+shows this motor's architecture already existed in aerospace instrument work by 1970. It does not
+connect Bendix to the GT2101. See [How the speed servo works](/GT2101/technical-notes/servo-loop/#closed-loop-control-was-not-unusual-in-1974).
+
 ❓ **These two threads are probably one thread.** Inland Motor made precision direct-drive brushless
 DC servo motors of exactly this construction, and Litton built gyros and the encoders that go with
 them — so "Litton and Inland" and "adapted from a shipboard gyro" are the same story told twice,

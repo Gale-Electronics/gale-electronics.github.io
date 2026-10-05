@@ -324,6 +324,14 @@ the 1974 Audio Fair, closed-loop electronic control was well established across 
   research aircraft first flew in 1972. It used a computer to make repeated corrections to its
   control surfaces in place of mechanical linkages, and analogue autopilots and stability
   augmentation systems were older still.
+- **In precision motor-encoder design.** A 1970 NASA report, recorded on the NASA Technical
+  Reports Server as [19700018163](https://ntrs.nasa.gov/citations/19700018163), concerns an
+  **integral brushless DC torquer-encoder**: a Bendix/NASA project combining a brushless torque
+  motor with position feedback in one unit. ❓ This description was supplied to the archive and
+  has not yet been checked against the report itself. If it is accurate, the report shows that
+  the GT2101's motor architecture, a brushless DC motor with an integral encoder, was already
+  being developed for aerospace instruments four years before the Audio Fair. Nothing connects
+  Bendix to the GT2101, whose encoder is possibly a Litton component.
 - **In industry.** Servo motors with electronic feedback were routine in machine tools,
   instruments and tape transports.
 - **In turntables.** Servo-controlled direct-drive decks were already on the market. The
@@ -347,6 +355,11 @@ instrument practice:
   judgement, not sourced history);
 - the **PLL stabilisation** that, according to Paul Ramsden, DCA brought in an outside
   consultant to handle.
+
+The NASA torquer-encoder report cuts both ways. It shows the GT2101's combination of a
+brushless motor and an integral encoder was not new in 1974. It also places that combination in
+the aerospace and inertial-instrument world, which is where a former gyroscope designer would
+have worked.
 
 That is the kind of specialist servo work a gyroscope or inertial-instrument engineer would have
 had direct experience of. Two contemporary or near-contemporary strands also point at that world.
