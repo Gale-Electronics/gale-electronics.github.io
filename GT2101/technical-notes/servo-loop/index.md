@@ -368,6 +368,60 @@ guidance systems" than with conventional record players. Two later secondhand ac
 motor was adapted from a shipboard gyro design, but that remains unconfirmed narrative (see
 [The motor](/GT2101/technical-notes/motor-findings/#sourcing--who-made-it)).
 
+### Aerospace control and the GT2101 servo
+
+The GT2101's speed control uses the same fundamental principle as the aerospace servo systems of
+its period. It continuously measures what the motor is actually doing, compares that with the
+required value, and applies a correction to keep the platter on target.
+
+The GT2101's motor is a ✅ three-phase brushless DC motor. ❓ It is attributed to **Inland** only
+in reconstructed galeaudio.com prose, and that attribution is unconfirmed. Its feedback comes
+from an ✅ optical encoder, a rotating disc on the motor shaft read by a fixed optical module,
+which provides ✅ **600 counts per revolution**. The archive identifies the encoder as a
+**possible Litton Encoder Division component**. Two first-hand witnesses name Litton as the
+motors' source, and the encoder's architecture closely matches Litton's, but no Litton marking or
+document has yet been tied to the part. The pulses go up to the control tower, where they are
+compared with the selected speed reference and used to correct the motor drive.
+
+This has some interesting parallels with the aerospace and military control technology of the
+time:
+
+- ✅ **Litton worked in inertial navigation.** A paper by J. Hughes of **Litton Guidance and
+  Control Systems**, "Helicopter Testing of Inertial Navigation Systems", was presented at the
+  Vertical Flight Society's Forum 28
+  ([SAE Mobilus](https://saemobilus.sae.org/papers/helicopter-testing-inertial-navigation-systems-vfs-f28-020);
+  [Vertical Flight Library](https://vtol.org/store/product/helicopter-testing-of-inertial-navigation-systems-2867.cfm)).
+  ❓ The paper itself has not been read for this archive. Forum 28 would date it to about 1972,
+  but that date has not been checked against the paper.
+- ✅ **Litton's Encoder Division supplied optical encoders for demanding servo and positioning
+  work.** Its January 1977 advertisement claims a range up to "the most sophisticated encoders
+  for military and NASA requirements".
+- ✅ **The same advertisement lists a motor-mounted type.** It describes **Model 73** as an
+  optical incremental encoder "for mounting to motors". The GT2101's encoder assembly closely
+  corresponds to that architecture, but it is not a part match (see
+  [The Litton Encoder Division evidence](/GT2101/technical-notes/motor-findings/#the-litton-encoder-division-evidence)).
+
+There is therefore a clear technological overlap between the kind of feedback system in the
+GT2101 and contemporary aerospace servo technology. If the encoder is Litton's, it came from a
+company whose wider business included inertial navigation. That is the same field as the 1974
+Fair programme's "inertial guidance systems" comparison and *Felix*'s "former gyroscope designer".
+
+That overlap is not evidence of descent. There is **no evidence** that the GT2101's servo was
+derived from a NASA aircraft or spacecraft system, or that Litton supplied or designed the
+complete servo. The surviving tower electronics are Gale's own numbered boards, and Nigel Hobden
+credits their design to Paul Ramsden at DCA. Buying a precision encoder from an aerospace supplier
+is not the same as buying its servo design. The connection is best treated as an area for further
+research, not as an established part of the GT2101's history.
+
+| | Status |
+|---|---|
+| Litton worked in inertial navigation | ✅ Established: the Litton Guidance and Control Systems paper above |
+| Litton's Encoder Division made optical encoders for military and NASA applications, including a motor-mounted type | ✅ Established: the 1977 *Electronic Design* advertisement |
+| The GT2101 uses an optical encoder, 600 counts per revolution, in its closed-loop speed control | ✅ Established |
+| That encoder is a Litton component | ❓ **Possible, strongly supported, not proven.** Two first-hand witnesses and a matching architecture; no part match yet |
+| The motor is an Inland motor | ❓ Unconfirmed: one galeaudio.com source |
+| The GT2101's servo was derived from NASA or aerospace technology, or Litton designed the complete servo | ❌ **Not established.** No evidence; the tower electronics are attributed to DCA |
+
 None of this shows who designed what. It gives a plausible reason to investigate Arnall's
 background in relation to the **specialist** parts of the GT2101's servo, and in particular the
 PLL stabilisation, while recognising that closed-loop control in general was commonplace by
