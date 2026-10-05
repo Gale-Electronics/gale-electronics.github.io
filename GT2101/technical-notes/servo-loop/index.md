@@ -301,10 +301,10 @@ electronic and electrical design, and Ramsden recalls an unnamed outside consult
 in to stabilise the PLL. See [Dennis Arnall](/GT2101/research-notes/#dennis-arnall) for the
 evidence and the unproven hypothesis that he may have been that consultant.
 
-There is, however, a conceptual connection worth investigating. Gyroscope and inertial-control
-systems are built on feedback: measure the system's actual state, compare it with the desired
-state, apply a correction, and repeat. The GT2101 applies the same broad philosophy to
-rotational speed:
+There is a conceptual connection, but it needs stating carefully. Gyroscope and
+inertial-control systems are built on feedback: measure the system's actual state, compare it
+with the desired state, apply a correction, and repeat. The GT2101 applies the same broad
+philosophy to rotational speed:
 
 | | |
 |---|---|
@@ -313,15 +313,52 @@ rotational speed:
 
 The sensors and physical quantities are different, and the GT2101's servo is **not** "the same
 technology as a gyroscope". The accurate statement is that both belong to the **same broad
-family of closed-loop control systems**. The 1974 Fair programme made a similar comparison,
-saying the deck's technology had "more in common with inertial guidance systems" than with
-conventional record players. Separately, two later secondhand accounts say the motor was adapted
-from a shipboard gyro design; that remains unconfirmed narrative (see
+family of closed-loop control systems**.
+
+### Closed-loop control was not unusual in 1974
+
+⚠ **That family resemblance does not, by itself, point to a gyroscope designer.** By the time of
+the 1974 Audio Fair, closed-loop electronic control was well established across engineering:
+
+- **In aircraft.** NASA's [F-8 Digital Fly-By-Wire](https://www.nasa.gov/centers-and-facilities/armstrong/flying-with-nasa-digital-fly-by-wire)
+  research aircraft first flew in 1972. It used a computer to make repeated corrections to its
+  control surfaces in place of mechanical linkages, and analogue autopilots and stability
+  augmentation systems were older still.
+- **In industry.** Servo motors with electronic feedback were routine in machine tools,
+  instruments and tape transports.
+- **In turntables.** Servo-controlled direct-drive decks were already on the market. The
+  Technics SP-10, which [the motor page](/GT2101/technical-notes/motor-findings/#signals)
+  mentions for comparison, is one example.
+
+So any competent electronics engineer of the period could have designed a closed-loop speed
+servo, including Paul Ramsden's group at DCA. Felix's description of Arnall as a gyroscope
+designer does not become significant just because the GT2101 uses feedback.
+
+### What remains worth investigating
+
+The narrower question is whether the GT2101's **particular** choices drew on precision
+instrument practice:
+
+- 📄 a **phase-locked** loop, which holds the platter's position against the reference rather
+  than just its speed;
+- ✅ high-resolution optical feedback at **600 counts per revolution**;
+- ✅ **linear class-AB** commutation instead of switched drive, which the motor page describes
+  as closer to precision instrument servo practice than to consumer hi-fi (engineering
+  judgement, not sourced history);
+- the **PLL stabilisation** that, according to Paul Ramsden, DCA brought in an outside
+  consultant to handle.
+
+That is the kind of specialist servo work a gyroscope or inertial-instrument engineer would have
+had direct experience of. Two contemporary or near-contemporary strands also point at that world.
+The 1974 Fair programme described the deck's technology as having "more in common with inertial
+guidance systems" than with conventional record players. Two later secondhand accounts say the
+motor was adapted from a shipboard gyro design, but that remains unconfirmed narrative (see
 [The motor](/GT2101/technical-notes/motor-findings/#sourcing--who-made-it)).
 
-None of this shows who designed what. It does give a plausible reason why a former gyroscope
-designer's appearance in the 1974 record is worth investigating in relation to the GT2101's
-unusual servo and control system.
+None of this shows who designed what. It gives a plausible reason to investigate Arnall's
+background in relation to the **specialist** parts of the GT2101's servo, and in particular the
+PLL stabilisation, while recognising that closed-loop control in general was commonplace by
+1974.
 
 ---
 
