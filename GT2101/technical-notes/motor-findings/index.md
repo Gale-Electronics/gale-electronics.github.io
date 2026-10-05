@@ -224,9 +224,38 @@ before:
 
 ### The Litton Encoder Division evidence
 
-📄 **Litton had a dedicated Encoder Division.** Its advertising in *Electronic Design*, 4 January
-1977, lists several optical encoder families, including **Model 73**, described as "incremental
-for mounting to motors" ([World Radio History scan](https://www.worldradiohistory.com/Archive-Electronic-Design/1977/Electronic-Design-V25-N01-1977-0104.pdf)).
+✅ **Litton had a dedicated Encoder Division.** Its full-page advertisement "Litton Shaft
+Position Encoders" appears in *Electronic Design* 1, 4 January 1977, page 82 (reader-service
+circle number 47) ([World Radio History scan of the issue](https://www.worldradiohistory.com/Archive-Electronic-Design/1977/Electronic-Design-V25-N01-1977-0104.pdf)).
+It gives the division's address as 20745 Nordhoff Street, Chatsworth, California 91311, and
+claims a range "from the simplest, low cost modular encoders to the most sophisticated encoders
+for military and NASA requirements". It shows fifteen product types:
+
+| Model or type | Description in the advert |
+|---|---|
+| Model 70 | Optical · industrial · incremental |
+| **Model 71** | **Optical · modular · incremental** |
+| Model 72 | Optical · size 25 · low cost, incremental |
+| **Model 73** | **Optical · incremental for mounting to motors** |
+| Model 74 | Optical · size 15 · low cost, incremental |
+| Model 76 | Low cost optical absolute |
+| Hollow shaft | Optical · incremental & absolute |
+| Size 25 & 35 | Absolute · optical commercial & military |
+| Size 25 & 35 | Incremental · optical commercial & military |
+| Size 11 | Pin contacts · absolute & incremental |
+| Heavy duty | Absolute |
+| Trackball | — |
+| Optical modular | Absolute |
+| Military specials | — |
+| Outer space applications | — |
+
+❓ **Models 71 and 73 are the two worth chasing.** Model 71 is a *modular* incremental optical
+encoder, which is the shaftless disc-and-readout arrangement of US 3,900,732 below. Model 73 is
+the one sold for mounting to motors. Neither is shown in enough detail to compare with the
+GT2101's module, and the Model 715/720 family (below) does not appear on this page by those
+numbers. A Litton catalogue or data sheet for Models 71 and 73 is the next thing to find.
+
+<figure><a href="litton-encoder-division-advert-electronic-design-1977-01-04-p82.png" target="_blank" rel="noopener"><img src="litton-encoder-division-advert-electronic-design-1977-01-04-p82.png" alt="Litton Encoder Division full-page advertisement, Litton Shaft Position Encoders, showing fifteen encoder types including Model 71 optical modular incremental and Model 73 optical incremental for mounting to motors"></a><figcaption>Litton Encoder Division, "Litton Shaft Position Encoders", <em>Electronic Design</em> 1, 4 January 1977, p. 82. <a href="litton-encoder-division-advert-electronic-design-1977-01-04-p82.png" target="_blank" rel="noopener">Open full size</a></figcaption></figure>
 
 📄 **US 3,900,732, "Encoder disc mount and aligning tool".** Assigned to Litton Systems Inc.;
 priority 15 April 1974; granted 19 August 1975. It is specifically an encoder-disc mounting and
@@ -353,6 +382,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | 2026-10-05 | Added the Model 715/720 modular optical encoders (hub-disc assembly and cover for motor-shaft mounting, also sold as complete motor/encoder packages) as the closest part-number match for the encoder module. |
 | 2026-10-05 | Replaced the flat "Litton optical encoder" statement with the archive identification: optical encoder assembly (rotating disc and fixed readout/photohead), possible Litton Encoder Division component, manufacturer and part number under investigation. Added the Litton Encoder Division evidence (1977 catalogue advertising, US 3,900,732, US 4,338,517, US 3,444,549) and the architecture comparison. Corrected the module's second marking to `9A 7526-41`, and noted that the `600` in the part number is not yet proven to denote resolution. |
 | 2026-10-05 | Added the two drawing sheets of US 3,900,732, which confirm its number and grant date (19 August 1975), with a reading of Figs. 1 and 2. |
+| 2026-10-05 | Added the Litton Encoder Division advertisement from *Electronic Design*, 4 January 1977, p. 82, with its full model list, and flagged Models 71 (modular incremental) and 73 (for mounting to motors) as the leads to follow. |
 
 ---
 
