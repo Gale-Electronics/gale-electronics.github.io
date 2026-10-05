@@ -28,10 +28,14 @@ Status markers used throughout: ✅ confirmed against the hardware · 📄 from 
   Do not promote a 📄 or ❓ claim to plain fact when quoting or summarising this page.
   Carry the marker with the claim.
 
-  Specifically: the preferred description is "The GT2101 used a Litton optical encoder,
-  providing 600 counts per revolution." Litton rests on two first-hand witnesses (Paul Ramsden
-  and Nigel Hobden), not on a document. Do not state "Inland", "Minebea" or "NMB" as fact.
-  See the Sourcing section.
+  Specifically: the archive identification of the encoder is
+  "Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead.
+  Possible Litton Encoder Division component; exact manufacturer and part number under
+  investigation." The 600 counts per revolution is documented; Litton as the maker is a
+  strongly supported possibility (two first-hand witnesses and a matching Litton encoder
+  architecture), not a proven identification. Do not state that M1N 875-600G1A is a Litton
+  part number, or that the encoder is a specific Litton model (715, 720, 73 or any other).
+  Do not state "Inland", "Minebea" or "NMB" as fact. See the Sourcing section.
 -->
 
 ---
@@ -43,16 +47,18 @@ Status markers used throughout: ✅ confirmed against the hardware · 📄 from 
   and the DIN connector. The geometry looks bespoke to the deck; no matching commercial enclosure
   has been found.
 - ✅ **Speed sensing is optical** — a mirrored disc, photographed through the stator bore.
-  **The GT2101 used a Litton optical encoder, providing 600 counts per revolution** (600 ✅ from
-  the hardware; Litton from two first-hand witnesses — see [Sourcing](#sourcing--who-made-it)).
+  The encoder is a **rotating optical disc read by a fixed black optical readout/photohead**, and
+  the system provides **600 counts per revolution** ✅.
+  **Archive identification:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton Encoder Division component; exact manufacturer and part number under investigation.* — see [Sourcing](#sourcing--who-made-it).
   ⚠ Not to be confused with the inherited page `Disk-3-Optical-Sensor.pdf`, which attaches the
   word "optical" to a *control-tower* board. That page has been checked against the hardware and
   is wrong: tower board 3 is the `F VAR` generator and drive-voltage gate, and has no optics on it.
   The optics are here, on the motor.
-- ✅ A separate encapsulated, serialised module sits at the centre of the stator, wired
-  independently to the motor PCB, labelled **`M1N 875-600G1A`**, **S/N `7526-41`**.
+- ✅ A separate black encapsulated, serialised module sits at the centre of the stator, wired
+  independently to the motor PCB, marked **`M1N 875-600G1A`**, with a second marking that
+  appears to read **`9A 7526-41`**.
   ❓ Its function is inferred from position and wiring rather than read off a label, but it is
-  almost certainly the read head serving the mirrored disc.
+  almost certainly the fixed optical readout/photohead serving the disc.
 - ✅ Windings colour-coded green/white, red/white, black/white.
 - ❓ **Connector accounting is unresolved.** The motor PCB carries a **6-pin DIN** socket, and the
   signals identified so far are Run/Stop, speed command, tacho out, analogue ground, power ground
@@ -162,12 +168,15 @@ the reasons the sourcing question below is interesting rather than academic.
 
 ## Sourcing — who made it
 
-**The GT2101 used a Litton optical encoder, providing 600 counts per revolution.** Litton is
-named by two first-hand witnesses from the project — Paul Ramsden at DCA ("the motors came in as
-finished units from Litton Industries") and Nigel Hobden, who named Litton unprompted on
-29 September 2026 (see [Research notes](/GT2101/research-notes/)). No Litton document or
-marking has yet been found on the hardware, so the attribution is testimony rather than a
-part-number match. The threads below are kept for anyone who wants to close that gap.
+**Archive identification:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton Encoder Division component; exact manufacturer and part number under investigation.*
+
+Litton is named by two first-hand witnesses from the project — Paul Ramsden at DCA ("the motors
+came in as finished units from Litton Industries") and Nigel Hobden, who named Litton unprompted
+on 29 September 2026 (see [Research notes](/GT2101/research-notes/)). The encoder's architecture
+also closely matches a contemporary Litton modular encoder system (see
+[The Litton Encoder Division evidence](#the-litton-encoder-division-evidence) below). No Litton
+document or marking has yet been tied to the module itself, so the identification stays at
+"possible". The threads below are kept for anyone who wants to close that gap.
 
 **"Litton" (encoder) and "Inland" (motor).** Appears in exactly one place: prose reconstructed
 from the defunct galeaudio.com "Turntable" page. No independent corroboration has been found in
@@ -205,11 +214,54 @@ while showing none of it.*
 ❓ **Two observations on the module's own markings**, offered here because they have not been made
 before:
 
-- The `600` in `M1N 875-**600**G1A` matches the measured ~600 pulses per revolution exactly. That
-  is very likely the line count encoded in the part number, which would make `875` the frame or
-  bore size and give a searchable format for anyone hunting a catalogue.
-- `S/N 7526-41` reads naturally as **year 1975, week 26** — which would place the module's
-  manufacture about six months before the January 1976 date code on tower board 4.
+- The `600` in `M1N 875-**600**G1A` matches the documented 600 counts per revolution. That is
+  interesting, but **it cannot yet be proved that the `600` denotes resolution**. If it does,
+  `875` may be a frame or bore size, which would give a searchable format for anyone hunting a
+  catalogue.
+- The second marking appears to read `9A 7526-41`. The `7526` reads naturally as
+  **year 1975, week 26**, which would place the module's manufacture about six months before
+  the January 1976 date code on tower board 4. What `9A` means is not known.
+
+### The Litton Encoder Division evidence
+
+📄 **Litton had a dedicated Encoder Division.** Its advertising in *Electronic Design*, 4 January
+1977, lists several optical encoder families, including **Model 73**, described as "incremental
+for mounting to motors" ([World Radio History scan](https://www.worldradiohistory.com/Archive-Electronic-Design/1977/Electronic-Design-V25-N01-1977-0104.pdf)).
+
+📄 **US 3,900,732, "Encoder disc mount and aligning tool".** Assigned to Litton Systems Inc.;
+priority 15 April 1974; granted 19 August 1975. It is specifically an encoder-disc mounting and
+alignment system, not a general motor patent
+([Google Patents](https://patents.google.com/patent/US3900732A/en)).
+
+📄 **A later patent, US 4,338,517**, describes the Litton rotary pulse generator associated with
+this system as a **modular encoder with no shaft of its own**: a commutator hub/pattern wheel
+on the host shaft, a separate readout module, a special alignment tool, and an adjustable
+optical air gap ([Google Patents](https://patents.google.com/patent/US4338517A/en)).
+
+That architecture is the GT2101's:
+
+| | Shaft | Rotating part | Fixed part |
+|---|---|---|---|
+| Litton modular encoder | the host's existing shaft | pattern wheel / disc on a hub | separate optical readout module |
+| GT2101 | the motor shaft | optical disc | black optical module, `M1N 875-600G1A` |
+
+📄 **Litton's encoder work predates the GT2101 by about a decade.** US 3,444,549, a rotational
+shaft encoder with 1965 priority, is assigned to Litton Precision Products
+([Google Patents](https://patents.google.com/patent/US3444549A/en)). That opens a much longer
+patent trail to work back through.
+
+**Where this stands:**
+
+- ✅ *Strongly supported:* the GT2101's encoder arrangement is very similar in architecture to a
+  contemporary Litton modular optical encoder system.
+- ❓ *Not yet proven:* that `875-600G1A` is a Litton part number.
+- ❓ *Not yet proven:* that the GT2101 encoder is a specific Litton catalogue model, such as 715,
+  720 or 73.
+
+⚠ *The patent details above come from research done outside this archive, and have not yet been
+re-read against the patent documents here. In that research the link for US 3,900,732 pointed to
+an unrelated patent (EP 0228642 A3), so the number and dates should be checked against the
+document itself before being cited further.*
 
 ### A close match: Model 715/720 modular optical encoders
 
@@ -220,8 +272,7 @@ and cover, designed for mounting on a motor-shaft assembly**. The same literatur
 
 That matches what is in the pod: a disc on the shaft, a separate read-head module wired
 independently to the motor PCB, and a motor and encoder supplied together as one finished unit.
-That fits Paul Ramsden's "finished units from Litton Industries" and the GT2101's 600 counts
-per revolution.
+That fits Paul Ramsden's account of motors arriving as finished units.
 
 ❓ **This is a close match, not an identification.** `M1N 875-600G1A` has not yet been found in
 any 715/720 listing, and the catalogue's own part-number format has not been compared against
@@ -235,9 +286,8 @@ it. Before promoting this to ✅, check:
 ⚠ *Source citation still to be added: the catalogue or datasheet title, its maker, its date and where a copy
 is held.*
 
-**Net position:** describe it as a Litton optical encoder providing 600 counts per revolution,
-on the strength of the Ramsden and Hobden testimony. Whether the motor itself was Inland-built
-remains unresolved.
+**Net position:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton Encoder Division component; exact manufacturer and part number under investigation.* The system provides 600 counts per revolution. Whether the
+motor itself was Inland-built remains unresolved.
 
 ---
 
@@ -280,6 +330,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | 2026-09-05 | Audited against `motSchem.pdf` at 400 dpi. **Corrected: the LM324 and LM339 roles were the wrong way round.** Added the `SPEED IN` single-command finding, the E113/J113 labelling, the rails, the tacho comparator's circuit-level confirmation of the 0/−10 V swing, and the lettered-pin thread for the connector accounting. Narrowed the "tacho from the winding" ❓. The superseded 22 August copy in `engineering-drawings-schematics/motor-overview/` was retired. |
 | 2026-10-04 | Adopted the standard description "The GT2101 used a Litton optical encoder, providing 600 counts per revolution", following Nigel Hobden's 29 September 2026 testimony agreeing with Paul Ramsden's. |
 | 2026-10-05 | Added the Model 715/720 modular optical encoders (hub-disc assembly and cover for motor-shaft mounting, also sold as complete motor/encoder packages) as the closest part-number match for the encoder module. |
+| 2026-10-05 | Replaced the flat "Litton optical encoder" statement with the archive identification: optical encoder assembly (rotating disc and fixed readout/photohead), possible Litton Encoder Division component, manufacturer and part number under investigation. Added the Litton Encoder Division evidence (1977 catalogue advertising, US 3,900,732, US 4,338,517, US 3,444,549) and the architecture comparison. Corrected the module's second marking to `9A 7526-41`, and noted that the `600` in the part number is not yet proven to denote resolution. |
 
 ---
 

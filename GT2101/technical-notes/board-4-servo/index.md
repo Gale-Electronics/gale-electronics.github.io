@@ -109,12 +109,14 @@ Because the loop compares the tacho against `1×F` one-for-one, in lock the tach
 is easy to arrive at a figure ten times smaller by assuming the loop compares the ×40 frequency
 (1332 Hz at 33⅓) instead of the ×10 one.
 
-The GT2101 used a Litton optical encoder, providing 600 counts per revolution, which is the
-figure the loop arithmetic predicts.
+The GT2101's optical encoder is documented as providing 600 counts per revolution, which is the
+figure the loop arithmetic predicts. (It is possibly a Litton Encoder Division component; see
+[The motor](/GT2101/technical-notes/motor-findings/#sourcing--who-made-it).)
 
 📄 **A second, independent strand points at the same number.** The encoder read head is a
-serialised module marked **`M1N 875-600G1A`, S/N 7526-41** — and the `600` in that part number
-is not derived from the loop at all. Two unrelated routes to 600 ppr is worth more than one
+serialised module marked **`M1N 875-600G1A`**, with a second marking that appears to read
+**`9A 7526-41`** — and the `600` in that part number is not derived from the loop at all, though
+it is not yet proven to denote resolution. Two unrelated routes to 600 ppr is worth more than one
 derivation, though neither is a measurement.
 
 ---
