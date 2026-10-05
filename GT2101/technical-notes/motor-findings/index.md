@@ -249,11 +249,19 @@ for military and NASA requirements". It shows fifteen product types:
 | Military specials | — |
 | Outer space applications | — |
 
-❓ **Models 71 and 73 are the two worth chasing.** Model 71 is a *modular* incremental optical
-encoder, which is the shaftless disc-and-readout arrangement of US 3,900,732 below. Model 73 is
-the one sold for mounting to motors. Neither is shown in enough detail to compare with the
-GT2101's module, and the Model 715/720 family (below) does not appear on this page by those
-numbers. A Litton catalogue or data sheet for Models 71 and 73 is the next thing to find.
+**The GT2101's optical encoder assembly closely corresponds to the Litton Model 73
+architecture.** Litton's 1977 advertising describes Model 73 as an optical incremental encoder
+specifically intended for mounting to motors, and contemporary patent documentation shows a
+motor-shaft-mounted optical disc with a fixed optical readout unit (see US 3,900,732 below) —
+the same arrangement as the GT2101's disc and black readout module.
+
+❓ *What this does and does not establish.* It is a correspondence of architecture, not a part
+match: `M1N 875-600G1A` has not been found in any Model 73 listing. The US 3,900,732 drawings
+shown below do not themselves name a Litton model, so the link between that patent and Model 73
+specifically should be cited from the source that makes it. Model 71 ("optical, modular,
+incremental") is the other Litton family with the same shaftless disc-and-readout layout and
+should not be ruled out. A Litton catalogue or data sheet for Models 71 and 73 is the next thing
+to find; the Model 715/720 family (below) does not appear on this page by those numbers.
 
 <figure><a href="litton-encoder-division-advert-electronic-design-1977-01-04-p82.png" target="_blank" rel="noopener"><img src="litton-encoder-division-advert-electronic-design-1977-01-04-p82.png" alt="Litton Encoder Division full-page advertisement, Litton Shaft Position Encoders, showing fifteen encoder types including Model 71 optical modular incremental and Model 73 optical incremental for mounting to motors"></a><figcaption>Litton Encoder Division, "Litton Shaft Position Encoders", <em>Electronic Design</em> 1, 4 January 1977, p. 82. <a href="litton-encoder-division-advert-electronic-design-1977-01-04-p82.png" target="_blank" rel="noopener">Open full size</a></figcaption></figure>
 
@@ -302,7 +310,8 @@ patent trail to work back through.
 **Where this stands:**
 
 - ✅ *Strongly supported:* the GT2101's encoder arrangement is very similar in architecture to a
-  contemporary Litton modular optical encoder system.
+  contemporary Litton modular optical encoder system, and closely corresponds to the Litton
+  Model 73, sold for mounting to motors.
 - ❓ *Not yet proven:* that `875-600G1A` is a Litton part number.
 - ❓ *Not yet proven:* that the GT2101 encoder is a specific Litton catalogue model, such as 715,
   720 or 73.
@@ -383,6 +392,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | 2026-10-05 | Replaced the flat "Litton optical encoder" statement with the archive identification: optical encoder assembly (rotating disc and fixed readout/photohead), possible Litton Encoder Division component, manufacturer and part number under investigation. Added the Litton Encoder Division evidence (1977 catalogue advertising, US 3,900,732, US 4,338,517, US 3,444,549) and the architecture comparison. Corrected the module's second marking to `9A 7526-41`, and noted that the `600` in the part number is not yet proven to denote resolution. |
 | 2026-10-05 | Added the two drawing sheets of US 3,900,732, which confirm its number and grant date (19 August 1975), with a reading of Figs. 1 and 2. |
 | 2026-10-05 | Added the Litton Encoder Division advertisement from *Electronic Design*, 4 January 1977, p. 82, with its full model list, and flagged Models 71 (modular incremental) and 73 (for mounting to motors) as the leads to follow. |
+| 2026-10-05 | Recorded that the GT2101's encoder assembly closely corresponds to the Litton Model 73 architecture (optical incremental, for mounting to motors; motor-shaft disc with fixed readout). Kept it as an architectural match, not a part-number identification. |
 
 ---
 
