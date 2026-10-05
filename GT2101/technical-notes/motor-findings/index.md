@@ -233,6 +233,26 @@ priority 15 April 1974; granted 19 August 1975. It is specifically an encoder-di
 alignment system, not a general motor patent
 ([Google Patents](https://patents.google.com/patent/US3900732A/en)).
 
+✅ **The drawing sheets confirm the number and the grant date.** Both sheets are headed
+"PATENTED AUG 19 1975" and "3,900,732". They show the same layout as the GT2101's encoder:
+
+- **Fig. 1:** a C-shaped readout housing (10) carrying a readout element (12, 14), with an open
+  slot (16) so that it can be lowered sideways around the hub (20) and shaft (22) of a motor
+  (24, drawn dashed). A slotted disc (30), with its lines (32) at the rim, is clamped to the
+  hub by a set screw (50). Screws (28) through the housing hold it to the motor.
+- **Fig. 2:** the same parts assembled. An alignment tool (42) has a bore (44) that fits over
+  the shaft and two pins (48) that locate in holes (40) in the housing, which sets the readout
+  housing concentric with the shaft. A thin strip (34) between the disc and the readout looks
+  like a feeler gauge for setting the optical gap.
+
+❓ *The descriptions of the numbered parts are read from the drawings alone. The patent's text
+and claims have not yet been read here, so the meanings of 12, 14 and 34 in particular should
+be checked against it.*
+
+<figure><a href="US3900732-sheet-1-fig-1.webp" target="_blank" rel="noopener"><img src="US3900732-sheet-1-fig-1.webp" alt="US patent 3,900,732, sheet 1, Fig. 1: exploded view of a C-shaped encoder readout housing being lowered around a motor shaft that carries a slotted encoder disc on a hub"></a><figcaption>US 3,900,732, sheet 1 of 2, Fig. 1: the readout housing (10) lowered sideways around the motor shaft (22), above the disc (30) on its hub. <a href="US3900732-sheet-1-fig-1.webp" target="_blank" rel="noopener">Open full size</a></figcaption></figure>
+
+<figure><a href="US3900732-sheet-2-fig-2.webp" target="_blank" rel="noopener"><img src="US3900732-sheet-2-fig-2.webp" alt="US patent 3,900,732, sheet 2, Fig. 2: the encoder readout assembled around the motor shaft, with an alignment tool above it whose pins locate in the housing, and a thin gauge strip between disc and readout"></a><figcaption>US 3,900,732, sheet 2 of 2, Fig. 2: the assembled encoder, with the alignment tool (42) and the gap-setting strip (34). <a href="US3900732-sheet-2-fig-2.webp" target="_blank" rel="noopener">Open full size</a></figcaption></figure>
+
 📄 **A later patent, US 4,338,517**, describes the Litton rotary pulse generator associated with
 this system as a **modular encoder with no shaft of its own**: a commutator hub/pattern wheel
 on the host shaft, a separate readout module, a special alignment tool, and an adjustable
@@ -260,8 +280,9 @@ patent trail to work back through.
 
 ⚠ *The patent details above come from research done outside this archive, and have not yet been
 re-read against the patent documents here. In that research the link for US 3,900,732 pointed to
-an unrelated patent (EP 0228642 A3), so the number and dates should be checked against the
-document itself before being cited further.*
+an unrelated patent (EP 0228642 A3). The US 3,900,732 drawing sheets have since been added
+above and confirm its number and grant date; its assignee and priority date, and the details
+of the other two patents, are still to be checked against the documents.*
 
 ### A close match: Model 715/720 modular optical encoders
 
@@ -331,6 +352,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | 2026-10-04 | Adopted the standard description "The GT2101 used a Litton optical encoder, providing 600 counts per revolution", following Nigel Hobden's 29 September 2026 testimony agreeing with Paul Ramsden's. |
 | 2026-10-05 | Added the Model 715/720 modular optical encoders (hub-disc assembly and cover for motor-shaft mounting, also sold as complete motor/encoder packages) as the closest part-number match for the encoder module. |
 | 2026-10-05 | Replaced the flat "Litton optical encoder" statement with the archive identification: optical encoder assembly (rotating disc and fixed readout/photohead), possible Litton Encoder Division component, manufacturer and part number under investigation. Added the Litton Encoder Division evidence (1977 catalogue advertising, US 3,900,732, US 4,338,517, US 3,444,549) and the architecture comparison. Corrected the module's second marking to `9A 7526-41`, and noted that the `600` in the part number is not yet proven to denote resolution. |
+| 2026-10-05 | Added the two drawing sheets of US 3,900,732, which confirm its number and grant date (19 August 1975), with a reading of Figs. 1 and 2. |
 
 ---
 
