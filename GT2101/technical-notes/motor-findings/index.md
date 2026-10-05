@@ -211,6 +211,30 @@ before:
 - `S/N 7526-41` reads naturally as **year 1975, week 26** — which would place the module's
   manufacture about six months before the January 1976 date code on tower board 4.
 
+### A close match: Model 715/720 modular optical encoders
+
+📄 **The nearest catalogue match found so far for the encoder module is the Model 715/720
+family.** These are described as **modular optical encoders consisting of a hub-disc assembly
+and cover, designed for mounting on a motor-shaft assembly**. The same literature says
+**complete motor/encoder packages were available**.
+
+That matches what is in the pod: a disc on the shaft, a separate read-head module wired
+independently to the motor PCB, and a motor and encoder supplied together as one finished unit.
+That fits Paul Ramsden's "finished units from Litton Industries" and the GT2101's 600 counts
+per revolution.
+
+❓ **This is a close match, not an identification.** `M1N 875-600G1A` has not yet been found in
+any 715/720 listing, and the catalogue's own part-number format has not been compared against
+it. Before promoting this to ✅, check:
+
+- whether the 715/720 part-number scheme has a field matching `875`, and a line-count field
+  that would give `600`;
+- whether 600 counts per revolution was a standard 715/720 option;
+- the 715/720 hub and cover dimensions against the module in the pod.
+
+⚠ *Source citation still to be added: the catalogue or datasheet title, its maker, its date and where a copy
+is held.*
+
 **Net position:** describe it as a Litton optical encoder providing 600 counts per revolution,
 on the strength of the Ramsden and Hobden testimony. Whether the motor itself was Inland-built
 remains unresolved.
@@ -255,6 +279,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | 2026-08-22 | First version. Consolidated from direct hardware inspection, the 2015 FANATSON schematics, and independent research. |
 | 2026-09-05 | Audited against `motSchem.pdf` at 400 dpi. **Corrected: the LM324 and LM339 roles were the wrong way round.** Added the `SPEED IN` single-command finding, the E113/J113 labelling, the rails, the tacho comparator's circuit-level confirmation of the 0/−10 V swing, and the lettered-pin thread for the connector accounting. Narrowed the "tacho from the winding" ❓. The superseded 22 August copy in `engineering-drawings-schematics/motor-overview/` was retired. |
 | 2026-10-04 | Adopted the standard description "The GT2101 used a Litton optical encoder, providing 600 counts per revolution", following Nigel Hobden's 29 September 2026 testimony agreeing with Paul Ramsden's. |
+| 2026-10-05 | Added the Model 715/720 modular optical encoders (hub-disc assembly and cover for motor-shaft mounting, also sold as complete motor/encoder packages) as the closest part-number match for the encoder module. |
 
 ---
 
