@@ -444,6 +444,31 @@ conflation) are kept apart on [Dr Sao Win: an open question](/GT2101/research-no
 
 ---
 
+## 19. Dennis Arnall — from "unsupported credit" to an open question — 5 October 2026
+
+**Before:** the research notes opened with *"The archive does not credit Dennis Arnall as the
+GT2101's designer"* and said that no other source supported the 1974 *Felix* credit. That read
+the patent's silence as near-proof he had no role, and treated a contemporary statement as an
+error to be explained away.
+
+**Now:** 📄 *Felix* 367 (1 November 1974) states *"The designer of the turntable, Dennis Arnall,
+is a former gyroscope designer…"* and describes him discussing the prototype's servo motor,
+pulse-counted speed measurement and 5.0 MHz crystal reference. That is recorded as what it is:
+contemporary evidence that he was **publicly presented as the designer** in 1974. His precise
+role is **unresolved**.
+
+✅ **What did not change:** Arnall is not on the patent, so he is **not** credited as the sole
+designer. No document connects him to DCA or Gale. Freivokh does not recall him; Hobden
+believes he worked with Freivokh.
+
+❓ **Added as an UNPROVEN hypothesis:** that Arnall may have been the **unnamed outside
+consultant** Paul Ramsden recalls being brought in to stabilise the PLL, or another external
+specialist on the servo and control electronics. Ramsden does not name the consultant, and the
+archive does not say Arnall designed the PLL. See
+[Dennis Arnall](/GT2101/research-notes/#dennis-arnall).
+
+---
+
 ## Verification — 6 September 2026
 
 Every fact removed from a working note during the 6 September tidy is recorded above. The
