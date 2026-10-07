@@ -2,7 +2,7 @@
 title: GT2101 Turntable
 layout: bare
 nav_exclude: true
-description: "The Gale GT2101 turntable — its history, engineering, documentation, restoration and provenance."
+description: "The Gale GT2101: optical-servo direct drive, quartz-locked and variable speed, and its distinctive control tower."
 ---
 
 <figure style="margin:0 0 1.5rem;">
@@ -10,30 +10,24 @@ description: "The Gale GT2101 turntable — its history, engineering, documentat
   <figcaption style="text-align:right;">GT2101 from above, with its control tower. Photograph: DCA Design Consultants.</figcaption>
 </figure>
 
-# GT2101 Turntable
+# Gale GT2101 Turntable
 
-The Gale GT2101 stands as one of the boldest statements in 1970s British hi-fi design: a seamless fusion of industrial art and technical precision.  
-This section of the archive documents its engineering, construction, and cultural legacy, preserving material once thought lost when *galeaudio.com* went offline.
-{: style="max-width:none"}
+**A direct-drive turntable with optical servo control, a floating magnetic bearing and a dedicated control tower.**
 
-Alongside its quartz-locked 33⅓ rpm setting, the GT2101 offered variable speed control from the top disc. Small speed changes also shift playback pitch, letting a listener tune a record by ear if it sounds slightly sharp or flat. This may have been especially useful with older pressings, though surviving sources do not establish this as the designers’ stated reason for the control.
-{: style="max-width:none"}
+The GT2101 combines quartz-locked 33⅓ rpm playback with variable speed. Turn the disc on top of the tower to adjust speed; even a small change also shifts pitch, so you can tune a record by ear if it sounds slightly sharp or flat. The optical servo reads a 600-count-per-revolution encoder and corrects platter speed as it plays.
 
-The GT2101 was expensive and made in small numbers. It sold for about £1,200, roughly £7,000 to £9,000 in today's money, having originally been planned to sell for about £400. A [1981 letter from D. W. Labs](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says about 200 were sold in its three years of production; other estimates are lower, some as low as 60. The same letter puts its development cost at almost £250,000 and calls it one of the chief reasons for the demise of Gale Electronics and Design Ltd.
-{: style="max-width:none"}
-
-<div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1.1rem;margin:1.4rem 0;">
-  <strong>Archival Note</strong><br>
-  The GT2101 was a servo-controlled direct-drive turntable developed by Gale Electronics. Its optical shaft encoder, a rotating disc read by a fixed photohead, provides 600 counts per revolution; it is possibly a Litton Encoder Division component, with the exact manufacturer and part number still under investigation. Its design began with Kenneth Freivokh's turntable, built at the Royal College of Art in 1971–72; a patent application dated 25 October 1974 names Ronald David Carter, Kenneth Freivokh, Ira Dennis Gale, Nigel Mark Hobden and Michael Taylor as inventors. Later evidence associates David Carter's DCA with engineering work. At DCA, Paul Ramsden created the GT2101's electronics and electrical design, including, according to Nigel Hobden, the touch start/stop on the control tower, a very new technology at the time. The exact division of design and engineering roles remains under research.
-  Later accounts also name Dr Sao Win as a collaborator of Ira Gale. He is not named on the patent, and Nigel Hobden has never heard of him in connection with Gale, but a GT2101 is reported to have been bought directly from him. Why he appears in the story is an <a href="/GT2101/research-notes/sao-win/">open research question</a>, which this archive has not resolved.
-  Production estimates vary, so this archive does not present a single unit total as settled.
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:1.5rem 0;">
+  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Drive</strong><br><small>Brushless direct drive with optical servo feedback.</small></div>
+  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Speed</strong><br><small>Quartz-locked 33⅓ rpm or variable speed.</small></div>
+  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Bearing</strong><br><small>Floating magnetic bearing.</small></div>
+  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Control</strong><br><small>Separate stainless-steel tower with LED display and touch start/stop.</small></div>
 </div>
 
-For the dated evidence, source notes, people, surviving-machine research and open questions, see [GT2101 Historical Research &amp; Sources](/GT2101/research-notes/).
+Explore: [Design by DCA](/GT2101/design-by-DCA/) · [Technical details](/GT2101/technical-notes/) · [History and sources](/GT2101/research-notes/)
 
 ## From prototype to production
 
-Kenneth Freivokh’s 1972 thesis turntable (black and white) and the production GT2101 photographed by DCA (colour). The production deck kept the three-pointed acrylic chassis and steel pillars but changed from belt drive to direct drive, with a separate control tower.
+The production GT2101 developed from Kenneth Freivokh’s 1972 Royal College of Art thesis design. DCA transformed the belt-driven prototype into a direct-drive turntable with a separate control tower.
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px;margin:1.2rem 0;">
   <figure style="margin:0;">
@@ -55,28 +49,28 @@ More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
   <a href="/GT2101/engineering-drawings-schematics/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Engineering Drawings &amp; Schematics</strong><br>
-    <small>Original circuit diagrams, PCB layouts, and wiring references.</small>
+    <small>Circuit diagrams, PCB layouts and wiring references.</small>
   </a>
 
   <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Technical Notes</strong><br>
-    <small>Service documentation, diagnostic field reports, and restoration insights.</small>
+    <small>How the deck works, service information and repair guidance.</small>
   </a>
 
   <a href="/GT2101/project-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Project Notes</strong><br>
-    <small>The live working record — board studies, bench sessions, decisions, and what is still unknown.</small>
+    <small>Ongoing restoration work, bench findings and open questions.</small>
   </a>
 
   <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Components &amp; Parts</strong><br>
-    <small>PCB close-ups, part numbers, and sourcing data for repairs.</small>
+    <small>Board photographs, component details and parts information.</small>
   </a>
 </div>
 
 ---
 
-## Design & Visual Archive
+## Design & Photographs
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
   <a href="/GT2101/design-by-DCA/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
@@ -86,39 +80,41 @@ More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2
 
   <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Marketing &amp; Publicity</strong><br>
-    <small>Adverts, brochures, press features, and international magazine coverage.</small>
+    <small>Period adverts, brochures and press coverage.</small>
   </a>
 
   <a href="/GT2101/community-photos/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Community Photos</strong><br>
-    <small>Owner submissions and restored GT2101s photographed around the world.</small>
+    <small>Photographs shared by GT2101 owners.</small>
   </a>
 
   <a href="/GT2101/images/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Image Archive</strong><br>
-    <small>High-resolution photography of the GT2101 and its control tower — all preserved for reference.</small>
+    <small>Close-up and full-size photographs of the turntable and control tower.</small>
   </a>
 </div>
 
 ---
 
-## Historical Context & Provenance
+## People & History
+
+For the dated research, production history and source notes, see [Historical Research &amp; Sources](/GT2101/research-notes/).
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
   <a href="/GT2101/early-machines/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Early Machines</strong><br>
-    <small>Photographs and provenance for three distinct early machines connected with the GT2101.</small>
+    <small>Three early machines that trace the development toward the GT2101.</small>
   </a>
   <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
     <strong>Interviews &amp; Provenance</strong><br>
-    <small>Recovered correspondence, oral histories, and archive interviews with original engineers and collaborators.</small>
+    <small>Interviews and correspondence with people connected to Gale and the GT2101.</small>
   </a>
 </div>
 
 ---
 
 <small>
-All materials are preserved for <strong>educational and historical reference</strong>.  
+This page is for <strong>reference and research</strong>.  
 Original rights remain with their respective authors, engineers, photographers, and contributors.
 </small>
 
