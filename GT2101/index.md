@@ -46,7 +46,7 @@ main.content:has(.gt2101-hero) { padding: clamp(18px, 2vw, 28px); }
 
 The production GT2101 developed from Kenneth Freivokh’s 1972 Royal College of Art thesis design. DCA transformed the belt-driven prototype into a direct-drive turntable with a separate control tower.
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px;margin:1.2rem 0;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:12px;margin:1.2rem 0;">
   <figure style="margin:0;">
     <a href="/GT2101/early-machines/freivokh-thesis/#photographs"><img src="/GT2101/early-machines/images/freivokh-thesis-01-overview.jpg" alt="Freivokh’s 1972 turntable from above at an angle: star-shaped clear and dark acrylic plates, steel weights and a unipivot tone arm" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#fff;"></a>
     <figcaption>1972: Freivokh’s belt-driven turntable, from his Royal College of Art thesis. This is the turntable Ira Gale acquired from Freivokh and handed to DCA to develop into the GT2101.</figcaption>
@@ -63,23 +63,23 @@ More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2
 
 ## Repairs & Technical Resources
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
-  <a href="/GT2101/engineering-drawings-schematics/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1.2rem 0;">
+  <a href="/GT2101/engineering-drawings-schematics/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Engineering Drawings &amp; Schematics</strong><br>
     <small>Circuit diagrams, PCB layouts and wiring references.</small>
   </a>
 
-  <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Technical Notes</strong><br>
     <small>How the deck works, service information and repair guidance.</small>
   </a>
 
-  <a href="/GT2101/project-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/project-notes/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Project Notes</strong><br>
     <small>Ongoing restoration work, bench findings and open questions.</small>
   </a>
 
-  <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/components-parts/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Components &amp; Parts</strong><br>
     <small>Board photographs, component details and parts information.</small>
   </a>
@@ -89,23 +89,23 @@ More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2
 
 ## Design & Photographs
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
-  <a href="/GT2101/design-by-DCA/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1.2rem 0;">
+  <a href="/GT2101/design-by-DCA/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Design by DCA</strong><br>
     <small>How David Carter’s DCA Design Consultants engineered Freivokh’s turntable into the production GT2101.</small>
   </a>
 
-  <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/marketing/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Marketing &amp; Publicity</strong><br>
     <small>Period adverts, brochures and press coverage.</small>
   </a>
 
-  <a href="/GT2101/community-photos/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/community-photos/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Community Photos</strong><br>
     <small>Photographs shared by GT2101 owners.</small>
   </a>
 
-  <a href="/GT2101/images/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/images/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Image Archive</strong><br>
     <small>Close-up and full-size photographs of the turntable and control tower.</small>
   </a>
@@ -117,12 +117,12 @@ More: [Design by DCA](/GT2101/design-by-DCA/) · [Freivokh’s 1972 thesis](/GT2
 
 For the dated research, production history and source notes, see [Historical Research &amp; Sources](/GT2101/research-notes/).
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:1.2rem 0;">
-  <a href="/GT2101/early-machines/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1.2rem 0;">
+  <a href="/GT2101/early-machines/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Early Machines</strong><br>
     <small>Three early machines that trace the development toward the GT2101.</small>
   </a>
-  <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.05);">
+  <a href="/GT2101/interviews-provenance/" style="text-decoration:none;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:.9rem;text-align:center;display:block;box-shadow:0 4px 14px rgba(0,0,0,.04);">
     <strong>Interviews &amp; Provenance</strong><br>
     <small>Interviews and correspondence with people connected to Gale and the GT2101.</small>
   </a>
