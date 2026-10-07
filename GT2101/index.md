@@ -16,6 +16,9 @@ The Gale GT2101 stands as one of the boldest statements in 1970s British hi-fi d
 This section of the archive documents its engineering, construction, and cultural legacy, preserving material once thought lost when *galeaudio.com* went offline.
 {: style="max-width:none"}
 
+Alongside its quartz-locked 33⅓ rpm setting, the GT2101 offered variable speed control from the top disc. Small speed changes also shift playback pitch, letting a listener tune a record by ear if it sounds slightly sharp or flat. This may have been especially useful with older pressings, though surviving sources do not establish this as the designers’ stated reason for the control.
+{: style="max-width:none"}
+
 The GT2101 was expensive and made in small numbers. It sold for about £1,200, roughly £7,000 to £9,000 in today's money, having originally been planned to sell for about £400. A [1981 letter from D. W. Labs](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says about 200 were sold in its three years of production; other estimates are lower, some as low as 60. The same letter puts its development cost at almost £250,000 and calls it one of the chief reasons for the demise of Gale Electronics and Design Ltd.
 {: style="max-width:none"}
 
