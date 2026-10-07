@@ -30,7 +30,7 @@ description: "Gale GT2101 PCB close-ups, populated boards, motor assemblies and 
 </p>
 
 <p class="lede">
-  <strong>Supplier note:</strong> the curly cable connecting the control tower to the motor was made by <strong>Core Technologies</strong> in Scotland, according to Gale's former technical director Nigel Hobden (<a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">conversation, 29 September 2026</a>).
+  <strong>Cable note:</strong> Gale's former technical director Nigel Hobden recalled <strong>Gore-Tex</strong> in connection with the GT2101's coiled mains and motor cables (<a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">conversation, 29 September 2026</a>). The exact supplier role and whether it made complete cable assemblies remain undocumented; an earlier transcription as “Core Technologies” was a mishearing.
 </p>
 
 <h2 class="gallery-heading">Board 1 — Display, 3155ST</h2><div class="gallery">

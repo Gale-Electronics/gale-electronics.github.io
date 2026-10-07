@@ -137,6 +137,8 @@ The *Felix* report is by Richard Szczepanski and its photographs are credited to
 
 ## Nigel Hobden's recollection, September 2026
 
+A note prepared on 7 October 2026 records additional details from the same 29 September conversation with Nigel Hobden; it is not a second interview. It develops hypotheses about the GT2101's intended pitch adjustment, motor and encoder suppliers, and engineering roles. A previous transcription rendered the cable name as “Core Technologies”; this was a mishearing of “Gore-Tex.” See [Nigel Hobden Oral History and Emerging Development Hypothesis](/GT2101/research-notes/nigel-hobden-oral-history/).
+
 On 29 September 2026 Nigel Hobden, technical director of Gale Electronics & Design and one of the five named patent inventors, spoke about the GT2101's origins. He is the only person in this record who worked on the project and is recorded directly rather than through an intermediary. This is **first-hand archive testimony** given about fifty years after the events. It is the strongest account yet of how the turntable passed between Freivokh, Gale and DCA, but it has not yet been matched to contemporary documents.
 
 According to Hobden:
@@ -147,8 +149,8 @@ According to Hobden:
 - **Dennis Arnall**, named in the 1974 *Felix* report, is thought by Hobden to have worked with Freivokh to produce the turntable, rather than for DCA or Gale. Freivokh himself does not recall Arnall (see [Dennis Arnall](#dennis-arnall)).
 - DCA was reorganised around this time: as Hobden recalls it, the firm's **associates were bought out, or made directors**, as David Carter Associates changed from a partnership of associates into a company with directors.
 - **DCA also worked on the Gale GS401 loudspeaker**, not only the GT2101, but did not design it. Gale brought DCA a finished, working speaker, with its industrial design already done by Jon Bannenberg, and DCA's job was to turn it into a production model that could be made at scale. Bannenberg was the GS401's industrial designer, responsible for its form and appearance rather than its acoustic design (see the [GS401 page](/GS401/)).
-- **The motors came from Litton.** Hobden named Litton as the motor's source without being prompted. This agrees with Paul Ramsden's statement that the motors arrived as finished Litton units.
-- **The curly cable** connecting the control tower to the motor was made by **Core Technologies** in Scotland.
+- **Motor supplier remains unresolved.** Hobden named Litton as the motor's source without being prompted, consistent with Paul Ramsden's account that finished Litton units arrived at DCA. In additional details from the same conversation, Hobden also recalled the name Inland in connection with the motor. The surviving recollections do not establish whether Litton supplied complete units, Inland supplied a motor or component, or the names refer to different stages or versions. No supplier changeover is established.
+- **Cable supplier:** Hobden recalled **Gore-Tex** in connection with the coiled mains and motor cables. The earlier “Core Technologies” transcription was a mishearing. The exact supplier role and whether Gore-Tex made complete cable assemblies remain undocumented.
 - **DCA engineered the GT2101**, including the electronics, the control tower and the servo loop.
 - **Dr Sao Win:** Hobden has never heard of Sao Win or Win Laboratories in connection with Gale or the GT2101. This is important first-hand testimony against any significant role, but not absolute proof: Hobden joined Gale after DCA took on the turntable (see [Dr Sao Win](#dr-sao-win)).
 - **Paul Ramsden** created the GT2101's electronics, including the touch start/stop on the control tower, which was very new technology at the time (see [Paul Ramsden](#paul-ramsden)).
