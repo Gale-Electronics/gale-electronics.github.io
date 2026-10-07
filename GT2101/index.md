@@ -5,26 +5,43 @@ nav_exclude: true
 description: "The Gale GT2101: optical-servo direct drive, quartz-locked and variable speed, and its distinctive control tower."
 ---
 
-<figure style="margin:0 0 1.5rem;">
-  <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_topdown_wide.jpg" alt="The Gale GT2101 from above: a star-shaped clear acrylic chassis with polished steel pillars and platter, the tone arm at right, and the round control tower linked by a coiled cable" style="width:100%;height:auto;display:block;" fetchpriority="high"></a>
-  <figcaption style="text-align:right;">GT2101 from above, with its control tower. Photograph: DCA Design Consultants.</figcaption>
-</figure>
+<style>
+main.content:has(.gt2101-hero) { padding: clamp(18px, 2vw, 28px); }
+.gt2101-hero { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr); align-items:center; gap:clamp(1.25rem,3vw,2.5rem); margin:0 0 1.75rem; }
+.gt2101-hero figure { margin:0; }
+.gt2101-hero img { display:block; width:100%; aspect-ratio:5/3; object-fit:cover; border-radius:10px; }
+.gt2101-hero figcaption { margin-top:.4rem; text-align:left; }
+.gt2101-hero h1 { margin:0 0 .65rem; }
+.gt2101-hero__lede { color:var(--navy); font-size:clamp(1.1rem,1.7vw,1.4rem); font-weight:650; line-height:1.35; }
+.gt2101-hero__copy p { margin:.7rem 0; }
+.gt2101-hero__facts { color:var(--muted); font-size:.9rem; }
+.gt2101-hero__links { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem; }
+.gt2101-hero__links a { display:inline-block; padding:.45rem .8rem; border:1px solid var(--line); border-radius:999px; color:var(--navy); font-weight:600; text-decoration:none; }
+.gt2101-hero__links a:first-child { border-color:var(--navy); background:var(--navy); color:white; }
+@media (max-width:760px) {
+  main.content:has(.gt2101-hero) { padding:18px 16px; }
+  .gt2101-hero { grid-template-columns:1fr; gap:1rem; }
+  .gt2101-hero img { aspect-ratio:5/3; }
+}
+</style>
 
-# Gale GT2101 Turntable
-
-**A direct-drive turntable with optical servo control, a floating magnetic bearing and a dedicated control tower.**
-
-The GT2101 combines quartz-locked 33⅓ rpm playback with variable speed. Turn the disc on top of the tower to adjust speed; even a small change also shifts pitch, so you can tune a record by ear if it sounds slightly sharp or flat. The optical servo reads a 600-count-per-revolution encoder and corrects platter speed as it plays.
-
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:1.5rem 0;">
-  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Drive</strong><br><small>Brushless direct drive with optical servo feedback.</small></div>
-  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Speed</strong><br><small>Quartz-locked 33⅓ rpm or variable speed.</small></div>
-  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Bearing</strong><br><small>Floating magnetic bearing.</small></div>
-  <div style="background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;box-shadow:0 4px 14px rgba(0,0,0,.05);"><strong>Control</strong><br><small>Separate stainless-steel tower with LED display and touch start/stop.</small></div>
-</div>
-
-Explore: [Design by DCA](/GT2101/design-by-DCA/) · [Technical details](/GT2101/technical-notes/) · [History and sources](/GT2101/research-notes/)
-
+<section class="gt2101-hero">
+  <figure>
+    <a href="/GT2101/design-by-DCA/"><img src="/GT2101/design-by-DCA/GT2101_Turntable_topdown_wide.jpg" alt="The Gale GT2101 from above: a star-shaped clear acrylic chassis with polished steel pillars and platter, the tone arm at right, and the round control tower linked by a coiled cable" fetchpriority="high"></a>
+    <figcaption>GT2101 from above. Photograph: DCA Design Consultants.</figcaption>
+  </figure>
+  <div class="gt2101-hero__copy">
+    <h1>Gale GT2101 Turntable</h1>
+    <p class="gt2101-hero__lede">Direct drive, optical servo control and fine variable speed.</p>
+    <p>A quartz-locked 33⅓ rpm setting provides a steady reference. Turn the control disc for variable speed; small changes also shift pitch, letting you tune a record by ear. The optical servo reads a 600-count-per-revolution encoder and corrects platter speed as it plays.</p>
+    <p class="gt2101-hero__facts">Floating magnetic bearing · Separate stainless-steel control tower · LED speed display</p>
+    <nav class="gt2101-hero__links" aria-label="Explore the GT2101">
+      <a href="/GT2101/design-by-DCA/">Design by DCA</a>
+      <a href="/GT2101/technical-notes/">Technical details</a>
+      <a href="/GT2101/research-notes/">History and sources</a>
+    </nav>
+  </div>
+</section>
 ## From prototype to production
 
 The production GT2101 developed from Kenneth Freivokh’s 1972 Royal College of Art thesis design. DCA transformed the belt-driven prototype into a direct-drive turntable with a separate control tower.
