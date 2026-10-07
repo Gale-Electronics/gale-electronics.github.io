@@ -9,11 +9,14 @@ TO CONFIRM are not yet settled. Last updated 7 Oct 2026.
 
 ## 1. Current status (7 Oct 2026)
 
-Control tower fixed. Original fault: display showed only zeros.
+Control tower fixed. Original fault: display showed only zeros (`00.0`).
 
-Cause: a dead MC chip on Board 4, so no F REF signal went from Board 4 to Board 1 (Board 4 pad 9 ->
-Board 1 pad 7). Without F REF, Board 1's 4013 never steps through its states, so the latch never
-fires and the digits stay at zero.
+Cause: a dead 4013 dual flip-flop on the original in-tower Board 4, so no F REF signal went from
+Board 4 to Board 1 (Board 4 pad 9 -> Board 1 pad 7). Without F REF, Board 1's 4013 never steps
+through its states, so the latch never fires and the digits stay at zero.
+
+Fix: swapped in a spare Board 4 (the MC14520CP revision). Display immediately came back to life
+and now latches properly.
 
 ---
 
@@ -21,18 +24,22 @@ fires and the digits stay at zero.
 
 **6 Oct 2026**
 - Display showing zeros. Started debugging at Board 1 and Board 2.
-- Tools: multimeter and oscillator. Spare Board 1 and Board 2 available to probe outside the tower.
+- Tools: multimeter and FNIRSI 2C23T scope/meter. Spare Board 1, 2, and 4 available outside the tower.
 - A spare Board 1 fitted in the tower also showed only zeros.
 - Board 2 pads 2, 10 and 11 read good. Pad 11 about 3.8 V with the black switch off, 5.6 V on.
 - Board 2 pad 13 to ground: 1M.
-- Board 4 pad 3 live on the scope: 1.8 kHz in VAR (follows the Helipot), 1.33 kHz in FIX.
+- Board 4 pad 3 live on the scope: ~1.8 kHz in VAR (follows the Helipot), ~1.03–1.33 kHz in FIX.
 - Board 4 pad 9 / Board 1 pad 7 (F REF): flat 0 V, continuity good between the two pads.
-- Chip marking read off a Board 4: MC14520CP (see TO CONFIRM in section 4).
 - Motor disconnected during testing. Preferred not to pull boards from the tower yet.
 
 **7 Oct 2026**
-- Fix reported: dead MC chip on Board 4, no signal from Board 4 to Board 1.
-- Established that the tower's Board 4 is an older revision from the spare Board 4 (section 4).
+- Standalone bench testing of spare Board 4 with bench PSU:
+  - Pad 2 confirmed healthy: master crystal oscillating at 1.05 MHz.
+  - Fault on the tower's original Board 4 isolated: Pad 3 receiving demand clock, but Pad 9 output completely flat (0 V).
+- Solved Board 4 revision discrepancy:
+  - Tower's original Board 4 uses a **4013 (14-pin dual D flip-flop)** for the ÷4 divider.
+  - Spare Board 4 uses an **MC14520CP (16-pin dual binary counter)** for the ÷4 divider.
+- Swapped spare Board 4 into the tower. Pad 9 restored. Display un-froze and is now working.
 
 ---
 
@@ -46,26 +53,33 @@ fires and the digits stay at zero.
 
 ---
 
-## 4. Correction to the reference: two Board 4 revisions
+## 4. Confirmed: two Board 4 revisions (÷4 divider)
 
-The reference describes Board 4 pad 9 as the MC14520 divide-by-4 output. That only holds for the
-later Board 4 revision.
+The GT2101 documentation records two distinct revisions of Board 4 for generating F REF (Pad 9):
 
-- The Board 4 in the tower is an older revision and has no MC14520.
-- The spare Board 4 is the later type and does have the MC14520.
-- TO CONFIRM: how F REF is generated on the older board, which chip was dead, and what replaced it.
-- TO CONFIRM: the MC14520CP marking logged on 6 Oct may have come from the spare board rather than
-  the tower's board.
-- TO CONFIRM: whether the spare Board 4 swaps straight into the tower or differs in other ways.
+1. **Older Revision (Original Tower Board):**
+   - Uses a **4013** (MC14013 / CD4013, 14-pin DIP) dual D-type flip-flop configured as a ÷4 ripple counter.
+   - Matches the 2015 hand-traced `Board-4-Layout.pdf` where "4013" is handwritten on the chip.
+   - Failure mode: dead 4013 IC (flat Pad 9 output). Replacement part: CD4013BE / MC14013B.
+
+2. **Later Revision (Spare Board, Issue C):**
+   - Uses an **MC14520CP** (16-pin DIP) dual binary up-counter using the Q1 output for ÷4.
+   - Matches the `GT201/3276ST ISSUE C` board description.
+   - Replacement part: MC14520BCP / CD4520BE.
+
+**Cross-compatibility:**
+- Both revisions are **100% pin-compatible** drop-in replacements on the 9-pin edge connector.
+- Pin 3 is always 4×F in; Pin 9 is always 1×F out (÷4).
 
 ---
 
 ## 5. Checks still to record after the repair
 
-- Board 4 pad 9 and Board 1 pad 7: square wave present, same amplitude at both.
+- Board 4 pad 9 and Board 1 pad 7: square wave present (~333 Hz in FIX), same amplitude at both.
 - FIX position: display reads 33.3 (1332 Hz x 0.25 s = 333 counts).
 - VAR position: display follows the Helipot smoothly.
 - Board 4 pad 2: still about 5.2 V (crystal signal not loaded down).
+- Board 4 pad 6 (Drive voltage out): check stationary DC voltage to verify servo output.
 
 ---
 
