@@ -82,5 +82,9 @@ The GT2101 documentation records two distinct revisions of Board 4 for generatin
 - Board 4 pad 6 (Drive voltage out): check stationary DC voltage to verify servo output.
 
 ---
+7/10
+Desoldered a capacitor from each of the two motor PCBs to test it out of circuit, suspecting both might be faulty. An out-of-circuit multimeter test showed the capacitors were okay; the earlier near-zero readings were likely caused by testing them in circuit. Reinstalled the capacitor removed from the motor PCB. Reinstalling the capacitor on the spare PCB is still in progress.
+
+---
 
 *Facts only. No restoration history, provenance or attribution.*
