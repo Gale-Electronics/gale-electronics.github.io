@@ -16,19 +16,19 @@ description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, e
 
   <div style="flex:2 1 380px;min-width:260px;">
     <p>
-      The <strong>Gale GS401</strong> stands as one of the most iconic British loudspeakers of the 1970s — a fusion of precision engineering and design-led hi-fi.  
-      This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of <strong>Gale Electronics</strong> and its collaborators remains accessible to restorers and enthusiasts worldwide.
+      The Gale GS401 stands as one of the most iconic British loudspeakers of the 1970s — a fusion of precision engineering and design-led hi-fi.
+      This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of Gale Electronics and its collaborators remains accessible to restorers and enthusiasts worldwide.
     </p>
   </div>
 </div>
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1rem;margin:1.2rem 0;">
-  <strong>Archival note:</strong><br>
-  Gale took a finished, working GS401 to <strong>DCA (David Carter Associates)</strong>, the consultancy that also engineered the GT2101 turntable, to be turned into a production model that could be made at scale. DCA did not design the speaker itself. This is according to Gale's former technical director <strong>Nigel Hobden</strong> (<a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">conversation, 29 September 2026</a>).<br>
-  <strong>Jon Bannenberg</strong> was the industrial designer, working under the direction of <strong>Ira Gale</strong>. He was responsible for the speaker’s form and appearance, including the chrome end-caps and, it is believed, the stand, rather than its acoustic design.<br>
-  <strong>David Lyth</strong> oversaw production and has said the drive units were made and assembled in-house. <strong>Billy Woodman</strong>, who went on to set up ATC, worked for Gale, as Nigel Hobden recalls. His exact role, and the extent of his direct input into the GS401's final tuning, remain uncertain.<br>
+  Archival note:<br>
+  Gale took a finished, working GS401 to DCA (David Carter Associates), the consultancy that also engineered the GT2101 turntable, to be turned into a production model that could be made at scale. DCA did not design the speaker itself. This is according to Gale's former technical director Nigel Hobden (<a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026">conversation, 29 September 2026</a>).<br>
+  Jon Bannenberg was the industrial designer, working under the direction of Ira Gale. He was responsible for the speaker’s form and appearance, including the chrome end-caps and, it is believed, the stand, rather than its acoustic design.<br>
+  David Lyth oversaw production and has said the drive units were made and assembled in-house. Billy Woodman, who went on to set up ATC, worked for Gale, as Nigel Hobden recalls. His exact role, and the extent of his direct input into the GS401's final tuning, remain uncertain.<br>
   The design's chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of 1970s British audio design.<br>
-  Each model — the <strong>GS401A</strong> (chrome), <strong>GS401B</strong> (walnut veneer), and <strong>GS401C</strong> (walnut veneer with curved grilles) — shared identical drivers and crossovers, differing only in finish.
+  Each model — the GS401A (chrome), GS401B (walnut veneer), and GS401C (walnut veneer with curved grilles) — shared identical drivers and crossovers, differing only in finish.
 </div>
 
 ---
@@ -37,23 +37,23 @@ description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, e
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1rem 0;">
   <a href="/GS401/photographs-adverts/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Photographs & Adverts</strong><br>
+    Photographs & Adverts<br>
     <small>Press photography, brochures, and marketing archives</small>
   </a>
   <a href="/GS401/speaker-models/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Speaker Models</strong><br>
+    Speaker Models<br>
     <small>GS401A / B / C variations</small>
   </a>
   <a href="/GS401/components/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Components & Parts</strong><br>
+    Components & Parts<br>
     <small>Drivers, crossovers, and cabinet hardware</small>
   </a>
   <a href="/GS401/manuals-literature/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Manuals & Literature</strong><br>
+    Manuals & Literature<br>
     <small>Original setup instructions and service information</small>
   </a>
   <a href="/GS401/technical-notes/" style="text-decoration:none;background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem;text-align:center;display:block;">
-    <strong>Technical Notes</strong><br>
+    Technical Notes<br>
     <small>Measurements, restoration data, and crossover studies</small>
   </a>
 </div>
@@ -61,6 +61,6 @@ description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, e
 ---
 
 <small>
-All materials are preserved for <strong>educational and historical reference</strong>.  
+All materials are preserved for educational and historical reference.
 Original rights remain with their respective authors, engineers, and contributors.
 </small>
