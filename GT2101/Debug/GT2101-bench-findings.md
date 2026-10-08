@@ -22,7 +22,7 @@ and now latches properly.
 
 ## 2. Dated log
 
-**6 Oct 2026**
+6 Oct 2026
 - Display showing zeros. Started debugging at Board 1 and Board 2.
 - Tools: multimeter and FNIRSI 2C23T scope/meter. Spare Board 1, 2, and 4 available outside the tower.
 - A spare Board 1 fitted in the tower also showed only zeros.
@@ -32,13 +32,13 @@ and now latches properly.
 - Board 4 pad 9 / Board 1 pad 7 (F REF): flat 0 V, continuity good between the two pads.
 - Motor disconnected during testing. Preferred not to pull boards from the tower yet.
 
-**7 Oct 2026**
+7 Oct 2026
 - Standalone bench testing of spare Board 4 with bench PSU:
   - Pad 2 confirmed healthy: master crystal oscillating at 1.05 MHz.
   - Fault on the tower's original Board 4 isolated: Pad 3 receiving demand clock, but Pad 9 output completely flat (0 V).
 - Solved Board 4 revision discrepancy:
-  - Tower's original Board 4 uses a **4013 (14-pin dual D flip-flop)** for the ÷4 divider.
-  - Spare Board 4 uses an **MC14520CP (16-pin dual binary counter)** for the ÷4 divider.
+  - Tower's original Board 4 uses a 4013 (14-pin dual D flip-flop) for the ÷4 divider.
+  - Spare Board 4 uses an MC14520CP (16-pin dual binary counter) for the ÷4 divider.
 - Swapped spare Board 4 into the tower. Pad 9 restored. Display un-froze and is now working.
 
 ---
@@ -57,18 +57,18 @@ and now latches properly.
 
 The GT2101 documentation records two distinct revisions of Board 4 for generating F REF (Pad 9):
 
-1. **Older Revision (Original Tower Board):**
-   - Uses a **4013** (MC14013 / CD4013, 14-pin DIP) dual D-type flip-flop configured as a ÷4 ripple counter.
+1. Older Revision (Original Tower Board):
+   - Uses a 4013 (MC14013 / CD4013, 14-pin DIP) dual D-type flip-flop configured as a ÷4 ripple counter.
    - Matches the 2015 hand-traced `Board-4-Layout.pdf` where "4013" is handwritten on the chip.
    - Failure mode: dead 4013 IC (flat Pad 9 output). Replacement part: CD4013BE / MC14013B.
 
-2. **Later Revision (Spare Board, Issue C):**
-   - Uses an **MC14520CP** (16-pin DIP) dual binary up-counter using the Q1 output for ÷4.
+2. Later Revision (Spare Board, Issue C):
+   - Uses an MC14520CP (16-pin DIP) dual binary up-counter using the Q1 output for ÷4.
    - Matches the `GT201/3276ST ISSUE C` board description.
    - Replacement part: MC14520BCP / CD4520BE.
 
-**Cross-compatibility:**
-- Both revisions are **100% pin-compatible** drop-in replacements on the 9-pin edge connector.
+Cross-compatibility:
+- Both revisions are 100% pin-compatible drop-in replacements on the 9-pin edge connector.
 - Pin 3 is always 4×F in; Pin 9 is always 1×F out (÷4).
 
 ---

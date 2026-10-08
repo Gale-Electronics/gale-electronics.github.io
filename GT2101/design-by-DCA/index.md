@@ -29,7 +29,7 @@ description: "How David Carter's DCA Design Consultants turned Kenneth Freivokh'
   }
   .lightbox img{
     max-width:96vw; max-height:92vh; width:auto; height:auto; border-radius:12px;
-    
+<br>
   }
   .lightbox:target{display:flex}
   .lightbox .close{
@@ -46,8 +46,8 @@ description: "How David Carter's DCA Design Consultants turned Kenneth Freivokh'
 # Design by DCA
 
 <p class="lede">
-  In the mid-1970s, <strong>Ira Gale</strong> engaged <strong>DCA Design Consultants</strong>, led by founder <strong>David Carter</strong>, to turn Kenneth Freivokh’s belt-driven acrylic turntable into a production record player. 
-  The collaboration produced the <strong>Gale GT2101</strong>, layered perspex over stainless-steel pods, plus a separate cylindrical control tower housing the speed electronics and LED display. 
+  In the mid-1970s, Ira Gale engaged DCA Design Consultants, led by founder David Carter, to turn Kenneth Freivokh’s belt-driven acrylic turntable into a production record player.<br>
+  The collaboration produced the Gale GT2101, layered perspex over stainless-steel pods, plus a separate cylindrical control tower housing the speed electronics and LED display.<br>
   This page preserves a studio portrait of the DCA team alongside high-resolution product photographs that document the language and craft of this partnership.
 </p>
 

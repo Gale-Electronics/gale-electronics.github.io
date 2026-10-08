@@ -1,5 +1,5 @@
 ---
-title: "GS401 — Components"
+title: "GS401, Components"
 layout: bare
 description: "Gale GS401 drivers, crossovers and internal components, with part numbers and photographs for restoration and repair."
 ---
@@ -58,7 +58,7 @@ description: "Gale GS401 drivers, crossovers and internal components, with part 
   </div>
 </div>
 
-## Capacitor — Shopping List (PDF)
+## Capacitor, Shopping List (PDF)
 <div class="block">
   <iframe class="pdf-embed" src="/GS401/components/crossover-shopping-list.pdf#toolbar=0&navpanes=0"></iframe>
   <div class="pdf-mobile">

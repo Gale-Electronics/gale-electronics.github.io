@@ -9,9 +9,9 @@ archive_note: >
 
 # GT2101 – Nigel Hobden Oral History and Emerging Development Hypothesis
 
-**Note prepared:** 7 October 2026  
-**Primary source:** Conversation with Nigel Hobden, 29 September 2026  
-**Status:** Oral history and research hypothesis. Not all information below has been independently verified.
+Note prepared: 7 October 2026<br>
+Primary source: Conversation with Nigel Hobden, 29 September 2026<br>
+Status: Oral history and research hypothesis. Not all information below has been independently verified.
 
 This is a later write-up of additional details from the same conversation described in the [historical research record](/GT2101/research-notes/#nigel-hobdens-recollection-september-2026), not a separate interview.
 
@@ -25,7 +25,7 @@ Nigel Hobden recalled that Ira Gale was particularly frustrated by subtle pitch 
 
 Nigel's recollection is that Ira wanted a turntable which allowed the listener to make an extremely fine adjustment to playback speed, and therefore pitch.
 
-The nominal speed, such as **33⅓ rpm**, was therefore not necessarily the final objective. It was the reference point.
+The nominal speed, such as 33⅓ rpm, was therefore not necessarily the final objective. It was the reference point.
 
 A record could be started at its nominal speed and the control tower could display the operating speed. If the listener considered the pitch of the recording to be slightly incorrect, the speed could then be adjusted manually by a very small amount.
 
@@ -52,11 +52,11 @@ Earlier accounts can give the impression that Ira Gale was primarily a commercia
 
 The new evidence suggests that this interpretation may be too simplistic.
 
-A more useful working hypothesis is that **Ira Gale had a particular performance requirement and wanted to create a turntable capable of doing something existing turntables did not do**.
+A more useful working hypothesis is that Ira Gale had a particular performance requirement and wanted to create a turntable capable of doing something existing turntables did not do.
 
 The emerging picture is therefore potentially:
 
-**Ira Gale identifies a problem with pitch accuracy → defines a requirement for extremely fine variable-speed control → sources or commissions a suitable motor/feedback system → develops the control concept → brings in engineering assistance to realise the electronics, servo system and mechanical implementation.**
+Ira Gale identifies a problem with pitch accuracy → defines a requirement for extremely fine variable-speed control → sources or commissions a suitable motor/feedback system → develops the control concept → brings in engineering assistance to realise the electronics, servo system and mechanical implementation.
 
 This does not mean that Ira Gale personally designed every part of the GT2101.
 
@@ -72,7 +72,7 @@ The precise division of responsibility between Ira Gale, DCA and the various com
 
 ## 3. Motor and optical encoder
 
-Nigel recalled that the GT2101 motor was associated with **Litton**, but also recalled the name **Inland** in connection with the motor.
+Nigel recalled that the GT2101 motor was associated with Litton, but also recalled the name Inland in connection with the motor.
 
 Nigel further recalled occasions when the motor had to be opened and the optical disc adjusted with considerable precision. He emphasised that this was a delicate operation and that mistakes were not desirable.
 
@@ -80,8 +80,8 @@ This is potentially significant because it suggests that the motor and optical f
 
 The current archive contains more than one account of the motor:
 
-- one recollection describes the motors as finished **Litton units**;
-- another technical description identifies an **Inland brushless DC motor with a Litton 600-line optical encoder**.
+- one recollection describes the motors as finished Litton units;
+- another technical description identifies an Inland brushless DC motor with a Litton 600-line optical encoder.
 
 These statements should currently be treated as unresolved rather than choosing one as correct.
 
@@ -124,7 +124,7 @@ The surviving motors, labels, wiring, contemporary documentation and supplier ca
 
 ## 5. Litton, Inland and the possibility of Sao Win
 
-The relationship between Ira Gale, the motor supplier(s), the optical encoder and **Sao Win** also requires reassessment.
+The relationship between Ira Gale, the motor supplier(s), the optical encoder and Sao Win also requires reassessment.
 
 There is currently no independent evidence establishing that Sao Win designed the GT2101 motor.
 
@@ -132,7 +132,7 @@ However, it remains possible that Sao Win had a role in the electronics or contr
 
 Nigel's recollections about the importance of the fine pitch adjustment raise a further possibility: that people involved with Gale were deliberately seeking a technical solution to Ira Gale's requirement for extremely fine and controllable speed adjustment.
 
-It is therefore reasonable to retain the possibility that **Sao Win contributed to the electronics or control concept**, but this must remain explicitly marked as a hypothesis.
+It is therefore reasonable to retain the possibility that Sao Win contributed to the electronics or control concept, but this must remain explicitly marked as a hypothesis.
 
 At present there is insufficient evidence to state that Sao Win designed the motor, designed the control tower, or worked directly with Ira Gale on the GT2101.
 
@@ -201,7 +201,7 @@ The archive should not automatically describe every physical difference as a for
 
 ## 8. Gore-Tex cables
 
-Nigel also recalled **Gore-Tex** in connection with the unusual coiled cables used with the GT2101.
+Nigel also recalled Gore-Tex in connection with the unusual coiled cables used with the GT2101.
 
 The recollection includes:
 
@@ -226,37 +226,37 @@ The evidence currently suggests a possible development sequence which is more co
 
 One possible model is:
 
-**Ira Gale identifies a problem with pitch accuracy in vinyl**
+Ira Gale identifies a problem with pitch accuracy in vinyl
 
 ↓
 
-**Ira wants exceptionally fine manual control of playback speed**
+Ira wants exceptionally fine manual control of playback speed
 
 ↓
 
-**A precision motor and optical feedback system is sourced or developed**
+A precision motor and optical feedback system is sourced or developed
 
 ↓
 
-**Litton and/or Inland become involved in the motor/encoder system**
+Litton and/or Inland become involved in the motor/encoder system
 
 ↓
 
-**The motor/encoder arrangement is integrated with Gale's turntable concept**
+The motor/encoder arrangement is integrated with Gale's turntable concept
 
 ↓
 
-**DCA develops substantial electronics and engineering required to control it**
+DCA develops substantial electronics and engineering required to control it
 
 ↓
 
-**The control tower provides the user interface, fine speed reference and display**
+The control tower provides the user interface, fine speed reference and display
 
 ↓
 
-**The servo system continuously adjusts the motor to follow the selected speed**
+The servo system continuously adjusts the motor to follow the selected speed
 
-This is a **working hypothesis**, not an established chronology.
+This is a working hypothesis, not an established chronology.
 
 It provides a framework for future evidence without assigning responsibility prematurely.
 
@@ -268,7 +268,7 @@ Nigel Hobden's recollections are valuable because he was directly involved with 
 
 However, it cannot currently be assumed that every detail remembered today derives solely from his direct experience.
 
-In particular, the names **Litton** and **Inland** already occur in earlier GaleAudio-derived material. Nigel may therefore be recalling information from his direct experience, information encountered later, or a combination of the two.
+In particular, the names Litton and Inland already occur in earlier GaleAudio-derived material. Nigel may therefore be recalling information from his direct experience, information encountered later, or a combination of the two.
 
 For this reason, the archive should preserve:
 
@@ -287,8 +287,8 @@ This distinction is particularly important because the archive is intended to se
 The new evidence creates several important research questions:
 
 1. Who supplied the original GT2101 motor?
-2. What exactly did **Litton** supply?
-3. What exactly did **Inland Motor** supply?
+2. What exactly did Litton supply?
+3. What exactly did Inland Motor supply?
 4. Were Litton and Inland both used during GT2101 production?
 5. Did the supplier change during production?
 6. Did Ira Gale have a dispute with a motor manufacturer?
@@ -311,7 +311,7 @@ The new evidence creates several important research questions:
 
 The GT2101 should not currently be described simply as a turntable to which sophisticated electronics were subsequently added.
 
-The emerging evidence suggests that **Ira Gale may have had a much more active role in defining what the turntable was intended to achieve**.
+The emerging evidence suggests that Ira Gale may have had a much more active role in defining what the turntable was intended to achieve.
 
 His concern appears to have extended beyond simply achieving an accurate 33⅓ rpm. The more interesting requirement may have been the ability to make extremely fine, deliberate changes to playback speed in order to correct the perceived pitch of individual recordings.
 
@@ -319,10 +319,10 @@ This could explain why the GT2101 required such an elaborate servo, encoder and 
 
 It also raises the possibility that Ira Gale was directly involved in selecting, commissioning or changing suppliers for the motor and feedback system.
 
-DCA's role may consequently be better understood as **a major engineering and implementation role within a project driven by a requirement originating with Ira Gale**, rather than necessarily being the originator of the entire concept.
+DCA's role may consequently be better understood as a major engineering and implementation role within a project driven by a requirement originating with Ira Gale, rather than necessarily being the originator of the entire concept.
 
 The possible involvement of Sao Win remains unresolved. It is reasonable to investigate whether he contributed to the electronics or servo-control solution, but there is currently insufficient evidence to state this as fact.
 
 The Litton/Inland question also remains unresolved.
 
-**The archive should therefore treat the current model as a developing hypothesis and continue to prioritise physical evidence, contemporary documents and independently sourced testimony over later secondary accounts.**
+The archive should therefore treat the current model as a developing hypothesis and continue to prioritise physical evidence, contemporary documents and independently sourced testimony over later secondary accounts.

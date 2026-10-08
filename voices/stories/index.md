@@ -1,5 +1,5 @@
 ---
-title: "Voices — Stories"
+title: "Voices, Stories"
 layout: bare
 permalink: /voices/stories/
 nav_exclude: true
@@ -8,38 +8,38 @@ description: "Written recollections and personal accounts from people connected 
 
 # Stories
 
-A home for **factory manuals, service notes, magazine features, and oral histories** related to the **Gale GS401** and the people who built it.
+A home for factory manuals, service notes, magazine features, and oral histories related to the Gale GS401 and the people who built it.
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.5rem;padding:1rem;margin:1.2rem 0;">
-  <strong>Under construction</strong><br>
+  Under construction<br>
   We're currently digitising print material, sourcing references, and linking original scans with searchable summaries.
 </div>
 
 ## Coming soon
 
-- [Ira Gale Story — GaleAudio archive](/voices/stories/ira-gale-story/) — biography, family recollections, and reader responses preserved from a 2019 web archive.
+- [Ira Gale Story, GaleAudio archive](/voices/stories/ira-gale-story/), biography, family recollections, and reader responses preserved from a 2019 web archive.
 
-- Owner’s guide and setup notes  
-- Service bulletins and factory adjustment procedures  
-- Technical commentary on crossover design  
-- Period reviews and magazine articles (fully credited)  
-- Interview excerpts and provenance accounts  
+- Owner’s guide and setup notes<br>
+- Service bulletins and factory adjustment procedures<br>
+- Technical commentary on crossover design<br>
+- Period reviews and magazine articles (fully credited)<br>
+- Interview excerpts and provenance accounts<br>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1rem 0;">
   <div style="background:#fff;border:1px dashed #ccc;border-radius:10px;padding:1rem;min-height:120px;">
-    <strong>Owner’s Guide</strong><br>
+    Owner’s Guide<br>
     <small>Unpacked, positioned, and cared for</small>
   </div>
   <div style="background:#fff;border:1px dashed #ccc;border-radius:10px;padding:1rem;min-height:120px;">
-    <strong>Service Notes</strong><br>
+    Service Notes<br>
     <small>Adjustments, faults, restorations</small>
   </div>
   <div style="background:#fff;border:1px dashed #ccc;border-radius:10px;padding:1rem;min-height:120px;">
-    <strong>Period Press</strong><br>
+    Period Press<br>
     <small>Reviews, launches, interviews</small>
   </div>
   <div style="background:#fff;border:1px dashed #ccc;border-radius:10px;padding:1rem;min-height:120px;">
-    <strong>Provenance</strong><br>
+    Provenance<br>
     <small>Recollections, correspondence, notes</small>
   </div>
 </div>

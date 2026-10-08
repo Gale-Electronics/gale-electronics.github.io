@@ -1,5 +1,5 @@
 ---
-title: "GS401 — Adverts"
+title: "GS401, Adverts"
 layout: bare
 permalink: /GS401/photographs-adverts/adverts/
 description: "Period magazine adverts for the Gale GS401 loudspeakers, including international press campaigns from the 1970s."
@@ -7,11 +7,11 @@ description: "Period magazine adverts for the Gale GS401 loudspeakers, including
 
 <div class="wrap">
   <div class="toprow">
-    <div class="back"><a href="/GS401/photographs-adverts/">&larr; Back to GS401 — Photographs & Adverts</a></div>
+    <div class="back"><a href="/GS401/photographs-adverts/">&larr; Back to GS401, Photographs & Adverts</a></div>
     <div class="hint">Images below are listed automatically from this folder.</div>
   </div>
 
-  <h1>GS401 — Adverts</h1>
+  <h1>GS401, Adverts</h1>
 
   <div class="controls">
     <div class="filter">

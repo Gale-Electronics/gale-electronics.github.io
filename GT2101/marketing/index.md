@@ -27,7 +27,7 @@ description: "Adverts, brochures, press features and international magazine cove
   }
   .lightbox img{
     max-width:96vw; max-height:92vh; width:auto; height:auto; border-radius:12px;
-    
+<br>
   }
   .lightbox:target{display:flex}
   .lightbox .close{
@@ -76,7 +76,7 @@ description: "Adverts, brochures, press features and international magazine cove
            alt="Magazine page from Radio Gijutsu August 1976 featuring the GT2101 cartridge guide">
     </a>
     <figcaption>
-      Page from <em>Radio Gijutsu</em> (Japan, August 1976) — “Cartridge Guide” section featuring the Gale GT2101. One of the earliest Japanese press features on the model.
+      Page from <em>Radio Gijutsu</em> (Japan, August 1976), “Cartridge Guide” section featuring the Gale GT2101. One of the earliest Japanese press features on the model.
     </figcaption>
   </figure>
 
@@ -86,7 +86,7 @@ description: "Adverts, brochures, press features and international magazine cove
            alt="Feature article on the Gale GT2101 turntable in Radio Gijutsu magazine, August 1976">
     </a>
     <figcaption>
-      <em>Radio Gijutsu</em> (August 1976) feature article on the GT2101 turntable — detailed review and technical commentary translated for the Japanese market.
+      <em>Radio Gijutsu</em> (August 1976) feature article on the GT2101 turntable, detailed review and technical commentary translated for the Japanese market.
     </figcaption>
   </figure>
 
@@ -96,7 +96,7 @@ description: "Adverts, brochures, press features and international magazine cove
            alt="Swedish dealer advert headed Audioprodukter från Gale, showing a GT2101 turntable and its control tower standing on a GS401 loudspeaker, with the Mandins shop logo">
     </a>
     <figcaption>
-      Swedish dealer advert, “Audioprodukter från Gale”, for a December demonstration at <strong>Mandins</strong>, Norrköping, showing the GT2101 on a GS401 loudspeaker. Importer: Imports &amp; Exports by Holmström, Åby. Dated 1976 by its source; the year and publication are not printed on the cutting. <a href="#swedish-advert">Transcription and translation below.</a>
+      Swedish dealer advert, “Audioprodukter från Gale”, for a December demonstration at Mandins, Norrköping, showing the GT2101 on a GS401 loudspeaker. Importer: Imports &amp; Exports by Holmström, Åby. Dated 1976 by its source; the year and publication are not printed on the cutting. <a href="#swedish-advert">Transcription and translation below.</a>
     </figcaption>
   </figure>
 
@@ -130,7 +130,7 @@ description: "Adverts, brochures, press features and international magazine cove
 
 <h2 id="swedish-advert">Swedish dealer advert, Mandins, Norrköping (c. 1976)</h2>
 
-<p class="lede">A single-page magazine advert in Swedish for a December special showing of Gale products at Mandins, “the sound shop in the town centre”, in Norrköping. The photograph shows a GT2101, with its control tower at left, standing on top of a GS401 loudspeaker. The importer was <strong>Imports &amp; Exports by Holmström</strong>, box 107, 616 00 Åby. The side credits read “Annonssida: Ulf Holmström” (advertisement page) and “Foto: Inge Hallberg”.</p>
+<p class="lede">A single-page magazine advert in Swedish for a December special showing of Gale products at Mandins, “the sound shop in the town centre”, in Norrköping. The photograph shows a GT2101, with its control tower at left, standing on top of a GS401 loudspeaker. The importer was Imports &amp; Exports by Holmström, box 107, 616 00 Åby. The side credits read “Annonssida: Ulf Holmström” (advertisement page) and “Foto: Inge Hallberg”.</p>
 
 <p class="lede">The cutting is dated 1976 by the source that supplied it. Neither the year nor the magazine is printed on the page, so both are still to be confirmed. The specifications are the advertiser’s claims, not measurements. <a href="/assets/docs/Gale-Mandins-Norrkoping-advert-c1976.pdf">⤓ Download the scan (PDF, 0.5&nbsp;MB)</a></p>
 
@@ -141,13 +141,13 @@ description: "Adverts, brochures, press features and international magazine cove
   <tbody>
     <tr><td>Audioprodukter från Gale</td><td>Audio products from Gale</td></tr>
     <tr><td>December Specialvisning i Norrköping</td><td>December special showing in Norrköping</td></tr>
-    <tr><td>MANDINS — Ljudbutiken i centrum</td><td>Mandins — the sound shop in the town centre</td></tr>
-    <tr><td><strong>HÖGTALAREN GS401:</strong> Verklighetstrogen ljudåtergivning genom unika transientegenskaper som ger en notabel klarhet, både pop- och klassisk musik återges med lika hög kvalitet, i detta avseende är GS401 unik. Effekttålighet: 200 watt. Garanti: 7 år.</td><td><strong>The GS401 loudspeaker:</strong> Lifelike sound reproduction through unique transient properties that give a notable clarity; both pop and classical music are reproduced with equally high quality, and in this respect the GS401 is unique. Power handling: 200 watts. Guarantee: 7 years.</td></tr>
-    <tr><td><strong>SKIVSPELAREN GT2101:</strong> Hastigheter: 10.0–99.0 rpm. Hastighetsavvikelse (33⅓ rpm): ±0.001%. Svaj: Inte mätbart med dagens teknologi. Rumble: Lägre än den bästa testutrustnings egen inre störnivå. Garanti: 5 år.</td><td><strong>The GT2101 record player:</strong> Speeds: 10.0–99.0 rpm. Speed deviation (33⅓ rpm): ±0.001%. Wow: not measurable with today’s technology. Rumble: lower than the internal noise level of the best test equipment. Guarantee: 5 years.</td></tr>
+    <tr><td>MANDINS, Ljudbutiken i centrum</td><td>Mandins, the sound shop in the town centre</td></tr>
+    <tr><td>HÖGTALAREN GS401: Verklighetstrogen ljudåtergivning genom unika transientegenskaper som ger en notabel klarhet, både pop- och klassisk musik återges med lika hög kvalitet, i detta avseende är GS401 unik. Effekttålighet: 200 watt. Garanti: 7 år.</td><td>The GS401 loudspeaker: Lifelike sound reproduction through unique transient properties that give a notable clarity; both pop and classical music are reproduced with equally high quality, and in this respect the GS401 is unique. Power handling: 200 watts. Guarantee: 7 years.</td></tr>
+    <tr><td>SKIVSPELAREN GT2101: Hastigheter: 10.0–99.0 rpm. Hastighetsavvikelse (33⅓ rpm): ±0.001%. Svaj: Inte mätbart med dagens teknologi. Rumble: Lägre än den bästa testutrustnings egen inre störnivå. Garanti: 5 år.</td><td>The GT2101 record player: Speeds: 10.0–99.0 rpm. Speed deviation (33⅓ rpm): ±0.001%. Wow: not measurable with today’s technology. Rumble: lower than the internal noise level of the best test equipment. Guarantee: 5 years.</td></tr>
     <tr><td>Importör: Imports &amp; Exports by Holmström, box 107, 616 00 Åby</td><td>Importer: Imports &amp; Exports by Holmström, box 107, 616 00 Åby</td></tr>
   </tbody>
 </table>
 
 <p class="lede" style="margin-top:1.2rem">
-  <em>Images © Gale Electronics Archive / DCA Design Consultants — preserved for historical scholarship and commentary.</em>
+  <em>Images © Gale Electronics Archive / DCA Design Consultants, preserved for historical scholarship and commentary.</em>
 </p>

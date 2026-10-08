@@ -6,7 +6,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
 
 <!-- Page Header -->
 <h1>About Gale Electronics</h1>
-<p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by <strong>Ira Gale</strong>, an American with a background in the art world, who set out to make hi-fi that looked as good as it sounded.</p>
+<p>Gale Electronics was a London-based hi-fi company founded in the early 1970s by Ira Gale, an American with a background in the art world, who set out to make hi-fi that looked as good as it sounded.</p>
 
 <!-- Key Figures -->
 <h2 id="key-figures">Key Figures</h2>
@@ -35,7 +35,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <ul class="highlights">
       <li>First saw Kenneth Freivokh’s precursor turntable at DCA, after (as he recalls it) Ira Gale bought the design and brought it there.</li>
       <li>Transferred from DCA to Gale, partly as a way of relieving the debt Gale owed DCA.</li>
-      <li>Later a director and company secretary of <strong>D. W. Labs Limited</strong>, which continued Gale after its sale to Donald Wong.</li>
+      <li>Later a director and company secretary of D. W. Labs Limited, which continued Gale after its sale to Donald Wong.</li>
     </ul>
     <a href="/GT2101/research-notes/#nigel-hobdens-recollection-september-2026" class="person-link">↳ Read his recollection</a>
   </div>
@@ -62,7 +62,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <p>Ran production of the GS401. DCA turned Ira’s working speaker into a production design, and Lyth then built it as a stable, repeatable product with defined jigs, sourcing and QC. Later founded Volt Loudspeakers.</p>
     <ul class="highlights">
       <li>Moved from early CTS 8-inch woofers to British-built units; tightened tolerances on baffle/crossover assembly.</li>
-      <li>“It was all about production” — standardised steps and checks so every pair matched.</li>
+      <li>“It was all about production”, standardised steps and checks so every pair matched.</li>
     </ul>
     <a href="/assets/docs/David-Lyth-Interview.pdf" class="person-link">↳ Read interview</a>
   </div>
@@ -75,7 +75,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     <p>Information about Billy’s time at Gale is limited, but he is believed to have contributed to aspects of acoustic refinement during the GS401’s development. His later founding of ATC Loudspeakers suggests that his brief involvement at Gale left an early and lasting impression on his approach to loudspeaker design.</p>
     <ul class="highlights">
       <li>Provided early technical input during the GS401’s formative stages.</li>
-      <li>Later founded <strong>ATC Loudspeakers</strong>, applying many of the engineering principles that defined his later success.</li>
+      <li>Later founded ATC Loudspeakers, applying many of the engineering principles that defined his later success.</li>
     </ul>
   </div>
 </article>
@@ -97,11 +97,11 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
   <img src="/assets/about/ray-churchouse.png" alt="Portrait of Ray Churchouse" loading="lazy">
   <div class="person-body">
     <h3>Ray Churchouse <span class="role">Trade • Industry Provenance</span></h3>
-    <p>A major figure in British hi-fi retail and distribution, Ray supplied components to Gale during its formative period and later worked with <strong>Quad</strong>. He founded one of London’s most successful and respected hi-fi stores, known for serving musicians, producers, and celebrities throughout the 1970s and 1980s.</p>
+    <p>A major figure in British hi-fi retail and distribution, Ray supplied components to Gale during its formative period and later worked with Quad. He founded one of London’s most successful and respected hi-fi stores, known for serving musicians, producers, and celebrities throughout the 1970s and 1980s.</p>
     <ul class="highlights">
-      <li>Key supplier and adviser to <strong>Ira Gale</strong> during the early GS401 experiments.</li>
+      <li>Key supplier and adviser to Ira Gale during the early GS401 experiments.</li>
       <li>Founder of a leading London hi-fi shop, selling to some of the biggest names in music.</li>
-      <li>Later joined <strong>Quad</strong>, continuing his influence across the UK audio industry.</li>
+      <li>Later joined Quad, continuing his influence across the UK audio industry.</li>
     </ul>
     <a href="/voices/ray-churchouse/" class="person-link">↳ Ray Churchouse archive</a>
     <a href="/assets/audio/Ray-Churchouse-Interview.wav" class="person-link">↳ Listen to interview</a>
@@ -119,11 +119,11 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
       <figcaption>Gale GS401A (chrome end caps, wrapped cloth).</figcaption>
     </figure>
     <div class="copy">
-      <h2>1973 — The GS401 Loudspeaker</h2>
-      <p>The first product, the GS401, originated from a working design that <strong>Ira Gale</strong> had already developed before any formal team was assembled.</p>
-      <p>When <strong>David Lyth</strong> (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. <strong>DCA</strong> made that model into a production speaker, which Lyth then produced. <strong>Billy Woodman</strong> (later founder of ATC) also worked for Gale at this time.</p>
-      <p><strong>Jon Bannenberg’s</strong> sculptural industrial design — chrome end caps and fully wrapped cloth — was conceived early and became a defining signature.</p>
-      <p><em>Revisions:</em> <strong>401A</strong> (chrome end caps), <strong>401B</strong> (walnut cabinet with flat grille), <strong>401C</strong> (curved grille).</p>
+      <h2>1973: The GS401 Loudspeaker</h2>
+      <p>The first product, the GS401, originated from a working design that Ira Gale had already developed before any formal team was assembled.</p>
+      <p>When David Lyth (later founder of Volt) joined, he recalled that “it was all about production” rather than a clean-sheet design, as Ira already had a functioning model. DCA made that model into a production speaker, which Lyth then produced. Billy Woodman (later founder of ATC) also worked for Gale at this time.</p>
+      <p>Jon Bannenberg’s sculptural industrial design, chrome end caps and fully wrapped cloth, was conceived early and became a defining signature.</p>
+      <p><em>Revisions:</em> 401A (chrome end caps), 401B (walnut cabinet with flat grille), 401C (curved grille).</p>
     </div>
   </div>
 </section>
@@ -135,12 +135,12 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
       <img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg"
            alt="Gale GT2101 turntable in clear acrylic with stainless-steel motor pod and LED speed tower"
            loading="lazy">
-      <figcaption>Gale GT2101 — developed from Ken Freivokh’s design, engineered with DCA.</figcaption>
+      <figcaption>Gale GT2101, developed from Ken Freivokh’s design, engineered with DCA.</figcaption>
     </figure>
     <div class="copy">
-      <h2>1974 — The GT2101 Turntable</h2>
-      <p>The <strong>Gale GT2101</strong> began as <strong>Ken Freivokh’s</strong> belt-driven acrylic turntable, designed and machined while he was a student at the Royal College of Art in 1971/2. Ira Gale took the design to <strong>David Carter’s DCA</strong>, where it was re-engineered as a servo-controlled direct-drive deck, with electronics by <strong>Paul Ramsden</strong>, including the touch start/stop on the control tower, and motors supplied as finished units by Litton. <strong>Nigel Hobden</strong> then moved from DCA to Gale as technical director to oversee its production.</p>
-      <p>The 1974 patent application names <strong>David Carter</strong>, <strong>Ken Freivokh</strong>, <strong>Ira Gale</strong>, <strong>Nigel Hobden</strong> and <strong>Michael Taylor</strong> as inventors. Later accounts, beginning with a 1985 <em>Stereophile</em> review, also name <strong>Dr Sao Win</strong> as Ira Gale’s collaborator; he is not named on the patent, and how he came to be associated with Gale is an <a href="/GT2101/research-notes/sao-win/">open research question</a>. <a href="/GT2101/research-notes/">See the research notes.</a></p>
+      <h2>1974: The GT2101 Turntable</h2>
+      <p>The Gale GT2101 began as Ken Freivokh’s belt-driven acrylic turntable, designed and machined while he was a student at the Royal College of Art in 1971/2. Ira Gale took the design to David Carter’s DCA, where it was re-engineered as a servo-controlled direct-drive deck, with electronics by Paul Ramsden, including the touch start/stop on the control tower, and motors supplied as finished units by Litton. Nigel Hobden then moved from DCA to Gale as technical director to oversee its production.</p>
+      <p>The 1974 patent application names David Carter, Ken Freivokh, Ira Gale, Nigel Hobden and Michael Taylor as inventors. Later accounts, beginning with a 1985 <em>Stereophile</em> review, also name Dr Sao Win as Ira Gale’s collaborator; he is not named on the patent, and how he came to be associated with Gale is an <a href="/GT2101/research-notes/sao-win/">open research question</a>. <a href="/GT2101/research-notes/">See the research notes.</a></p>
       <p>The GT2101 was shown at the October 1974 Audio Fair and made in small numbers in London; estimates of how many were built vary. Its development costs were later named as one of the chief reasons for Gale’s demise. Today it remains one of the rarest and most visually striking British turntables.</p>
     </div>
   </div>
@@ -148,15 +148,15 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
 
 <!-- Amplifiers -->
 <section id="amplifiers" class="about-card">
-  <h2>1977–1982 — Amplifiers and Later Years</h2>
+  <h2>1977–1982: Amplifiers and Later Years</h2>
   <p>By the late 1970s Gale expanded into amplifiers and accessories, pursuing the same blend of performance and design innovation. Production ceased in the early 1980s, but Gale products have since achieved cult status among collectors and listeners.</p>
 </section>
 
 <!-- Legacy -->
 <section id="legacy" class="about-card">
   <h2>Legacy and Preservation</h2>
-  <p>This <strong>Gale Electronics Archive</strong> and the <strong>Vintage Gale</strong> project exist to preserve the technical, visual and historical record of the company’s work — including schematics, PCB layouts, adverts, driver data and interviews with the original engineers.</p>
-  <p>The archive builds on the decades of support provided by <strong>Dave Smith</strong>, who assisted Gale owners for over forty years. Due to ill health, Dave can no longer continue; the baton has passed to <strong>Matt</strong>, ensuring Gale’s legacy is maintained with the same care and attention to detail.</p>
+  <p>This Gale Electronics Archive and the Vintage Gale project exist to preserve the technical, visual and historical record of the company’s work, including schematics, PCB layouts, adverts, driver data and interviews with the original engineers.</p>
+  <p>The archive builds on the decades of support provided by Dave Smith, who assisted Gale owners for over forty years. Due to ill health, Dave can no longer continue; the baton has passed to Matt, ensuring Gale’s legacy is maintained with the same care and attention to detail.</p>
   <blockquote>
     <p>A memory that captures <strong>Ira Gale’s</strong> character comes from <strong>Ray Churchouse</strong>, who recalled Ira visiting his shop in the early 1970s and buying top-end components not to listen to — but to take apart and understand.</p>
     <p>“I knew he was going to pull it to bits the moment he left the shop,” said Ray. “He wanted to understand every part of it.”</p>
@@ -168,10 +168,10 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
 <h2>Sources and Acknowledgements</h2>
 <ul>
   <li>Original documentation from <em>GaleAudio.com</em></li>
-  <li>Interviews with <strong>David Lyth (Volt Loudspeakers)</strong>, <strong>Bruce Gale</strong>, <strong>Ray Churchouse</strong> and <strong>Nigel Hobden</strong>, and correspondence with <strong>Ken Freivokh</strong></li>
-  <li>Design records from <strong>Jon Bannenberg / Bannenberg &amp; Rowell Design</strong></li>
-  <li>Technical data from <strong>DCA Design Consultants</strong></li>
-  <li>Research and curation by <strong>John Maybury (galeaudio.com)</strong>, <strong>Dave Smith</strong> &amp; <strong>Matt The Shepherd (Vintage Gale, UK)</strong></li>
+  <li>Interviews with David Lyth (Volt Loudspeakers), Bruce Gale, Ray Churchouse and Nigel Hobden, and correspondence with Ken Freivokh</li>
+  <li>Design records from Jon Bannenberg / Bannenberg &amp; Rowell Design</li>
+  <li>Technical data from DCA Design Consultants</li>
+  <li>Research and curation by John Maybury (galeaudio.com), Dave Smith &amp; Matt The Shepherd (Vintage Gale, UK)</li>
   <li>Contributions from the international Gale community</li>
 </ul>
 

@@ -3,7 +3,7 @@ title: GS401 Loudspeakers
 layout: bare
 permalink: /GS401/
 nav_exclude: true
-description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, engineered for production by DCA (David Carter Associates), with drive units made in-house. Drivers, crossovers, restoration and documentation."
+description: "Gale GS401 loudspeakers, industrial design by Jon Bannenberg, engineered for production by DCA (David Carter Associates), with drive units made in-house. Drivers, crossovers, restoration and documentation."
 ---
 
 # GS401 Loudspeakers
@@ -11,12 +11,12 @@ description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, e
 <div style="display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin:1.5rem 0;">
   <figure style="flex:1 1 320px;max-width:380px;margin:0;text-align:center;">
     <img src="/assets/GS401-speaker.png" alt="Gale GS401A loudspeaker with chrome end-caps, black grille and chrome stand" style="width:100%;height:auto;border-radius:10px;">
-    <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps — industrial design by Jon Bannenberg, 1973.</figcaption>
+    <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps, industrial design by Jon Bannenberg, 1973.</figcaption>
   </figure>
 
   <div style="flex:2 1 380px;min-width:260px;">
     <p>
-      The Gale GS401 stands as one of the most iconic British loudspeakers of the 1970s — a fusion of precision engineering and design-led hi-fi.
+      The Gale GS401 stands as one of the most iconic British loudspeakers of the 1970s, a fusion of precision engineering and design-led hi-fi.
       This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of Gale Electronics and its collaborators remains accessible to restorers and enthusiasts worldwide.
     </p>
   </div>
@@ -28,7 +28,7 @@ description: "Gale GS401 loudspeakers — industrial design by Jon Bannenberg, e
   Jon Bannenberg was the industrial designer, working under the direction of Ira Gale. He was responsible for the speaker’s form and appearance, including the chrome end-caps and, it is believed, the stand, rather than its acoustic design.<br>
   David Lyth oversaw production and has said the drive units were made and assembled in-house. Billy Woodman, who went on to set up ATC, worked for Gale, as Nigel Hobden recalls. His exact role, and the extent of his direct input into the GS401's final tuning, remain uncertain.<br>
   The design's chrome end-caps, wrap-around grille, and dual-woofer sealed cabinet became a hallmark of 1970s British audio design.<br>
-  Each model — the GS401A (chrome), GS401B (walnut veneer), and GS401C (walnut veneer with curved grilles) — shared identical drivers and crossovers, differing only in finish.
+  Each model, the GS401A (chrome), GS401B (walnut veneer), and GS401C (walnut veneer with curved grilles), shared identical drivers and crossovers, differing only in finish.
 </div>
 
 ---

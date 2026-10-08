@@ -1,5 +1,5 @@
 ---
-title: "Ira Gale Story — GaleAudio archive"
+title: "Ira Gale Story, GaleAudio archive"
 layout: bare
 permalink: /voices/stories/ira-gale-story/
 description: "An archived GaleAudio biography of Ira Dennis Gale, preserved with its original family recollections and reader responses."
@@ -8,23 +8,23 @@ category: voices
 
 # Ira Gale Story
 
-This page preserves the text and reader responses from the GaleAudio WordPress page **“Ira Gale Story.”** The source snapshot is dated 20 September 2019. Spelling and wording are retained as they appeared in the source, including apparent errors. The original page and its images remain available through the [Internet Archive snapshot](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/ira-gale-story/).
+This page preserves the text and reader responses from the GaleAudio WordPress page “Ira Gale Story.” The source snapshot is dated 20 September 2019. Spelling and wording are retained as they appeared in the source, including apparent errors. The original page and its images remain available through the [Internet Archive snapshot](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/ira-gale-story/).
 
 ## Childhood
 
 From all accounts Ira Dennis Gale was a genius, able to “talk his way in and out of anything”. He also tended to “stir the pot”, and may have enjoyed doing so occassionally.
 
-Born on December 4th, 1942, Ira was the son on an accountant and his office manager wife (nee Garcin). He had two younger siblings—Bonnie and Bruce Gale. His uncle was an aerospace engineer. The Gale family lived in the Hancock Park area of Los Angeles during his formative years, later moving to Sherman Oaks, California as a teenager.
+Born on December 4th, 1942, Ira was the son on an accountant and his office manager wife (nee Garcin). He had two younger siblings, Bonnie and Bruce Gale. His uncle was an aerospace engineer. The Gale family lived in the Hancock Park area of Los Angeles during his formative years, later moving to Sherman Oaks, California as a teenager.
 
 Ira attended Hancock Park Elementary School, John Burroughs Jr. High, and Van Nuys High School prior to entering college. His college yearbook page is at left.
 
 Ira’s early school days were spent with the children of a number of musical luminaries, including Nat King Cole’s daughter Natalie, Oscar Levant’s (of *Rhapsody in Blue*) children, and Felix Slatkin’s (of Fox and Frank Sinatra’s Concertmaster fame) sons. Of note, Felix’s son, Leonard Slatkin is now the conductor of the National Symphony Orchestra, and his other son, Frederick Zlotkin (who uses the original Russian spelling of the family name) is Principal Cellist for the New York City Ballet and the cellist for the Lyric Piano Quartet.
 
-Much of his childhood was spent taking things apart and putting them back together again—an O’Keefe and Merritt range and Sunbeam toaster are clearly remembered by his sister. Young Ira apparently had a fascination with glass bottles, and the family collected them so he could break them and listen to the sounds they would make. Ira began piano lessons at age four and joined the school orchestra at Burroughs.
+Much of his childhood was spent taking things apart and putting them back together again, an O’Keefe and Merritt range and Sunbeam toaster are clearly remembered by his sister. Young Ira apparently had a fascination with glass bottles, and the family collected them so he could break them and listen to the sounds they would make. Ira began piano lessons at age four and joined the school orchestra at Burroughs.
 
 The family moved to Sherman Oaks, California during his Middle School years, living in a hillside mid-century home with lots of glass and chrome, facing trees out into a canyon. His father had a George Nelson desk. (Anybody see a Lecson AC1 preamplifier when they squint?)
 
-**Van Nuys High School** (used as the set for *Fast Times at Ridgemont High*)
+Van Nuys High School (used as the set for *Fast Times at Ridgemont High*)
 
 During his high school years, we was a member of the Science, Debate, and Latin Clubs, as well as the Future Engineers of America. He worked at a summer job at UCLA (age 16–17), and ended up performing surgery on iguanas. He had a device that analyzed sounds that he built in his bedroom when he was about 17 years old.
 
@@ -34,15 +34,15 @@ Ira majored in Mathematics at Harvey Mudd College in Claremont, CA, graduating i
 
 One of his Harvey Mudd classmates, Dr. Sao Win, also went on to become an icon in the hi fi business with his turntable and phono cartridge efforts. After graduation, he moved to London.
 
-**Harvey Mudd College.** Harvey Mudd is known as “nerd heaven” for engineers and has been the training ground for many of the world’s best. The current school president is the only educator on Microsoft’s board of directors. Note that the dorm room in the upper left of the picture was John Mayberry’s back in 1976!
+Harvey Mudd College. Harvey Mudd is known as “nerd heaven” for engineers and has been the training ground for many of the world’s best. The current school president is the only educator on Microsoft’s board of directors. Note that the dorm room in the upper left of the picture was John Mayberry’s back in 1976!
 
-**S.S. Rotterdam leaving New York City.** Ira had to get to Europe somehow. This elegant ship is now permanently berthed in Rotterdam and serves as a museum and a hotel.
+S.S. Rotterdam leaving New York City. Ira had to get to Europe somehow. This elegant ship is now permanently berthed in Rotterdam and serves as a museum and a hotel.
 
-**Royal Academy of Music—London.** Ira also attended the Royal Academy of Music in London. He had sailed to London from New York on the Rotterdam in the summer of 1964.
+Royal Academy of Music, London. Ira also attended the Royal Academy of Music in London. He had sailed to London from New York on the Rotterdam in the summer of 1964.
 
 Actually, he wasn’t initially accepted to the academy, but was invited to “audition” classes (of course, that’s not exactly what he told his parents). But, in the end, he was accepted as a student. He ended up playing the tympany drums.
 
-**Mayfair Fine Art (opened 1969).** Ira started out as art dealer. His gallery Mayfair Fine Art was located at 100 New Bond Street, London—now a Mephisto Store. Gallery downstairs, flat upstairs. This apparently started from a trip to Portobello Road, where he had acquired a drawing.
+Mayfair Fine Art (opened 1969). Ira started out as art dealer. His gallery Mayfair Fine Art was located at 100 New Bond Street, London, now a Mephisto Store. Gallery downstairs, flat upstairs. This apparently started from a trip to Portobello Road, where he had acquired a drawing.
 
 The gallery specialized in both Modern Artists and Renaissance pieces. We have a Mayfair catalog, which is filled with Ira’s writings.
 
@@ -56,7 +56,7 @@ His flat was the one with the two windows. Whoever lived in the flat above Ira (
 
 Strangely enough, Ira also owned an art gallery on new Bond Street called Mayfair Fine Art. By sheer coincidence, I assume, there is a Mayfair Gallery located next to where he lived. When I was there in the mid 70’s, he had partially disassembled speakers stacked from floor to ceiling. Only one of each kind, mind you, not stereo. Why? He told me it was a better test of imaging and spatial depth characteristics.
 
-One of the two bedrooms had been converted to a drafting room. Ira owned an Eames sofa—all his furniture was black and chrome.
+One of the two bedrooms had been converted to a drafting room. Ira owned an Eames sofa, all his furniture was black and chrome.
 
 ## Pork (The Play)
 
@@ -76,7 +76,7 @@ After parting ways with Bowie in the mid 70’s, she moved to London (in 1976), 
 
 ## Miscellaneous
 
-“By the way, Ira bought and/or tried to buy a restaurant or two. He was a phenomenal cook, if you didn’t mind waiting a few hours for your meal.”—Bonnie Gale
+“By the way, Ira bought and/or tried to buy a restaurant or two. He was a phenomenal cook, if you didn’t mind waiting a few hours for your meal.”, Bonnie Gale
 
 Ira shared a European Patent with Michael Shain for an electronic protection system for computers as well: [EP0128672](https://www.freepatentsonline.com/EP0128672.html).
 
@@ -86,11 +86,11 @@ Ira Gale passed away in Brookline, Massachusetts on May 10th, 1994.
 
 The original page showed six responses. These are preserved below in their original order; apparent spelling errors are retained.
 
-### Berris Conolly — November 15, 2011
+### Berris Conolly, November 15, 2011
 
 When I first came across the 401 in 1979 I was told by Lucy Bartlett, who worked for Gale, that Ira was a ‘percussionist’ which probably explains why the speaker is particularly good at reproducing drums. She convinced me that the 401 was a considerable improvement on the Acoustic Research AR11s I was using at the time.
 
-### Lucy Bartlett — January 3, 2012
+### Lucy Bartlett, January 3, 2012
 
 Hi Berris,
 
@@ -102,23 +102,23 @@ Ira loved nothing better than to throw away the rule book and be a catalyst for 
 
 It must be about 40 years since Ira first started the business – high time for a celebration… I’m still in touch with many of the early team – Ray Churchouse, Ian Dampney, Nigel Hobden and David Lyth and we’ve talked of partying at the old factory in Bruton Place, now a Pizza Express – maybe 2012 is the time to do it…
 
-### emmaco — February 15, 2012
+### emmaco, February 15, 2012
 
 Count me in!
 
-### Mike O’Connell — October 14, 2012
+### Mike O’Connell, October 14, 2012
 
 Ira hired me as his sales manager to launch a fairly cute pice of equipment for the retail trade. He’d merged a cash register with a PC which at the time was a WOW. This was the early 80’s and without knowing much of Ira’s background I was enthusiastic to get involved. We trawled the country with his prtotype, looking for a manufacturer but to no avail. I too had the honour of sleeping on his leather setee. We met with a bank manager and Ira secured a sizeable overdraft, we bgan to invest this capital by firstly buying Ira a very expensive pair of shoes and then going to see 42nd St. I was getting a little suspicious. After some months and a lot of promises we had to part company mainly due to the fact that I had not received a penny!
 
 He was obviously a genius but my lasting memory is that he was dishonourable.
 
-### Laura David — October 24, 2012
+### Laura David, October 24, 2012
 
 My mother was a friend of Ira’s when I was just a young girl. After Ira moved to London and was dealing in art he came over to the house and brought my mother a sketch which could be a valuable piece, I’m not sure. It was always believed to be. My mother passed away 30 years ago. Anyway, I have the sketch now and on a fluke was researching Ira. I am saddened to read that he has passed away as well. He sounded like an amazing person, with an amazing life that ended too soon. Sorry I didn’t really know him as I was much younger.
 
 LD, Pomona, Ca.
 
-### Peter Balcon (commenting as “BornAgain”) — February 3, 2013
+### Peter Balcon (commenting as “BornAgain”), February 3, 2013
 
 Lucy! Hi Lucy – I’m Peter Balcon – you may remember me as the long haired hippy who put magic mushrooms in the kettle at work and got various people somewhat tripped out one Christmas…
 
@@ -149,4 +149,4 @@ The source snapshot contains these GaleAudio photographs and illustrations. They
 
 ---
 
-**Source:** GaleAudio, “Ira Gale Story,” captured 20 September 2019. [View the archived original](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/ira-gale-story/).
+Source: GaleAudio, “Ira Gale Story,” captured 20 September 2019. [View the archived original](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/ira-gale-story/).

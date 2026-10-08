@@ -19,26 +19,26 @@ John Maybury’s old GaleAudio.com site published this photograph in the 12 Apri
 
 This identifies the pictured machine as the original one based on Freivokh’s Royal College of Art experiment. It does not establish that this photographed machine is itself the exact machine he machined there. The 1971/2 date comes from Freivokh’s later first-hand recollection.
 
-**Source:** GaleAudio.com WordPress archive, “Mystery Turntable Identified!”, 12 April 2012; preserved in John Maybury’s original website files.
+Source: GaleAudio.com WordPress archive, “Mystery Turntable Identified!”, 12 April 2012; preserved in John Maybury’s original website files.
 
 ### Ken Freivokh’s account, September 2026
 
 In an email to the archive in September 2026, Ken Freivokh added the following:
 
-- **His thesis.** He wrote a thesis of more than 40 pages on the turntable, titled “A Transcription Turntable Unit”, with studies, drawings and photographs. He completed it and presented it to the Royal College of Art at the end of March 1972. He still has the paper copy, and in October 2026 sent the archive a scan of it. The [full scan and a transcription](/GT2101/early-machines/freivokh-thesis/) are now on this site.
-- **Where it was made.** All the work on the turntable was done at the college, with the help of the Industrial Design (Engineering) technicians and their lathes and other machinery.
-- **How many he made.** He believes he worked on two versions of the star-shaped turntable. One had a top plate in brown translucent acrylic; that is the machine in the [black-and-white photograph](#black-and-white-photograph) below, where the top plate looks dark.
-- **A third, square version.** He also made a further version with a square base and lid, which was more practical for keeping dust out but, in his words, not as “pure” or elegant. He believes it is still in storage.
-- **Dennis Arnall.** He does not recall anyone called Dennis Arnall.
-- **Credit and payment.** He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as bought: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
+- His thesis. He wrote a thesis of more than 40 pages on the turntable, titled “A Transcription Turntable Unit”, with studies, drawings and photographs. He completed it and presented it to the Royal College of Art at the end of March 1972. He still has the paper copy, and in October 2026 sent the archive a scan of it. The [full scan and a transcription](/GT2101/early-machines/freivokh-thesis/) are now on this site.
+- Where it was made. All the work on the turntable was done at the college, with the help of the Industrial Design (Engineering) technicians and their lathes and other machinery.
+- How many he made. He believes he worked on two versions of the star-shaped turntable. One had a top plate in brown translucent acrylic; that is the machine in the [black-and-white photograph](#black-and-white-photograph) below, where the top plate looks dark.
+- A third, square version. He also made a further version with a square base and lid, which was more practical for keeping dust out but, in his words, not as “pure” or elegant. He believes it is still in storage.
+- Dennis Arnall. He does not recall anyone called Dennis Arnall.
+- Credit and payment. He says that, without his knowledge, a number of people, Ira Gale included, went on to build and sell his design without referring to him, and that he received no royalties, no recognition and no payment. Other sources describe the design as bought: the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981) says it was “purchased”, and Nigel Hobden recalls that Ira Gale bought the design and rights. The 1974 patent does name Freivokh as one of its five inventors. The archive records these accounts side by side; it does not settle them.
 
 ### Ken Freivokh’s account, October 2026
 
 In a further email to the archive in October 2026, Freivokh described Ira Gale’s part in the design:
 
-- **The original design.** He says Ira Gale “played no part on the initial idea, concepts design and even execution of the first couple of prototypes”. Gale first saw the design “when he saw it actually working at the Royal College”. Freivokh credits him with “recognising that it was an interesting and novel approach to the design”.
-- **The thinking behind it.** In his words, the aim was “to achieve near perfection but with the simplest possible approach. Hence a straightforward drive motor, isolated by the drive belt from the sprung assembly.” His [1972 thesis](/GT2101/early-machines/freivokh-thesis/) describes the design in the same terms.
-- **What Gale added.** He says Gale’s contribution was to “commission a synchronous motor to achieve a direct drive solution”. In his view, this “perhaps militates against the simplicity of the original, which did not require a separate free standing ‘tower’”.
+- The original design. He says Ira Gale “played no part on the initial idea, concepts design and even execution of the first couple of prototypes”. Gale first saw the design “when he saw it actually working at the Royal College”. Freivokh credits him with “recognising that it was an interesting and novel approach to the design”.
+- The thinking behind it. In his words, the aim was “to achieve near perfection but with the simplest possible approach. Hence a straightforward drive motor, isolated by the drive belt from the sprung assembly.” His [1972 thesis](/GT2101/early-machines/freivokh-thesis/) describes the design in the same terms.
+- What Gale added. He says Gale’s contribution was to “commission a synchronous motor to achieve a direct drive solution”. In his view, this “perhaps militates against the simplicity of the original, which did not require a separate free standing ‘tower’”.
 
 His account of the change from belt drive to direct drive agrees with the [1981 D. W. Labs letter](/GT2101/manuals-literature/#letter-from-d-w-labs-limited-to-huub-bouwmeester-28-january-1981). As with the question of credit above, the archive records his account alongside the other sources.
 
@@ -58,7 +58,7 @@ These photographs are from Ken Freivokh’s Royal College of Art degree thesis, 
 
 The photographs appear to show the features described in *Design* in August 1973 (below): a belt drive around the sub-platter, and a record support made of separate raised pads rather than a round platter. They also show the clear and dark acrylic plates and the steel pillars that the GT2101 later kept. The thesis text describes the same features: a flat neoprene belt drive, a triangular acrylic “tricept” with three steel weights and rubber record supports in place of a platter, and one spring suspension shared by the arm and the turntable.
 
-**Source:** Ken Freivokh, [“A Transcription Turntable Unit”](/GT2101/early-machines/freivokh-thesis/), degree thesis, Royal College of Art, March 1972.
+Source: Ken Freivokh, [“A Transcription Turntable Unit”](/GT2101/early-machines/freivokh-thesis/), degree thesis, Royal College of Art, March 1972.
 
 ### Magazine article: “Speak up”, Freivokh's turntable and loudspeaker
 
@@ -66,15 +66,15 @@ The photographs appear to show the features described in *Design* in August 1973
 
 An item from the “Things seen” section of *Design* (the Design Council's journal), issue 296, August 1973, pages 20–23. It describes two designs by Kenneth Freivokh as an ex-Royal College of Art industrial design student: a transparent horn-loaded loudspeaker and a belt-driven acrylic turntable. The photographer's credit printed down the side of the picture is not legible in this copy.
 
-**Source:** *Design* journal, no. 296, August 1973, “Things seen” (editorial), pp. 20–23, article 296.21. Found in the Design Journal collection on [VADS](https://vads.ac.uk/). The original material is copyright of the Design Council or the individual authors and photographers; the digitised images are copyright of the London College of Communication, University of the Arts London. Reproduced here for historical reference.
+Source: *Design* journal, no. 296, August 1973, “Things seen” (editorial), pp. 20–23, article 296.21. Found in the Design Journal collection on [VADS](https://vads.ac.uk/). The original material is copyright of the Design Council or the individual authors and photographers; the digitised images are copyright of the London College of Communication, University of the Arts London. Reproduced here for historical reference.
 
-**Transcription**
+Transcription
 
 > **Speak up** This omni-directional horn-loaded loudspeaker, designed by ex-RCA industrial design student Kenneth Freivokh, is built entirely in transparent ¼in acrylic sheet. The compound horn is approximately six times more efficient than conventional enclosures and it provides improved bass and mid-range reproduction. Meanwhile a single full-range drive unit, fitted with a specially designed stabilizer-diffuser, achieves stable omni-directional sound distribution: the positioning of the units in a room is not critical. With this system it has also been possible to minimise intermodulation distortion commonly associated with loudspeakers fitted with multiple drive units and crossovers and the smooth inner walls of the 8ft long exponential folded horn enables proper loading of mid-range frequencies.
 >
 > The belt-driven turntable, also designed by Kenneth Freivokh, incorporates a three-point support for the record instead of the usual round platter, to provide more positive support for warped records and, at the same time prevent the transfer of dust which occurs with rubber mats. The tone arm and turntable sub-assembly share a common suspension system, based on three conical springs and foam pads housed in height-adjustable feet. These parts are completely isolated from motor vibrations, acoustic feed-back and external shock.
 
-**Why it matters**
+Why it matters
 
 - It dates Freivokh's belt-driven turntable to no later than August 1973, about fourteen months before the GT2101's debut at the October 1974 Audio Fair.
 - It is contemporary, published evidence that Freivokh's own turntable was belt-driven, agreeing with the 1981 D. W. Labs letter's statement that the original design was belt drive before Gale changed it to direct drive.
@@ -86,9 +86,9 @@ An item from the “Things seen” section of *Design* (the Design Council's jou
 
 An image recovered from the old GaleAudio.com site's September 2011 WordPress uploads shows a different machine from the 2012 photograph above. Its angular, two-level structure and exposed components are visible. The upload context dates the website file, not the photograph.
 
-**Identified by Ken Freivokh.** In September 2026 Freivokh identified this as one of the two star-shaped turntables he worked on at the Royal College of Art. Its top plate was brown translucent acrylic, not black; it looks dark in this black-and-white print.
+Identified by Ken Freivokh. In September 2026 Freivokh identified this as one of the two star-shaped turntables he worked on at the Royal College of Art. Its top plate was brown translucent acrylic, not black; it looks dark in this black-and-white print.
 
-**Comparison with the 1973 *Design* photograph.** This machine closely resembles the turntable pictured in the August 1973 *Design* article above: the same star-shaped layout, the same arrangement of pucks and central stack, and what appears to be the same tone arm. The acrylic looks dark here but clear in the *Design* picture. Freivokh's account of two versions, one with a brown top plate, suggests the two photographs may show his two different versions rather than the same machine in different light. A larger scan of the *Design* photograph would allow a closer check of the arm, fixings and cut-outs.
+Comparison with the 1973 *Design* photograph. This machine closely resembles the turntable pictured in the August 1973 *Design* article above: the same star-shaped layout, the same arrangement of pucks and central stack, and what appears to be the same tone arm. The acrylic looks dark here but clear in the *Design* picture. Freivokh's account of two versions, one with a brown top plate, suggests the two photographs may show his two different versions rather than the same machine in different light. A larger scan of the *Design* photograph would allow a closer check of the arm, fixings and cut-outs.
 
 ![Black-and-white photograph of an early Gale turntable, from the old GaleAudio.com website](images/gale-early-bw-page-3.jpg)
 

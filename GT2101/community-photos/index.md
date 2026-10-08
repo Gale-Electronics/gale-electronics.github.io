@@ -1,5 +1,5 @@
 ---
-title: "GT2101 — Community Photos"
+title: "GT2101, Community Photos"
 layout: bare
 permalink: /GT2101/community-photos/
 description: "Owner-submitted photographs of Gale GT2101 turntables, original and restored, from collections around the world."
@@ -29,7 +29,7 @@ description: "Owner-submitted photographs of Gale GT2101 turntables, original an
   }
   .lightbox img{
     max-width:96vw; max-height:92vh; width:auto; height:auto; border-radius:12px;
-    
+<br>
   }
   .lightbox:target{display:flex}
   .lightbox .close{
@@ -46,8 +46,8 @@ description: "Owner-submitted photographs of Gale GT2101 turntables, original an
 # Community Photos
 
 <p class="lede">
-  Real-world examples of the <strong>Gale GS401</strong> loudspeakers and <strong>GT2101</strong> turntables, photographed by owners and restorers around the world.  
-  Each submission is displayed at full resolution with contributor credit, date, and restoration details where available.  
+  Real-world examples of the Gale GS401 loudspeakers and GT2101 turntables, photographed by owners and restorers around the world.<br>
+  Each submission is displayed at full resolution with contributor credit, date, and restoration details where available.<br>
   To share your own setup, email <a href="mailto:vintagegaleuk@gmail.com">vintagegaleuk@gmail.com</a>.
 </p>
 
@@ -60,7 +60,7 @@ description: "Owner-submitted photographs of Gale GT2101 turntables, original an
            alt="Gale GT2101 turntable with Quad electronics in a London listening room, submitted by John S.">
     </a>
     <figcaption>
-      GT2101 turntable paired with Quad 405 and ESLs — John S. (London, 2024). Full motor service and custom acrylic lid restoration.
+      GT2101 turntable paired with Quad 405 and ESLs, John S. (London, 2024). Full motor service and custom acrylic lid restoration.
     </figcaption>
   </figure>
 
@@ -74,6 +74,6 @@ description: "Owner-submitted photographs of Gale GT2101 turntables, original an
 </a>
 
 <p class="lede" style="margin-top:1.2rem">
-  <em>To submit your photographs, email <a href="mailto:vintagegaleuk@gmail.com">vintagegaleuk@gmail.com</a> with your name, date, model, and restoration notes.  
+  <em>To submit your photographs, email <a href="mailto:vintagegaleuk@gmail.com">vintagegaleuk@gmail.com</a> with your name, date, model, and restoration notes.<br>
   All images © their respective contributors and archived for educational reference.</em>
 </p>

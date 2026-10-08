@@ -1,5 +1,5 @@
 ---
-title: "GS401 — Speaker Models"
+title: "GS401, Speaker Models"
 layout: bare
 permalink: /GS401/speaker-models/
 description: "The Gale GS401 model variants and revisions, with visual identification notes for collectors and restorers."
@@ -7,7 +7,7 @@ description: "The Gale GS401 model variants and revisions, with visual identific
 
 # Speaker Models Gallery
 
-A visual guide to the primary GS401 loudspeaker variants — used to help restorers, buyers, and collectors identify key styling differences.
+A visual guide to the primary GS401 loudspeaker variants, used to help restorers, buyers, and collectors identify key styling differences.
 
 ---
 
@@ -17,19 +17,19 @@ A visual guide to the primary GS401 loudspeaker variants — used to help restor
 
 <div style="text-align:center;">
   <img src="/GS401/speaker-models/401a.png" alt="GS401A speaker with chrome end caps and black grille" style="max-width:100%;border-radius:12px;border:1px solid #ccc;">
-  <strong>GS401A</strong><br>
+  GS401A<br>
   <small>Chrome ends, black cabinet & grille</small>
 </div>
 
 <div style="text-align:center;">
   <img src="/GS401/speaker-models/401b.png" alt="GS401B speaker with walnut veneer ends and black cabinet" style="max-width:100%;border-radius:12px;border:1px solid #ccc;">
-  <strong>GS401B</strong><br>
+  GS401B<br>
   <small>Walnut veneer ends, black cabinet & grille</small>
 </div>
 
 <div style="text-align:center;">
   <img src="/GS401/speaker-models/401c.png" alt="GS401C speaker fully veneered with rounded grilles" style="max-width:100%;border-radius:12px;border:1px solid #ccc;">
-  <strong>GS401C</strong><br>
+  GS401C<br>
   <small>Full walnut veneer, curved side grilles</small>
 </div>
 
@@ -38,6 +38,6 @@ A visual guide to the primary GS401 loudspeaker variants — used to help restor
 ---
 
 <small>
-More speaker variants, early versions, and high-resolution reference shots will be added here over time.  
+More speaker variants, early versions, and high-resolution reference shots will be added here over time.<br>
 If you have a GS401 variation not shown, please contact us to contribute to the archive.
 </small>

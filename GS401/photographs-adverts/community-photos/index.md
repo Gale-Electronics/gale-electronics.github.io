@@ -1,5 +1,5 @@
 ---
-title: "GS401 — Community Photos"
+title: "GS401, Community Photos"
 layout: bare
 permalink: /GS401/photographs-adverts/community-photos/
 description: "Owner-submitted photographs of Gale GS401 loudspeakers, original and restored, from collections around the world."
@@ -7,10 +7,10 @@ description: "Owner-submitted photographs of Gale GS401 loudspeakers, original a
 
 <div class="wrap">
   <div class="toprow">
-    <div class="back"><a href="/GS401/photographs-adverts/">&larr; Back to GS401 — Photographs & Adverts</a></div>
+    <div class="back"><a href="/GS401/photographs-adverts/">&larr; Back to GS401, Photographs & Adverts</a></div>
   </div>
 
-  <h1>GS401 — Community Photos</h1>
+  <h1>GS401, Community Photos</h1>
 
   <div class="controls">
     <div class="filter">

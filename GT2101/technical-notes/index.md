@@ -1,5 +1,5 @@
 ---
-title: "GT2101 — Technical Notes"
+title: "GT2101, Technical Notes"
 layout: bare
 permalink: /GT2101/technical-notes/
 nav_exclude: true
@@ -8,31 +8,31 @@ description: "Service documentation, diagnostic field reports, board-by-board an
 
 # Technical Notes
 
-Curated service data, measurement maps and modern analysis for the **Gale GT2101**.
+Curated service data, measurement maps and modern analysis for the Gale GT2101.
 
 Every claim in this section carries a status marker: ✅ confirmed against the hardware,
-📄 from a document, ❓ unverified. Nothing is deleted for being unverified — it is labelled.
+📄 from a document, ❓ unverified. Nothing is deleted for being unverified, it is labelled.
 Where a note contradicts the inherited descriptions elsewhere in this archive, the note is
 the later work and says why.
 
 ## How it works
 
-- [**How the speed servo works**](/GT2101/technical-notes/servo-loop/) — a plain-language
+- [How the speed servo works](/GT2101/technical-notes/servo-loop/), a plain-language
   explanation of the closed loop from the Helipot to the motor and back, with what is
   established kept apart from what is reconstructed. Start here if you are new to the deck.
 
 ## The boards
 
-- [**Disk 4 — the servo board**](/GT2101/technical-notes/board-4-servo/) — `GT201/3276ST ISSUE C`.
+- [Disk 4, the servo board](/GT2101/technical-notes/board-4-servo/), `GT201/3276ST ISSUE C`.
   The crystal reference, the JFET tacho front-end and the MC14046 phase-locked loop that generates
   the motor drive voltage. Not merely a reference oscillator.
-- [Board register and drive-voltage figures](/GT2101/engineering-drawings-schematics/#register) —
+- [Board register and drive-voltage figures](/GT2101/engineering-drawings-schematics/#register) ,<br>
   what each of the five boards does, with the corrections to the inherited descriptions.
 
 ## Signals
 
 - [Motor & PCB Signal Map](/GT2101/technical-notes/motor-signal-map/)
-- [Backplane signal map](/GT2101/project-notes/backplane-signal-map/) — what travels between
+- [Backplane signal map](/GT2101/project-notes/backplane-signal-map/), what travels between
   all five boards of the control tower, pin by pin.
 
 ## Motor
@@ -41,10 +41,10 @@ the later work and says why.
 
 ## Restoration
 
-- [**The Remora**](/GT2101/technical-notes/pico-controller/) — an ongoing project to
-  add a microcontroller alongside the original control logic — all five 1970s boards stay in the
+- [The Remora](/GT2101/technical-notes/pico-controller/), an ongoing project to
+  add a microcontroller alongside the original control logic, all five 1970s boards stay in the
   tower, including the 1975 display, which is driven without modification.
-- [**Fitting the Remora**](/GT2101/technical-notes/fitting-the-controller/) —
+- [Fitting the Remora](/GT2101/technical-notes/fitting-the-controller/) ,<br>
   the method rather than the build: using the original backplane as the wiring loom, so the
   controller cable-ties to the tower's own pillars with no cuts, no solder joints on any
   original board, and full reversibility.
@@ -53,8 +53,8 @@ the later work and says why.
 
 ## The working record
 
-These pages are the finished write-ups. The **[Project Notes](/GT2101/project-notes/)**
-section holds the working record behind them — the full board studies for boards 1, 2 and 3,
+These pages are the finished write-ups. The [Project Notes](/GT2101/project-notes/)
+section holds the working record behind them, the full board studies for boards 1, 2 and 3,
 the bench sessions, the parts list, and the running project memory. That is where a claim
 made here can be traced back to the measurement that produced it.
 

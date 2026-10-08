@@ -13,21 +13,21 @@ Ken Freivokh sent the archive this scan of his own bound copy in October 2026. F
 
 <p><a href="/assets/docs/Freivokh-1972-A-Transcription-Turntable-Unit.pdf">⤓ Download the full scan (PDF, 49 pages, 4.7&nbsp;MB)</a></p>
 
-**About the scan.** The scan is the primary source. In the first batch the bound volume was copied open, so the fold-out drawings and photographs at the back were cut off or partly folded over, and page 22 was missed. A second scan then copied page 22 and all twelve drawing and photograph pages flat. The PDF above puts the two batches together in page order and uses the flat rescans for those thirteen pages. Nothing on any page has been retouched.
+About the scan. The scan is the primary source. In the first batch the bound volume was copied open, so the fold-out drawings and photographs at the back were cut off or partly folded over, and page 22 was missed. A second scan then copied page 22 and all twelve drawing and photograph pages flat. The PDF above puts the two batches together in page order and uses the flat rescans for those thirteen pages. Nothing on any page has been retouched.
 
-**About the transcription.** The text below is a faithful transcription of the typed pages. It keeps Freivokh’s wording, spelling, punctuation and typing errors, which are not marked. Underlined titles are shown in italics. Page numbers from the original are given in square brackets. Footnotes are numbered as in the original, which restarts the numbering in each chapter. Comments by the archive appear only in the [archive notes](#archive-notes) at the end.
+About the transcription. The text below is a faithful transcription of the typed pages. It keeps Freivokh’s wording, spelling, punctuation and typing errors, which are not marked. Underlined titles are shown in italics. Page numbers from the original are given in square brackets. Footnotes are numbered as in the original, which restarts the numbering in each chapter. Comments by the archive appear only in the [archive notes](#archive-notes) at the end.
 
 ## What the thesis records
 
 A short guide to the design as Freivokh describes it, with page references:
 
-- **Belt drive.** A flat neoprene belt from a stepped pulley on the motor drives a clear acrylic pulley, at 33⅓ and 45 r.p.m. (p. 26).
-- **Motor.** A 16-pole low-speed synchronous motor (375 r.p.m. at 50 Hz), rigidly mounted on the base plate and placed as far as possible from the cartridge (p. 26).
-- **The “tricept”.** A triangular acrylic platform with three polished stainless-steel weights at its points replaces the usual platter and mat. Small rubber inserts on the weights support the record (pp. 20–21).
-- **Main bearing.** A silver-steel centre spindle and a p.t.f.e. thrust bearing that also serves as the centre spindle for the record, with a Fluorosint journal bearing (pp. 22–23).
-- **Suspension.** The tone arm and turntable sub-assembly share one sprung base plate. It sits on three adjustable conical springs over the feet, with soft polyurethane foam damping pads (pp. 24–25).
-- **Materials.** Stainless steel cylinders and clear acrylic platforms, left unfinished so that the structure “does not attempt to conceal the simple operational principles proposed” (p. 19). Drawing D4 specifies the adjustable base plate in ¼in brown acrylic.
-- **Arm.** The first prototype used a 10in unipivot arm with fluid damping and its own cueing (p. 20).
+- Belt drive. A flat neoprene belt from a stepped pulley on the motor drives a clear acrylic pulley, at 33⅓ and 45 r.p.m. (p. 26).
+- Motor. A 16-pole low-speed synchronous motor (375 r.p.m. at 50 Hz), rigidly mounted on the base plate and placed as far as possible from the cartridge (p. 26).
+- The “tricept”. A triangular acrylic platform with three polished stainless-steel weights at its points replaces the usual platter and mat. Small rubber inserts on the weights support the record (pp. 20–21).
+- Main bearing. A silver-steel centre spindle and a p.t.f.e. thrust bearing that also serves as the centre spindle for the record, with a Fluorosint journal bearing (pp. 22–23).
+- Suspension. The tone arm and turntable sub-assembly share one sprung base plate. It sits on three adjustable conical springs over the feet, with soft polyurethane foam damping pads (pp. 24–25).
+- Materials. Stainless steel cylinders and clear acrylic platforms, left unfinished so that the structure “does not attempt to conceal the simple operational principles proposed” (p. 19). Drawing D4 specifies the adjustable base plate in ¼in brown acrylic.
+- Arm. The first prototype used a 10in unipivot arm with fluid damping and its own cueing (p. 20).
 
 ---
 
@@ -423,7 +423,7 @@ All six drawings carry the same title block: “Transcription Turntable Unit · 
   <figcaption>[p. 39] Drawing No. D2, Section X-X, with the parts list transcribed below.</figcaption>
 </figure>
 
-**Parts list on Drawing D2**, transcribed. A “?” marks a reading the archive is not sure of.
+Parts list on Drawing D2, transcribed. A “?” marks a reading the archive is not sure of.
 
 | Item | Description | No. off | Material / remarks | Dwg no. |
 |---|---|---:|---|---|
@@ -524,11 +524,11 @@ The thesis has no captions on the photograph pages. The captions below are its L
 
 These are the archive’s notes on the transcription. They are not part of the thesis.
 
-- **Dates later than March 1972.** The title page is dated March 1972, and Freivokh recalls presenting the thesis at the end of March 1972. Footnote 6 on page 30, however, cites *The Times* of 20 May 1972. The bibliography also lists an issue of *Stereo* dated Winter 1973. The archive has not established why. The bound copy may have been revised or retyped after it was presented, or the dates may be typing errors.
-- **Parts list item letters.** In the parts list on Drawing D2, items D3 and D4 appear to be swapped. The list calls D3 the drive pulley and D4 the sprung base plate. The title blocks of Drawings D5 and D6 call D3 the sprung base plate and D4 the drive pulley. The materials and drawing numbers in the list fit the title blocks.
-- **List of Illustrations, item 8.** The thesis describes Drawing D6 as “Plan view of sprung baseplate”, the same wording as D5. Drawing D6 actually shows the tricept and the drive pulley.
-- **Richard Steele’s dates.** The epigraph gives Steele’s dates as “1671 - 1829”. He lived from 1672 to 1729.
-- **Brown base plate.** Drawing D2 gives the adjustable base plate as “¼in acrylic sheet – brown 500”. This matches Freivokh’s September 2026 recollection, recorded on [Early Machines](/GT2101/early-machines/), that one of his two star-shaped turntables had a brown translucent top plate.
-- **Transcription.** The archive transcribed the thesis from the scans in October 2026.
+- Dates later than March 1972. The title page is dated March 1972, and Freivokh recalls presenting the thesis at the end of March 1972. Footnote 6 on page 30, however, cites *The Times* of 20 May 1972. The bibliography also lists an issue of *Stereo* dated Winter 1973. The archive has not established why. The bound copy may have been revised or retyped after it was presented, or the dates may be typing errors.
+- Parts list item letters. In the parts list on Drawing D2, items D3 and D4 appear to be swapped. The list calls D3 the drive pulley and D4 the sprung base plate. The title blocks of Drawings D5 and D6 call D3 the sprung base plate and D4 the drive pulley. The materials and drawing numbers in the list fit the title blocks.
+- List of Illustrations, item 8. The thesis describes Drawing D6 as “Plan view of sprung baseplate”, the same wording as D5. Drawing D6 actually shows the tricept and the drive pulley.
+- Richard Steele’s dates. The epigraph gives Steele’s dates as “1671 - 1829”. He lived from 1672 to 1729.
+- Brown base plate. Drawing D2 gives the adjustable base plate as “¼in acrylic sheet – brown 500”. This matches Freivokh’s September 2026 recollection, recorded on [Early Machines](/GT2101/early-machines/), that one of his two star-shaped turntables had a brown translucent top plate.
+- Transcription. The archive transcribed the thesis from the scans in October 2026.
 
-**Source:** Kenneth Freivokh, “A Transcription Turntable Unit”, report presented to the Royal College of Art, School of Industrial Design (Engineering), March 1972. Scanned from Ken Freivokh’s own copy, 2026. © Kenneth Freivokh.
+Source: Kenneth Freivokh, “A Transcription Turntable Unit”, report presented to the Royal College of Art, School of Industrial Design (Engineering), March 1972. Scanned from Ken Freivokh’s own copy, 2026. © Kenneth Freivokh.

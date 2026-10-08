@@ -1,5 +1,5 @@
 ---
-title: "GS401 — Manuals & Literature"
+title: "GS401, Manuals & Literature"
 layout: bare
 permalink: /GS401/manuals-literature/
 nav_exclude: true
@@ -7,7 +7,7 @@ description: "Original Gale GS401 manuals, specification sheets and printed lite
 ---
 
 <h1>Manuals &amp; Literature</h1>
-<p>A home for <strong>factory manuals, period write-ups, service notes, and contemporary research</strong> related to the <strong>Gale GS401</strong>.</p>
+<p>A home for factory manuals, period write-ups, service notes, and contemporary research related to the Gale GS401.</p>
 
 <h2>Available Scans</h2>
 
@@ -59,10 +59,10 @@ description: "Original Gale GS401 manuals, specification sheets and printed lite
 </ul>
 
 <div class="cards4">
-  <div class="hole"><strong>Owner’s Guide</strong><br><small>Setup, care, transport</small></div>
-  <div class="hole"><strong>Service Notes</strong><br><small>Checks, alignments, troubleshooting</small></div>
-  <div class="hole"><strong>Period Articles</strong><br><small>Sourced, dated, credited</small></div>
-  <div class="hole"><strong>Provenance</strong><br><small>Designers, production notes</small></div>
+  <div class="hole">Owner’s Guide<br><small>Setup, care, transport</small></div>
+  <div class="hole">Service Notes<br><small>Checks, alignments, troubleshooting</small></div>
+  <div class="hole">Period Articles<br><small>Sourced, dated, credited</small></div>
+  <div class="hole">Provenance<br><small>Designers, production notes</small></div>
 </div>
 
 <p class="footnote"><small>All materials preserved for educational and historical reference. Rights remain with original authors.</small></p>

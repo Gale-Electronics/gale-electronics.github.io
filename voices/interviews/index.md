@@ -1,22 +1,22 @@
 ---
-title: "Voices — Interviews"
+title: "Voices, Interviews"
 layout: bare
 description: "Recorded interviews with former Gale Electronics staff and figures from the British hi-fi industry."
 ---
 
 # Interviews
 
-This section collects recorded and transcribed conversations with the people who built, sold, and lived with **Gale Electronics** — from engineers and designers to retailers and collectors.
+This section collects recorded and transcribed conversations with the people who built, sold, and lived with Gale Electronics, from engineers and designers to retailers and collectors.
 
 ---
 
 ### Featured
 
-- [Ray Churchouse — Sales Manager, 1970s](/voices/interviews/ray.html)
+- [Ray Churchouse, Sales Manager, 1970s](/voices/interviews/ray.html)
 
 ---
 
-## David Lyth — Interview (PDF)
+## David Lyth, Interview (PDF)
 
 <object data="/assets/docs/David-Lyth-Interview.pdf"
         type="application/pdf"
@@ -30,6 +30,6 @@ This section collects recorded and transcribed conversations with the people who
 
 <p>
   <a href="/assets/docs/David-Lyth-Interview.pdf" download>
-    ⤓ Download “David Lyth — Interview.pdf”
+    ⤓ Download “David Lyth, Interview.pdf”
   </a>
 </p>
