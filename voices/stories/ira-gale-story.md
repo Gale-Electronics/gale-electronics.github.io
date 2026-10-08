@@ -26,7 +26,10 @@ Much of his childhood was spent taking things apart and putting them back togeth
 
 The family moved to Sherman Oaks, California during his Middle School years, living in a hillside mid-century home with lots of glass and chrome, facing trees out into a canyon. His father had a George Nelson desk. (Anybody see a Lecson AC1 preamplifier when they squint?)
 
-Van Nuys High School (used as the set for *Fast Times at Ridgemont High*)
+<figure style="max-width: 180px; margin: 1rem 0;">
+  <img src="/assets/voices/ira-gale/van-nuys-high-school.png" alt="Front of Van Nuys High School" style="display: block; width: 100%; height: auto;">
+  <figcaption>Van Nuys High School, used as the set for <em>Fast Times at Ridgemont High</em>.</figcaption>
+</figure>
 
 During his high school years, we was a member of the Science, Debate, and Latin Clubs, as well as the Future Engineers of America. He worked at a summer job at UCLA (age 16–17), and ended up performing surgery on iguanas. He had a device that analyzed sounds that he built in his bedroom when he was about 17 years old.
 
@@ -36,7 +39,12 @@ Ira majored in Mathematics at Harvey Mudd College in Claremont, CA, graduating i
 
 One of his Harvey Mudd classmates, Dr. Sao Win, also went on to become an icon in the hi fi business with his turntable and phono cartridge efforts. After graduation, he moved to London.
 
-Harvey Mudd College. Harvey Mudd is known as “nerd heaven” for engineers and has been the training ground for many of the world’s best. The current school president is the only educator on Microsoft’s board of directors. Note that the dorm room in the upper left of the picture was John Mayberry’s back in 1976!
+<figure style="max-width: 180px; margin: 1rem 0;">
+  <img src="/assets/voices/ira-gale/harvey-mudd-college.png" alt="Campus building and courtyard at Harvey Mudd College" style="display: block; width: 100%; height: auto;">
+  <figcaption>Harvey Mudd College.</figcaption>
+</figure>
+
+Harvey Mudd is known as “nerd heaven” for engineers and has been the training ground for many of the world’s best. The current school president is the only educator on Microsoft’s board of directors. Note that the dorm room in the upper left of the picture was John Mayberry’s back in 1976!
 
 S.S. Rotterdam leaving New York City. Ira had to get to Europe somehow. This elegant ship is now permanently berthed in Rotterdam and serves as a museum and a hotel.
 
@@ -44,7 +52,12 @@ Royal Academy of Music, London. Ira also attended the Royal Academy of Music in 
 
 Actually, he wasn’t initially accepted to the academy, but was invited to “audition” classes (of course, that’s not exactly what he told his parents). But, in the end, he was accepted as a student. He ended up playing the tympany drums.
 
-Mayfair Fine Art (opened 1969). Ira started out as art dealer. His gallery Mayfair Fine Art was located at 100 New Bond Street, London, now a Mephisto Store. Gallery downstairs, flat upstairs. This apparently started from a trip to Portobello Road, where he had acquired a drawing.
+<figure style="max-width: 180px; margin: 1rem 0;">
+  <img src="/assets/voices/ira-gale/mayfair-fine-art-mephisto.png" alt="Mephisto shopfront at the former Mayfair Fine Art address" style="display: block; width: 100%; height: auto;">
+  <figcaption>The former Mayfair Fine Art address at 100 New Bond Street, now a Mephisto store.</figcaption>
+</figure>
+
+Mayfair Fine Art opened in 1969. Ira started out as an art dealer. His gallery was located at 100 New Bond Street, London. The gallery was downstairs and his flat upstairs. This apparently started from a trip to Portobello Road, where he had acquired a drawing.
 
 The gallery specialized in both Modern Artists and Renaissance pieces. We have a Mayfair catalog, which is filled with Ira’s writings.
 

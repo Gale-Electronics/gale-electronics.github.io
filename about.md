@@ -22,6 +22,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
         <li>Forged the partnership with Jon Bannenberg to give the GS401 its iconic sculptural identity.</li>
         <li>Acquired Kenneth Freivokh’s turntable design and took it to DCA, who engineered it into the direct-drive GT2101.</li>
       </ul>
+      <a href="/voices/stories/ira-gale-story/" class="person-link">↳ Read the extended Ira Gale story</a>
     </div>
   </article>
 </section>
