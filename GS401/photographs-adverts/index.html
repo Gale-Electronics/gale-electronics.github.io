@@ -2,179 +2,141 @@
 title: GS401, Photographs & Adverts
 layout: bare
 permalink: /GS401/photographs-adverts/
-description: "Photography and period advertising for the Gale GS401 loudspeakers, collected from magazines, brochures and owner submissions."
+description: "Period advertising and owner photographs of the Gale GS401 loudspeakers, gathered in one searchable gallery."
 ---
 
-<div class="wrap">
-  <div class="toprow">
-    <div class="back"><a href="/GS401/">&larr; Back to GS401</a></div>
-    <div class="hint">Folders and images below are listed automatically from this path.</div>
-  </div>
+<div class="photo-archive">
+  <p class="back-link"><a href="/GS401/">← Back to the GS401</a></p>
+  <h1>GS401 photographs &amp; adverts</h1>
+  <p class="intro">Browse period advertising alongside photographs shared by GS401 owners. Choose a collection or search by model, name or subject. Select any image to open it at full size.</p>
 
-  <h1>GS401, Photographs &amp; Adverts</h1>
-
-  <div class="controls">
-    <div class="filter">
-      <input id="q" type="search" placeholder="Filter by name or folder… (e.g. brochure, chrome, advert)">
-    </div>
-    <div class="count" id="count"></div>
-  </div>
-
-  {%- comment -%}
-  Collect image files under this page directory (and subfolders)
-  {%- endcomment -%}
   {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
   {% assign images = "" | split: "" %}
   {% for f in files %}
-    {% if f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.gif' %}
+    {% assign ext = f.extname | downcase %}
+    {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
       {% assign images = images | push: f %}
     {% endif %}
   {% endfor %}
-  {% assign images = images | sort: "name" %}
+  {% assign images = images | sort: "path" %}
 
-  {%- comment -%}
-  Build a list of first-level subfolders (relative to page.dir)
-  {%- endcomment -%}
-  {% assign subfolders = "" | split: "" %}
-  {% for f in images %}
-    {% assign rel = f.path | remove_first: page.dir %}
-    {% assign first = rel | split: "/" | first %}
-    {% if first and first != "" and first != f.name %}
-      {% assign subfolders = subfolders | push: first %}
-    {% endif %}
-  {% endfor %}
-  {% assign subfolders = subfolders | uniq | sort %}
-
-  <!-- Folder Cards -->
-  <h2 class="section-title">Folders</h2>
-  <div class="grid" id="folders">
-    {% if subfolders.size == 0 %}
-      <div class="empty">No subfolders yet. Create folders inside <code>{{ page.dir }}</code> (e.g. <code>adverts/</code>, <code>product-shots/</code>) and drop images in.</div>
-    {% else %}
-      {% for folder in subfolders %}
-        {% assign prefix = page.dir | append: folder | append: "/" %}
-        {% assign repimgs = images | where_exp: "x", "x.path contains prefix" %}
-        {% assign rep = repimgs.first %}
-        {% assign label = folder | replace: "-", " " | replace: "_", " " %}
-        <a href="{{ prefix }}" class="card folder-card" data-name="{{ folder | downcase }}" data-type="folder">
-          {% if rep %}
-            <img class="thumb" src="{{ rep.path }}" alt="{{ label }} (folder preview)" loading="lazy" decoding="async">
-          {% else %}
-            <div class="thumb thumb--placeholder" aria-hidden="true"></div>
-          {% endif %}
-          <div class="meta">
-            {{ label }}
-            <span class="chip">{{ repimgs.size }} image{% if repimgs.size != 1 %}s{% endif %}</span>
-          </div>
-        </a>
-      {% endfor %}
-    {% endif %}
+  <div class="gallery-tools">
+    <div class="filters" role="group" aria-label="Filter photographs">
+      <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All images</button>
+      <button type="button" class="filter-button" data-filter="adverts" aria-pressed="false">Period adverts</button>
+      <button type="button" class="filter-button" data-filter="community-photos" aria-pressed="false">Owner photographs</button>
+    </div>
+    <label class="search-label" for="photo-search">Search this collection</label>
+    <div class="search-row">
+      <input id="photo-search" type="search" placeholder="Try “401A”, “brochure” or “Bangkok”">
+      <span id="photo-count" class="photo-count" aria-live="polite"></span>
+    </div>
   </div>
 
-  <!-- All Images -->
-  <h2 class="section-title">All Images</h2>
-  <div class="grid" id="grid">
-  {% if images.size == 0 %}
-    <div class="empty">No images found. Add <code>.jpg</code>, <code>.png</code>, <code>.webp</code> or <code>.gif</code> files under <code>{{ page.dir }}</code> and they’ll appear here.</div>
-  {% else %}
+  <div class="photo-grid" id="photo-grid">
     {% for f in images %}
-      {% assign base = f.name | split: "." | first %}
-      {% assign caption = base | replace: "-", " " | replace: "_", " " %}
       {% assign rel = f.path | remove_first: page.dir %}
-      {% assign folder = rel | split: "/" | first %}
-      {% if folder == f.name %}{% assign folder = "" %}{% endif %}
-      <a href="{{ f.path }}" class="card" data-name="{{ f.name | downcase }} {{ folder | downcase }}" data-type="image">
-        <img class="thumb" src="{{ f.path }}" alt="{{ caption }}" loading="lazy" decoding="async">
-        <div class="meta">
-          <span class="label">{{ caption }}</span>
-          {% if folder and folder != "" %}
-            <span class="chip">{{ folder | replace: "-", " " | replace: "_", " " }}</span>
-          {% endif %}
-        </div>
+      {% assign category = rel | split: "/" | first %}
+      {% assign caption = f.name | split: "." | first | replace: "-", " " | replace: "_", " " %}
+      {% case f.name %}
+        {% when '401a-b.jpeg' %}{% assign caption = 'GS401A and GS401B comparison advert' %}
+        {% when 'ad-1973_gale-gs401a_the-ultimate-draws-a-little-closer_39-upper-brook-street-london_bw_001.jpg' %}{% assign caption = '1973 GS401A advert, “The ultimate draws a little closer”' %}
+        {% when 'ad-c1975_gale-sae-sequerra_23-bruton-place-london_bw_001.jpg' %}{% assign caption = 'c.1975 Gale and SAE Sequerra advert' %}
+        {% when 'ad-c1976_gale-gs401a_excel-hifi-company-limited_bangkok_colour_001.jpg' %}{% assign caption = 'c.1976 GS401A advert from Excel Hi-Fi, Bangkok' %}
+        {% when 'ad-c1976_gale-gt2101-gs401_mandins-norrkoping_sweden_bw_001.jpg' %}{% assign caption = 'c.1976 GT2101 and GS401 advert from Mandins, Sweden' %}
+        {% when 'ad-c1977_gale-electronics-of-america_gs401_bw_001.png' %}{% assign caption = 'c.1977 Gale Electronics of America GS401 advert' %}
+        {% when 'ad-italy.jpg' %}{% assign caption = 'Italian-market Gale advert' %}
+        {% when 'd-c1974_gale-gs401_ear-opener_39-upper-brook-street-london_bw_001.jpg' %}{% assign caption = '1974 GS401 advert, “Ear opener”' %}
+        {% when 'EarlyBrochure12.jpg' %}{% assign caption = 'Gale brochure featuring the GS401' %}
+        {% when 'photo-c1973_gale-gs401a_berris-conolly_publicity_bw_001.jpg' %}{% assign caption = '1973 GS401A publicity photograph by Berris Conolly' %}
+        {% when '401a.jpeg' %}{% assign caption = 'Owner photograph of a chrome GS401A' %}
+        {% when '401b-1.jpeg' %}{% assign caption = 'Owner photograph of a walnut GS401B with grille' %}
+        {% when '401b.jpeg' %}{% assign caption = 'Owner photograph of a walnut GS401B with drivers visible' %}
+        {% when '401c.jpeg' %}{% assign caption = 'Owner photograph of a GS401C' %}
+        {% when 'community-1.jpg' %}{% assign caption = 'Owner photograph 1' %}
+        {% when 'community-2.jpg' %}{% assign caption = 'Owner photograph 2' %}
+        {% when 'community-3.jpg' %}{% assign caption = 'Owner photograph 3' %}
+        {% when 'community-4.png' %}{% assign caption = 'Owner photograph 4' %}
+        {% when 'community-5.jpg' %}{% assign caption = 'Owner photograph 5' %}
+        {% when 'community-6.jpeg' %}{% assign caption = 'Owner photograph 6' %}
+        {% when 'community-7.jpg' %}{% assign caption = 'Owner photograph 7' %}
+        {% when 'community-8.jpg' %}{% assign caption = 'Owner photograph 8' %}
+        {% when 'community-9.JPG' %}{% assign caption = 'Owner photograph 9' %}
+      {% endcase %}
+      {% assign category_label = 'Period advert' %}
+      {% if category == 'community-photos' %}{% assign category_label = 'Owner photograph' %}{% endif %}
+      <a class="photo-card" href="{{ f.path }}" data-category="{{ category }}" data-search="{{ caption | downcase }} {{ f.name | downcase }}">
+        <img src="{{ f.path }}" alt="{{ caption | escape }}" loading="lazy" decoding="async">
+        <span class="photo-caption">{{ caption }}</span>
+        <span class="photo-category">{{ category_label }}</span>
       </a>
     {% endfor %}
-  {% endif %}
   </div>
+  <p id="no-results" class="no-results" hidden>No images match that search. Try another term or choose a different collection.</p>
 </div>
 
 <style>
-  :root{
-    --bg:#f7f5ee;
-    --card:#ffffff;
-    --border:#e5dfc9;
-    --ink:#222;
-    --muted:#666;
-    --accent:#6e9fff; /* Gale blue */
-    --shadow:none;
-    --radius:14px;
-    --wrap:1100px;
-  }
-  html,body{background:var(--bg);margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink)}
-  .wrap{max-width:var(--wrap);margin:22px auto;padding:0 16px}
-  h1{font-size:1.9rem;margin:.3em 0 .8em}
-  h2.section-title{font-size:1.2rem;margin:1.4rem 0 .6rem;color:#0b1b3a}
-
-  .toprow{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px}
-  .back a{color:var(--accent);text-decoration:none}
-  .hint{font-size:.9rem;color:var(--muted)}
-
-  .controls{display:flex;gap:8px;align-items:center;margin:10px 0 16px}
-  .filter{flex:1;display:flex}
-  .filter input{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;font-size:14px}
-  .count{font-size:.9rem;color:var(--muted)}
-
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
-  .card{
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:12px;
-    overflow:hidden;
-    text-align:left;
-    box-shadow:var(--shadow);
-    transition:transform .15s ease;
-  }
-  .card:hover{transform:translateY(-2px)}
-  .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-  .thumb--placeholder{background:linear-gradient(135deg,#eef3ff,#f6f8ff)}
-  .meta{
-    display:flex;align-items:center;justify-content:space-between;
-    gap:10px;padding:10px 12px;font-size:14px;border-top:1px solid var(--border)
-  }
-  .label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .chip{
-    font-size:.78rem;color:#0b1b3a;background:#e9f0ff;border:1px solid #d6e3ff;
-    padding:.15rem .45rem;border-radius:999px;white-space:nowrap
-  }
-
-  /* Folder card styling */
-  .folder-card .meta strong{color:#0b1b3a}
-  .empty{padding:14px 12px;border:1px dashed var(--border);border-radius:10px;background:#fff}
+  .photo-archive { max-width:1100px; margin:0 auto; }
+  .photo-archive .back-link { margin:0 0 .8rem; }
+  .photo-archive .back-link a { color:var(--blue-deep); text-decoration:none; }
+  .photo-archive h1 { margin:.2rem 0 .45rem; }
+  .photo-archive .intro { max-width:72ch; margin:0 0 1.4rem; color:var(--muted); }
+  .gallery-tools { margin:0 0 1.2rem; padding:1rem; border:1px solid var(--blue-line); border-radius:12px; background:var(--blue-soft); }
+  .filters { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:.8rem; }
+  .filter-button { padding:.45rem .8rem; border:1px solid var(--blue-line); border-radius:999px; background:#fff; color:var(--navy); cursor:pointer; font:inherit; }
+  .filter-button:hover { border-color:var(--blue); color:var(--blue-deep); }
+  .filter-button:focus-visible, .search-row input:focus-visible, .photo-card:focus-visible { outline:3px solid var(--blue); outline-offset:2px; }
+  .filter-button.is-active { border-color:var(--blue); background:var(--blue); color:#fff; }
+  .search-label { display:block; margin-bottom:.25rem; color:var(--navy); font-size:.9rem; }
+  .search-row { display:flex; align-items:center; gap:.8rem; }
+  .search-row input { flex:1; min-width:0; padding:.65rem .8rem; border:1px solid var(--blue-line); border-radius:8px; background:#fff; color:var(--ink); font:inherit; }
+  .photo-count { flex:0 0 auto; color:var(--muted); font-size:.9rem; }
+  .photo-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; }
+  .photo-card { display:flex; flex-direction:column; overflow:hidden; border:1px solid var(--blue-line); border-radius:10px; background:#fff; color:var(--navy); text-decoration:none; transition:transform .15s ease,box-shadow .15s ease; }
+  .photo-card[hidden], .no-results[hidden] { display:none; }
+  .photo-card:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgb(31 111 235 / 12%); color:var(--blue-deep); }
+  .photo-card img { display:block; width:100%; aspect-ratio:4/3; object-fit:contain; background:#f4f7fb; }
+  .photo-caption { padding:.7rem .8rem .15rem; font-size:.95rem; line-height:1.4; }
+  .photo-category { padding:0 .8rem .7rem; color:var(--muted); font-size:.8rem; }
+  .no-results { margin-top:1rem; color:var(--muted); }
+  @media (max-width:600px) { .photo-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; } .gallery-tools { padding:.8rem; } }
+  @media (max-width:380px) { .photo-grid { grid-template-columns:1fr; } }
 </style>
 
 <script>
-  (function(){
-    var q = document.getElementById('q');
-    var grids = [document.getElementById('folders'), document.getElementById('grid')];
-    var cards = [];
-    grids.forEach(function(g){
-      if(!g) return;
-      cards = cards.concat(Array.prototype.slice.call(g.querySelectorAll('.card')));
-    });
-    var count = document.getElementById('count');
+  (function () {
+    var search = document.getElementById('photo-search');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.photo-card'));
+    var buttons = Array.prototype.slice.call(document.querySelectorAll('.filter-button'));
+    var count = document.getElementById('photo-count');
+    var empty = document.getElementById('no-results');
+    var selected = 'all';
 
-    function updateCount(){
-      var visible = cards.filter(function(c){ return c.style.display !== 'none'; }).length;
-      count.textContent = visible + ' of ' + cards.length;
-    }
-    function filter(){
-      var term = (q.value || '').trim().toLowerCase();
-      cards.forEach(function(c){
-        var name = (c.getAttribute('data-name') || '').toLowerCase();
-        c.style.display = name.indexOf(term) !== -1 ? '' : 'none';
+    function update() {
+      var term = (search.value || '').trim().toLowerCase();
+      var visible = 0;
+      cards.forEach(function (card) {
+        var categoryMatch = selected === 'all' || card.dataset.category === selected;
+        var searchMatch = !term || card.dataset.search.indexOf(term) !== -1;
+        card.hidden = !(categoryMatch && searchMatch);
+        if (!card.hidden) visible++;
       });
-      updateCount();
+      count.textContent = visible + ' of ' + cards.length + ' images';
+      empty.hidden = visible !== 0;
     }
-    if(q){ q.addEventListener('input', filter); }
-    updateCount();
+
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        selected = button.dataset.filter;
+        buttons.forEach(function (item) {
+          var active = item === button;
+          item.classList.toggle('is-active', active);
+          item.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+        update();
+      });
+    });
+    search.addEventListener('input', update);
+    update();
   })();
 </script>
