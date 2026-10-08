@@ -221,6 +221,7 @@ description: "The story of Gale Electronics, founded by Ira Gale, the people beh
     box-shadow:var(--shadow);
     padding:12px;
   }
+  .person-card + .person-card{ margin-top:14px; }
   .person-card img{
     width:100%;
     max-width:var(--avatar);
