@@ -32,6 +32,9 @@ title: Gale Electronics and Design
       --ink:#24292f;
       --muted:#57606a;
       --accent:#58a6ff;
+      --blue:#1f6feb;
+      --blue-soft:#f0f6ff;
+      --blue-line:#c9dcf8;
       --card:#ffffff;
       --cardBorder:#d0d7de;
       --paper:#f6f8fa;
@@ -96,11 +99,11 @@ title: Gale Electronics and Design
     @media (max-width: 900px){ .cards{grid-template-columns:repeat(2,1fr);} }
     @media (max-width: 520px){ .cards{grid-template-columns:1fr;} }
     .card{
-      background:var(--card);border:1px solid #e7e2d8;
+      background:linear-gradient(145deg,#fff,var(--blue-soft));border:1px solid var(--blue-line);border-top:3px solid var(--blue);
       border-radius:10px;padding:.9rem;
-      transition:transform .15s ease, box-shadow .15s ease;
+      transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
     }
-    .card:hover{ transform:translateY(-1px); box-shadow:0 8px 22px rgba(30,39,42,.07); }
+    .card:hover{ transform:translateY(-2px); background:#e8f1ff; box-shadow:0 8px 22px rgba(31,111,235,.14); }
     .card h3{ margin:.25rem 0 .35rem; font-size:1.05rem; }
     .card p{ margin:0; color:var(--muted); }
     .arrow{ transition:transform .08s ease; }
@@ -128,6 +131,8 @@ title: Gale Electronics and Design
       margin:2rem 0;
     }
     footer{ color:var(--muted); font-size:.95rem; margin-top:2rem; }
+    .home-footer{padding:1.25rem 1.4rem;border-radius:12px;background:linear-gradient(115deg,#142735,#1f6feb);color:#fff;box-shadow:0 8px 22px rgba(20,39,53,.15);}
+    .home-footer .link-muted{color:rgba(255,255,255,.82);}
   </style>
 </head>
 
@@ -243,7 +248,7 @@ title: Gale Electronics and Design
     <hr class="soft-hr" aria-hidden="true">
 
     <!-- FOOTER -->
-    <footer role="contentinfo">
+    <footer class="home-footer" role="contentinfo">
       <div class="d-flex flex-justify-between flex-wrap">
         <div class="mb-2">
           Gale Electronics and Design
