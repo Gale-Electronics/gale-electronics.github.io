@@ -1,14 +1,16 @@
 ---
-title: "Ira Gale Story, GaleAudio archive"
+title: "The Ira Gale Story by Jon Mayberry"
 layout: bare
 permalink: /voices/stories/ira-gale-story/
 description: "An archived GaleAudio biography of Ira Dennis Gale, preserved with its original family recollections and reader responses."
 category: voices
 ---
 
-# Ira Gale Story
+# The Ira Gale Story
 
-This page preserves the text and reader responses from the GaleAudio WordPress page “Ira Gale Story.” The source snapshot is dated 20 September 2019. Spelling and wording are retained as they appeared in the source, including apparent errors. The original page and its images remain available through the [Internet Archive snapshot](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/ira-gale-story/).
+By Jon Mayberry
+
+This article by Jon Mayberry is preserved from the GaleAudio WordPress page “Ira Gale Story.” The source snapshot is dated 20 September 2019. Spelling and wording are retained as they appeared in the source, including apparent errors. The original page and its images remain available through the [Internet Archive snapshot](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/ira-gale-story/).
 
 ## Childhood
 

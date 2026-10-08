@@ -17,7 +17,7 @@ A home for factory manuals, service notes, magazine features, and oral histories
 
 ## Coming soon
 
-- [Ira Gale Story, GaleAudio archive](/voices/stories/ira-gale-story/), biography, family recollections, and reader responses preserved from a 2019 web archive.
+- [The Ira Gale Story by Jon Mayberry](/voices/stories/ira-gale-story/), biography, family recollections, and reader responses preserved from a 2019 web archive.
 
 - Owner’s guide and setup notes<br>
 - Service bulletins and factory adjustment procedures<br>
