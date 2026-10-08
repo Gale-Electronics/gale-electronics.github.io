@@ -18,7 +18,11 @@
         <a class="masthead" href="{{ '/' | relative_url }}" aria-label="Gale Electronics home">
           <img src="{{ logo | relative_url }}" alt="Gale Electronics">
         </a>
-        <nav class="primary-nav" aria-label="Main navigation">
+        <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" hidden>
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="menu-toggle-label">Menu</span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}">Home</a>
           <a href="{{ '/GS401/' | relative_url }}">GS401 Speakers</a>
           <a href="{{ '/GT2101/' | relative_url }}">GT2101 Turntable</a>
@@ -57,5 +61,35 @@
         {{ site.title }}, Open archive of Gale Electronics. Unless otherwise stated, copyrights remain with their original creators.
       </footer>
     </div>
+    <script>
+      (() => {
+        const header = document.querySelector('.site-header');
+        const toggle = document.querySelector('.mobile-menu-toggle');
+        const nav = document.querySelector('#primary-nav');
+        if (!header || !toggle || !nav) return;
+
+        document.documentElement.classList.add('has-mobile-menu');
+        toggle.hidden = false;
+
+        const setMenuOpen = (open) => {
+          toggle.setAttribute('aria-expanded', String(open));
+          toggle.querySelector('.menu-toggle-label').textContent = open ? 'Close' : 'Menu';
+          header.classList.toggle('is-menu-open', open);
+        };
+
+        toggle.addEventListener('click', () => {
+          setMenuOpen(toggle.getAttribute('aria-expanded') !== 'true');
+        });
+        nav.addEventListener('click', (event) => {
+          if (event.target.closest('a')) setMenuOpen(false);
+        });
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+            setMenuOpen(false);
+            toggle.focus();
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
