@@ -6,21 +6,43 @@ nav_exclude: true
 description: "Gale GS401 loudspeakers, industrial design by Jon Bannenberg, engineered for production by DCA (David Carter Associates), with drive units made in-house. Drivers, crossovers, restoration and documentation."
 ---
 
-# GS401 Loudspeakers
+<style>
+main.content:has(.gs401-hero) { padding: clamp(18px, 2vw, 28px); }
+.gs401-hero { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1fr); align-items:center; gap:clamp(1.25rem,3vw,2.5rem); margin:0 0 1.75rem; }
+.gs401-hero figure { margin:0; }
+.gs401-hero img { display:block; width:100%; height:clamp(320px, 42vw, 520px); object-fit:contain; border-radius:10px; background:#fff; }
+.gs401-hero figcaption { margin-top:.4rem; text-align:left; }
+.gs401-hero h1 { margin:0 0 .65rem; }
+.gs401-hero__lede { color:var(--navy); font-size:clamp(1.1rem,1.7vw,1.4rem); line-height:1.35; }
+.gs401-hero__copy p { margin:.7rem 0; }
+.gs401-hero__facts { color:var(--muted); font-size:.9rem; }
+.gs401-hero__links { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem; }
+.gs401-hero__links a { display:inline-block; padding:.45rem .8rem; border:1px solid var(--line); border-radius:999px; color:var(--navy); font-weight:600; text-decoration:none; }
+.gs401-hero__links a:first-child { border-color:var(--navy); background:var(--navy); color:white; }
+@media (max-width:760px) {
+  main.content:has(.gs401-hero) { padding:18px 16px; }
+  .gs401-hero { grid-template-columns:1fr; gap:1rem; }
+  .gs401-hero img { height:clamp(320px, 90vw, 460px); }
+}
+</style>
 
-<div style="display:flex;flex-wrap:wrap;align-items:center;gap:1.5rem;margin:1.5rem 0;">
-  <figure style="flex:1 1 320px;max-width:380px;margin:0;text-align:center;">
-    <img src="/assets/GS401-speaker.png" alt="Gale GS401A loudspeaker with chrome end-caps, black grille and chrome stand" style="width:100%;height:auto;border-radius:10px;">
-    <figcaption style="font-size:.9rem;color:#555;margin-top:.4rem;">Gale GS401A with chrome end-caps, industrial design by Jon Bannenberg, 1973.</figcaption>
+<section class="gs401-hero">
+  <figure>
+    <img src="/assets/GS401-speaker.png" alt="Gale GS401A loudspeaker with chrome end-caps, black grille and chrome stand" fetchpriority="high">
+    <figcaption>Gale GS401A with chrome end-caps and stand.</figcaption>
   </figure>
-
-  <div style="flex:2 1 380px;min-width:260px;">
-    <p>
-      The Gale GS401 stands as one of the most iconic British loudspeakers of the 1970s, a fusion of precision engineering and design-led hi-fi.
-      This archive preserves the design drawings, technical data, and provenance of the GS401A, GS401B, and GS401C models, ensuring the history of Gale Electronics and its collaborators remains accessible to restorers and enthusiasts worldwide.
-    </p>
+  <div class="gs401-hero__copy">
+    <h1>Gale GS401 Loudspeakers</h1>
+    <p class="gs401-hero__lede">Distinctive 1970s British loudspeaker design by Jon Bannenberg.</p>
+    <p>Gale and DCA developed the GS401 for production, combining its sculptural cabinet, chrome end-caps and wrap-around grille with drive units made in-house. Explore the model variations, photographs and technical archive.</p>
+    <p class="gs401-hero__facts">GS401A, GS401B and GS401C · Design by Jon Bannenberg · Production engineering by DCA</p>
+    <nav class="gs401-hero__links" aria-label="Explore the GS401">
+      <a href="/GS401/speaker-models/">Speaker models</a>
+      <a href="/GS401/photographs-adverts/">Photographs &amp; adverts</a>
+      <a href="/GS401/technical-notes/">Technical notes</a>
+    </nav>
   </div>
-</div>
+</section>
 
 <div style="background:#fff3cd;border:1px solid #ffeeba;border-radius:.4rem;padding:.9rem 1rem;margin:1.2rem 0;">
   Archival note:<br>
