@@ -17,6 +17,8 @@ A home for **factory manuals, service notes, magazine features, and oral histori
 
 ## Coming soon
 
+- [Ira Gale Story — GaleAudio archive](/voices/stories/ira-gale-story/) — biography, family recollections, and reader responses preserved from a 2019 web archive.
+
 - Owner’s guide and setup notes  
 - Service bulletins and factory adjustment procedures  
 - Technical commentary on crossover design  

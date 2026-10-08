@@ -30,10 +30,10 @@ Status markers used throughout: ✅ confirmed against the hardware · 📄 from 
 
   Specifically: the archive identification of the encoder is
   "Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead.
-  Possible Litton Encoder Division component; exact manufacturer and part number under
-  investigation." The 600 counts per revolution is documented; Litton as the maker is a
-  strongly supported possibility (two first-hand witnesses and a matching Litton encoder
-  architecture), not a proven identification. Do not state that M1N 875-600G1A is a Litton
+  Possible Litton or Clifton Precision (a Litton division) component; exact manufacturer and
+  part number under investigation." The 600 counts per revolution is documented; Litton/Clifton
+  is a plausible lead because of its contemporary motor-encoder products, but is not a proven
+  identification. Do not state that M1N 875-600G1A is a Litton
   part number, or that the encoder is a specific Litton model (715, 720, 73 or any other).
   Do not state "Inland", "Minebea" or "NMB" as fact. See the Sourcing section.
 -->
@@ -49,7 +49,7 @@ Status markers used throughout: ✅ confirmed against the hardware · 📄 from 
 - ✅ **Speed sensing is optical** — a mirrored disc, photographed through the stator bore.
   The encoder is a **rotating optical disc read by a fixed black optical readout/photohead**, and
   the system provides **600 counts per revolution** ✅.
-  **Archive identification:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton Encoder Division component; exact manufacturer and part number under investigation.* — see [Sourcing](#sourcing--who-made-it).
+  **Archive identification:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton or Clifton Precision (a Litton division) component; exact manufacturer and part number under investigation.* — see [Sourcing](#sourcing--who-made-it).
   ⚠ Not to be confused with the inherited page `Disk-3-Optical-Sensor.pdf`, which attaches the
   word "optical" to a *control-tower* board. That page has been checked against the hardware and
   is wrong: tower board 3 is the `F VAR` generator and drive-voltage gate, and has no optics on it.
@@ -168,19 +168,18 @@ the reasons the sourcing question below is interesting rather than academic.
 
 ## Sourcing — who made it
 
-**Archive identification:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton Encoder Division component; exact manufacturer and part number under investigation.*
+**Archive identification:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton or Clifton Precision (a Litton division) component; exact manufacturer and part number under investigation.*
 
 Litton is named by two first-hand witnesses from the project — Paul Ramsden at DCA ("the motors
 came in as finished units from Litton Industries") and Nigel Hobden, who named Litton unprompted
-on 29 September 2026 (see [Research notes](/GT2101/research-notes/)). The encoder's architecture
-also closely matches a contemporary Litton modular encoder system (see
-[The Litton Encoder Division evidence](#the-litton-encoder-division-evidence) below). No Litton
-document or marking has yet been tied to the module itself, so the identification stays at
-"possible". The threads below are kept for anyone who wants to close that gap.
+on 29 September 2026 (see [Research notes](/GT2101/research-notes/)). This supports Litton as a
+supplier of finished motor units, but does not tell us whether Litton designed or manufactured the
+motor, encoder, or both. Clifton Precision, a Litton division, advertised motor-encoder assemblies
+and custom motor capability (see [Clifton Precision / Litton](#clifton-precision--litton-motor-encoder-assemblies)). The encoder architecture also closely matches a contemporary Litton modular encoder system (see [The Litton Encoder Division evidence](#the-litton-encoder-division-evidence)). No document or marking has yet been tied to the GT2101 module itself, so the maker remains unknown.
 
-**"Litton" (encoder) and "Inland" (motor).** Appears in exactly one place: prose reconstructed
-from the defunct galeaudio.com "Turntable" page. No independent corroboration has been found in
-distributor archives, patent databases, forum histories or contemporary press. galeaudio.com prose
+**"Inland" (motor).** The attribution appears in exactly one place: prose reconstructed
+from the defunct galeaudio.com "Turntable" page. Contemporary sources confirm Inland sold
+brushless motors, but no independent source ties Inland to the GT2101. galeaudio.com prose
 has now been checked against this hardware on four separate occasions and found substantially
 wrong every time — that is a live reason for caution, not a footnote. ⚠ **Updated 5 September
 2026: the set is now complete.** All six inherited board descriptions have been checked and
@@ -193,6 +192,24 @@ galeaudio.com (a 2012 magazine account and a repair-shop resale listing). Two in
 secondhand accounts agreeing is meaningfully better than one, but it is still narrative, not a
 document.
 
+❓ **Additional GaleAudio comment — motor origin, cost, and losses.** A comment on the archived
+[GaleAudio Turntable page](https://web.archive.org/web/20190920014655/http://0339436.netsolhost.com/WordPress/gale-gt2101-turntable/)
+adds the following recollection. The commenter’s name and date are not available in the excerpt
+preserved for this archive:
+
+> The motor was adapted from one of the Inland/Litton Industries (we’re tracking it down) designs
+> used for shipboard gyros. Cost in those days was $633 each in quantities of 100. The same motor
+> these days would cost thousands. Highly advanced, high torque, D.C. brushless with floating
+> magnetic bearing. According to Allan Coleman, Gale lost money on every one as it was so expensive
+> to build.
+
+This is a useful lead, not verified specification or accounting evidence. It attributes the gyro
+design claim to Inland/Litton, reports a historical unit price at a stated order quantity, and
+attributes the per-unit loss claim to **Allan Coleman**. The exact motor identity, what the quoted
+price covered, the date and basis for the modern-cost comparison, and Gale’s actual production
+costs all remain unverified. The comment may repeat the page’s inherited shipboard-gyro narrative;
+it should not be counted as independent corroboration without tracing its author and source.
+
 ❓ **Context, not a source for this motor:** a 1970 NASA report,
 [NTRS 19700018163](https://ntrs.nasa.gov/citations/19700018163), is described to the archive as a
 Bendix/NASA study of an **integral brushless DC torquer-encoder**, a brushless torque motor
@@ -200,12 +217,12 @@ combined with position feedback in one unit. Not yet checked against the report.
 shows this motor's architecture already existed in aerospace instrument work by 1970. It does not
 connect Bendix to the GT2101. See [How the speed servo works](/GT2101/technical-notes/servo-loop/#closed-loop-control-was-not-unusual-in-1974).
 
-❓ **These two threads are probably one thread.** Inland Motor made precision direct-drive brushless
-DC servo motors of exactly this construction, and Litton built gyros and the encoders that go with
-them — so "Litton and Inland" and "adapted from a shipboard gyro" are the same story told twice,
-not two independent confirmations. That raises the prior on the *kind* of motor this is; it does
-not confirm either name. Anyone researching further should be reading Inland Motor and Litton part
-numbering, not treating them as separate leads.
+❓ **The likely supplier chain is unresolved.** Inland advertised brushless motors in the 1970s,
+while Clifton Precision/Litton advertised motors with integral encoders and custom motor design.
+Both are plausible industry leads, but neither has been tied to this particular brushless motor
+and encoder assembly. The oral-history recollections name Litton as the finished-unit supplier;
+the inherited galeaudio.com prose is the only source naming Inland. Neither statement proves who
+designed or built the motor or encoder.
 
 **The `M1N` prefix.** Matches a naming convention used by **Minebea/NMB (Nippon Miniature Bearing
 Co.)** on their DC motor catalogues — `M1N6FB08C` and `M1N10FB08G`, from NMB's own datasheets, are
@@ -228,6 +245,59 @@ before:
 - The second marking appears to read `9A 7526-41`. The `7526` reads naturally as
   **year 1975, week 26**, which would place the module's manufacture about six months before
   the January 1976 date code on tower board 4. What `9A` means is not known.
+
+### Inland brushless motors: what the surviving evidence shows
+
+✅ **Inland was designing brushless motors by 1972, but that does not identify this motor.**
+Kollmorgen's centenary history says Inland was among the first to design brushless motors in
+1972, alongside its early use of samarium-cobalt and neodymium-iron-boron magnets
+([Kollmorgen history](https://www.kollmorgen.com/sites/default/files/uploaded/Company/HistoryofKollmorgenAnniversaryBook-mobile.pdf), p. 26). This makes an Inland brushless motor plausible for a mid-1970s deck, but is not evidence of supply to Gale or DCA.
+
+📄 **A dated Inland catalogue extract gives a useful family and feedback picture.** A NASA
+technical report includes Inland/Kollmorgen catalogue pages marked `Inland.S.V. 8.87`, including
+the high-performance **01200 / RBE-01200–01205** brushless family and related housed or frameless
+configurations. The sheet describes three-phase delta or wye windings, an inner permanent-magnet
+rotor, outer stator windings, samarium-cobalt magnets, and built-in Hall sensors for electronic
+commutation ([NASA NTRS report and catalogue pages](https://ntrs.nasa.gov/citations/19900014265),
+pp. 44–50). Another Inland data sheet from 1987 covers **RB, RBE, RBH and RBEH** models in the
+0150–10X size range ([Inland/Kollmorgen RB/RBE data sheet, 24 June 1987](https://www.kollmorgen.com/sites/default/files/RB-01504-D02%20--%20CD-8381.pdf)).
+
+**Feedback was configurable; a position encoder was not simply built into every motor.** The
+catalogue distinguishes built-in Hall-effect sensors used for commutation from optical incremental
+encoders used by the drive/control system. Its BC drives could use motor Hall sensors or optical
+encoders for commutation; Inland's intelligent control modules could use incremental encoder
+feedback for digital positioning and velocity control. This points to a modular system: motor,
+drive, and (where required) position encoder could be selected/configured together. Current
+Kollmorgen RBE documentation likewise says encoder/resolver feedback may be added as a separate
+component, while housed RBEH variants can be specified with feedback devices
+([Kollmorgen RBE family](https://www.kollmorgen.com/en-us/products/motors/direct-drive/rbe)).
+
+**What we can and cannot say about the GT2101.** Contemporary evidence confirms that Inland made
+brushless motors from 1972 and later offered direct-drive/frameless brushless families with Hall
+sensors and optional position feedback. It does **not** establish that Inland supplied the GT2101
+motor, that its encoder was built into the motor, or which model it was. The GT2101's visible
+arrangement—a disc on the motor shaft and a separate optical readout module—fits a motor supplied
+with a separately mounted encoder assembly. Until a nameplate, drawing, purchase record, or
+matching Inland dimensional/model sheet turns up, do not assign it an RBE/RBEH model number.
+
+### Clifton Precision / Litton: motor-encoder assemblies
+
+📄 **Clifton Precision advertised motors and encoder assemblies under the Litton name.** A
+March 1977 *Digital Design* advertisement lists “Motor Tachometers and Motor Encoders,” and
+features a Clifton **DH-2250-C-1** permanent-magnet motor with an **integral shaft-position
+encoder**, resolution up to 1,000 cycles, and a gallium-arsenide light source
+([advert, *Digital Design*, March 1977, p. 55](https://bitsavers.trailing-edge.com/magazines/Digital_Design/Digital_Design_V07_N03_197703.pdf)). A November 1977 *Digital Design* advert groups “Integral Encoder and Motor-Tachometer Assemblies” among Clifton's motor products and describes Clifton as serving OEMs with varied needs ([advert, *Digital Design*, November 1977, p. 71](https://bitsavers.org/magazines/Digital_Design/Digital_Design_V07_N11_197711.pdf)). An earlier 1965 Clifton Precision Products advert, explicitly marked “Division of Litton Industries,” says Clifton offered off-the-shelf servo motors and tachometers as well as custom designs for special torque, inertia, and temperature requirements ([advert, *Electronics*, 19 April 1965](https://www.worldradiohistory.com/Archive-Electronics/60s/65/Electronics-1965-04-19.pdf)).
+
+<figure><a href="clifton-precision-motor-encoder-advert-digital-design-1977-03-p55.png" target="_blank" rel="noopener"><img src="clifton-precision-motor-encoder-advert-digital-design-1977-03-p55.png" alt="Clifton Precision Litton advertisement in Digital Design, March 1977, showing motors and motor encoders including model DH-2250-C-1 with an integral shaft-position encoder"></a><figcaption>Clifton Precision / Litton, motor and motor-encoder advertisement, <em>Digital Design</em>, March 1977, p. 55. The DH-2250-C-1 is described as having an integral shaft-position encoder, with resolution up to 1,000 cycles and a gallium-arsenide light source. This demonstrates Clifton's advertised motor-encoder capability; it does not identify the GT2101 assembly. <a href="clifton-precision-motor-encoder-advert-digital-design-1977-03-p55.png" target="_blank" rel="noopener">Open full size</a></figcaption></figure>
+
+**This makes Clifton/Litton a substantial supplier lead for the encoder assembly and for a
+custom motor package. It does not yet identify the GT2101 unit.** The 1977 example is described
+as a permanent-magnet DC motor, not as brushless; the adverts do not establish that Clifton
+offered this particular brushless construction, nor do they match the GT2101's `M1N
+875-600G1A` marking. Litton Encoder Division and Clifton Precision were associated with the same
+corporate group, but their products and divisions should not be treated as interchangeable
+without a matching part number or drawing. Inland remains another possible motor lead, currently
+resting on the single inherited galeaudio.com attribution described above.
 
 ### The Litton Encoder Division evidence
 
@@ -352,8 +422,7 @@ it. Before promoting this to ✅, check:
 ⚠ *Source citation still to be added: the catalogue or datasheet title, its maker, its date and where a copy
 is held.*
 
-**Net position:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Possible Litton Encoder Division component; exact manufacturer and part number under investigation.* The system provides 600 counts per revolution. Whether the
-motor itself was Inland-built remains unresolved.
+**Net position:** *Optical encoder assembly, comprising rotating optical disc and fixed readout/photohead. Litton/Clifton Precision is a plausible supplier or assembler, but the encoder maker and part number are unconfirmed.* The system provides 600 counts per revolution. The motor's designer and manufacturer remain unresolved; Inland is one possibility based on a single inherited source.
 
 ---
 
@@ -400,6 +469,7 @@ winding is the condition that destroys the BD675A/676A output devices and the wi
 | 2026-10-05 | Added the two drawing sheets of US 3,900,732, which confirm its number and grant date (19 August 1975), with a reading of Figs. 1 and 2. |
 | 2026-10-05 | Added the Litton Encoder Division advertisement from *Electronic Design*, 4 January 1977, p. 82, with its full model list, and flagged Models 71 (modular incremental) and 73 (for mounting to motors) as the leads to follow. |
 | 2026-10-05 | Recorded that the GT2101's encoder assembly closely corresponds to the Litton Model 73 architecture (optical incremental, for mounting to motors; motor-shaft disc with fixed readout). Kept it as an architectural match, not a part-number identification. |
+| 2026-10-08 | Preserved an unattributed GaleAudio Turntable-page comment reporting an Inland/Litton shipboard-gyro connection, a $633 unit cost in quantities of 100, and per-unit losses attributed to Allan Coleman. Marked each as unverified and not independent corroboration. |
 
 ---
 
