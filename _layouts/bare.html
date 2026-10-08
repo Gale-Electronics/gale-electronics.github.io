@@ -15,12 +15,8 @@
     <div class="site-shell">
       <header class="site-header">
         {% assign logo = site.logo | default: '/gale-logo.jpg' %}
-        <a class="masthead" href="{{ '/' | relative_url }}">
-          <img src="{{ logo | relative_url }}" alt="">
-          <span class="meta">
-            <span class="site">{{ site.title }}</span><br>
-            <span class="desc">{{ site.description }}</span>
-          </span>
+        <a class="masthead" href="{{ '/' | relative_url }}" aria-label="Gale Electronics home">
+          <img src="{{ logo | relative_url }}" alt="Gale Electronics">
         </a>
         <nav class="primary-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}">Home</a>
@@ -30,14 +26,6 @@
           <a href="{{ '/voices/' | relative_url }}">Voices &amp; Memories</a>
         </nav>
       </header>
-
-      <div class="breadcrumb">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        {% if page.collection %}
-          &nbsp;/&nbsp; <a href="{{ '/' | append: page.collection | append: '/' | relative_url }}">{{ page.collection | upcase }}</a>
-        {% endif %}
-        {% if page.title %}&nbsp;/&nbsp; {{ page.title }}{% endif %}
-      </div>
 
       {% if page.archive_note or page.show_archive_banner %}
       <aside class="archive-banner">
