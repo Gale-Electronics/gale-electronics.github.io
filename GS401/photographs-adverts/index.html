@@ -8,7 +8,7 @@ description: "Period advertising and owner photographs of the Gale GS401 loudspe
 <div class="photo-archive">
   <p class="back-link"><a href="/GS401/">← Back to the GS401</a></p>
   <h1>GS401 photographs &amp; adverts</h1>
-  <p class="intro">Browse period advertising alongside photographs shared by GS401 owners. Choose a collection or search by model, name or subject. Select any image to open it at full size.</p>
+  <p class="intro">Browse period advertising alongside photographs shared by GS401 owners. Select any image to open it at full size.</p>
 
   {% assign files = site.static_files | where_exp: "f", "f.path contains page.dir" %}
   {% assign images = "" | split: "" %}
@@ -19,19 +19,6 @@ description: "Period advertising and owner photographs of the Gale GS401 loudspe
     {% endif %}
   {% endfor %}
   {% assign images = images | sort: "path" %}
-
-  <div class="gallery-tools">
-    <div class="filters" role="group" aria-label="Filter photographs">
-      <button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All images</button>
-      <button type="button" class="filter-button" data-filter="adverts" aria-pressed="false">Period adverts</button>
-      <button type="button" class="filter-button" data-filter="community-photos" aria-pressed="false">Owner photographs</button>
-    </div>
-    <label class="search-label" for="photo-search">Search this collection</label>
-    <div class="search-row">
-      <input id="photo-search" type="search" placeholder="Try “401A”, “brochure” or “Bangkok”">
-      <span id="photo-count" class="photo-count" aria-live="polite"></span>
-    </div>
-  </div>
 
   <div class="photo-grid" id="photo-grid">
     {% for f in images %}
@@ -65,14 +52,13 @@ description: "Period advertising and owner photographs of the Gale GS401 loudspe
       {% endcase %}
       {% assign category_label = 'Period advert' %}
       {% if category == 'community-photos' %}{% assign category_label = 'Owner photograph' %}{% endif %}
-      <a class="photo-card" href="{{ f.path }}" data-category="{{ category }}" data-search="{{ caption | downcase }} {{ f.name | downcase }}">
+      <a class="photo-card" href="{{ f.path }}">
         <img src="{{ f.path }}" alt="{{ caption | escape }}" loading="lazy" decoding="async">
         <span class="photo-caption">{{ caption }}</span>
         <span class="photo-category">{{ category_label }}</span>
       </a>
     {% endfor %}
   </div>
-  <p id="no-results" class="no-results" hidden>No images match that search. Try another term or choose a different collection.</p>
 </div>
 
 <style>
@@ -81,62 +67,14 @@ description: "Period advertising and owner photographs of the Gale GS401 loudspe
   .photo-archive .back-link a { color:var(--blue-deep); text-decoration:none; }
   .photo-archive h1 { margin:.2rem 0 .45rem; }
   .photo-archive .intro { max-width:72ch; margin:0 0 1.4rem; color:var(--muted); }
-  .gallery-tools { margin:0 0 1.2rem; padding:1rem; border:1px solid var(--blue-line); border-radius:12px; background:var(--blue-soft); }
-  .filters { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:.8rem; }
-  .filter-button { padding:.45rem .8rem; border:1px solid var(--blue-line); border-radius:999px; background:#fff; color:var(--navy); cursor:pointer; font:inherit; }
-  .filter-button:hover { border-color:var(--blue); color:var(--blue-deep); }
-  .filter-button:focus-visible, .search-row input:focus-visible, .photo-card:focus-visible { outline:3px solid var(--blue); outline-offset:2px; }
-  .filter-button.is-active { border-color:var(--blue); background:var(--blue); color:#fff; }
-  .search-label { display:block; margin-bottom:.25rem; color:var(--navy); font-size:.9rem; }
-  .search-row { display:flex; align-items:center; gap:.8rem; }
-  .search-row input { flex:1; min-width:0; padding:.65rem .8rem; border:1px solid var(--blue-line); border-radius:8px; background:#fff; color:var(--ink); font:inherit; }
-  .photo-count { flex:0 0 auto; color:var(--muted); font-size:.9rem; }
   .photo-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; }
   .photo-card { display:flex; flex-direction:column; overflow:hidden; border:1px solid var(--blue-line); border-radius:10px; background:#fff; color:var(--navy); text-decoration:none; transition:transform .15s ease,box-shadow .15s ease; }
-  .photo-card[hidden], .no-results[hidden] { display:none; }
+  .photo-card:focus-visible { outline:3px solid var(--blue); outline-offset:2px; }
   .photo-card:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgb(31 111 235 / 12%); color:var(--blue-deep); }
   .photo-card img { display:block; width:100%; aspect-ratio:4/3; object-fit:contain; background:#f4f7fb; }
   .photo-caption { padding:.7rem .8rem .15rem; font-size:.95rem; line-height:1.4; }
   .photo-category { padding:0 .8rem .7rem; color:var(--muted); font-size:.8rem; }
   .no-results { margin-top:1rem; color:var(--muted); }
-  @media (max-width:600px) { .photo-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; } .gallery-tools { padding:.8rem; } }
+  @media (max-width:600px) { .photo-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; } }
   @media (max-width:380px) { .photo-grid { grid-template-columns:1fr; } }
 </style>
-
-<script>
-  (function () {
-    var search = document.getElementById('photo-search');
-    var cards = Array.prototype.slice.call(document.querySelectorAll('.photo-card'));
-    var buttons = Array.prototype.slice.call(document.querySelectorAll('.filter-button'));
-    var count = document.getElementById('photo-count');
-    var empty = document.getElementById('no-results');
-    var selected = 'all';
-
-    function update() {
-      var term = (search.value || '').trim().toLowerCase();
-      var visible = 0;
-      cards.forEach(function (card) {
-        var categoryMatch = selected === 'all' || card.dataset.category === selected;
-        var searchMatch = !term || card.dataset.search.indexOf(term) !== -1;
-        card.hidden = !(categoryMatch && searchMatch);
-        if (!card.hidden) visible++;
-      });
-      count.textContent = visible + ' of ' + cards.length + ' images';
-      empty.hidden = visible !== 0;
-    }
-
-    buttons.forEach(function (button) {
-      button.addEventListener('click', function () {
-        selected = button.dataset.filter;
-        buttons.forEach(function (item) {
-          var active = item === button;
-          item.classList.toggle('is-active', active);
-          item.setAttribute('aria-pressed', active ? 'true' : 'false');
-        });
-        update();
-      });
-    });
-    search.addEventListener('input', update);
-    update();
-  })();
-</script>

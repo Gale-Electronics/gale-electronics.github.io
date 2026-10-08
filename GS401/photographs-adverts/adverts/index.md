@@ -8,7 +8,6 @@ description: "Period magazine adverts for the Gale GS401 loudspeakers, including
 <div class="wrap">
   <div class="toprow">
     <div class="back"><a href="/GS401/photographs-adverts/">&larr; Back to GS401, Photographs & Adverts</a></div>
-    <div class="hint">Images below are listed automatically from this folder.</div>
   </div>
 
   <h1>GS401, Adverts</h1>
