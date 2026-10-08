@@ -33,9 +33,9 @@ main.content:has(.gs401-hero) { padding: clamp(18px, 2vw, 28px); }
   </figure>
   <div class="gs401-hero__copy">
     <h1>Gale GS401 Loudspeakers</h1>
-    <p class="gs401-hero__lede">Distinctive 1970s British loudspeaker design by Jon Bannenberg.</p>
+    <p class="gs401-hero__lede">Distinctive 1970s British loudspeaker design with chrome end-caps and a wrap-around grille.</p>
     <p>Gale and DCA developed the GS401 for production, combining its sculptural cabinet, chrome end-caps and wrap-around grille with drive units made in-house. Explore the model variations, photographs and technical archive.</p>
-    <p class="gs401-hero__facts">GS401A, GS401B and GS401C · Design by Jon Bannenberg · Production engineering by DCA</p>
+    <p class="gs401-hero__facts">GS401A, GS401B and GS401C · Production engineering by DCA</p>
     <nav class="gs401-hero__links" aria-label="Explore the GS401">
       <a href="/GS401/speaker-models/">Speaker models</a>
       <a href="/GS401/photographs-adverts/">Photographs &amp; adverts</a>
