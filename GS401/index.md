@@ -53,8 +53,6 @@ main.content:has(.gs401-hero) { padding: clamp(18px, 2vw, 28px); }
   Each model, the GS401A (chrome), GS401B (walnut veneer), and GS401C (walnut veneer with curved grilles), shared identical drivers and crossovers, differing only in finish.
 </div>
 
----
-
 ## Explore the GS401 Archive
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:1rem 0;">
@@ -79,8 +77,6 @@ main.content:has(.gs401-hero) { padding: clamp(18px, 2vw, 28px); }
     <small>Measurements, restoration data, and crossover studies</small>
   </a>
 </div>
-
----
 
 <small>
 All materials are preserved for educational and historical reference.
