@@ -60,6 +60,11 @@ title: Gale Electronics and Design
       max-width:70ch;
       margin:0;
     }
+    .hero-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.15rem;}
+    .hero-actions a{border-radius:6px;padding:.55rem .85rem;font-weight:600;text-decoration:none;}
+    .hero-actions .primary{background:#1f6feb;color:#fff;}
+    .hero-actions .secondary{border:1px solid #d0d7de;color:#24292f;background:#fff;}
+    .hero-actions a:focus-visible{outline:3px solid #0969da;outline-offset:2px;}
 
 
     /* Archive badge */
@@ -79,6 +84,7 @@ title: Gale Electronics and Design
       .hero h1{font-size:1.8rem;line-height:1.15;}
       .hero-content{padding:1.1rem 16px;}
       .badge-archival{align-items:flex-start;font-size:.86rem;}
+      .hero-actions a{flex:1 1 auto;text-align:center;}
     }
 
     /* Cards */
@@ -99,6 +105,21 @@ title: Gale Electronics and Design
     .card p{ margin:0; color:var(--muted); }
     .arrow{ transition:transform .08s ease; }
     a.card-link:hover .arrow{ transform:translateX(3px); }
+    .featured-products{display:grid;gap:1rem;margin-top:1.25rem;}
+    .product-card{display:grid;grid-template-columns:minmax(220px, 34%) 1fr;align-items:center;overflow:hidden;background:#fff;border:1px solid #d0d7de;border-radius:12px;}
+    .product-card img{display:block;width:100%;height:230px;object-fit:contain;background:#fff;}
+    .product-copy{padding:1.25rem 1.5rem;}
+    .product-copy h3{font-size:1.35rem;margin:0 0 .45rem;}
+    .product-copy p{color:var(--muted);margin:0 0 .9rem;}
+    .product-link{display:inline-block;border-radius:6px;background:#1f6feb;color:#fff;padding:.55rem .85rem;font-weight:600;text-decoration:none;}
+    .product-link:hover{background:#0969da;color:#fff;text-decoration:none;}
+    .secondary-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:1rem;}
+    @media (max-width: 520px){
+      .product-card{grid-template-columns:1fr;}
+      .product-card img{height:210px;}
+      .product-copy{padding:1rem 1.1rem 1.2rem;}
+      .secondary-cards{grid-template-columns:1fr;}
+    }
 
     /* Utilities */
     .soft-hr{
@@ -115,7 +136,10 @@ title: Gale Electronics and Design
     <!-- HERO -->
     <section class="hero" role="region" aria-label="Introduction">
       <figure class="hero-visual">
-        <img src="/GT2101/design-by-DCA/GT2101_Turntable_side-profile_hero.jpg" alt="Gale GT2101 optical servo turntable in side profile, with its control tower at left and tonearm above the acrylic plinth" fetchpriority="high">
+        <picture>
+          <source media="(max-width: 520px)" srcset="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg">
+          <img src="/GT2101/design-by-DCA/GT2101_Turntable_side-profile_hero.jpg" alt="Gale GT2101 optical servo turntable in side profile, with its control tower at left and tonearm above the acrylic plinth" fetchpriority="high">
+        </picture>
         <figcaption class="hero-credit">GT2101 · DCA Design Consultants</figcaption>
       </figure>
       <div class="hero-content">
@@ -123,16 +147,20 @@ title: Gale Electronics and Design
           <h1>Gale Electronics and Design</h1>
         </div>
         <p class="sub">
-          Explore the story of Gale Electronics, from the GS401 loudspeakers to the GT2101 turntable.
-          This archive brings together photographs, documents, technical information and personal recollections
-          to keep Gale’s history accessible to everyone.
+          Welcome to the Gale archive. Whether you’re restoring a speaker, researching the GT2101, or simply curious,
+          you’ll find photographs, original documents, technical notes and memories from the people who knew the company.
         </p>
+
+        <nav class="hero-actions" aria-label="Start exploring">
+          <a class="primary" href="/GT2101/">Explore the GT2101 <span aria-hidden="true">→</span></a>
+          <a class="secondary" href="/GS401/">Discover the GS401 <span aria-hidden="true">→</span></a>
+        </nav>
 
         <div class="badge-archival">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 15h-2v-2h2v2Zm0-4h-2V7h2v6Z"/>
           </svg>
-          <span>This is a historical archive, including material preserved from <em>galeaudio.com</em> (2011–2016), with attribution.</span>
+          <span>A living historical archive, with material from <em>galeaudio.com</em> (2011–2016) preserved and credited.</span>
         </div>
       </div>
     </section>
@@ -140,24 +168,29 @@ title: Gale Electronics and Design
   <main class="container-lg px-3 py-5">
     <!-- EXPLORE GRID -->
     <section class="mt-4" role="region" aria-label="Explore sections">
-      <div class="d-flex flex-justify-between flex-items-center mb-2">
-        <h2 class="h3">Explore</h2>
-        <span class="link-muted">Curated sections</span>
+      <h2 class="h3 mb-2">Explore the speakers and turntable</h2>
+      <div class="featured-products">
+        <article class="product-card">
+          <img src="/assets/GS401-speaker.png" alt="Gale GS401A loudspeaker with chrome end caps and its original stand" loading="lazy">
+          <div class="product-copy">
+            <h3>GS401 Loudspeakers</h3>
+            <p>Meet Gale’s best-known speaker: explore its design, drivers, crossovers, restoration guidance and archive material.</p>
+            <a class="product-link" href="/GS401/">Explore the GS401 <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="/GT2101/design-by-DCA/GT2101_Turntable_three-quarter-angle.jpg" alt="Gale GT2101 turntable in clear acrylic with stainless-steel motor pods and tonearm" loading="lazy">
+          <div class="product-copy">
+            <h3>GT2101 Turntable</h3>
+            <p>Discover the striking direct-drive deck through photographs, design history, engineering notes and provenance.</p>
+            <a class="product-link" href="/GT2101/">Explore the GT2101 <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
       </div>
 
-      <div class="cards">
-        <a class="card card-link d-block no-underline" href="/GS401/">
-          <h3>GS401 Loudspeakers</h3>
-          <p>Design/styling, drivers, crossovers, restoration guidance, and documentation.</p>
-          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
-        </a>
-
-        <a class="card card-link d-block no-underline" href="/GT2101/">
-          <h3>GT2101 Turntable</h3>
-          <p>Photography, adverts, motor notes, interviews, and provenance.</p>
-          <div class="mt-2 f6 color-fg-accent">Open <span class="arrow">→</span></div>
-        </a>
-
+      <h2 class="h4 mt-4 mb-2">More to explore</h2>
+      <div class="secondary-cards">
         <a class="card card-link d-block no-underline" href="/about">
           <h3>About Gale</h3>
           <p>Who founded Gale, who designed it, and how we preserve the record.</p>
