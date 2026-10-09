@@ -18,9 +18,8 @@
         <a class="masthead" href="{{ '/' | relative_url }}" aria-label="Gale Electronics home">
           <img src="{{ logo | relative_url }}" alt="Gale Electronics">
         </a>
-        <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" hidden>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav" hidden>
           <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
-          <span class="menu-toggle-label">Menu</span>
         </button>
         <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}">Home</a>
@@ -73,7 +72,7 @@
 
         const setMenuOpen = (open) => {
           toggle.setAttribute('aria-expanded', String(open));
-          toggle.querySelector('.menu-toggle-label').textContent = open ? 'Close' : 'Menu';
+          toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
           header.classList.toggle('is-menu-open', open);
         };
 

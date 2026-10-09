@@ -69,7 +69,7 @@ img { max-width: 100%; height: auto; }
   .site-shell { width: min(100% - 24px, 1120px); }
   .site-header { flex-wrap: wrap; gap: 8px; padding: 8px 0; }
   .masthead img { width: 42px; height: 42px; }
-  .mobile-menu-toggle { display: inline-flex; align-items: center; gap: 8px; margin-left: auto; padding: 8px 12px; border: 1px solid var(--blue-line); border-radius: 999px; background: var(--blue-soft); color: var(--navy); font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; }
+  .mobile-menu-toggle { display: inline-flex; align-items: center; justify-content: center; margin-left: auto; padding: 10px; border: 0; border-radius: 0; background: transparent; color: var(--navy); cursor: pointer; }
   .menu-icon { display: grid; gap: 4px; width: 17px; }
   .menu-icon span { display: block; height: 2px; border-radius: 2px; background: currentColor; }
   .primary-nav { display: flex; flex: 1 0 100%; flex-direction: column; gap: 4px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
